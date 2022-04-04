@@ -1,0 +1,40 @@
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 80px;
+}
+
+.introducao-1 {
+    height: auto;
+    width: auto;
+}
+
+.introducao-1 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.introducao-2 {
+    padding: 40px;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.introducao-2 h1::before {
+    content: "";
+    width: 130px;
+    height: 120px;
+    background-image: url("/img/detalhe.svg");
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 60px;
+    z-index: -1;
+}
+
+.introducao-2 h1{
+    font-size: 4.5rem;
+}

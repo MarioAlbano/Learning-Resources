@@ -1,0 +1,40 @@
+.grid-experiencia{
+max-width: 1200px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+margin: 0 auto;
+gap: 20px;
+}
+
+.parte1-1{
+ font-size: 5rem;
+ word-wrap: break-all;
+ max-width: 4ch;
+}
+
+.parte1-2{
+position: relative;
+display: grid;
+grid-template-columns: 1fr 1fr;
+background: #F5F5F5;
+border-radius: 4px;
+justify-self: end;
+grid-column-start: 2;
+}
+
+.parte1-2_texto{
+display: block;
+position: absolute;
+left: -60px;
+}
+
+.parte1-2_lista{
+display: flex;
+gap: 20px;
+}
+
+.parte1-2_lista li{
+    list-style-type: none;
+    padding: 5px 10px;
+    background: #FFFFFF;
+    }

@@ -12,12 +12,13 @@
     color: #ffffff;
 }
 
-.formacao-grid strong{
+.formacao-grid strong {
     color: #ffffff;
 }
 
 .formacao-grid .subtitulo {
     color: #000000;
+    margin-top: 45px;
 }
 
 .formacao-texto {
@@ -26,11 +27,80 @@
     font-size: 1.5rem;
     max-width: 40ch;
     margin-bottom: 60px;
+    margin-top: 50px;
     line-height: 1.33;
 }
 
-.lista-flex{
+.lista-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.lista-flex li {
+    border-radius: 4px;
+    padding: 20px;
+    background: #000000;
+    list-style-type: none;
+    position: relative;
+}
+
+.lista-flex li::before {
+    content: "";
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    left: -5px;
+}
+
+.formacao-titulo {
+    margin: 15px;
+}
+
+.formacao-curso {
+    margin: 15px 15px 40px 15px;
+}
+
+.formacao-faculdade {
+    margin: 15px;
+}
+
+.cursos-intensivos {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.cursos-intensivos .position-absolute {
+    top: -45px;
+    font-size: 0.875rem;
+}
+
+.idiomas {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.idiomas .position-absolute {
+    top: -45px;
+    font-size: 0.875rem;
+}
+
+.idiomas p,
+h3 {
+    margin: 25px;
+}
+
+.cursos-intensivos p,
+h3 {
+    margin: 25px;
+}
+
+.cursos-cor {
+    color: #8F8F8F;
 }

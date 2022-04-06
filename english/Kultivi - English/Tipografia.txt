@@ -1,0 +1,10 @@
+Princípios do Web design
+
+
+-Tipografia: Importante para representar a empresa e chamar a atenção de forma positiva do cliente.
+
+-Cores: Importante para destacar as partes importantes porem com cuidados para se manter em harmonia, evitando que um cor concorra com a outra.
+
+-User Interface (UI): É como o site será feito para uma melhor aparência para o usuário. Pontos importantes são hierarquias, espaços, layout, tipografia e cores.
+
+-User Experience (UX): Coloca a perspectiva do usuário como foco principal, desde do conhecimento da empresa até o final do ato da compra. (Ex: Experiencia com o site, experiencia com outros aparelhos)

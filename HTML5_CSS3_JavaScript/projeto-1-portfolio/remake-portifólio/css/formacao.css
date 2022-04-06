@@ -17,7 +17,7 @@
 }
 
 .formacao-grid .subtitulo {
-    color: #000000;
+    color: #333333;
     margin-top: 45px;
 }
 
@@ -75,6 +75,16 @@
     margin-top: 60px;
 }
 
+.cursos-intensivos::before {
+    content: "";
+    background: url(/img/cursos.svg);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -24px;
+    left: -10px;
+}
+
 .cursos-intensivos .position-absolute {
     top: -45px;
     font-size: 0.875rem;
@@ -86,6 +96,16 @@
     margin-bottom: 50px;
 }
 
+.idiomas::before {
+    content: "";
+    background: url(/img/idiomas.svg);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -24px;
+    left: -10px;
+}
+
 .idiomas .position-absolute {
     top: -45px;
     font-size: 0.875rem;
@@ -93,12 +113,25 @@
 
 .idiomas p,
 h3 {
-    margin: 25px;
+    margin: 25px 0px 25px 25px;
+    padding: 0px;
+    font-size: 1.125rem;
+}
+
+.idiomas .alinhamento-p1{
+    position: relative;
+    left: -45px;
+}
+
+.idiomas .alinhamento-p2{
+    position: relative;
+    left: -15px;
 }
 
 .cursos-intensivos p,
 h3 {
     margin: 25px;
+    font-size: 1.125rem;
 }
 
 .cursos-cor {

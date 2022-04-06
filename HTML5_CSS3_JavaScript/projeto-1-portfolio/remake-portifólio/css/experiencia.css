@@ -71,3 +71,8 @@
     border-radius: 4px;
     padding: 5px 10px;
 }
+
+.experiencia-item h3 {
+    margin: 5px;
+    padding: 5px;
+}

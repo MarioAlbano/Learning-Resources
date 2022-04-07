@@ -1,8 +1,0 @@
-Yesterday i'm studied about useful commands in git. For example, create a git, see the git status, see the commits history, learned how to create a new branch. I'm also trained css grid, because i'm rebuild my portfolio again just to train my skills in programming. I'm very exciting to learn more about javascript this week.
-
-Errors:
-I'm
-Created
-Rebuild
-Useful
-Studied

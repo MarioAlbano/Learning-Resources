@@ -8,3 +8,4 @@ Studied
 Comfortable
 Seeing
 Chronometer
+Windowed

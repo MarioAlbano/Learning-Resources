@@ -10,3 +10,5 @@ Seeing
 Chronometer
 Windowed
 Pomodoro
+Technologies
+Thypography

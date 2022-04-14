@@ -42,3 +42,4 @@ aftewords
 advertising
 slang
 Insightful
+acquired

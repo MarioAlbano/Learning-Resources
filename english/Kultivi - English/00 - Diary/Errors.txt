@@ -13,3 +13,4 @@ Pomodoro
 Technologies
 Thypography
 Purpose
+acquired

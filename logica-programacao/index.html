@@ -8,15 +8,15 @@
   </head>
   <body>
     <script>
-        var n1 = prompt("digite um numero");
+        var n1 = prompt("digite a primeira nota")
         n1 = parseFloat(n1);
-        var n2 = prompt("Digite outro numero")
+
+        var n2 = prompt("digite a outra nota");
         n2 = parseFloat(n2);
 
-        var restodiv = (n1 % n2);
-        var elevado = (n1 * n2);
+        var media = ((n1 + n2) / 2);
 
-        alert("O resto da divisão é: " + (n1 % n2) + "Elevado é: " + (n1 * n2));
+        alert(media >= 5);
     </script>
   </body>
 </html>

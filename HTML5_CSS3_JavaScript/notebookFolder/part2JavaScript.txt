@@ -1,0 +1,42 @@
+//atribuições
+
+var n = 3 
+n = n + 4 
+valor = 7
+
+n += 4 // Significa n = valor de n + 4
+n -= 5 // valor de n - 5
+n *= 4 // valor de n vezes 4
+n /= 2 // valor de n dividido por 2
+n **=2 // valor de n elevado a 2
+n %= 5 // resto da divisão de n por 5
+
+n++ incrementa + 1 
+n-- diminui - 1 
+
+
+// Relacionais 
+
+-Sempre retornam um valor booleano
+>
+<
+>=
+<=
+==
+
+! Negação		//Diz somente se algo é falso
+&& e/conjunção 	//Duas combinações verdadeira para algo ser verdadeiro
+|| ou/disjunção 	//Basta que um seja verdadeiro para ser verdadeiro
+!=
+
+Ordem de operações:
+Primeiro operador aritmético () ** /
+Segundo operadores relacionais	> < >= 
+Terceiro operadores lógicos ! && ||
+
+primeiro não
+segundo e
+terceiro ou
+
+operador ternário ?:  //Faz uma entre duas ações disponíveis dependendo se for true ou false
+

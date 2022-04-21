@@ -40,3 +40,46 @@ terceiro ou
 
 operador ternário ?:  //Faz uma entre duas ações disponíveis dependendo se for true ou false
 
+*** DOM ****
+
+Àrvore DOM = Document Object Model (Funciona quando roda dentro do navegador)
+
+window = tudo dentro do JavaScript está no window
+
+Dentro de window tem vários objetos. Ex:Location Document History
+Dentro de document tem o html
+em html, tem head e body
+
+Selecionando: 
+-por Marca		//getElementsByagName()
+-por ID			/getElementByid()
+-por Nome		//getElementesByName()
+-por Classe		//getElementsByClassName()
+-por Seletor		//querySelector()   |   querySelectorAll()
+
+Ex: 
+var p1 = window.document.getElementsByTagName('p')[2] // A contagem sempre se inicia no 0
+window.document.write(p1.innerText)
+p1.style.color = 'blue'
+
+var corpo = window.document.body
+corpo.style.background = 'black'
+
+
+** Evento DOM **
+
+Ex de eventos:
+
+mouseenter //Faz a ação quando estiver em hover
+mousemove // Faz uma ação quando passar o mouse pelo elemento
+mousedown // Faz uma ação quando estiver apertando o mouse
+mouseup //   Faz uma ação quando soltar o botão do mouse
+click//	     Faz uma ação ao clique	
+mouseout// Faz uma ação ao tirar o mouse da tela
+
+//procurar "javaScript Dom Event List" 
+
+Funções
+
+bloco {}
+function = "Vai nomear oque está no bloco

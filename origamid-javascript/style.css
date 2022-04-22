@@ -1,0 +1,9 @@
+div {
+  width: 200px;
+  height: 200px;
+  font-size: 2rem;
+  background-color: green;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+}

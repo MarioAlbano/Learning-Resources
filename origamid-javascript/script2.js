@@ -1,4 +1,13 @@
+var a = window.document.getElementById("area");
+
 function clicar() {
-    var a = window.document.getElementById('area');
-    a.innerText = 'Clicou!'
+  a.innerText = "Clicou!";
+}
+
+function entrar() {
+  a.innerText = "Entrou!";
+}
+
+function sair() {
+  a.innerText = "Saiu!";
 }

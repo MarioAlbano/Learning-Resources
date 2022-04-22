@@ -83,3 +83,11 @@ Funções
 
 bloco {}
 function = "Vai nomear oque está no bloco
+
+Ex:
+var a = window.document.getElementById("area");
+
+function entrar() {
+	a.innerText = "Entrou!"
+	a.style.background = "red"
+}

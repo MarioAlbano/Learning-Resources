@@ -2,8 +2,10 @@ div {
   width: 200px;
   height: 200px;
   font-size: 2rem;
+  font-family: "arial";
+  font-weight: 600;
   background-color: green;
   color: black;
   text-align: center;
-  line-height: 100px;
+  line-height: 180px;
 }

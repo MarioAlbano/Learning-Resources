@@ -91,3 +91,12 @@ function entrar() {
 	a.innerText = "Entrou!"
 	a.style.background = "red"
 }
+
+
+//Abaixo da variável
+
+a.addEventListener("click", clicar);
+a.addEventListener("mouseover", entrar);
+a.addEventListener("mouseout", sair);
+
+// Sempre que não executar seu código no JavaScript, use o chrome DevTools

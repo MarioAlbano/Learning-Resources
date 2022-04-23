@@ -1,10 +1,11 @@
-var n1 = parseFloat(prompt("Digite sua primeira nota"));
-var n2 = parseFloat(prompt("Digite sua segunda nota"));
-var media = parseFloat((n1 + n2) / 2);
+Function somar() {}
 
-if ( n1 === 0 || n2 === 0 || media < 5) {
-    alert("Você foi reprovado");
-}
-else {
-    alert("Sua primeira nota foi " + n1 + ", e a segunda foi " + n2 + ". Sua média é " + media);
+var numero1 = window.document.getElementById("numero1");
+var numero2 = window.document.getElementById("numero2");
+var res = window.document.getElementById("res");
+var n1 = Number(numero1.value);
+var n2 = Number(numero2.value);
+var s = n1 + n2;
+res.innerHTML =
+    `Soma é ${s}`;
 }

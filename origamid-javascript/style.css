@@ -2,8 +2,9 @@ div {
   font-family: "arial";
   font-size: 2rem;
   line-height: 100px;
+  text-align: center;
   background-color: green;
   width: 200px;
-  height: auto;
-  position: relative;
+  height: 200px;
+  display: inline-block;
 }

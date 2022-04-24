@@ -50,6 +50,12 @@ Dentro de window tem vários objetos. Ex:Location Document History
 Dentro de document tem o html
 em html, tem head e body
 
+na div, colocar o "Disparar" do método
+dentro do script, descrever a Function e seu nome
+
+Função = Bloco de códigos que faz determinada tarefa
+Método = Um objeto que tem uma função
+
 Selecionando: 
 -por Marca		//getElementsByagName()
 -por ID			/getElementByid()

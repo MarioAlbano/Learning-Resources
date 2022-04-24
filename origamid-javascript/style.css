@@ -2,4 +2,8 @@ div {
   font-family: "arial";
   font-size: 2rem;
   line-height: 100px;
+  background-color: green;
+  width: 200px;
+  height: auto;
+  position: relative;
 }

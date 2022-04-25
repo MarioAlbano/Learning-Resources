@@ -1,0 +1,20 @@
+//Necessário para os projetos
+-HTML, CSS, Código limpo, estruturação de projetos, responsivo, 
+
+//Oque é JavaScript?
+-é uma linguagem de programação de alto nível
+-criada para dar vida as páginas webs
+-Vanilla JavaScript = Javascript sem frameworks
+-ECMAScrip é o nome de fato da liguagem na documentação, JavaScript é somente o nome fantasia
+-just-in-time compiled, ou seja, não tem delay de compilação igual ao Java
+-Orientada a objetos: podemos entender que uma linguagem é moderna quando podemos trabalhar com objetos
+
+//Onde JavaScrip é utilizada?
+-interagir com HTML e CSS (DOM), servindo para fazer ações nos sites;
+-calcular, manupular e validar dados em prol do que queremos fazer;
+-pode ser utilizada como linguegem server-side (Node.js) para se comunicar como ex: phyton ou php;
+-base de grandes frameworks (React, Angular,Vue);
+
+//Comandos
+-console.log() |Faz um texto e manda para o console do navegador
+-

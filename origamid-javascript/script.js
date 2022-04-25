@@ -1,19 +1,9 @@
-var a = window.document.getElementById("area");
-a.addEventListener("click", clicar);
-a.addEventListener("mouseover", entrar);
-a.addEventListener("mouseout", sair);
-
-function clicar() {
-  a.innerText = "Clicou!";
-  a.style.background = "red";
-}
-
-function entrar() {
-  a.innerText = "Entrou com o mouse";
-  a.style.background = "yellow";
-}
-
-function sair() {
-  a.innerText = "Saiu com o mouse";
-  a.style.background = "blue";
+function somar() {
+  var tn1 = window.document.getElementById("textn1");
+    var tn2 = window.document.getElementById("textn2");
+    var res = window.document.getElementById("res");
+    var n1 = Number(tn1.value);
+    var n2 = Number(tn2.value);
+    var s = n1 + n2;
+    res.innerHTML = `a soma entre ${n1} + ${n2} é igual a:<strong>${s}<strong>`
 }

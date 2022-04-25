@@ -27,3 +27,26 @@
 -Trata de números
 -console.log(typeof 13);   typeof verifica o tipo de dado|console.log() manda um texto para o console do navegador
 
+//Numbers: aritméticas
+-mais feitos com números, resultado produz outro number;
+-console.log(2+2);
+-console.log(2*4-3);
+-console.log(8/4);
+- +soma -subtração /divisão %resto;
+
+//Numbers: Special numbers
+-considerados números mas não funcionam como um;
+-infinity  -infinity  NaN (Not a Number);
+
+//Strings
+
+String = texto;
+console.log(typeof "isso é uma String");
+console.log(typeof `este texto aqui também`); template literals
+
+//Strings: Mais detalhes técnicos;
+- com / você consegue pular linha;
+-console.log("Essa é uma String \n De duas linhas");
+-usar o ""
+-template literals ${}
+-concatenação com o +

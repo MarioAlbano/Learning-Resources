@@ -17,4 +17,13 @@
 
 //Comandos
 -console.log() |Faz um texto e manda para o console do navegador
--
+
+//Tipos de dados
+-classificação/categoria de um dado;
+-ex: 12, 'olá', True;
+-Number, String, Boolean, Empty Values
+
+//Numbers
+-Trata de números
+-console.log(typeof 13);   typeof verifica o tipo de dado|console.log() manda um texto para o console do navegador
+

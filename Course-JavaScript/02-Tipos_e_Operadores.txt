@@ -48,5 +48,42 @@ console.log(typeof `este texto aqui também`); template literals
 - com / você consegue pular linha;
 -console.log("Essa é uma String \n De duas linhas");
 -usar o ""
--template literals ${}
+-template literals ${} usando os backticks ``
 -concatenação com o +
+
+//Booleans
+-guardar um valor de comparação;
+-somente true ou false;
+-console.log(5>2);
+-console.log(3>10);
+
+//Booleans comparação 
+>	|maior que
+< 	|menor que
+>= 	|maior ou igual
+<= 	|menor ou igual
+== 	|igual
+!= 	|diferente
+=== 	|idêntico
+
+//Booleans: operadores lógicos
+
+-Comparam e resultam em um boolean
+- && -and-> Para ser true os dois lados precisam ser verdadeiros
+- || -or-> Para ser true basta um ser verdadeiro
+- !  -not-> inverte os valores(true fica falso)
+
+//Booleans: operador tenário
+-Faz um comparativo em apenas uma linha de código. Manda uma mensagem para true e outra para false;
+-console.log(true ?1:2);
+-não muito utilizado porque dificulta a legibilidade do código
+-como se estivesse falando false? = é falso?
+-console.log((5 > 2)? "é sim" : "é não");
+
+//Empty Values
+-Palavras reservadas undefined e null. Basicamente o Js diz que eles não existem;
+
+//Conversão de tipo automática
+-em determinadas opeações, o javascript converte silenciosamente o tipo do resultado final da operação;
+-console.log("5" + 1) = 51;
+-console.log(2*3) = NaN;

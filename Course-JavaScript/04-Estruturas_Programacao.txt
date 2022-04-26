@@ -1,1 +1,79 @@
-Test
+***ESTRUTURAS DE PROGRAMAÇÃO***
+
+//Oque é um programa/software (união de declarações);
+-Conjunto de declarações (statements); Junção de tudo, no caso statements e expression
+-statements são conjuntos de expressões (expressions); Intermediário que unem os fragmentos de código
+-Expression é fragmento de código que produz valor; Menor fragmento do programa possível
+statement{expression;expression}
+-Software tem um objetivo. Statements guiam o software para o objetivo. Expressions são valors que o statements tem para guiar o software
+-Statement: console.log(1>12);
+-Expression: console.log('texto');
+
+//Oque são variaveis?
+-Salvamos os valores em variáveis(é um statement);
+-let cafe=4;
+-e depois criar expressoes com elas
+-console.log(cafe*cafe);
+-podemos mudar a variável ao longo do programa
+-podemos criar várias variaveis de uma vez, mas dificulta a legibilidade;
+-let quadrado=4, triangulo=3, retangulo=5;
+-a palavra var tinha algunas problemas técnicos. Com o ES6 lançaram o let
+
+//Outras maneiras de salvar valor
+-Podemos definir valores com var e const;
+-var nome = "nomes";
+-const sobrenome = "sobrenome";
+-var é uma forma mais antiga, você deve optar por let ou const;
+-const vem de constante, ou seja, não pode ser alterado;
+-usar var somente quando não temos outra opção a não ser usar uma versão antiga	
+
+//Regras para nome de variáveis
+-Não pode começar com número;
+-Pode terminar com número;
+-pode ter $ ou _, mas sem outros caracteres especiais;
+-podemos iniciar com letra maiúsculo, porem tendo cuidado com o case sensitive;
+-ou usar o camelCase ex: let loguinSenha = 123;
+
+
+//Nomes de variáveis reservadas
+-Alguns nomes não podem ser usadas pomo exemplo break, case, const, true, typeof, var e muitas outras;
+-porem podemos usar elas e mais um numero. ex break1;
+
+//Como funciona o ambiente
+-ambiente é criado quando um programa é iniciado
+-já vem alem do console.log, outras funções nativamente
+-funções são blocos de código que nos retornam um valor ou ação
+-o ambiente seria o navegador
+
+//Estrutura de uma função
+-são chamadas durante o programa;
+-podemos ouvir(chamar, executar, invocar uma função);
+-chamamos a função pelo nome dela + ();
+-nomeDaFuncao();
+-podemos inserir parametros, em alguns casos obrigatorios(valores que mudam o resultado da função);
+
+//Função biult-in: prompt()
+-recebe um input do usuário e guarda o valor
+-ex: let idade = promp("Qual sua idade?)
+-acaba sendo limitado o design da caixa pois varia de browser, por isso não é muito usado a não ser para testes
+
+//Função biult-in: alert()
+-Exibe uma mensagem na tela do usuário
+-Ex: alert('alerta de mensagem');
+-Pouco utiliza pois assim como o prompt, não pode ser customazada e é considerada invasiva;
+
+//Função biult-in: Math.x()
+-Função utilizada para expressões/cálculos matemáticos;
+-let maiorNumero = Math.max(1,5,2,3);
+-uma função é muito utilizada;
+-Ex: let menorNumero = Math.min(34, 312, 34, 23, 32, 25, 15, 123, 34, 23, 234, 123);
+Math.max(), Math.min(), Math.round(), Math.ceil();
+
+//Função built-in: console.log()
+-Exibe uma mensagem na tela, do argumento que passamos
+-função muito utilizada para testes
+
+//Oque são estruturas de controle
+-Um porograma é executado de cima para baixo.
+Com as estruturas podemos modelar o fluxo do programa;
+-ou seja, dependendo dos valores de statements e expressions, ele tomará um caminho diferente;

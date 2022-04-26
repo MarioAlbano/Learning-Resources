@@ -1,3 +1,4 @@
-console.log("String1");
-console.log('String2');
-console.log(`String3`);
+let arredondar = Math.round(23.66);
+let arredondarCima = Math.ceil(23.11);
+console.log(arredondar);
+console.log(`minha idade é ${arredondar}`);

@@ -77,3 +77,18 @@ Math.max(), Math.min(), Math.round(), Math.ceil();
 -Um porograma é executado de cima para baixo.
 Com as estruturas podemos modelar o fluxo do programa;
 -ou seja, dependendo dos valores de statements e expressions, ele tomará um caminho diferente;
+-começo -> condição -> sim ou não -> executar um comando diferente para cada caso (if);
+
+//Estrutura condicional: IF
+-executa um bloco de nota se algo acontecer;
+-condição imposta por um statement;
+-resulta em um boolean
+
+//Estrutura condicional: ELSE
+-Podemos executar um outro bloco de código caso o if não seja atendida;
+-iniciar a bifurcação;
+-só existe junto com o if;
+
+//Estrutura condicional: ELSE IF
+-encadear mais condições com o else if;
+-antes de executar o else verificamos mais de uma condição;

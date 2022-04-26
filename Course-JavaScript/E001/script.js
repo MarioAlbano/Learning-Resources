@@ -1,14 +1,13 @@
-let nome = "Mario";
-let idade = 10;
+let carteiraMotorista = prompt(
+  "Você possui carteira de motorista regularizada?"
+);
+let idadeMotorista = parseFloat(prompt("Qual a sua idade?"));
 
-if (nome != undefined && nome == "Draxler") {
-  console.log("primeiro passo feito");
-} else if(nome === "Mario" && idade == 26) {
-  console.log("Seu nome é mario");
+if (idadeMotorista >= 18 && carteiraMotorista === "sim") {
+  let cnhMotorista = prompt("Qual a sua CNH?");
+  alert("Parabéns, você logou no sistema");
+} else if (idadeMotorista >= 18 && carteiraMotorista === "nao") {
+  alert("Você precisa tirar a carteira de motorista primeiro!");
 } else {
-  console.log("Você não é o Mario de 26 anos");
-}
-
-if (2 < 5) {
-    console.log("Testando outro if");
+  alert("Desculpe, você não tem nem idade suficiente e portanto não tem CNH");
 }

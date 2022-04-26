@@ -92,3 +92,58 @@ Com as estruturas podemos modelar o fluxo do programa;
 //Estrutura condicional: ELSE IF
 -encadear mais condições com o else if;
 -antes de executar o else verificamos mais de uma condição;
+
+//Estrutura de repetição: 
+-ideia é repetir uma ação até atingir uma condição;
+-ao invéz de fazer inumeros statement, faremos um loop;
+
+//Estrutura de repetição: while
+-Fará uma ação até que a condição seja atingida;
+-Definir um fim para o loop para que não seja infinito;
+
+//Estrutura de repetição: do while;
+-semelhante ao while, com estrutura diferente;
+-quase não usado;
+
+//Estrutura de repetição: for 
+-Semelhante ao while, porém amplamente utilizado;
+-Facil de aprender;
+-Extremamente prático e organizado;
+
+//Identação
+-Organizar e deixar mais legível de ler;
+-não é regra mas cada bloco deve ser aninhado;
+-vão te agradecer no futuro por identar o código;
+-para o código não afeta em nada;
+
+//Forçando a saída de um loop: BREAK
+-As vezes precisamos parar o loop;
+-para isso usamos o break;
+
+//Pulando uma execução do loop: CONTINUE
+-podemos pular o resto da execução
+-para isso usamos o continue
+
+//Incrementando a variável: forma fácil
+x +=1;
+x++;
+
+//Estrutura condicional: switch
+-Quando há a necessidade de vários ifs, podemos utilizar o switch/case;
+-para sair usamos o break;
+-podemos inserir uma expressão default se caso nenhum valor for retornado
+-muitos programadores ainda optam por if's
+
+//Declaração de variáveis
+-let carrovermelhogrande;(errado, difícil de ler)
+-let carro_vermelhor_grande;
+-let CarroVermelhoGrande;
+-let carroVermelhoGrande;(cameCase, o mais utilizado);
+
+//Comentários no JavaScript
+-Utilizado para explicar oque acontece no código;
+-Comentar brevemente, evitando os textos grandes
+-É ignorado pelo interpretador de código;
+-Uma linha e multi-linha;
+- // ou /* */
+

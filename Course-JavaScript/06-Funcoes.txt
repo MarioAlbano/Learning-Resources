@@ -13,3 +13,11 @@
 -contem argumentos/parâmetros entre o ();
 -geralmente retorna um valor;
 -é possível declarar funções em variáveis;
+
+//Mais sobre funções
+-Podemos retornar um valor de uma função aritmética do nosso software;
+-Podemos deixar as funções com códigos bem complexos;
+
+//Escopo de uma função 
+-O que acontece dentro de uma função fica separado do escopo globa;
+-O escopo global seria todo o arquivo de JavaScript; 

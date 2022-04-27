@@ -1,16 +1,23 @@
-let recebe = 5;
-let div = 0;
+// function multiplicarNumero(x, y, z) {
+//   return x * y * z;
+// }
 
-for (i = 1; i <= recebe; i++) {
-  console.log(i);
-  console.log("Divisão é" + div);
-  if (recebe % i == 0) {
-    div++;
+// console.log(multiplicarNumero(2, 4, 5));
+
+// const result = multiplicarNumero(5, 5, 5);
+
+// console.log(`Sue número é de ${result}`);
+
+function podeDirigir(x, y) {
+  if (x >= 18 && y == true) {
+    console.log(
+      `Como você tem ${x} anos e possui CNH (${y}), então pode dirigir`
+    );
+  } else {
+    console.log(`Você não tem ${x} idade suficiente ou não possui (${y}) cnh`);
   }
 }
 
-if (div == 2) {
-  console.log(`${recebe} É um número primo!`);
-} else {
-  console.log(`${recebe} Não é um número primo!`);
-}
+podeDirigir(25, true);
+podeDirigir(12, false);
+podeDirigir(77, 0);

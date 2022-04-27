@@ -1,0 +1,15 @@
+***FUNÇÕES***
+
+//Oque são funções?
+-Funções são estruturas de códigos menores que são reaproveitadas durante
+-Principal objetivo: poupar repetição de códigos;
+-podem ser considerados 'subprogramas';
+-Separando em conceitos, deixando o programa mais organizado;
+
+//Definindo uma função
+-Uma função tem uma estrutura um pouco mais complexa;
+-Devemos declarar a função sempre com a palavra function;
+-Deve ter um nome;
+-contem argumentos/parâmetros entre o ();
+-geralmente retorna um valor;
+-é possível declarar funções em variáveis;

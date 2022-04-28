@@ -19,5 +19,29 @@
 -Podemos deixar as funções com códigos bem complexos;
 
 //Escopo de uma função 
--O que acontece dentro de uma função fica separado do escopo globa;
--O escopo global seria todo o arquivo de JavaScript; 
+-O que acontece dentro de uma função fica separado do escopo global, ou seja, os outros códigos dentro do programa;
+-O escopo global seria todo o arquivo de JavaScript;
+
+
+//Mais sobre escopo
+-Atualmente com let e const, qualquer bloco de código pode separar seu escopo (um if por exemplo);
+-isto é bom pois separa os contextos, com o var isso não acontecia;
+-Podemos ter escopos diferentes não só com funções;
+-Se criar a mesma variável dentre de um escopo, ela não afeta a global;
+
+
+//Escopo aninhado (nested scopes)
+-Uma outra forma de escrever funções;
+-Bem utilizada nos frameworks modernos;
+-Não deve substituir as functions por completo;
+
+//Argumentos opcionais
+-podemos chamar uma função em JS sem o número igual de parâmetro determinados;
+-ou seja, se tiver dois parâmetros, podemos passar a informação somente de um
+
+//Argumentos com valor default
+-Podemos pre-determinar um valor para um argumento;
+-Ex: function baseElevada(base, elevado=2) {};
+
+//Closure
+-Uma função que se lembra do ambiente em que ela foi criada;

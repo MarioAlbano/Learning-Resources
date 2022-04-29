@@ -4,3 +4,31 @@
 -Possibilidade de adicionar um conjunto de valores a uma variável;
 -o array deve ser escrito entre colchetes, separando os valores por vírgulas;
 -Ex: let numeros = [1,2,3,4,5,6,7,8]; let informacoes = ["Mario", 12, true, "testando"];
+-Ex: let container = ["Mario", 26, "Single", "Brazillian", 1995];
+
+//Mais sobre Arrays
+-Podemos acessar um array pelo seu índice, por exemplo: arr[0];
+-Lembrando que a contagem começa em 0;
+
+
+//Propriedades
+-Propriedades são informações que podem ser verificadas de um valor;
+-Quase todos os valores de JavaScript tem propriedades, menos null e undefined
+-Podemos acessar as propriedades de duas maneiras;
+
+//Métodos
+-Métodos são prorpiedades que funcionam como funções;
+-Strings e arrays contém métodos;
+-Serve para transformar o dado ou tirar um valor para fazer algo lógico com isso.
+-Ex: propriedade: string.prorpiedade  método: string.metodo;
+
+//O que são objetos;
+-Uma coleção de propriedades, parecidos com arrays;
+-Podemos acessar estas prorpiedades;
+-Ex: let objeto = {obj1: 1, obj2:2,};
+
+//Objetos: Deletando e criando propriedades
+-Podemos adicionar e deletar prorpiedades ao longo do nosso programa;
+
+//Mais sobre objetos
+-Podemos copiar todas as propriedades de um objeto para outro;

@@ -45,3 +45,10 @@
 
 //Closure
 -Uma função que se lembra do ambiente em que ela foi criada;
+-Uma função aninhada que não tenha variáveis locais, ela se lembra das variáveis da função pai, então se chamar em um console log, ela retorna as variaveis definidas no pai;
+
+//Recursion
+-Uma funcionalidade que permite uma função se chamar novamente;
+-Isso pode ser um problema caso a função se chame muitas vezes;
+-Idéa que a função se auto invoque podendo fazer lógicas diferentes;
+-Deixa o código menos visível;

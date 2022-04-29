@@ -1,0 +1,6 @@
+***ARRAYS E OBJETOS***
+
+//Array
+-Possibilidade de adicionar um conjunto de valores a uma variável;
+-o array deve ser escrito entre colchetes, separando os valores por vírgulas;
+-Ex: let numeros = [1,2,3,4,5,6,7,8]; let informacoes = ["Mario", 12, true, "testando"];

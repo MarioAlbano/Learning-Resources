@@ -1,6 +1,9 @@
-function baseElevada(base, elevado = 2) {
-  return Math.pow(base, elevado);
+function decrementaPares(x) {
+  for (x; x > 0; x--) {
+    if (x % 2 == 0) {
+      console.log(x + " é um número par");
+    }
+  }
 }
 
-console.log(baseElevada(2));
-console.log(baseElevada(2, 3));
+decrementaPares(100000);

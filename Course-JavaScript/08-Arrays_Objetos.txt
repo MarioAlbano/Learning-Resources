@@ -32,3 +32,14 @@
 
 //Mais sobre objetos
 -Podemos copiar todas as propriedades de um objeto para outro;
+
+//Mais sobre objetos
+-Também podemos verificar quais as chaves cada objeto possui;
+
+
+//Mutação (Mutability)
+-Um objeto pode herdar todas as características do outro, virando uma referência ao mesmo;
+
+//Loops em Arrays
+-Uma técnica muito utilizada na programação é o loop nos arrays;
+-Como é uma lista com muitos valores, muitas vezes precisamos ver cada um deles;

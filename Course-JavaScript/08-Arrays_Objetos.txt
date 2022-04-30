@@ -43,3 +43,7 @@
 //Loops em Arrays
 -Uma técnica muito utilizada na programação é o loop nos arrays;
 -Como é uma lista com muitos valores, muitas vezes precisamos ver cada um deles;
+
+//Métodos de array: push e pop
+-push serve para inserir um elemento no array;
+-pop serve para remover um elemento no array;

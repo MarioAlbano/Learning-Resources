@@ -1,6 +1,4 @@
-let nomes = ["Mario", "Mario", "Jose", "Tyreon", "Teste", "Jackson"];
-i = 0;
-while (i <= nomes.length) {
-  console.log(nomes[i]);
-  i++;
-}
+let nums = [5, 6, 2, 4, 2, 9, 2];
+
+console.log(nums.indexOf(2));
+console.log(nums.lastIndexOf(2));

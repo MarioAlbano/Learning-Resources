@@ -47,3 +47,16 @@
 //Métodos de array: push e pop
 -push serve para inserir um elemento no array;
 -pop serve para remover um elemento no array;
+-Ex: let removerNomes = nomes.pop(); nomes.push("Juana");
+
+//Métodos de array: shift e unshift
+-shift: remove o primeiro elemento de um array;
+-unshift: adiciona um ou mais elementos no início de um array;
+
+//Métodos de array: indexOf e lastIndexOf
+-indexOf: encontra o índice de um determinado elemento;
+-lastIndexOf:encontrar o último índice de um elemento;
+
+//Métodos de array: slice
+-Retorna um array a partir de outro array;
+-o array retornado é determinados pelos parâmetros que são as índices de início e fim do novo array;

@@ -1,4 +1,7 @@
-let nums = [5, 6, 2, 4, 2, 9, 2];
+let carros = ["fiat", "bmw", "ford", "ferrari", "volkswagen"];
 
-console.log(nums.indexOf(2));
-console.log(nums.lastIndexOf(2));
+console.log(carros.reverse());
+
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+console.log(numeros.reverse());

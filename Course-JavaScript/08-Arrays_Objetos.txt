@@ -60,3 +60,18 @@
 //Métodos de array: slice
 -Retorna um array a partir de outro array;
 -o array retornado é determinados pelos parâmetros que são as índices de início e fim do novo array;
+-Ex: console.log(numeros.slice(2,3)); /* está dizendo que entre 2 e 3, escolher o array antes de 3 */
+
+//Métodos de array:forEach
+-itera cada elemento do array;
+
+
+//Métodos de array: includes;
+-Verifica se o array tem um determinado elemento;
+-pode ser trabalhado com o if para determinar uma lógica;
+
+//Métodos de array: reverse;
+-Faz com que revertemos a ordem dos arrays;
+
+//Métodos de string: trim
+-Remove tudo que não é string;

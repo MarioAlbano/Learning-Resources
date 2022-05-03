@@ -1,4 +1,3 @@
-let words = ["Este é um teste", " de join usando ", "JavaScript", " teste"];
-let newWords = words.join("@");
+let word = "palavras";
 
-console.log(newWords);
+console.log(word.repeat(400));

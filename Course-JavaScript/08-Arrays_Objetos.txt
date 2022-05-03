@@ -87,3 +87,7 @@
 
 //Métodos de string: join
 -Junta elementos de um array em uma frase, por meio de um separador;
+
+//Métodos de string: repeat
+-Repete uma string de acordo com um parâmetro number;
+-Ex: console.log(word.repeat(400)); /*Repetirá a word 400x*/

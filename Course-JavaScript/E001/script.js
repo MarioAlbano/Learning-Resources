@@ -1,3 +1,4 @@
-let fruits = "maça;banana;pera;uva;melancia;pêssego";
+let words = ["Este é um teste", " de join usando ", "JavaScript", " teste"];
+let newWords = words.join("@");
 
-console.log(fruits.split(";"));
+console.log(newWords);

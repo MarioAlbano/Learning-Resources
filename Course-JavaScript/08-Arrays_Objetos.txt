@@ -75,3 +75,8 @@
 
 //Métodos de string: trim
 -Remove tudo que não é string;
+-Bom para poupar caractéres desnecessários quando for enviar pro servidor;
+
+
+//Métodos de string: padStart;
+-Inserir caracteres antes da string;

@@ -1,7 +1,6 @@
-let carros = ["fiat", "bmw", "ford", "ferrari", "volkswagen"];
+let phrase = "          Olá meu nome é Hank-Ming-Son";
 
-console.log(carros.reverse());
+let correctPhrase = phrase.trim();
 
-let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-console.log(numeros.reverse());
+console.log(phrase);
+console.log(correctPhrase);

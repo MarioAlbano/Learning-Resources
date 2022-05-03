@@ -84,4 +84,6 @@
 
 //Métodos de string: split
 -Divide uma string por um separador, e retorna um array;
--
+
+//Métodos de string: join
+-Junta elementos de um array em uma frase, por meio de um separador;

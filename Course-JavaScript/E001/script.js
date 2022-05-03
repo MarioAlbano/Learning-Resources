@@ -1,6 +1,3 @@
-let phrase = "três pratos de tigres para três tigres livres";
+let fruits = "maça;banana;pera;uva;melancia;pêssego";
 
-let divide = phrase.split(" ");
-
-console.log(divide);
-
+console.log(fruits.split(";"));

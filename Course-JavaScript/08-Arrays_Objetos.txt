@@ -80,3 +80,8 @@
 
 //Métodos de string: padStart;
 -Inserir caracteres antes da string;
+-Ex: console.log(product.padStart(10, "9")); /*Diz que para o numero do "product", para preencher até 10 dígites com o número 9*/;
+
+//Métodos de string: split
+-Divide uma string por um separador, e retorna um array;
+-

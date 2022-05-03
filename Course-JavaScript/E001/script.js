@@ -1,6 +1,6 @@
-let phrase = "          Olá meu nome é Hank-Ming-Son";
+let phrase = "três pratos de tigres para três tigres livres";
 
-let correctPhrase = phrase.trim();
+let divide = phrase.split(" ");
 
-console.log(phrase);
-console.log(correctPhrase);
+console.log(divide);
+

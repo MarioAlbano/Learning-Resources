@@ -92,8 +92,11 @@
 -Repete uma string de acordo com um parâmetro number;
 -Ex: console.log(word.repeat(400)); /*Repetirá a word 400x*/
 
-//Rest operator
+//Rest operator ***
 -Uma forma de uma função receber indefinidos parâmetros;
 -o operador rest vai virar um array;
 -o parâmetro é definido por: ...nomeParâmetro;
+
+//Destructuring com objetos
+-Podemos definir variáveis com prorpiedades do objeto com uma notação diferente, chamda destructuring;
 

@@ -1,8 +1,6 @@
-let nomes = ["Mario", "Maria", "Jonson", "Marcia"];
+let pessoa = {
+  "nome": "Matheus",
+  "idade": 26,
+};
 
-let [nomeA, nomeB, nomeC, nomeD] = nomes;
-
-console.log(nomeA);
-console.log(nomeB);
-console.log(nomeC);
-console.log(nomeD);
+console.log(pessoa.nome); 

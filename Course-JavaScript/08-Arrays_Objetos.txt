@@ -98,5 +98,16 @@
 -o parâmetro é definido por: ...nomeParâmetro;
 
 //Destructuring com objetos
--Podemos definir variáveis com prorpiedades do objeto com uma notação diferente, chamda destructuring;
+-Desestrutura um objeto em variáveis;
+
+//Destructuring com array
+-Podemos definir variáveis com os valres de um array utilizando o destructuring;
+
+//JSON 
+-JSON = JavaScript Object Notation;
+-Utilizado para comunicação entre serviços, ex:back end <-> front end;
+-Ou seja, comunicar com api ou receber os dados via api;
+-basicamente um tipo de dado padronizado, que lembra muito os objetos do JavaScript;
+
+
 

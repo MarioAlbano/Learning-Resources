@@ -1,6 +1,3 @@
-let pessoa = {
-  "nome": "Matheus",
-  "idade": 26,
-};
+let arrayItems = [3, 1, 5, 6, 34];
 
-console.log(pessoa.nome); 
+console.log(arrayItems[1 - 1], arrayItems[3 - 1], arrayItems[5 - 1]);

@@ -1,9 +1,9 @@
-let arrayUm = [11, 20, 33, 34, 55];
-
-function somarArray(x) {
-  for (let i = 0; i < arrayUm.length; i++) {
-    console.log(`Seu número do array é ${arrayUm[i]}`)
-  }
+const carro = {
+  "portas": 2,
+  "rodas": 4,
+  "motor": 1.6,
 }
 
-somarArray();
+carro.gasolina = "flex";
+
+console.log(carro);

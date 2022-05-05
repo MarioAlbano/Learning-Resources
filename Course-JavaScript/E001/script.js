@@ -1,11 +1,9 @@
-let arrayUm = [1, 2, 3, 4, 5];
-let resultado = 0;
+let arrayUm = [11, 20, 33, 34, 55];
 
 function somarArray(x) {
   for (let i = 0; i < arrayUm.length; i++) {
-    resultado += arrayUm[i];
-    console.log(`A soma dos valores neste array valem ${resultado}`);
+    console.log(`Seu número do array é ${arrayUm[i]}`)
   }
 }
 
-somarArray(6);
+somarArray();

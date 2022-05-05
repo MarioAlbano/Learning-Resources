@@ -1,0 +1,13 @@
+***CONCEITOS DE ORIENTAÇÃO A OBJETOS***
+
+//Orientação a objetos
+-Uma forma de programar, que utiliza os objetos como o seu principal princípio;
+-Além de utilizar conceitos e técnicas que envolvem objetos;
+-a maioria dos softwares, na parte de back-end, são desenvolvidos em cima desse paradigma;
+-Grandes frameworks se aproveitam desta técnica: Laravel(framework de php), Django(framework de phyton) e etc;
+-Quando se aprende este conceito, ele serve para outras linguagens de promgramação;
+
+//Métodos
+-Propriedades que servem como funções;
+-Ou seja, as ações dos objetos;
+-Invocamos os métodos da mesma maneira que funções;

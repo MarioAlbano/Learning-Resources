@@ -121,6 +121,3 @@
 //Array vs Objeto
 -Para agrupar informações que só fazem sentido juntas iremos utilizar objetos. 
 -Quando queremos agrupar informações que por si só já fazem sentido iremos utilizar arrays
-
-
-

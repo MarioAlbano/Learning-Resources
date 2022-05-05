@@ -1,9 +1,32 @@
-let fraseDividir = "Um prato de tigre para três tigres tristes";
+let numeroUm = 0;
+let numeroDois = 0;
+let resultado = 0;
 
-let fraseDividida = fraseDividir.split(" ");
+let calculadora = {
+  somar: function (numeroUm, numeroDois) {
+    resultado = (numeroUm + numeroDois);
+    console.log(resultado);
+  },
 
-console.log(fraseDividida);
-console.log(fraseDividida.length);
-for (i = 0; i < fraseDividida.length; i++) {
-  console.log(fraseDividida[i]);
+  subtrair: function (numeroUm, numeroDois) {
+    resultado = (numeroUm - numeroDois);
+    console.log(resultado)
+  },
+
+  multiplicar: function (numeroUm, numeroDois) {
+    resultado = (numeroUm * numeroDois);
+    console.log(resultado)
+  },
+
+  dividir: function (numeroUm, numeroDois) {
+    resultado = (numeroUm / numeroDois)
+    console.log(resultado);
+  },
 }
+
+calculadora.somar(3, 2);
+calculadora.subtrair(3, 2);
+calculadora.multiplicar(3, 2);
+calculadora.dividir(3, 2);
+
+

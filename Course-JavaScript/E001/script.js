@@ -1,9 +1,9 @@
-const carro = {
-  "portas": 2,
-  "rodas": 4,
-  "motor": 1.6,
+let fraseDividir = "Um prato de tigre para três tigres tristes";
+
+let fraseDividida = fraseDividir.split(" ");
+
+console.log(fraseDividida);
+console.log(fraseDividida.length);
+for (i = 0; i < fraseDividida.length; i++) {
+  console.log(fraseDividida[i]);
 }
-
-carro.gasolina = "flex";
-
-console.log(carro);

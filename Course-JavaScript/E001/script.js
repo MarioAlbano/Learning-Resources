@@ -1,19 +1,11 @@
-let arrayUm = [1, 2, 3, 4, 5, 6, 8, 9, 0];
-let arrayDois = [1, 2, 3];
-let arrayTres = [1, 2, 3, 4, 5];
+let arrayUm = [1, 2, 3, 4, 5];
+let resultado = 0;
 
-function quantidadeArray(x) {
-  if (x.length > 5) {
-    console.log("Muitos arrays");
-  }
-  else if (x.length == 5) {
-    console.log("Número certo de arrays!");
-  }
-  else {
-    console.log("Poucos arrays");
+function somarArray(x) {
+  for (let i = 0; i < arrayUm.length; i++) {
+    resultado += arrayUm[i];
+    console.log(`A soma dos valores neste array valem ${resultado}`);
   }
 }
 
-quantidadeArray(arrayUm);
-quantidadeArray(arrayDois);
-quantidadeArray(arrayTres);
+somarArray(6);

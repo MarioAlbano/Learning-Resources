@@ -1,32 +1,11 @@
-let numeroUm = 0;
-let numeroDois = 0;
-let resultado = 0;
-
-let calculadora = {
-  somar: function (numeroUm, numeroDois) {
-    resultado = (numeroUm + numeroDois);
-    console.log(resultado);
-  },
-
-  subtrair: function (numeroUm, numeroDois) {
-    resultado = (numeroUm - numeroDois);
-    console.log(resultado)
-  },
-
-  multiplicar: function (numeroUm, numeroDois) {
-    resultado = (numeroUm * numeroDois);
-    console.log(resultado)
-  },
-
-  dividir: function (numeroUm, numeroDois) {
-    resultado = (numeroUm / numeroDois)
-    console.log(resultado);
-  },
+const cachorro {
+  uivar: function(x) = {
+    if(x == 1) {
+  console.log("Auuu");
 }
+    else if (x == 2) {
+      console.log()
 
-calculadora.somar(3, 2);
-calculadora.subtrair(3, 2);
-calculadora.multiplicar(3, 2);
-calculadora.dividir(3, 2);
-
-
+}
+  }
+  }

@@ -1,15 +1,14 @@
-function criarCachorro(raca, patas, cor) {
-  let cachorro = Object.create({});
-  cachorro.raca = raca;
-  cachorro.patas = patas;
-  cachorro.cor = cor;
-  cachorro.latir = function () {
-    console.log("Au au");
+function Cachorro(raca, patas, cor) {
+  this.raca = raca;
+  this.patas = patas;
+  this.cor = cor;
+  //criando um método dentro do objeto
+  this.uivar = function () {
+    console.log("Auuuuu!");
   }
-  return cachorro;
 }
 
-let doberman = criarCachorro("Doberman", 4, "Preto");
+let husky = new Cachorro("Husky", 4, "Preto");
 
-console.log(doberman);
-doberman.latir();
+console.log(husky);
+console.log(husky.uivar());

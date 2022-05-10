@@ -39,5 +39,10 @@
 -Instanciar = Criar um objeto novo;
 No construtor já podemos definir propriedades;
 
+//Classes: construtor por new
+-Em muitas linguagens temos a possibilidade de instanciar um objeto com new, no JS também;
 
+//Classes: construtor com método
+-Além de propriedades, podemos criar a classe base já com métodos;
+-basta definir ao prototype o método desejado;
 

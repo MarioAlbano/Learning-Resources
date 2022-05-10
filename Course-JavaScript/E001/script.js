@@ -4,7 +4,7 @@ const cachorro {
   console.log("Auuu");
 }
     else if (x == 2) {
-      console.log()
+  console.log("Planejando o dia")
 
 }
   }

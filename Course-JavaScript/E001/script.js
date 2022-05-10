@@ -1,11 +1,21 @@
-const pessoa = {
-  maos: 2,
+const cachorro = {
+  patas: 4,
+  raca: "desconhecido",
+  latir: function () {
+    console.log("Au!");
+  }
 }
 
-console.log(Object.getPrototypeOf(pessoa));
+let labrador = Object.create(cachorro);
 
-const pessoaNova = Object.create(pessoa);
+labrador.latir();
 
-console.log(pessoaNova.maos);
-console.log(pessoaNova.hasOwnProperty("maos"));
-console.log(Object.getPrototypeOf(pessoaNova) === pessoa);
+labrador.raca = "labrador";
+console.log(labrador.raca);
+console.log(cachorro.raca);
+
+
+let pastor = Object.create(cachorro);
+pastor.raca = "Pastor Alemão";
+
+console.log(pastor.raca);

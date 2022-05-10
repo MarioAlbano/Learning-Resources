@@ -34,3 +34,10 @@
 -Pois nas outras linguagens uma Class é um molde de um objeto;
 -Ou seja, podemos criar diversos objetos em cima de um prototype;
 
+//Classes: construtor por função
+-Construtores são formas de instanciar uma classe em uma linguagem de programação;
+-Instanciar = Criar um objeto novo;
+No construtor já podemos definir propriedades;
+
+
+

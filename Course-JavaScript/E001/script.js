@@ -1,21 +1,15 @@
-const cachorro = {
-  patas: 4,
-  raca: "desconhecido",
-  latir: function () {
-    console.log("Au!");
+function criarCachorro(raca, patas, cor) {
+  let cachorro = Object.create({});
+  cachorro.raca = raca;
+  cachorro.patas = patas;
+  cachorro.cor = cor;
+  cachorro.latir = function () {
+    console.log("Au au");
   }
+  return cachorro;
 }
 
-let labrador = Object.create(cachorro);
+let doberman = criarCachorro("Doberman", 4, "Preto");
 
-labrador.latir();
-
-labrador.raca = "labrador";
-console.log(labrador.raca);
-console.log(cachorro.raca);
-
-
-let pastor = Object.create(cachorro);
-pastor.raca = "Pastor Alemão";
-
-console.log(pastor.raca);
+console.log(doberman);
+doberman.latir();

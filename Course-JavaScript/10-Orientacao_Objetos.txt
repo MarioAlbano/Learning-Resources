@@ -46,3 +46,8 @@ No construtor já podemos definir propriedades;
 -Além de propriedades, podemos criar a classe base já com métodos;
 -basta definir ao prototype o método desejado;
 
+//Construtor na classe ES6
+-Com a versão do ES6, uma possibilidade de criar uma classe(objeto) com construtor foi adicionada;
+-Então não precisamos mais criar por meio de uma função, veja:
+
+

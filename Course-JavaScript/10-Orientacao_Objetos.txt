@@ -67,4 +67,10 @@ No construtor já podemos definir propriedades;
 -Get: serve para resgatar o valor de uma propriedade;
 -Set: serve para alterar o valor de uma propriedade;
 
+//Herança(inheritance)
+-Uma classe pode herdar propriedades de outra classe por herança;
+-Para isso utilizamos extends;
 
+
+//Instanceof operator
+-Podemos verificar quem é o pai do objeto utilizando o instanceof;

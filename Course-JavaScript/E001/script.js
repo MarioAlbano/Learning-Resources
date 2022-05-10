@@ -1,26 +1,25 @@
-class Cachorro {
-  constructor(raca, patas, cor) {
-    this.raca = raca;
-    this.cor = cor;
-  }
-  latir() {
-    console.log("Au au!");
-  }
-
-  get getCor() {
-    return this.cor;
-  }
-
-  set setCor(cor) {
-    this.cor = cor;
+class Mamifero {
+  constructor(patas) {
+    this.patas = patas;
   }
 }
 
-let pastor = new Cachorro("Pastor alemão", 4, "preto e amarelo");
+let coiote = new Mamifero(6);
 
-console.log(pastor);
+console.log(coiote.patas);
 
-pastor.setCor = "Blue";
-console.log(pastor.getCor);
+//Dizendo que cachorro é filho do mamifero
+class Cachorro extends Mamifero {
+  constructor(patas, raca) {
+    super(patas, patas);
+    this.raca = raca;
+  }
+  latir() {
+    console.log("Au au");
+  }
+}
 
-console.log(pastor);
+let pug = new Cachorro(4, "Pug");
+
+console.log(pug.patas);
+pug.latir();

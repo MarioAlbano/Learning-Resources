@@ -59,3 +59,9 @@ No construtor já podemos definir propriedades;
 -Não podemos adicionar propriedades na classe, só via prototype;
 -A classe só acita métodos;
 
+//Symbols 
+-Prorpiedades únicas, que não podem ser alteradas e nem criadas duas vezes;
+-Podemos utilizar como uma constante, só que para priedade de objeto;
+
+
+

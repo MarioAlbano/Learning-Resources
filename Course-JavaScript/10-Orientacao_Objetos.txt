@@ -11,3 +11,14 @@
 -Propriedades que servem como funções;
 -Ou seja, as ações dos objetos;
 -Invocamos os métodos da mesma maneira que funções;
+-Normalmente os métodos interagem com os objetos;
+-Até mudando os valores das suas propriedades para corresponder a lógica do programa desenvolvido;
+-This significa daquele objeto ou daquela coisa;
+
+
+//Prototypes 
+-Um objeto fallback de outro objeto;
+-Quando um objeto recebe uma requisição de uma prorpiedades que não tem, ela procura no prorotype deste objeto;
+-O prototype de um objeto criado do zero é o Object, que tem os métodos nativos da linguagem;
+/Resumindo: Volta nas prorpiedades do objeto pai para procurar se há algo relacionado
+

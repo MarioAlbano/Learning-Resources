@@ -1,4 +1,5 @@
 const cachorro = {
+  raca: "vira-lata",
   uivar: function () {
     console.log("Auuuu");
   },
@@ -7,9 +8,16 @@ const cachorro = {
   },
   morder: function () {
     console.log("Nhac!");
+  },
+  setRaca: function (raca) {
+    this.raca = raca;
+  },
+  getRaca: function () {
+    return "A raça é " + this.raca;
   }
 }
 
-console.log(cachorro.uivar());
-console.log(cachorro.latir());
-console.log(cachorro.morder());
+console.log(cachorro.raca);
+cachorro.setRaca("Pastore");
+console.log(cachorro.raca);
+console.log(cachorro.getRaca());

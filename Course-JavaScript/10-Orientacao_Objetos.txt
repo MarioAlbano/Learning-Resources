@@ -50,4 +50,7 @@ No construtor já podemos definir propriedades;
 -Com a versão do ES6, uma possibilidade de criar uma classe(objeto) com construtor foi adicionada;
 -Então não precisamos mais criar por meio de uma função, veja:
 
+//Override nas propriedades do Prototype
+-Sempre quer adicionamos uma prorpiedade a um objeto, é criada uma idêntica no Prototype;
+-Podemos substituir a do prototype;
 

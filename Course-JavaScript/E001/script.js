@@ -1,20 +1,11 @@
-function Cachorro(raca, patas, cor) {
-  this.raca = raca;
-  this.patas = patas;
-  this.cor = cor;
-}
-
-Cachorro.prototype.uivar = function () {
-  console.log("Auuuu");
-}
-
-Cachorro.prototype.latir =
-  function () {
-    console.log("Au Au!");
+class Cachorro {
+  constructor(raca, patas, cor) {
+    this.raca = raca;
+    this.patas = patas;
+    this.cor = cor;
   }
+}
 
-let husky = new Cachorro("Husky", 4, "Preto");
+let labrador = new Cachorro("Vira-Lata", 4, "Amarelo");
 
-console.log(husky);
-console.log(husky.uivar());
-console.log(husky.latir());
+console.log(labrador);

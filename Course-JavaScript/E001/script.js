@@ -1,11 +1,15 @@
-const cachorro {
-  uivar: function(x) = {
-    if(x == 1) {
-  console.log("Auuu");
+const cachorro = {
+  uivar: function () {
+    console.log("Auuuu");
+  },
+  latir: function () {
+    console.log("au au");
+  },
+  morder: function () {
+    console.log("Nhac!");
+  }
 }
-    else if (x == 2) {
-  console.log("Planejando o dia")
 
-}
-  }
-  }
+console.log(cachorro.uivar());
+console.log(cachorro.latir());
+console.log(cachorro.morder());

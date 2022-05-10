@@ -6,18 +6,21 @@ class Cachorro {
   latir() {
     console.log("Au au!");
   }
+
+  get getCor() {
+    return this.cor;
+  }
+
+  set setCor(cor) {
+    this.cor = cor;
+  }
 }
 
-Cachorro.prototype.raca = "SRD";
+let pastor = new Cachorro("Pastor alemão", 4, "preto e amarelo");
 
-let patas = Symbol();
+console.log(pastor);
 
-Cachorro.prototype[patas] = 4
+pastor.setCor = "Blue";
+console.log(pastor.getCor);
 
-let labrador = new Cachorro("Vira-Lata", "Amarelo");
-
-labrador.latir();
-
-console.log(Cachorro.prototype[patas]);
-
-console.log(labrador[patas]); 
+console.log(pastor);

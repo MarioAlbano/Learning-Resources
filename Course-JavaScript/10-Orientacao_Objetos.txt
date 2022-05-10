@@ -61,7 +61,10 @@ No construtor já podemos definir propriedades;
 
 //Symbols 
 -Prorpiedades únicas, que não podem ser alteradas e nem criadas duas vezes;
--Podemos utilizar como uma constante, só que para priedade de objeto;
+-Podemos utilizar como uma constante, só que para propriedade de objeto;
 
+//Getters e setters
+-Get: serve para resgatar o valor de uma propriedade;
+-Set: serve para alterar o valor de uma propriedade;
 
 

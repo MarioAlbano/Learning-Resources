@@ -55,3 +55,7 @@ No construtor já podemos definir propriedades;
 -Podemos substituir a do prototype;
 -Resumindo, é para podermos saber o valor Default
 
+//Mais sobre classes 
+-Não podemos adicionar propriedades na classe, só via prototype;
+-A classe só acita métodos;
+

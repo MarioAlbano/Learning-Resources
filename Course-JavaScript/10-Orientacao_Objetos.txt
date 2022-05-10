@@ -23,4 +23,14 @@
 -Resumindo: Volta nas prorpiedades do objeto pai para procurar se há algo relacionado
 -Object é o pai de todos os objetos;
 
+//Mais sobre Prototypes
+-Quando criamos um objeto a partir de um outro, a base será o prototype, seja do object ou novo objeto que nós criamos ;
+-Ele herará tanto os métodos e propriedades de Object( o prototype do objeto base);
+-Quanto os do objeto base para este novo;
+
+
+//Classes 
+-O prototype do javaScrip pode ser chamado de classe;
+-Pois nas outras linguagens uma Class é um molde de um objeto;
+-Ou seja, podemos criar diversos objetos em cima de um prototype;
 

@@ -6,6 +6,9 @@ class Cachorro {
   }
 }
 
+Cachorro.prototype.raca = "SRD";
+Cachorro.prototype.patas = 4;
+
 let labrador = new Cachorro("Vira-Lata", 4, "Amarelo");
 
-console.log(labrador);
+console.log(Cachorro.prototype.raca);

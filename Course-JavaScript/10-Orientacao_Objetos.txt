@@ -53,4 +53,5 @@ No construtor já podemos definir propriedades;
 //Override nas propriedades do Prototype
 -Sempre quer adicionamos uma prorpiedade a um objeto, é criada uma idêntica no Prototype;
 -Podemos substituir a do prototype;
+-Resumindo, é para podermos saber o valor Default
 

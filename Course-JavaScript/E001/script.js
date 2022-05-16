@@ -1,15 +1,15 @@
-class Conta {
-    constructor(saldo) {
-        this.saldo = saldo;
-    }
-
-    deposito(valor) {
-        this.saldo += valor;
+class Carrinho {
+    constructor(itens, qtd, valorTotal) {
+        this.itens = itens;
+        this.qtd = quantidade;
+        this.valorTotal = valorTotal;
     }
 }
 
-let contaMaria = new Conta(1000);
+let carrinho = new Carrinho([
+    {
+        id: 01,
+        nome: "Camisa",
 
-contaMaria.deposito(5000);
-
-console.log(contaMaria.saldo);
+    }
+])

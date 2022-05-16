@@ -1,31 +1,25 @@
-class enderecoCliente {
-    constructor(rua, bairro, cidade, estado) {
-        this.rua = rua;
-        this.bairro = bairro;
-        this.cidade = cidade;
-        this.estado = estado;
+class Carro {
+    constructor(marca, cor, gasolinaRestante) {
+        this.marca = marca;
+        this.cor = cor;
+        this.gasolinaRestante = gasolinaRestante;
     }
-
-    attRua(att) {
-        this.rua = att;
+    dirigir(kmAndado) {
+        this.gasolinaRestante -= kmAndado;
     }
-    attBairro(att) {
-        this.bairro = att;
-    }
-    attCidade(att) {
-        this.cidade = att;
-    }
-    attEstado(att) {
-        this.estado = att;
+    abastecer(kmReposto) {
+        this.gasolinaRestante += kmReposto
     }
 }
 
-let enderecoCliente01 = new enderecoCliente("Estrada st ines", "St ines", "sp", "sp");
-console.log(enderecoCliente01);
+let saveiro = new Carro("Saveiro", "preta", 20);
 
-enderecoCliente01.attRua("Rua ali por perto");
-enderecoCliente01.attBairro("Rua ali por perto");
-enderecoCliente01.attCidade("Rua ali por perto");
-enderecoCliente01.attEstado("Rua ali por perto");
+console.log(saveiro);
 
-console.log(enderecoCliente01);
+saveiro.dirigir(10);
+
+console.log(saveiro);
+
+saveiro.abastecer(20);
+
+console.log(saveiro);

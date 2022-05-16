@@ -6,6 +6,9 @@ class Carro {
     }
     dirigir(kmAndado) {
         this.gasolinaRestante -= kmAndado;
+        if (this.gasolinaRestante <= 10) {
+            console.log("Precisa reabastecer seu carro!");
+        }
     }
     abastecer(kmReposto) {
         this.gasolinaRestante += kmReposto

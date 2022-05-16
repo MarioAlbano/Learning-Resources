@@ -5,13 +5,11 @@ class Conta {
 
     deposito(valor) {
         this.saldo += valor;
-
     }
-
 }
 
-let contaJose = new Conta(0);
+let contaMaria = new Conta(1000);
 
-contaJose.deposito(10);
+contaMaria.deposito(5000);
 
-console.log(contaJose.saldo);
+console.log(contaMaria.saldo);

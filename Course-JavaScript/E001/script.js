@@ -1,28 +1,43 @@
-class Carro {
-    constructor(marca, cor, gasolinaRestante) {
-        this.marca = marca;
-        this.cor = cor;
-        this.gasolinaRestante = gasolinaRestante;
+class contaBancaria {
+    constructor(saldoCorrente, saldoPoupanca, juros) {
+        this.saldoCorrente = saldoCorrente;
+        this.saldoPoupanca = saldoPoupanca;
+        this.juros = juros;
     }
-    dirigir(kmAndado) {
-        this.gasolinaRestante -= kmAndado;
-        if (this.gasolinaRestante <= 10) {
-            console.log("Precisa reabastecer seu carro!");
-        }
+    depositoCorrente(valor) {
+        this.saldoCorrente += valor;
     }
-    abastecer(kmReposto) {
-        this.gasolinaRestante += kmReposto
+    depositoPoupanca(valor) {
+        valor *= 1 - 0.05;
+        this.saldoPoupanca += valor;
+    }
+    saqueCorrente(valor) {
+        this.saldoCorrente -= valor;
+    }
+    saquePoupanca(valor) {
+        this.saldoPoupanca -= valor;
+    }
+
+    transferenciaPoupancaCorrente(valor) {
+        this.saldoPoupanca -= valor;
+        this.saldoCorrente += valor;
     }
 }
 
-let saveiro = new Carro("Saveiro", "preta", 20);
+let contaJoao = new contaBancaria(1000, 1000, 5);
+console.log(contaJoao);
 
-console.log(saveiro);
+contaJoao.depositoCorrente(200);
+console.log(contaJoao);
 
-saveiro.dirigir(10);
+contaJoao.depositoPoupanca(55);
+console.log(contaJoao);
 
-console.log(saveiro);
+contaJoao.saqueCorrente(555);
+console.log(contaJoao);
 
-saveiro.abastecer(20);
+contaJoao.saquePoupanca(18);
+console.log(contaJoao);
 
-console.log(saveiro);
+contaJoao.transferenciaPoupancaCorrente(200);
+console.log(contaJoao);

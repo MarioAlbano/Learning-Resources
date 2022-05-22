@@ -1,0 +1,12 @@
+**DEBUGS E TRATAMENTO DE ERROS**
+-Um programador tem de lidar com erros no JavaScript, tratar e também entender as mensagens de erro
+
+//Oque é bug e debug?
+-Bug: Problema que ocorre no código, muitas vezes por erro do programador, que impede o funcionamento correto do mesmo;
+-Debug: O ato de resolver os bugs encontrados no código ou também a forma que é feita a visualização de valores de variáveis ou fluxo do código, ou seja, não devemos encarar como algo negativo.
+
+//Strict mode
+-Deixa o javaScript mais rigoroso na hora de se programar;
+-Deve ser declarado no topo de arquivos ou funções;
+-Colocar o strict ajuda você a codificar de forma correta e não vai impedir/limitar nada no seu software ou programar;
+-Veja o exemplo de uma variável declarada sem let/const/var:

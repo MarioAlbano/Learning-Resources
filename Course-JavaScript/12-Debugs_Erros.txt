@@ -18,3 +18,7 @@
 //Método de debug: debugger
 -Funcionalidade que para o código quando atingir a linha debugger;
 -Usado mais quando der um problema e o console.log não consegue deixar tão claro ou se tiver muitos console.log, o debugger consegue deixar o código mais limpo;
+
+//Tratamento de input por função
+-Não podemos controlar os dados que o usuário enviar, então para o bom funcionamento do software, devemos tratar eles;
+-Veja um exemplo de tratamento de number;

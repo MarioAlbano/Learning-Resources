@@ -8,4 +8,6 @@ function saudacao(nome) {
 }
 
 saudacao("Rasputim");
-saudacao(12211221)
+saudacao(12211221);
+
+console.log("Teste");

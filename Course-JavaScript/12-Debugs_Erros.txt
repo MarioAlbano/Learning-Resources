@@ -22,3 +22,7 @@
 //Tratamento de input por função
 -Não podemos controlar os dados que o usuário enviar, então para o bom funcionamento do software, devemos tratar eles;
 -Veja um exemplo de tratamento de number;
+
+//Exceptions
+-Podemos criar erros no programa, caso alguma condição não seja atendida;
+-Porém as exceptions abortam o programa, só geram o erro;

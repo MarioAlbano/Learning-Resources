@@ -1,7 +1,2 @@
-try {
-    let a = 2 + c;
-} catch (error) {
-    console.log(error);
-}
+//usando o Strict mode
 
-console.log("Teste");

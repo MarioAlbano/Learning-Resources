@@ -1,7 +1,7 @@
-let idadeExercicio = 18;
+const nomeExercicio = "Mario Albano";
 
-if (idadeExercicio >= 18) {
-    console.log("Pode entrar");
+if (nomeExercicio === "Mario Albano") {
+    console.log("Olá Mario Albano!");
 } else {
-    console.log("Você não tem a idade permitida");
+    console.log("Olá usuário desconhecido");
 }

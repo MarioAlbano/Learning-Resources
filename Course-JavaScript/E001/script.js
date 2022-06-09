@@ -1,5 +1,6 @@
-function ageMessage(agePerson) {
-    console.log(`Você tem ${agePerson} anos!`);
+function mathNumber(a, b) {
+    let resultNumber = a + b;
+    console.log(resultNumber);
 }
 
-ageMessage(18);
+mathNumber(66, 6);

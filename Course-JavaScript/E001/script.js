@@ -1,7 +1,3 @@
-const nomeExercicio = "Mario Albano";
-
-if (nomeExercicio === "Mario Albano") {
-    console.log("Olá Mario Albano!");
-} else {
-    console.log("Olá usuário desconhecido");
-}
+console.log(Math.pow(2, 2));
+console.log(Math.pow(3, 2));
+console.log(Math.pow(18, 2));

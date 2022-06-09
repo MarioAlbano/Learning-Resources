@@ -1,7 +1,6 @@
-function typeofData(data) {
-    return typeof data;
+function absoluteNumber(num) {
+    console.log(Math.abs(num));
 }
 
-console.log(typeofData("Hello World"));
-console.log(typeofData(5));
-console.log(typeofData(true));
+absoluteNumber(-55);
+absoluteNumber(101010);

@@ -1,8 +1,9 @@
-function maxRandom(a, b, c) {
-    a = Math.floor(Math.random() * a) + 1;
-    b = Math.floor(Math.random() * b) + 1;
-    c = Math.floor(Math.random() * c) + 1;
-    console.log(`The max number is ${Math.max(a, b, c)}`);
+function drivingSchool(age) {
+    if (age >= 18) {
+        console.log(`Parabéns, você pode entrar na autoescola`);
+    } else {
+        console.log(`Infelizmente você não pode entrar na autoescola pois sua idade é ${age}`);
+    }
 }
 
-console.log(maxRandom(10, 15, 20));
+drivingSchool(1);

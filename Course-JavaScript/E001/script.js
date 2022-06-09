@@ -1,8 +1,8 @@
-let maxVelocity = 40;
+let agePerson = 18;
+let driverLicense = true;
 
-if (maxVelocity >= 80) {
-    console.log(`Sua velocidade é de ${maxVelocity}, portanto você recebeu uma multa`);
-}
-else {
-    console.log(`Parabéns, você está dentro da velocidade permitida`);
+if (agePerson >= 18 && driverLicense == true) {
+    console.log("Parabéns, você pode dirigir")
+} else {
+    console.log("Infelizmente você não pode dirigir");
 }

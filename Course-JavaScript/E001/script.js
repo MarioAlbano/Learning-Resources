@@ -1,5 +1,9 @@
-function powFunction(x, y) {
-    return Math.pow(x, y);
+function evenNumbers(num) {
+    for (let i = 0; i < num; i++) {
+        if (i % 2 == 0) {
+            console.log(i);
+        }
+    }
 }
 
-console.log(powFunction(2, 6));
+evenNumbers(50);

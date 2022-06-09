@@ -1,5 +1,5 @@
-function helloWorld() {
-    console.log("Hello World!");
+function ageMessage(agePerson) {
+    console.log(`Você tem ${agePerson} anos!`);
 }
 
-helloWorld();
+ageMessage(18);

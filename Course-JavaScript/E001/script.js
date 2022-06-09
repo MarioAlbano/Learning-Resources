@@ -1,14 +1,7 @@
-let a = 2;
-let b = 3;
-let c = 4;
+let numberProgram = 5;
 
-if (c > a) {
-    a = b;
-    debugger;
-}
-
-for (let i = 10; i > 0; i--) {
-    b++;
-    a = a + c + 1;
-    debugger;
+if (isNaN(numberProgram)) {
+    console.log(`Write only numbers here, please!`);
+} else {
+    console.log(`Your number is ${numberProgram}`);
 }

@@ -1,9 +1,14 @@
-function evenNumbers(num) {
-    for (let i = 0; i < num; i++) {
-        if (i % 2 == 0) {
-            console.log(i);
-        }
-    }
+let a = 2;
+let b = 3;
+let c = 4;
+
+if (c > a) {
+    a = b;
+    debugger;
 }
 
-evenNumbers(50);
+for (let i = 10; i > 0; i--) {
+    b++;
+    a = a + c + 1;
+    debugger;
+}

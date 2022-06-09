@@ -1,7 +1,5 @@
-let book = {
-    "title": "100 ways to motivete yourself",
-    "release": "1995",
-    "language": "English"
-};
+let phraseArray = "Este é um exemplo de como transformar uma frase em Array";
 
-console.log(book);
+let arrayOne = [phraseArray.split(" ")];
+
+console.log(arrayOne);

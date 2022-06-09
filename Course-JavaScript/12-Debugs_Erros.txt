@@ -23,8 +23,9 @@
 //Tratamento de input por função
 -Não podemos controlar os dados que o usuário enviar, então para o bom funcionamento do software, devemos tratar eles;
 -Veja um exemplo de tratamento de number;
--let number = Number(number)
-	if(Number.isNaN(number))
+-let number = Number(number);
+	if(Number.isNaN(number)) {
+		console.log("Por favor, somente números no programa);
 
 //Exceptions
 -Podemos criar erros no programa, caso alguma condição não seja atendida;
@@ -33,6 +34,12 @@
 //Try e catch 
 -O bloco try catch, vai tentar executar um código, caso não consiga, ele pode retornar o erro que esse código gerou;
 -Muito útil para debug;
+-Ele não aborta o programa;
+-bastante usado;
 
 //Finally
 -Finally é executada independente do resultado do try/catch;
+-Quase não é usado;
+
+//Assertion
+-Verificações no programa para garantir que tudo está ocorrenda da maneira certa;

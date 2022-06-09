@@ -1,7 +1,3 @@
-let numberProgram = 5;
+let arrayOne = [1, 2, 3, 4, 5];
 
-if (isNaN(numberProgram)) {
-    console.log(`Write only numbers here, please!`);
-} else {
-    console.log(`Your number is ${numberProgram}`);
-}
+console.log(arrayOne[1], arrayOne[3], arrayOne[4]);

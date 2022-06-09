@@ -1,13 +1,8 @@
-let arrayOne = [1, 2, 3, 4, 5, 6, 7, 8];
-let arrayTwo = ["a", "b", "c", "d"];
-
-function verifyingLength(x) {
-    if (x.length < 5) {
-        console.log("Poucos elementos");
-    } else {
-        console.log(x.length);
-    }
+let arrayOne = [0, 1, 2, 3, 4];
+let sum = 0;
+for (i = 0; i < arrayOne.length; i++) {
+    sum += (arrayOne[i]);
+    console.log(arrayOne[i]);
 }
 
-verifyingLength(arrayOne);
-verifyingLength(arrayTwo);
+console.log(sum);

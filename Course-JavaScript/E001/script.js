@@ -1,5 +1,3 @@
-let countWhile = 1;
-while (countWhile <= 15) {
-    console.log(countWhile);
-    countWhile += 1;
+for (count = 100; count >= 50; count--) {
+    console.log(count);
 }

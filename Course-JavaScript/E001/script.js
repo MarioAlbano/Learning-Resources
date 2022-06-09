@@ -1,11 +1,7 @@
-let onibus = {
-    rodas: 8,
-    limitePassageiros: 40,
-    portas: 2
-};
-console.log(onibus);
+let bunchofNames = ["Mario", "Gabriela", "Isa", "Elaine", "Rebeca"];
 
-onibus.janelas = (20);
-delete onibus.rodas;
-
-console.log(onibus);
+if (bunchofNames.includes("Mario")) {
+    console.log("Hello, Mario!");
+} else {
+    console.log("The name Mario was not founded");
+}

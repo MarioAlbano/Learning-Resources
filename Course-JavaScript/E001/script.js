@@ -4,3 +4,8 @@ let onibus = {
     portas: 2
 };
 console.log(onibus);
+
+onibus.janelas = (20);
+delete onibus.rodas;
+
+console.log(onibus);

@@ -1,8 +1,7 @@
-let arrayOne = [0, 1, 2, 3, 4];
-let sum = 0;
-for (i = 0; i < arrayOne.length; i++) {
-    sum += (arrayOne[i]);
-    console.log(arrayOne[i]);
-}
+let book = {
+    "title": "100 ways to motivete yourself",
+    "release": "1995",
+    "language": "English"
+};
 
-console.log(sum);
+console.log(book);

@@ -1,0 +1,7 @@
+//Oque é Orientação a objetos?
+-Um paradigma de programação baseado em objetos;
+-Onde os objetos ionteragem entre si;
+-E o objeto é uma instância de uma classe;
+-Auxilia no reaproveitamento de código;
+-Torna o código menos confuso em relação ao procedural;
+-Design Patterns;

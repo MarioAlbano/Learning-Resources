@@ -1,0 +1,12 @@
+				****REGEX****
+
+//Expressão regulares
+-Uma forma de encontrar padrões em uma string;
+-Por exemplo: validar se só tem números;
+-Em vez de criarmos funções complexas, podemos encontrar dados em texto por meio das expressões regulares;
+-Também chamadas de regex;
+
+//Como criar uma expressão regular
+-As expressões regulares no JS são um tipo de objeto;
+-Podemos instancia-lo de duas formas;
+-New RegExp e /.../;

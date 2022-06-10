@@ -1,5 +1,22 @@
-let phraseArray = "Este é um exemplo de como transformar uma frase em Array";
+let calculator = {
+    sum(x, y) {
+        console.log(x + y);
+    },
 
-let arrayOne = [phraseArray.split(" ")];
+    sub(x, y) {
+        console.log(x - y);
+    },
 
-console.log(arrayOne);
+    mult(x, y) {
+        console.log(x * y);
+    },
+
+    divd(x, y) {
+        console.log(x / y);
+    }
+}
+
+calculator.sum(3, 2);
+calculator.sub(55, 5);
+calculator.mult(5, 5);
+calculator.divd(10, 2);

@@ -1,25 +1,30 @@
-class shoppingCart {
-    constructor(itens, amount, total) {
-        this.itens = itens;
-        this.amount = amount;
-        this.total = total;
+class address {
+    constructor(road, district, city, state) {
+        this.road = road;
+        this.district = district;
+        this.city = city;
+        this.state = state;
+        console.log(`Sua rua é ${this.road}, o distrito é ${district}, a cidade é ${this.city} e o estado é ${this.state}`);
+        console.log("Digite para alterar: 1 - Rua; 2 - Distrito; 3 - Cidade; 4 - Estado")
     }
-    add(x, y) {
-        this.itens += x;
-        this.amount += y;
-        this.total += (x * y);
-        console.log(`Você tem ${this.itens} items, com a quantidade de ${this.amount}, totalizando em R$: ${this.total},00`)
-    }
-    remove(x, y) {
-        this.itens -= x;
-        this.amount -= y;
-        this.total -= (x * y);
-        console.log(`Você tem ${this.itens} items, com a quantidade de ${this.amount}, totalizando em R$: ${this.total},00`)
+    change(x, y) {
+        if (x == 1) {
+            this.road = y;
+        }
+        if (x == 2) {
+            this.district = y;
+        }
+        if (x == 3) {
+            this.dity = y;
+        }
+        if (x == 4) {
+            this.state = y;
+        }
+        console.log(`Sua rua é ${this.road}, o distrito é ${this.district}, a cidade é ${this.city} e o estado é ${this.state}`);
+        console.log("Digite para alterar: 1 - Rua; 2 - Distrito; 3 - Cidade; 4 - Estado")
     }
 }
 
-let cartOne = new shoppingCart(0, 0, 0);
+let addresOne = new address("Estrada Sanda Ines", "MP", "SP", "São Paulo");
 
-cartOne.add(1, 3);
-cartOne.remove(1, 3);
-cartOne.add(5, 50);
+addresOne.change(1, "Est Mun prefeito doutor sarkis tellian");

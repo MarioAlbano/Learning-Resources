@@ -1,26 +1,20 @@
-let calculator = {
-    sum(x, y) {
-        console.log(x + y);
-    },
-
-    sub(x, y) {
-        console.log(x - y);
-    },
-
-    mult(x, y) {
-        console.log(x * y);
-    },
-
-    divd(x, y) {
-        console.log(x / y);
+class bank {
+    constructor(balance) {
+        this.balance = balance
+        console.log(balance);
+    }
+    deposit(x) {
+        this.balance += x;
+        console.log(this.balance);
+    }
+    remove(x) {
+        this.balance -= x;
+        console.log(this.balance);
     }
 }
 
-calculator.sum(3, 2);
-calculator.sub(55, 5);
-calculator.mult(5, 5);
-calculator.divd(10, 2);
+let accountOne = new bank(400);
 
-let calculatorTwo = Object.create(calculator);
-
-calculatorTwo.sum(10, 10);
+accountOne.balance;
+accountOne.deposit(100);
+accountOne.remove(300);

@@ -49,3 +49,6 @@ console.log(/teste/.test("teste")); //retornaria true
 -O método exec nops retorna um objeto com algumas informações sobre a regex;
 -Se nada for encontrado, retorna null;
 
+//Método match
+-O método match funciona de forma similar ao exec;
+

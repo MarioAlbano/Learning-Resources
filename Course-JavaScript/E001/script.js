@@ -1,4 +1,3 @@
-const digits = /\d+/;
+const digits = "O número 100 está aqui!".match(/\d+/);
 
-console.log(digits.exec("Tem o 100 aqui!"));
-console.log(digits.exec("Tem o número aqui!"));
+console.log(digits);

@@ -41,3 +41,6 @@ console.log(/teste/.test("teste")); //retornaria true
 
 //Operador ?
 -Faz com que o dígito anterior seja opcional;
+
+//Ocorrência precisa
+-Inserir o número de ocorrência entre {};

@@ -1,4 +1,6 @@
-let fruits = /\d+ (banana|maça|pera|melancia|laranja|uva|pessego)/;
+let validateSite = /www.\w+.(com|com.br)/;
 
-console.log(fruits.test("011000001110101011001100 laranjas"));
-console.log(fruits.test("5555 naranjas"));
+console.log(validateSite.test("www.google.com.br"));
+console.log(validateSite.test("www.google.org"));
+console.log(validateSite.test("www.teste.com"));
+console.log(validateSite.test("www.w.com"));

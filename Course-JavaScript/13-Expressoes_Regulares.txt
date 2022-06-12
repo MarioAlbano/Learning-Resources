@@ -55,3 +55,5 @@ console.log(/teste/.test("teste")); //retornaria true
 //Choice pattern
 -Podemos colocar uma instrução na regex que funciona como um ||(or) das condicionais;
 
+//Validando um domínio
+-Desse modo podemos validar um domínio:

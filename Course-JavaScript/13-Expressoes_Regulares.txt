@@ -16,3 +16,25 @@ let regenxTwo = /guerra/;
 console.log(regenxTwo.test("Hoje na segunda")); //Vai dizer que é falso
 ou
 console.log(/teste/.test("teste")); //retornaria true
+
+//Conjunto de caracteres
+-Podemos definir um conjhunto de caracteres para encontrar por regex;
+-basta por entre [];
+-com um traço podemos definir um intervalo também;
+
+//Caracteres especiais
+\d - 0 a 9;
+\w - a-z, A-Z, 0-9, incluindo _ 
+\s - Espaço em branco
+\D - Não digitos
+\W - Não letras
+\S - Não espaço em branco
+.  - Qualquer caractere, menos nova linha
+
+//Operador not ^
+-Podemos escrever um set que aceitam tudo,menos alguns caracteres com o not;
+-Lembrando que combinações serão aceitas, o negadoé apenas se bate com o set;
+-Mais adiante aprenderemos negar de outras formas;
+
+//Operador plus +
+-Quando um + está após alguma expressão, este elemento pode se repetir mais de uma vez;

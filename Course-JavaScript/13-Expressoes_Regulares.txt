@@ -52,3 +52,6 @@ console.log(/teste/.test("teste")); //retornaria true
 //Método match
 -O método match funciona de forma similar ao exec;
 
+//Choice pattern
+-Podemos colocar uma instrução na regex que funciona como um ||(or) das condicionais;
+

@@ -10,3 +10,9 @@
 -As expressões regulares no JS são um tipo de objeto;
 -Podemos instancia-lo de duas formas;
 -New RegExp e /.../;
+
+//Testando o Regex
+let regenxTwo = /guerra/;
+console.log(regenxTwo.test("Hoje na segunda")); //Vai dizer que é falso
+ou
+console.log(/teste/.test("teste")); //retornaria true

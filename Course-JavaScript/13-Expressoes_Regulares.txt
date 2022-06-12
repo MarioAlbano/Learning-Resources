@@ -44,3 +44,8 @@ console.log(/teste/.test("teste")); //retornaria true
 
 //Ocorrência precisa
 -Inserir o número de ocorrência entre {};
+
+//Método exec
+-O método exec nops retorna um objeto com algumas informações sobre a regex;
+-Se nada for encontrado, retorna null;
+

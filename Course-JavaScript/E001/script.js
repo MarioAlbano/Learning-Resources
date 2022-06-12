@@ -1,3 +1,4 @@
-let phoneNumber = /\(\d{2}\)\d{4,5}-\d{4}/;
+const digits = /\d+/;
 
-console.log(phoneNumber.test("(11)9633-9321"));
+console.log(digits.exec("Tem o 100 aqui!"));
+console.log(digits.exec("Tem o número aqui!"));

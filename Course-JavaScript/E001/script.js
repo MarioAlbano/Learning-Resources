@@ -1,3 +1,5 @@
-console.log(/^B/.test("lanca"));
+let pattern = /deix?ar/;
 
-console.log(/\d+/.test("123412144129"));
+console.log(pattern.test("deiar"));
+console.log(pattern.test("deixar"));
+console.log(pattern.test("deitar"));

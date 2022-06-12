@@ -38,3 +38,6 @@ console.log(/teste/.test("teste")); //retornaria true
 
 //Operador plus +
 -Quando um + está após alguma expressão, este elemento pode se repetir mais de uma vez;
+
+//Operador ?
+-Faz com que o dígito anterior seja opcional;

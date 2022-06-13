@@ -1,8 +1,5 @@
-let onlyCaps = /^[^a-z]*$/;
+let idTest = /\d+ID\b/;
 
-
-console.log(onlyCaps.test("TESTE"));
-console.log(onlyCaps.test("teste"));
-console.log(onlyCaps.test("123"));
-console.log(onlyCaps.test("Testando"));
-console.log(onlyCaps.test("TEEESSSTTTEEEEE"));
+console.log(idTest.test("1101092ID"));
+console.log(idTest.test("1101092id"));
+console.log(idTest.test("asdjkasjdasjID"));

@@ -1,5 +1,5 @@
-let idTest = /\d+ID\b/;
+let brandTest = /[Marca:] [|Nike|Adidas|Puma|Asics]/;
 
-console.log(idTest.test("1101092ID"));
-console.log(idTest.test("1101092id"));
-console.log(idTest.test("asdjkasjdasjID"));
+console.log(brandTest.test("Marca: Nike"));
+console.log(brandTest.test("Marca: Mcdonalds"));
+console.log(brandTest.test("Marca: Puma"));

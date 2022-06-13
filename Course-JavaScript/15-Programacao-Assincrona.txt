@@ -1,0 +1,10 @@
+//Oque é programação assincrona?
+-Até agora programamos de uma maneira que uma ação acontecia após a outra;
+-A programação assíncrona trabalha nesta questão, ações podem ser executadas ao tempo todo sem uma "fila";
+-Um exemplo:Usuário está no checkout, manda salvar seu endereço na conta, mas pode prosseguir para a finalização sem recarregar a página, pois adicionar endereço ocorre de forma assíncrona;
+-Também chamado de ajax
+
+//Callbacks
+-Uma das vertentes a programação assíncrona é fazer ações que aconteçam depois de um tempo por meio de callbacks;
+-Callback é uma função que faz uma ação após algum acontecimento no código;
+-Podemos realizar um callback com a função setTimeout, veja:

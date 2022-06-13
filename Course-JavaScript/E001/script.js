@@ -1,6 +1,5 @@
-let ipTest = /\d{1-3}\.\d{1-3}\.\d{1-3}\.\d{1-3}/
+let upperTest = /^\D*$/;
 
-console.log(ipTest.test("127777777777777.0.0.1"));
-console.log(ipTest.test("127.0.000.1"));
-console.log(ipTest.test("127.00.0.1"));
-console.log(ipTest.test("127.0.0.11"));
+console.log(upperTest.test("TESTANDO"));
+console.log(upperTest.test("123"));
+console.log(upperTest.test("Matuiti"));

@@ -1,9 +1,9 @@
-console.log("1");
+let promiseOne = Promise.resolve(5);
 
-setTimeout(function () {
-    console.log("Você esperou 5 segundos para isto");
-}, 5000);
+console.log("Outros códigos");
 
-console.log("2");
-console.log("3");
-console.log("4");
+console.log(promiseOne);
+
+promiseOne.then((valor) => { console.log(`O valor é ${valor}`) });
+
+promiseOne.then((valor) => { console.log(`O valor com vezes 5 é ${valor * 5}`) });

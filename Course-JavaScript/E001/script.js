@@ -1,9 +1,6 @@
-let promiseOne = Promise.resolve(5);
+let p = Promise.resolve(new Error("Não deu certo"));
 
-console.log("Outros códigos");
+console.log("Somente um teste");
 
-console.log(promiseOne);
-
-promiseOne.then((valor) => { console.log(`O valor é ${valor}`) });
-
-promiseOne.then((valor) => { console.log(`O valor com vezes 5 é ${valor * 5}`) });
+p.then(value => console.log(value))
+    .catch(reason => console.log("Fahou " + reason));

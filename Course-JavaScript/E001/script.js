@@ -1,6 +1,13 @@
-let p = Promise.resolve(new Error("Não deu certo"));
+//Criando promessa
+const myPromise = new Promise((resolve, reject) => {
+    const name = "Mario";
+    if (name == "Mario") {
+        resolve("Está correto!");
+    } else {
+        reject("O úsuario Mario não foi encontrado!!");
+    }
+})
 
-console.log("Somente um teste");
-
-p.then(value => console.log(value))
-    .catch(reason => console.log("Fahou " + reason));
+myPromise.then((data) => {
+    console.log(data);
+})

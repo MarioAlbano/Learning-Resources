@@ -1,0 +1,16 @@
+//Após instalar
+- Utilizar "git version--" para verificar se não occoreu nenhum erro
+
+//Oque é controle de versão?
+-Uma técnica que ajuda a gerenciar o código-fonte de uma aplicação;
+-Registrando todas as modificações de código, podendo também reverter as mesmas;
+-Criar versões de um software em diferentes estágios, podendo alterar facilmente entre elas;
+-Cada membro da equipe pode trabalhar em uma versão diferente;
+-Há ferramentas para trabalhar o controle de versão como o git e SVN
+
+//O que é git?
+-O sistema de controle de versão mais utilizado do mundo atualmente;
+-O git é baseado em repositórios, que contêm todas as versões do códgio e também as cópias de cada desenvolvedor;
+-Todas as operações do git são otimizadas para ter alto desempenho;
+-Todos os objetos do git são protegidos como criptografia para evitar alterações indevidas e maliciosas;
+-O git é um projeto de código aberto;

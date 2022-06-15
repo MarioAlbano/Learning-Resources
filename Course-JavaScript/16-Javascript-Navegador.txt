@@ -4,3 +4,47 @@
 -Entramos em sites graças ao protocolo HTTP;
 -SMTP = protocolos para enviar e-mail.
 -TCP = protocolo de transferência;
+
+//URL
+-Cada arquivo que carrega no navegador é nomeado por uma URL;
+-A URL (uniform resource locator) pode ser dividida em três partes: protocolo, servidor e arquivo;
+- http = protocolo; index.html=arquivo;
+
+//HTML
+-HTML (HyperTExt Markup Language) é uma linguagem de marcação;
+-Responsável pelos textos e elementos que vemos na tela ao acessar uma página web;
+-As tags do HTML criam: títulos, parágrafos, imagens, listas e etc.
+-uma tag é definida por <p></p>;
+-Obs: Algumas tags não possuem fechamento;
+
+//HTML parte 2
+-Todo documento HTML tem sempre duas partes importantes: head e body
+-O head serve para configurações do documento, como links de folha de estilo ou até de scripts de javaScript;
+-Tags de configuração:meta, link;
+-O body para os elementos(tags), ou seja, a parte visual;
+-Tags do body: p,h1,div,ul,li;
+
+//HTML e o JS
+-Podemos utilizar JavaScript no HTML por meio da tag script;
+-Ou linkar um arquivo .js por meio de script com o atributo src (forma mais utilizada);
+-Algumas tags HTML aceitam atributos que executam JS, mas não é muito utilizado;
+-Lembrando que sempre que linkamos um arquivo externo, estamos chamando ele via protocolo HTTP;
+
+//a estrutura HTML e o DOM
+-Quando uma página web é requisitada, ela recebe um texto que é transformado em uma estrutura HTML;
+-As tags vão se aninhando uma ás outras, formando uma estrutura em que elementos ficam dentro dos outros;
+-Essa estrutura tem uma representação exatamente igual para o JS chamada de DOM;
+Que significa Document OBject Model;
+-E por meio do JS podemos acessar cada um destes elementos do HTML através do DOM;
+
+//O DOM
+-Podemos mudar completamente uma página HTML através do DOM;
+-É possível alterar: elementos, atributos, CSS;
+-Além de alterar podemos adicionar e também remover;
+-Além de ser possível criar eventos na página, como animações;
+
+//a árvore do DOM 
+-O documento HTML seria a árvore completa;
+-A raiz da árvore éo Document (só a uma raiz);
+-Cada elemento da árvore chamamos de node(nó);
+-Conteúdos como texto são chamados de leaf nodes(as folhas);

@@ -1,0 +1,12 @@
+//Oque é um repositório
+-É onde o código será armazenado;
+-Na maioria das vezes cada projeto tem um repositório;
+-Quando criamos um repositório estamos iniciando um projeto;
+-O repositório pode ir para servidores que são especializados em gerenciar repo como GitHub e Bitbuket;
+-Cada um dos desenvolvedores do time pode baixar o repositório e criar versões diferentes em sua máquina;
+
+//Criando repositórios
+-Para criar um repositório utilizamos o comando: git init
+-Desta maneira o git vai criar os arquivos necessários para inializá-lo;
+-Que estão na pasta oculta .git;
+-Após este comando o diretório atual será reconhecido pelo git como um projeto e responderá aos seus demais comandos;

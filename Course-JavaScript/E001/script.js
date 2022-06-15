@@ -1,13 +1,7 @@
-//Criando promessa
-const myPromise = new Promise((resolve, reject) => {
-    const name = "Mario";
-    if (name == "Mario") {
-        resolve("Está correto!");
-    } else {
-        reject("O úsuario Mario não foi encontrado!!");
-    }
-})
+async function somar(a, b) {
+    return a + b > 4;
+}
 
-myPromise.then((data) => {
-    console.log(data);
-})
+console.log(somar(20, 1));
+
+// somar(2, "olá").then(value => console.log(value));

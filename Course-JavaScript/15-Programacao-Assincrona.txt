@@ -24,6 +24,21 @@
 -Que é quando determinada lógica não satisfaz nosso programa, então podemos ir para outra com o reject, em vez do resolve;
 -Resolve e reject terminam a promise, ou seja, não podemos chamar mais o then, por exemplo;
 
-//Resolvendo várias prmises
+//Resolvendo várias promises
 -Com o método all, podemos resolver várias promessas de uma vez só;
 -Ou seja passamos elas por array e quando a última for resolvida, receberemos a resposta;
+
+//Async functions
+-Podemos criar funções assíncronas com a palavra reservada async;
+-Elas retornam uma Promise;
+-Se retornar algo, a promessa é resolvida, se der alguma exception a promessa é rejeitada;
+
+//Await
+-Nas async functions, podemos determinar uma instrução await;
+-Que vai esperar uma promise ser resolvida, para apresentar os resultados;
+
+//Generators
+-Generators funcionam semelhnates as Promises;
+-Onde ações podem ser pausadas e continuadas depois;
+-Caracterizados pelo function* e yield, veja:
+-O yield pode salvar o estado da variável;

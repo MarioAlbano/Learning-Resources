@@ -10,3 +10,118 @@
 -Desta maneira o git vai criar os arquivos necessários para inializá-lo;
 -Que estão na pasta oculta .git;
 -Após este comando o diretório atual será reconhecido pelo git como um projeto e responderá aos seus demais comandos;
+-git status: verifica como esta a situação do seu repositório
+
+//O que é o GitHub?
+-É um serviço para gerenciar repositórios, gratuito e amplamente atulizado;
+-Podemos enviar nossos projetos para o GitHub e disponibilizá-los para outros devs;
+-O Github é gratuito tanto para projetos públicos como privados;
+
+//Enviando repositórios para o GitHub
+-Podemos facilmente enviar nossos repos para o github;
+-Precisamos criar o projeto no GitHub, inicializar o mesmo no git em nossa máquina, sincronizar com o GH e enviar;
+-E esta sequência que parece ser complexa é facilmente executada por poucos comandos;
+-Vale lembrar que só fazemos uma vez por projeto este fluxo;
+-Porém alguns dos comandos utilizados vão ser úteis ao longo do curso;
+
+//Como enviar
+No github:
+-Clicar em "new" para inicializar um repositório;
+-Colocar um nome e adicionar uma descrição;
+-Clicar em "Criar repositório";
+No terminal:
+-Criar a pasta onde vamos deixar o repo e dar git init;
+-escrever "git add nome_do_arquivo";
+-dar o primeiro commit usando "git commit -m "meu primeiro commit";
+-escrever "git status" para verificar se recebeu a mensagem de working tree clean;
+Após o primeiro commit:
+-Criar a branch main: "git branch -M main";
+-Olhar a menssagem no github para poder adicionar o repo remotamente. No caso: "git remote add origin https://github.com/MarioAlbano/test_git_1.git";
+Última etapa: enviar
+-adicionar "git push -u origin main" para adicionar um repositório localmente;
+
+//Caso tenha problema quando adicionar o repositório local
+-No github, trocar de SSH para HTTPS, recebendo assim um novo link;
+-"git remote -v" para verificar onde está remotamente localizado;
+-"git remote rm origin" remove onde estava remotamente localizado;
+
+//Verificando mudanças do projeto
+-As mudanças do projeto podem ser verificadas por: git status;
+-Este comando é utilizado muito frequentemente;
+-Aqui serão mapeadas todas as alterações do projeto;
+-Como: arquivos não monitorados e arquivos modificados;
+-Podemos também dizer que é a diferença do que já esta enviado ao servidor ou salvo no projeto;
+
+//Adicionando arquivos ao projeto
+-Para adicionar arquivos novos a um projeto utilizamos: "git add";
+-Podemos adicionar um arquivo específico como também diversos de uma vez só;
+-Somente adicionando arquivos eles serão monitorados pelo git;
+-Ou seja, se não adicionar ele não estará no controle de versão;
+-É interessante utilizar este comando de tempos em tempos para não perder algo por descuito;
+-Para adicionar todos os novos arquivos de uma só vez basta usar "git add .";
+
+//Salvando alterações
+-As alterações salvas do projeto são realizadas por:git commit;
+-Podemos commitar arquivos específicos ou vários de uma vez com a falg -a;
+-É uma boa prática enviar uma mensagem a cada commit, com as alterações que foram feitas;
+-A mensagem pode ser adicionada com a flag -m;
+-Exemplo: "git commit -a -m "sending a new feature"";
+
+//Enviando código ao repo remoto
+-Quando finalizamos uma funcionalidade nova, enviamos o código ao repositório remoto, que é código-fonte;
+-Esta ação é feita pelo git push;
+-Após esta ação o código do servidor será atualizado baseando-se no código local enviado;
+-: Digitar "git push";
+
+//Recebendo as mudanças
+-É comum também ter que sincronizar o local com as mudanças do remoto;
+-Esta ação é feita pelo git pull
+-Após o comando serão buscadas atualizações, se encontradas elas serão unidas ao código atual existente na nossa máquina;
+-"git pull" para verificar se não ouve altrações do remoto que precisamos baixar em nossa máquina;
+
+//Clonando repositórios
+-Basicamente usado quando um repositório já existe, e depois disso você quer baixar todos os arquivos dele para trabalha-lo em seu computador;
+-O ato de baixar um repositório de um servidor remoto é chamado de clonar repositório;
+-Para esta ação utilizamos git clone;
+-Passando a referência do repositório remoto;
+-Este comando é utilizado quando entramos em um novo projeto, por exemplo;
+-Para fazer: Entrar no github e copior o código HTTPS. Depois digitar "git clone https://github.com/MarioAlbano/test_git_1.git ."
+
+//Removendo arquivos do repo
+-Os arquivos podem ser deletados da monitoração do git;
+-o comando para deletar é git rm;
+-Após deletar um arquivo do git ele não terá mais suas atualizações consideradas pelo git;
+-Apenas quando for adicionando novamente pelo git add
+
+//Histórico de alterações
+-Podemos acessar um log de modificações feitas no projeto;
+-O comando para este recurso é git log;
+-Você receberá uma informação dos commits realidos no projeto até então;
+-Para sair de um log, aperte "q";
+
+//Renomeando arquivos
+-Com o comando git mv podemos renomear um arquivo;
+-O mesmo também pode ser movido para outra pasta;
+-E isso fará com que este novo arquivo seja monitorado pelo git;
+-O arquivo anterior é excluído;
+-Escrever "css/rodape.css";
+
+//Desfazendo alterações
+-O arquivo modificado pode ser retornado ao estado original;
+-O comando utilizado é o git checkout;
+-Após a utilização do mesmo o arquivo sai do staging;
+-Caso seja feita uma próxima alteração, ele entra em stagin novamente;
+-Escreva: "git checkout nome_do_arquivo" e ele revertará a mudança;
+
+//Ignorando arquivos no projeto
+-Uma técnica muito utilizada é ignorar arquivos do projeto;
+-Devemos inserir um arquivo chamado .gitignore na raiz do projeto;
+-Nele podemos inserir todos os arquivos que não devem entrar no versionamento;
+-Isso é útil para arquivos gerados automaticamente ou arquivos que contêm informações sensíveis;
+-basta criar um arquivo ".gitignore" no vscode dentro da raiz, depois somente adicionar o nome do arquivo ou pasta;
+
+//Desfazendo todas as alterações
+-Com o comando git reset podemos resetar as mudanças feitas
+-Geralmente é utilizado com a flag --hard
+-Todas as alterações commitadas e também as pendentes 	serão excluídas;
+-Basicamente quando dermos commit porem não jogamos para o remoto, podemos usar o "git reset --hard origin/main" para voltar ao estágio inicial;

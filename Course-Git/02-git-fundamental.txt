@@ -86,6 +86,7 @@ Após o primeiro commit:
 -Passando a referência do repositório remoto;
 -Este comando é utilizado quando entramos em um novo projeto, por exemplo;
 -Para fazer: Entrar no github e copior o código HTTPS. Depois digitar "git clone https://github.com/MarioAlbano/test_git_1.git ."
+-Não esquecer do ponto no final, senão ele cria uma nova pasta;
 
 //Removendo arquivos do repo
 -Os arquivos podem ser deletados da monitoração do git;

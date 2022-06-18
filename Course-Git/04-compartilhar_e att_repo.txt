@@ -10,3 +10,24 @@
 -O comando git pull serve para recebermos atualizações do repositório remoto;
 -Cada branch pode ser atualizado com o git pull;
 -Utilizamos para atualizar a master do repo como també quando trabalhamos em conjunto e queremos receber as atualizações de um dev;
+
+//Enviando alterações
+-O comando git push faz o inverdo do pull, ele envia as alterações para o repo remoto;
+-Serve também para enviar as atualizações de um branch específico para um outro dev;
+-Ou quando terminamos uma tarefa e precisamos enviar ao repo;
+
+//Utilizando o remote
+-Com o git remote podemos fazer algumas ações como: adicionar um repo para trackear ou remover;
+-Quando criamos um repo remoto, adicionamos ele ao git com "git remote add origin <>";
+
+//Trabalhando com submódulos
+-Submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositório;
+-Podemos adicionar uma dependêdncia ao nosso projeto atual, porém mantendo suas estrutuas separadas;
+-Para adicionar o submódulo utilizamos o comando " git submodule add <repo>";
+-Para verificar os submódulos o comando é git submodule;
+
+//Atualizando submódulo
+-Para atualizar um submódulo primeiro devemos commitar as mudanças;
+-E para enviar para o repo do submódulo utilizamos "git push --recurse-submodules=on-demand"
+-Este fluxo fará a atualização apenas do submódulo;
+ 

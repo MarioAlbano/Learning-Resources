@@ -1,1 +1,12 @@
 ****** COMPARTILHAMENTO E ATUALIZAÇÃO DE REPO ******
+
+//Encontrando branches
+-Branches novos s]ao criados a todo tempo e o seu git pode não estar mapeando eles;
+-Com o comando git fetch você é atualizado de todos os branchs e tags que ainda não estão reconhecidos por você;
+-Este comando é útil para utilizar o branch de algum outro dev do time, por exemplo;
+-Digitar após outra branch ser adicionado no remoto "git fetch -a", depois usar "git checkout nome_da_branch" para trocar de branch;
+
+//Recebendo alterações 
+-O comando git pull serve para recebermos atualizações do repositório remoto;
+-Cada branch pode ser atualizado com o git pull;
+-Utilizamos para atualizar a master do repo como també quando trabalhamos em conjunto e queremos receber as atualizações de um dev;

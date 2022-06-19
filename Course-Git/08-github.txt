@@ -1,0 +1,69 @@
+***********Explorando-Github************
+
+//Criando repositório
+-No Github inicializamos os repositórios, e temos algumas informações importantes para preencher, vamos vê-las em detalhes;
+-Algumas delas são: Nome do repo, descrição, licença;
+-Tudo poderá ser alterado ao longo do seu projeto, mas é interessante conhecer os detalhes das informações para configurar um projeto;
+
+//A aba Code
+-Na aba Code teremos acesso a informações importantes, como o próprio código fonte;
+-Podemos checar também uma documentação do projeto pelo README.md;
+-E os detalhes da licença do projeto;
+-Criar branches, adicionar arquivos e muito mais;
+
+
+//A aba issue
+-Na aba issue podemos criar tarefas ou possíveis bugs do projeto;
+-Interessante para a organização se manter ciente do que ainda precisa fazer ou corrigir;
+-Normalmente há um padrão para criação de novos issues;
+-Podemos utilizar o Markdown no texto também (igual o README.md);
+-A issue deve ter uma label e também um responsável;
+
+
+//A aba Pull Request
+-Na aba Pull Request é onde os colaboradores do projeto enviam código para resolver as issues ou adicionar novas funcionalidades ao projeto;
+-A ideia é que o código não seja inserido direto na master e sim passe por um pull request, para ser analisado;
+-O pull request vem de um novo branch criado no projeto e enviado para o repo, com o incrmento de código;
+
+
+//A aba Actions 
+-Na aba Actions é onde se cria as automatizações de deploy com integração em outros serviços;
+-Incluindo CI/CD (Continuous integration / Continuous Development);
+-Ou seja, podemos criar uma rotina de atualizar a master automaticamente e outros processos;
+
+
+//A aba projects
+-Na aba Projects podemos criar um projeto e utilizar um quadro de tarefas;
+-Este processo é conhecido como Kanban e pode ajudar a organizar seu time, criando notas que podem virar issues;
+-Estrutura interessante: Backlog, Retorno de qualidade, Desenvolvimento, teste, finalizadas;
+-A tela lembra muito o software Trello;
+
+//A aba Wiki
+-Na aba Wiki podemos criar uma documentação mais extensa para o projeto;
+-Como descrever funcionalidades, bugs conhecidos e não solucionados, entre outras funções;
+-A ideia é que seja um repositório de conhecimento sobre o projeto;
+
+//A aba insights
+-Na aba insights temos informações detalhadas do projeto, como:
+-Quem são os contribuidores, commits, forks e muito mais;
+-Interessante para entender como o projeto está andando e a sua evoluação desde o início;
+
+//A aba settings
+-Na aba Settings temos acesso a diversas configurações de projeto:
+-É onde podemos alterar o nome do repo ou remover/adicionar features;
+-E também é nela que adicionamos colaboradores ao projeto;
+-O repositório pode ser removido nesta aba;
+
+//Criando um Gist
+-Gist são pequenos blocos de código que podem ser hospedados no Github também;
+-Você pode armazenar uma solução que achou interessante para algum problema e não quer perder, por exemplo;
+-E o link do Gist pode ser compartilhado;
+-No fim das contas o Gist acaba sendo um repositório também;
+
+//Encontrando repositórios
+-O Github não serve só para salvar os nossos projetos, podemos encontrar muitos repos interessantes;
+-Podemos até aprender com isso também, olhando o código fonte de desenvolvedores experientes;
+-Você pode dar star nos projetos que gostou ou fork nos que deseja continuar em um repo próprio;
+
+
+

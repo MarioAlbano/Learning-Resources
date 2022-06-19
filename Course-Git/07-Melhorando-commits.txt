@@ -1,0 +1,44 @@
+*******Melhorando-commits******
+
+//A importância dos commits
+-O problema: commits sem sentido atrapalham o projeto;
+-Precisamos padronizar os commits, para que o projeto cresça de forma saudável também no versionamento, isso ajuda em:
+-Review do pull request;
+-Melhoria dos log em git log;
+-Manutenção do projeto (voltar código, por exemplo);
+
+//Técnica de private branch
+-Há uma solução chamada private branches;
+-Onde criamos branches que não serão compartilhados no repositório, então podemos colocar qualquer commit;
+-Ao fim da solução do problema podemos fazer um rebase;
+-O comando será: "git rebase <atual> <funcionalidade> -i";
+-Escolhemos os branches para excluir (squash) e renomear com (reword);
+
+//Técnica private branch na prática
+-Técnica de Private Branch:
+-Criar branch que não será compartilhada no repositório; (+ liberdade nos commits)
+-A técnica:
+-Criar/Clonar a branch master;
+-Criar uma branch para a tarefa;
+-Criar uma branch privada para ter mais liberdade nos commits;
+-Fazer toda a tarefa na branch privada e ao final fazer um rebase;
+-Usar o comando git rebase <na branch da tarefa> <na branch privada> -i
+-digitar "i" para poder editar;
+-Usar o squash para deletar os commits que serão levados;
+-Usar o reword;
+-Apertar ESC e depois usar o X! para salvar o arquivo no rebase e dar enter;
+-Enviar tudo para a branch da tarefa;
+-Fazer a limpeza;
+-Depois jogar na master;
+
+
+//Boas mensagens de commit
+-Separar assunto do corpo da mensagem;
+-Assunto com no máximo 50 caracteres;
+-Assunto com letra inicial maiúscula;
+-Corpo com no máximo 72 caracteres;
+-Explicar o por que e como do commit, e não como o código foi escrito;
+-Exemplo:
+"Adicionada funcionalidade e um .zip do projeto
+
+adicionado uma nova funcionalidade no b.txt, adicionado um arquivo .zip contendo todos os arquivos do projeto"

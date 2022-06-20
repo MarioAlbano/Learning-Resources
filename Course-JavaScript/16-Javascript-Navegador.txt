@@ -48,3 +48,17 @@ Que significa Document OBject Model;
 -A raiz da árvore éo Document (só a uma raiz);
 -Cada elemento da árvore chamamos de node(nó);
 -Conteúdos como texto são chamados de leaf nodes(as folhas);
+
+//Movendo-se através do DOM
+-Podemos acessar todos os elementos a partir de document.body;
+-A partir dele vamos entrando nos childNodes;
+-E depois acessando as prorpiedades que nos interessam;
+
+//Encontrando elementos
+-Podemos encontrar elementos de uma forma mais fácil do que se movendo pelo DOM;
+-Como no HTML temos tags, classes e ids, o javaScript nos possibilita utilizar estas características para encontrar o que desejamos;
+-Há alguns métodos para isto: getElementsByTagName, GetElementsById, getElementsByClassName, e também o querySelector;
+
+//Encontrando elementos: por tag
+-Utilizamos o seguinte método para encontrar elementos pela tag:
+-"document.getElementByTagName('h1')";

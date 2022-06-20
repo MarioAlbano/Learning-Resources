@@ -1,0 +1,44 @@
+***** MARKDOWN *****
+
+//Oque é Markdown?
+-O Markdown é uma forma de adicionar estilo a textos na web;
+-O arquivo README.md aceita Markdown;
+-Você vai conseguir exibir: trechos de código, links, imagens e muito mais;
+-Dando uma melhor experiência para o usuário nas suas documentações;
+
+//Criando títulos
+-Os cabeçalhos em markdown são determinados pelo símbolo #
+-São os famosos headings do HTML
+-# == h1, ## == h2, h3 == ### e assim por diante;
+
+//Ênfase 
+-Temos símbolos que podem dar ênfase ao texto;
+-Para escrever em negrito: "**texto**" ou "_texto_";
+-Para escrever em itálico: "*texto*" ou "_texto_";
+-Combinando os dois: "_um **texto** combinado_";
+
+//Listas 
+-Temos as listas ordenadas em não ordenadas em markdown;
+-As listas não ordenadas começam os itens com: "* item";
+-As listas ordenadas com: "1. item";
+
+//Imagens
+-É possível inserir imagens em markdown também;
+-Veja a sintaxe: ![Texto Alt](link imagem);
+-A imagem pode estar no próprio repo ou ser externa;
+
+//Links
+-Com o markldown podemos inserir links de forma fácil;
+-A sintaxe é a seguinte: [Texto do link](link);
+-Se for um link do github pode inserir diretamente;
+
+//Inserindo código fonte
+-Podemos inserir código no Markdown também;
+-A sintaxe é: ```nome_da_linguagem código ```;
+-Funciona somente no github;
+
+//Lista de tarefas do projeto;
+-Podemos inserir uma lista de tarefas;
+-A sintaxe para tarefas concluídas: - [x] texto_tarefa;
+-Para não concluídas: -[] texto_tarefa;
+-Esta sintaxe é do markdown especial do GitHub;

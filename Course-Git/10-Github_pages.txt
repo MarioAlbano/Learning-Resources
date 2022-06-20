@@ -1,0 +1,12 @@
+***Github pages***
+
+//Oque é?
+-Cria páginas estáticas no servidores do github
+-Gratuita
+-Simples, não precisa de domínio ou servidor;
+-Muitas empresas utilizar para apresentar o seu projeto ou a própria documentação;
+
+//Dicas
+-Usar o google.fonts para fontes, roboto é uma boa opção;
+-Usar ionicons para itens. Colar o script antes do body;
+-usar o DEVICON para ícones de tecnologias;

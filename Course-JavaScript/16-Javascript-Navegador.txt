@@ -62,3 +62,28 @@ Que significa Document OBject Model;
 //Encontrando elementos: por tag
 -Utilizamos o seguinte método para encontrar elementos pela tag:
 -"document.getElementByTagName('h1')";
+
+//Encontrando elementos: por id
+-Utilizamos o seguinte método para encontrar elementos por id:
+-"document.getElementByid("algum-id")";
+
+//Encontrando elementos: por query
+-Um método que se assemelha a grande funcionalidade do jQuery;
+-Nos permitindo encontrar elementos pelo seus seletores de CSS;
+-O que facilita muito nossa vida;
+
+//Alterando o HTML
+-Podemos mudar quase tudo através da DOM;
+-Adicionar, remover e clonar elementos;
+-Podemos utilizar métodos como: insertBefore, appendChil e replaceChild;
+-Vamos ver em detalhes como utilizar cada um destes;
+
+//Alterando a DOM com insertBefore
+-Insere um nó antes do nó de referência do método;
+-Precisamos de um elementos para ser adicionado;
+-O elemento que terá o outro elemento adicionado antes dele;
+-E o elemento pai destes dois;
+
+//Alterando a DOM com appendChild
+-Adiciona um nó após todos os elementos do elemento pai;
+-

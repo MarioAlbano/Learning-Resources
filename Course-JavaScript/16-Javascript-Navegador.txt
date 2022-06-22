@@ -93,3 +93,8 @@ Que significa Document OBject Model;
 -Por exemplo o href de um a ou o src de um elemento img;
 -getAttribute pega o valor;
 -setAttribute atualiza o valor;
+
+//Posição do elemento na tela
+-Também é possível checar a posição do elemento na tela;
+-GetBoundingCliendREct nos da as posições de top, left, right, bottom do elemento e outras informações;
+

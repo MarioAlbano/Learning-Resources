@@ -1,0 +1,6 @@
+//O que é SQL?
+-A SQL é uma linguagem de banco de dados;
+-É um acrônimo de Structured Query Language (linguagem estruturada de consulta);
+-É a linguagem para os bancos de dados relacionais (MySQL, PostgreSQL, SQL Server);
+-Trabalhamos com ela criando Queries (INSERT, UPDATE, SELECT);
+-Com esta linguagem podemos criar e manipulas DBs;

@@ -1,5 +1,3 @@
 let btn = document.querySelector("button");
 
-btn.addEventListener("click", () => {
-  console.log("Clicou em mim!");
-});
+btn.addEventListener("click", () => { console.log("Cliclou em mim!") });

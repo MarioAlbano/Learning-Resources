@@ -1,0 +1,12 @@
+************* Eventos em Javascript **************
+
+//O que são eventos?
+-Ações condicionadas a algum tipo de resposta feita pelo usuário;
+-Por exemplo: clicks, apertar alguma tecla ou até movimento do mouse;
+-Podemos atrelar lógica a essas ações do usuário;
+-Por meio de handlers;
+
+//Como acionar um evendo
+-Devemos atrelar o evento a um elemento, por exemplo um botão;
+-Depois inserir um listener e o tipo de evento como argumento;
+-Ai o elemento responderá por este evento e, obviamente, os outos da página não;

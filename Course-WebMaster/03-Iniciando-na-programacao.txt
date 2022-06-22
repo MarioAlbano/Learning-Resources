@@ -1,0 +1,9 @@
+*************Iniciando na programação*************
+
+//Aprendendo a criar pastas no visual studio code
+-Consegue adicionar e excluir pastas do computador através da aba a esquerda;
+-ctrl + alt + n = Executa o node dentro do vs code;
+
+//Sentença e bloco
+-Sentença: linha de código executando uma ação;
+-Bloco: várias linhas de códigos que fazem determinada tarefa;

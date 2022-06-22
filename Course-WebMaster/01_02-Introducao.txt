@@ -1,0 +1,46 @@
+*****Introdução*****
+
+//Ordem do curso:
+Visao geral
+Configuração do ambiente
+Fundamentos
+Estruturas de controle
+FFunções
+Objetos & OO
+Array
+Node
+EsNext
+Funcamentos da web
+HTML
+CSS
+DOM
+Ajax
+Gulp
+Webpack
+JQuery
+Bootstrap
+React
+Vue
+Banco de dados relacionais
+Banco de dados não relacionais
+Express
+Mongoose
+Projetos
+Outros tópicos
+Conclusão;
+
+//Base
+-Ter a base é fundamental para podermos aprender a construir aplicações com melhor aproveitamento
+
+//Por que aprender Javascript?
+-É a linguagem do momento, uma linguagem moderna;
+-Muitas tecnologias se baseiam no Javascript;
+-Você consegue fazer a parte do Front end, back end, mobile, desktops, games com Javascript;
+-Tem um mercado muito aquecido;
+
+//Terminal
+-link: https://blog.cod3r.com.br/terminal-no-windows/
+
+//Instalação
+-Node
+-VisualStudioCode

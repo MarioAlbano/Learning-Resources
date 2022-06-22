@@ -86,4 +86,4 @@ Que significa Document OBject Model;
 
 //Alterando a DOM com appendChild
 -Adiciona um nó após todos os elementos do elemento pai;
--
+-Consegue trocar um elemento por completo tendo outro como base;

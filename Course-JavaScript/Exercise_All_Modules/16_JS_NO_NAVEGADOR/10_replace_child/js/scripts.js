@@ -1,18 +1,14 @@
-// let novoElemento = document.createElement("p");
-// let texto = document.createTextNode("Algum texto");
+let lista = document.createElement("ul");
 
-// novoElemento.appendChild(texto);
+for (i = 0; i < 15; i++) {
+    let item = document.createElement("li");
 
-// let heading = document.querySelector('#titulo-principal');
-// let paiHeading = heading.parentNode;
+    let texto = document.createTextNode("texto lista DOM");
+    item.appendChild(texto);
 
-// paiHeading.replaceChild(novoElemento, heading);
+    lista.appendChild(item);
+}
 
-let novoElemento = document.createElement("p");
-let elementoAlvo = document.querySelector("#titulo-principal");
-let texto = document.createTextNode("Um texto inserido através do 'document.createTextNode'");
+let container = document.getElementById("container-principal");
 
-novoElemento.appendChild(texto);
-
-let elementoPai = document.querySelector("#container-principal");
-elementoPai.insertBefore(novoElemento, elementoAlvo);
+container.appendChild(lista);

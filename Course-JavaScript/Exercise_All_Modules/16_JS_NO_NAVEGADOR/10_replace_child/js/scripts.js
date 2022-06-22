@@ -1,7 +1,7 @@
-let elemento = document.querySelector("#titulo-principal");
+let itens = document.querySelectorAll(".itens-vermelhos");
 
-setTimeout(function () {
-    elemento.style.color = "red";
-    elemento.style.backgroundColor = "yellow";
-    elemento.style.width = "400px";
-}, 1000);
+console.log(itens);
+
+let itens2 = document.querySelectorAll(".itens-azuis");
+
+console.log(itens2);

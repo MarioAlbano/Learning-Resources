@@ -59,4 +59,5 @@
 -Ele contém propriedades que podem ser utilizadas a nosso favor;
 -O objeto é criado pelo JavaSCript automaticamente;
 
-//
+//Propagação
+-Quando não defi

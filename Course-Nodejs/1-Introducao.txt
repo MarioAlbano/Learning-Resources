@@ -1,0 +1,55 @@
+****************** Introdução ****************
+//O que é Node.js?
+-O Node.js é uma runtime de JavaScript;
+-Ou seja, uma biblioteca utilizada por um compilador durante a execução do programa;
+-Que está construída na V8 engine (escrita em C++) da Google;
+-Possibilitando criar softwares em JS no lado do servidor;
+-Temos então um código Js rodando em C++ para garantir alta performance;
+
+//Oque é npm?
+-O npm é um gerenciador de pacotes do Node;
+-Vamos poder utilizar bibliotecas de terceiros, baixando elas pelo npm;
+-E também executar determinados scripts no nosso programa;
+-Dificilmente um software em Node.js não utiliza o npm;
+-Os módulos externos ficam numa pasta chamada node_modules;
+-Ela deve ser descartável, ou seja, a cada instalação do projeto baixamos todos os pacotes novamente;
+
+//Terminal para Windows
+-Caso seja necessário, vamos utilizar o cmder como terminal no Windows;
+-Este software não quer instalação;
+-E é muito semelhante ao terminal do Linux;
+-Geralmente utilizamos servidores em Linux, então estar acostumado com este tipo de terminal é de grande ajuda;
+-Além disso, algumas ferramentas como Node e Docker, por exemplo, utilizam muito o terminal;
+
+
+//Executando o node
+-Na maioria das vezes estaremos executando o node via arquivos do nosso projeto;
+-Porém é possível também executá-lo via terminal;
+-Basta digitar: node;
+-O Node.js possui todas as funcionalidades de JavaScript;
+-O nome do recurso é REPL (Read Evaluete Print Loop)
+
+//Nosso primeiro programa
+-Agora vamos criar algo mais sólido, um programa simples baseado em um arquivo;
+-A extensão dos arquivos de Node serão .js;
+-Vamos executar o arquivo com o comando: node <arquivo>;
+-O código sará interpretado e o programa executado;
+
+//Utilizando um módulo
+-Agora vamos evoluir o nível de nossos programas;
+-Importaremos um módulo do Node: o file system;
+-Este móddulo serve para trabalhar com diretórios, arquivos e etc;
+-E ele é um Core Module, ou seja, não é necessário instalar;
+-Veremos mais sobre modules ao longo do curso;
+-Podemos importar módulos com a instrução import;
+
+//Repositório do curso
+-Todos os arquivos do curso estão no GitHub, em um repositório público;
+-É interessante que você faça o download para poder acompanhar o código;
+
+//Como tirar o melhor proveito
+-Faça todos os exercícios, eles foram pensados em agregar no aprendizado e fixar conhecimento;
+-Crie o código junto com o professor;
+-Tente responder as dúvidas;
+-Crie projetos práticos, teste coisas novas;
+-Dicas extra: ouça e depois pratique;

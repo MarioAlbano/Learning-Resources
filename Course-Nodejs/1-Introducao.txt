@@ -53,3 +53,10 @@
 -Tente responder as dúvidas;
 -Crie projetos práticos, teste coisas novas;
 -Dicas extra: ouça e depois pratique;
+
+//O objeto do evento
+-Quando criamos eventos, temos a opção de utilizar um argumento opcional, que é chamado de objeto do evento;
+-Ele contém propriedades que podem ser utilizadas a nosso favor;
+-O objeto é criado pelo JavaSCript automaticamente;
+
+//

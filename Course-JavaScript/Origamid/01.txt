@@ -1,17 +1,54 @@
-****************  Início  *****************
+**************Javascript Iniciante*********************
 
-//Iniciando no Javascript
--A linguagem interpretada, ou seja, funciona sem ser compilado;
--Não é Java;
+//Variáveis
+-Responsãveis por guardar dados na memória;
+-Inicia com a palavra var, let ou const;
+-Serve para evitar repetições;
+-var nome = 'teste';
+-let idade = 28;
+-const sequencia = "23312";
+-Pode retornar undefined;
 
-//Aplicações
--Front end: Manipulação do DOM, comunicação assíncrona com o back end(mudar a página sem recarregar) e mais;
--Back end: Comunicação com banco de dados, manipulação de  arquivos e mais(node);
--Jogos: Geralmente se aproveitando de benefícios do HTML5;
+//Nome
+-Podem iniciar com $, _, ou letras;
+-São case sensitive
+-Não podemos utilizar palavras reservadas;
+-É comum utilizarmos o camel case ex:abrirModal;
 
-//Sintaxe
-const nome = "Mario";
-function somar(a,b) {
-	return a+b;
-}
-somar(2,4);
+//Declarar
+-Sempre temos que declarar uma variável senão retorna um erro;
+
+//Hoisting
+-São movidas para cima do código, porém o valor atribuído não é movido.
+-Basicamente quando criamos as variáveis, elas vão para cima, porem o valor delas não ocorrem isto;
+
+//7 tipos de dados
+-Primitivo: São dados imutáveis. Todos são primitivos exceto os objetos;
+-Ex: String, Number, Boolean, Undefined, Symbol, Object;
+-Para verificar usar o 'typeof';
+
+//Template string
+-Você pode passar as concatenações mais facilmente com `` e mostrar as variáveis com 4{};
+
+//Numeros
+-precisão de até 15 digitos;
+-para virgula, usamos ponto, ex: 3.14;
+-Tambem podemos escrever expoente, exemplo 2e10;
+
+//Operadores Aritméticos;
+soma +;
+ssubtração -;
+multiplicação *;
+divisão /;
+expoente **;
+modulo(restante) %;
+-Operadores aritiméticos unários: adiciona + ou - para transformar o valor seguinte em número; 
+-Podemos testar se o resultado é um número através da função isNaN();
+
+//Ordem das somas
+-A ordem importa, igual como se fosse em matemática dando prioridades pros parênteses;
+
+//Boolean
+-Existem dois valores booleanos false ou true;
+-usado para ajudar nos if e else
+-Podemos usar "else if" para adicionar ainda mais uma condição;

@@ -10,3 +10,49 @@
 -Devemos atrelar o evento a um elemento, por exemplo um botão;
 -Depois inserir um listener e o tipo de evento como argumento;
 -Ai o elemento responderá por este evento e, obviamente, os outos da página não;
+
+//Removendo eventos
+-Da mesma forma que podemos adicionar eventos, podemos remover quando acharmos necessário;
+-Para isso utilizamos o método removeEventListener, onde passamos o evento e a função que o evento está escutando;
+
+//Objeto do evento
+-Quando criamos eventos, temos a opção de utilizar um argumento opcional, que é chamado de objeto do evento;
+-Ele contém propriedades que podem ser utizadas a nosso favor;
+-O objeto é criado pelo JavaScript automaticamente;
+
+//Propagação
+-Quando não definimos um elemento muito bem (seletor brando) ou um elemento que está dentro de outro que já possui evento também;
+-Pode acontecer a propagação, ou seja, o outro elemento ativar um evento também, aí teremos uma duplicação;
+-Por isso temos um método que para esta propagação e que se resolve este problema, o stopPropagation;
+
+//Ações default
+-Muitos elementos/teclas já tem ações pre-definidas, como clicar num link nos leva a outra página;
+-Podemos parar este evento default, e criar uma lógica diferente para o elemento em questão;
+
+//Eventos de tecla
+-Sempre que uma tecla é pressionada, são gerados dois eventos: keyup e keydown;
+-Podemos realizar ações nestes eventos também;
+-Keyup é quando soltamos a tecla;
+-Keydown é quando apertamos;
+
+//Outrros eventos de mouse
+-No mouse temos tammbém eventos como mousedown e mouseup, semelhante aos das teclas;
+-"Dblclick" para ativar com dois cliques;
+
+//Movimento do mouse
+-Podemos ativar eventos com a movimentação do mouse também;
+-O nome dele é mousemove;
+-Através desse evento podemos detectar a posição do ponteiro do mouse na tela;
+
+//Eventos por scroll
+-Podemos atrelar evento ao scroll da tela também, pelo vento scroll;
+-Por exemplo: podemos criar um elemento assim que o scroll atingir uma posição x;
+-temos de adicionar o window antes do addEventListener;
+
+//Evento de carregamento
+-Podemos atgrelar um evento quando a página carrega, pelo evento load;
+-E antes do usuário fechar a página pelo evento beforeunload;
+
+//Debounce
+-Um evento que dispara múltiplas vezes pode ser um problema para o computador do cliente;
+-Por isso podemos fazer um debounce, uqe é um suavizador de evento, para não chamar o mesmo tantas vezes;

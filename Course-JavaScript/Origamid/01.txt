@@ -1,0 +1,17 @@
+****************  Início  *****************
+
+//Iniciando no Javascript
+-A linguagem interpretada, ou seja, funciona sem ser compilado;
+-Não é Java;
+
+//Aplicações
+-Front end: Manipulação do DOM, comunicação assíncrona com o back end(mudar a página sem recarregar) e mais;
+-Back end: Comunicação com banco de dados, manipulação de  arquivos e mais(node);
+-Jogos: Geralmente se aproveitando de benefícios do HTML5;
+
+//Sintaxe
+const nome = "Mario";
+function somar(a,b) {
+	return a+b;
+}
+somar(2,4);

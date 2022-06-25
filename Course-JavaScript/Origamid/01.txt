@@ -82,3 +82,18 @@ modulo(restante) %;
 -Ao executar uma função, você pode passar argumentos.
 -Podemos separar por vírgula cada parâmetro. Você pode definir mais de um parâmetro ou nenhum também.
 -Argumento são os valores que você passa;
+-Funções anônimas são aquelas que você não define;
+
+//Argumentos podem ser funções
+-Chamadas de Callback, geralmente são funções que ocorrem após algum evento.
+-Ex addEventListener("click", function(){console.log("clicou")}); 
+-Podemos passar uma função separada como argumento também;
+
+//Pode ou não retornar um valor
+-Quando não definimos o return, ela irá retornar undefined. O código interno da função é executado normalmente, independente de existir valor de return ou não.
+
+
+//Valores retornados
+-Uma função pode retornar qualquer tipo de dado e até outras funções;
+-Dentro da função ele consegue ver a variavél criada, já fora da função não consegue;
+-Hoisting(o fato do javascript jogar variáveis para cima) também ocorre com funções;

@@ -44,6 +44,7 @@ expoente **;
 modulo(restante) %;
 -Operadores aritiméticos unários: adiciona + ou - para transformar o valor seguinte em número; 
 -Podemos testar se o resultado é um número através da função isNaN();
+-Podemos converter algo se é true ou false usando o "!!";
 
 //Ordem das somas
 -A ordem importa, igual como se fosse em matemática dando prioridades pros parênteses;
@@ -52,3 +53,25 @@ modulo(restante) %;
 -Existem dois valores booleanos false ou true;
 -usado para ajudar nos if e else
 -Podemos usar "else if" para adicionar ainda mais uma condição;
+
+//Truthy e Falsy
+-Existem valres que retornam true e outros que retornam false quando verificados em uma expressão booleana. Ou seja: false, 0, NaN, undefined, "" sai do if;
+
+//Operador lógico de negaçaõ
+-Se colocarmos ! antes significa o contrário do que foi escrito;
+
+//Operadores de comparação
+-Vão sempre retornar um valor booleano;
+-Ex: 10>5, 5>10, 20>=20;
+
+//Operadores lógicos && , ||
+-&& significa E(Retorna o ultimo true ou false);
+-|| significa Ou(Retorna o primeiro true que enconrtar);
+
+//Switch
+-Com o switch você consegue fazer a mesma função do if else;
+-Melhor usado em casos com muitas opções para deixar o código mais legível;
+
+//Funções 
+-Bloco de código que pode ser executado e reutilizado. Valores podem ser passados por uma função e a mesma retorna outro valor;
+-Chamada de function declaration;

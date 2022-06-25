@@ -1,9 +1,21 @@
-let verdade = 1000000;
+let corFavorita = "vermelho";
 
-if (verdade == true) {
-    console.log("É verdade");
-} else if (typeof verdade === 'number') {
-    console.log("É número");
-} else if (verdade == false) {
-    console.log("É mentira!");
+switch (corFavorita) {
+    case "azul":
+        console.log("Olhe para o céu.");
+        break;
+    case "vermelho":
+        console.log("Olhe para as rosas");
+        break;
+}
+
+let corFavoritaDois = "azul";
+
+switch (corFavoritaDois) {
+    case "azul":
+        console.log("Olhe para o céu.");
+        break;
+    case "vermelho":
+        console.log("Olhe para as rosas");
+        break;
 }

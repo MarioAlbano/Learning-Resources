@@ -1,21 +1,6 @@
-let corFavorita = "vermelho";
-
-switch (corFavorita) {
-    case "azul":
-        console.log("Olhe para o céu.");
-        break;
-    case "vermelho":
-        console.log("Olhe para as rosas");
-        break;
+function imc(peso, altura) {
+    let imc = peso / (altura * altura);
+    return imc;
 }
 
-let corFavoritaDois = "azul";
-
-switch (corFavoritaDois) {
-    case "azul":
-        console.log("Olhe para o céu.");
-        break;
-    case "vermelho":
-        console.log("Olhe para as rosas");
-        break;
-}
+console.log(imc(88, 1.75));

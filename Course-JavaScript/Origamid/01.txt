@@ -75,3 +75,10 @@ modulo(restante) %;
 //Funções 
 -Bloco de código que pode ser executado e reutilizado. Valores podem ser passados por uma função e a mesma retorna outro valor;
 -Chamada de function declaration;
+-Quando algo estiver escrito com chaves do lado significa função;
+
+//Parâmetros e Argumentos
+-Ao criar uma função, você pode definir parâmetros.
+-Ao executar uma função, você pode passar argumentos.
+-Podemos separar por vírgula cada parâmetro. Você pode definir mais de um parâmetro ou nenhum também.
+-Argumento são os valores que você passa;

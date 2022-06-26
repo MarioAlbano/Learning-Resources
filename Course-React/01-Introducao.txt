@@ -36,3 +36,24 @@
 -Digitar "npx create-react-app nome_do_projeto";
 -Ir para a pasta do projedo usando cd ou abrindo outro terminal. Então digitar npm start;
  
+//Estrutura base
+-Há algumas pastas e arquivos chave para o desenvolvimento em React;
+-node_modules: Onde as dependências do projeto ficam;
+-public: Assetes estáticos e HTML de inicialização;
+-src: Onde vamos programar as nossas apps;
+-src/index.js: Arquivo de inicialização do React;
+-src/App.js: Componente principal da aplicação;
+
+//Preparando o Emmet para React
+-Emmet é uma extensão nativa do VS Code que ajuda a escrever HTML mais rápido;
+-Porém ela não vem configurada para o React;
+-Temos que acessar File > Settings > Extensions e procurar por Emmet;
+-Lá vamos incluir a linguagem: javascript - javascriptreact;
+
+//Como tirar melhor proveito do curso
+-Sempre programe os códigos das aulas;
+-O curso foi planejado sequencialmente, se não domina o React não pule aulas, especialmente para os projetos;
+-Faça todos os exercícios propostos;
+-Tira as suas dúvidadas no fórum e responda a dos outros;
+-Dica extra> Assista primeiro, execute depois;
+

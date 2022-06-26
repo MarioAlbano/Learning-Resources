@@ -36,8 +36,9 @@ No terminal:
 -escrever "git status" para verificar se recebeu a mensagem de working tree clean;
 Após o primeiro commit:
 -Criar a branch main: "git branch -M main";
--Olhar a menssagem no github para poder adicionar o repo remotamente. No caso: "git remote add origin https://github.com/MarioAlbano/test_git_1.git";
-Última etapa: enviar
+-Olhar a menssagem no github para poder adicionar o repo remotamente. Exemplo: "git remote add origin https://github.com/MarioAlbano/TCC-R2D2-Arduino.git";
+
+//Enviando
 -adicionar "git push -u origin main" para adicionar um repositório localmente;
 
 //Caso tenha problema quando adicionar o repositório local

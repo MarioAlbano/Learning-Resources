@@ -24,8 +24,8 @@
 -Vale lembrar que só fazemos uma vez por projeto este fluxo;
 -Porém alguns dos comandos utilizados vão ser úteis ao longo do curso;
 
-//Como enviar
-No github:
+//Como enviar!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+No github do 0 ao push:
 -Clicar em "new" para inicializar um repositório;
 -Colocar um nome e adicionar uma descrição;
 -Clicar em "Criar repositório";

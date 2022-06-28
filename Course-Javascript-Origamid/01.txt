@@ -97,3 +97,4 @@ modulo(restante) %;
 -Uma função pode retornar qualquer tipo de dado e até outras funções;
 -Dentro da função ele consegue ver a variavél criada, já fora da função não consegue;
 -Hoisting(o fato do javascript jogar variáveis para cima) também ocorre com funções;
+

@@ -98,3 +98,16 @@ modulo(restante) %;
 -Dentro da função ele consegue ver a variavél criada, já fora da função não consegue;
 -Hoisting(o fato do javascript jogar variáveis para cima) também ocorre com funções;
 
+//Objetos
+-Conjunto de variáveis e funções, que são chamadas de propriedades e métodos.
+-Propriedades e métodos consistem em nome (chave) e valor.
+
+//Métodos
+-É uma propriedade que possui uma função no local do seu valor.
+-Uma função dentro de um objeto;
+
+//Para que serve um objeto
+-Serve para organizar o seu código e deixar as partes reorganizáveis;
+-Ex: console é um objeto e log() é um método;
+-Sempre que tiver ponto, significa que estamos trabalhando com objeto;
+

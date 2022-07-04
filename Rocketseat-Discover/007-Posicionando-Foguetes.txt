@@ -1,0 +1,64 @@
+*****Posicionando Foguetes*******
+
+//Page layouts
+-tables. antigamente deixa elementos um ao lado do outro através de tabelas;
+-floats e clear. Um jeito de deixar os elementos flutuando na tela; 
+-Frameworks e grid systems. para poder dividir a tela;
+-Flexbox;
+-Grid;
+
+//Posicionamentos
+-Controlar onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos;
+-Value: static (padrão, onde os elementos tendem ao fluxo normal, um abaixo do outro)/ relative(podemos trabalhar com mais prorpiedades) / absolute/ fixed;
+
+//Relative
+-podemos trabalhar com mais prorpiedades
+- top, right, bottom, left, z-index;
+-é relativo ao elemento pai;
+
+//Absolute
+-Como se eliminasse o componente e ele entrasse em uma nova camada;
+
+//fixed
+-Deixa um elemento fixo, mesmo se rolarmos com o scroll;
+
+//Element Stacking
+-Mexer com o z-index, destacando um elemento das outras camadas;
+
+//Flexbox
+-Nos permite posicionar os elementos dentro da caixa;
+-Controle em uma dimensão (horizontal ou vertical);
+-Alinhamento, direcionamento, ordernar e tamanhos;
+
+//flex-direction
+-Qual a direção do flex: horizontal ou vertical;
+-row | column
+
+//alinhamento
+- justify-content;
+- align-items;
+
+//Grid
+-Posicionamento dos elementos dentro da caixa;
+-Posicionamento horizontal e vertical ao mesmo tempo;
+-Pode ser flexível ou fixo;
+-Cria espaços para os elementos filhos habitarem;
+
+//Exemplo na prática
+display:grid;
+grid-template-areas:
+	"header header"
+	"main aside"
+	"footer footer";
+
+meu_elemento {grid-area: header};
+
+grid-template-rows: 30px 1fr 40px;
+grid-template-columns: 1fr 80px;
+
+//Flexbox vs Grid layout
+-Podemos usar os dois juntos
+-Flex quando tivermos somente uma linha para trabalhar;
+-Grid quando temos linhas e colunas para trabalhar;
+-São posicionamentos dentro da caixa;
+-Não confunda com display, que são posicionamentos da caixa;

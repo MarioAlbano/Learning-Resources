@@ -37,4 +37,33 @@
 	heigth
 	adicionando link
 -ter cuidado com direitos autorais;
-	
+
+//Background-image no css
+-com a tag style
+-somente para estilo
+-Não é semantico e falta significado
+
+//figures
+-Criando título visíveis para as imagens
+-<figure> e <figcaption>
+
+//SVG
+-É uma marcação, estilo html, mas não é para textos, e sim para fazer imagens. Possuimos elementos para gerar formas;
+
+//Para entender melhor
+-Imagem rasterizada x imagem vetorizada
+
+//Benefícios
+-mais leve;
+-mais detalhada;
+-maior acessibilidade e SEO;
+-pode ser editada via CSS ou atributos;
+
+//Desvantagens
+-Podem ser mais complicado de trabalhar
+-Quanto mais complexa a imagem, mais trabalho para o navegador;
+-Navegadores mais antigos não possuem suporte a essa tag;
+
+//Mais sobre SVG
+-Para fotografias, ainda prefira usar imagens rasterizadas;
+-Podemos usar programas como por exemplo o figma para exportar arquivos svg;

@@ -1,0 +1,23 @@
+******Trabalhando com fontes******
+
+//Tipografia transmite mensagem
+	negrito
+	tamanho
+	estilo
+
+//Basic font properties
+	font-family
+	font-weight
+	font-style
+	font-size
+
+//Font family
+-Tipo de fonte de um elemento
+-Lista de fontes e ordem de prioridade
+-inclui *fallback* font, que é um escape caso não de certo o carregamento;
+	serif
+	sans
+
+//Font weight
+-Peso da fonte;
+-Depende muito da familia para acessar os pesos;

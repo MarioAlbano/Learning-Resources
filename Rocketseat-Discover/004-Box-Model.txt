@@ -1,0 +1,55 @@
+*****	Box Model		*****
+
+//Box model
+-Fundamental para fazer layouts para a web;
+-Maior facilidade para aplicar o CSS;
+
+//O que é
+-Uma caixa retangular;
+-Essa caixa possui propriedades de uma caixa (2D);
+-O que contém em uma box model:
+tamanho				width / heigth
+conteúdo				content
+bordas				border
+preenchimento interno	padding
+Espaços fora da caixa	margin;
+
+//box-sizing
+-Como será calculado o tamanho total da caixa?
+-content-box / border-box;
+-"box-sizing: border-box" a partir da borda. Não deixa ultrapassar o tamanho da caixa;
+
+//display block vs display inline
+-Como as caixas se comportam em relação as oturas caixas;
+-Comportamento externo das caixas;
+-Block: Ocupa toda a linha, colocando o próxzimo elemento abaixo desse. Width e heigth são respeitados. Padding, margin, border itão funcionar normalmente;
+-Inline: Elemento ao lado do otro. Width e heigth não funcionam. Somente valores horizontais de margin, padding e border;
+
+//Shorthand
+-12px 12px 12px 12px => Cima, direita, baixo, esquerda (relógio);
+-12px 12px 12px => Cima, laterais, baixo;
+-12px 12px  => Cima e baixo, esqueda e direita;
+-12px => todas as propriedades;
+
+//Margin
+-Espaços entre os elementos
+-margin-top, margin-rigth, margin-bottom, margin-left;
+-values: <length> / <percentage> / auto;
+-Cuidado com margin collapse (quando duas margens se colidem uma com a outra de forma vertical,	a maior será respeitada);
+
+//Padding
+-preenchimento interno da caixa;
+-Padding poderá causar diferença na largura de um elementos;
+
+//Border
+-As bordas da caixa;
+-value: <border-style> / <border-width> / <border-color>;
+
+//Outline
+-Diferem em 4 sentidos da border:
+	-Não modifica o tamanho da caixa, pois não é parte do box model;
+	-Poderá ser diferente de retangular;
+	-Não permite ajuste individuais;
+	-Mais usado pelço user agent para acessibilidade;
+
+	

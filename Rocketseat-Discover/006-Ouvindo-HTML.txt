@@ -1,0 +1,40 @@
+*****Audio e vídeo****
+
+//Vídeo
+-usar o "<video src"./arquivo.mp4" controls > </video> ";
+-se não funcionar usar o fallback content;
+-source 
+	-src
+	-type;
+-Podemos deixar em serviços de terceiros por exemplo youtube, vimeo, dailymotion. Fazendo isso não consumimos dados dos nossos servidores;
+-Podemos alterar o tamanho dentro de video controls. Podemos alterar quando starta o video com preload. Podemos digitar "loop" para reiniciar o vídeo toda vez que acabar. Muted para mutar. poster="" podemos definir uma tumbnail para o vídeo;
+
+//Audio
+-Semelhante a tag video;
+-usamos <source src="./musica.mp3" type="audio/mp3"><source src="./musica.ogg" type="audio/ogg">
+-Através do javascript conseguimos dar mais poderes para os controles de audio;
+-Podemos colocar serviços de terceiros também;
+
+//iframe
+-Inline frame element;
+-Um elemento que trás conteúdo externo;
+-Copiamos um link de terceiro dentro dessa tag;
+-Atributos:
+	src
+	height
+	width
+	title (acessibilidade)
+	allowfullscreen
+	frameborder
+-Pesquisar mais na documentação;
+
+//imagens
+-<img>
+	src
+	alt
+	title
+	width
+	heigth
+	adicionando link
+-ter cuidado com direitos autorais;
+	

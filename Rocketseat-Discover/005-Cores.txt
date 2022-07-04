@@ -1,0 +1,56 @@
+			****		Cores	*****
+
+//Cores
+-Usamos CSS para alterar cores do nosso documento;
+
+//Tipos
+-background-color (caixas);
+-Color (para textos);
+-Border-color (caixas);
+
+//Valores
+-Podemos definir os valores por
+	palavra-chave(blue, transparent);
+	hexadecimal (#126534)
+	funções: rgb, rgba, hsl, hsla;
+
+//Hexadecimal
+-00(vermelho)00()verde00(azul);
+-podemos fazer tambem com #00f8 por exemplo, porem detalhamos menos a cor;
+
+//RGB
+red green blue;
+red green blue alpha;
+
+//HSL color wheel
+-Hue Saturation - Lumiance;
+
+//Global values
+-color: inherit; Herdando a cor do elemento anterior;
+-color: initial;	Volta a sua cor original, usamos quando queremos resetar a cor;
+-color: unset; Diz para herdar do elemento pai ou do valor inicial se não tiver um;
+
+//Background
+-Define um fundo para o nosso elemento;
+-Sua área de atuação é a caixa toda;	
+-Por padrão, é transparente;
+-Ex: Usar cores sólidas, usar imagens, controlar: posição, se repetem ou não, o tamanho delas na caixa. Usar cor e imagem juntas ou cor gradiente;
+
+//Propriedades
+-Background-color: a cor de fundo do elementos;
+-background-image: url() aplica uma imagem de fundo;
+-background-repeat: no-repeat faz com que a imagem não repeta;
+-background-position: escolhe o lado da imagem de fundo; 
+-background-size: altera o tamanho da imagem de fundo;
+-background-origin: altera as propriedades de border-box, padding box, content-box;
+-background-clip: altera tudo que envolve a imagem;
+-background-attchement: fixed altera como a imagem de fundo reage ao seu scroll;
+
+//Shorthand
+-Podemos usar somente "background:" e adicionar qualquer propriedade do bloco anterior;
+
+//gradient
+-podemos usar o "background: linear-gradient(45deg, red, yellow)";
+
+//Valores múltiplos;
+-Podemos usar mais de um background na página separada por vírgulas;

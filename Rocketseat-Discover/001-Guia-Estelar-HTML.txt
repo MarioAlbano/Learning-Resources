@@ -1,0 +1,126 @@
+******HTML********
+
+//O que é HTML
+-Significa Hypertext Markup Language
+-Hipertextos Significam textos que levam para outros, porem hoje se tornou algo mais completo;
+-Usamos elementos
+
+//Comentários em html
+-Usar /*Comentário Aqui*/;
+
+//Elementos e atributos
+-Usamos <tag> para criar elementos. Dentro dos elementos especificamos seus atributos;
+-Certos elementos não precisam de atributos e outros não precisam fechar a tag;
+
+//ATributos mais utilizados
+-Class
+-contenteditable
+-data-*
+-hidden
+-id
+-style
+-tabindex
+
+//Aninhamento de tags
+-Podemos usar uma tag dentro da outra
+
+//Caracteres reservados
+-Temos de nos atentar para certos elementos reservados;
+
+//Anatomia html
+-Entendendo o passo a passo da estrutura de um documento HTML;
+
+//Semântica
+-Dar significado
+-Elementos semânticos
+
+//Cabeçalhos e parágrafos
+-Organizam o nosso texto para ser mais atrativo para ler
+-Ajuda os buscadores do google;
+-Ajuda o leitor visual ler o contúdo para pessoas com defeciencias;
+
+//Listas
+-Ordenadas
+-Não Ordenadas
+
+//Citações
+-Formas de fazer citações
+-<blockquote>
+-<cite>
+-<q>
+
+//Abreviações
+-tag <abbr>
+
+//Detalhes de contatos
+-<address>
+
+//Lista de descrição
+<dl> Description list 
+<dt></dt> Description Term
+<dd></dd> Description Data
+</dl>
+
+//Representando códigos no computador
+-<code> Partes genéricas de código;
+-<pre> Blocos de código, pois essa tag mantém os espaçõs em brancos e recuos que eu colocar no meu código;
+
+//Elemtneos genéricos
+-<div> Trabalha com blocos;
+-<span> Trabalha com linha;
+
+//Hyperlinks - Elemento Âncora: <a>
+-Liga um site com o outro;
+-<a href=""> conteudo </a>
+-target: _self(padrão); _blank(abre uma nova aba);
+-Podemos deixar outras tags dentro da tag <a>;
+
+//URLs e caminho dos arquivos
+-Uniform Resource Locator
+-Sequência de texto que define onde algo está localizado na Web;
+-URL usam caminhos para encontrar arquivos;
+-Podemos navegar entre os diretórios para encontrar diferentes arquivos;
+
+//Url absolutos e relativos
+-Absolutos: Inclui protocolo e nome de domínio, sempre apontando pro mesmo local pois é absoluto;
+-Relativos: 
+-Relativo a página aberta no momento, apontará para lugares diferentes;
+
+//<table>
+-Prós: Visualização de dados via linhas e colunas;
+-Boa acessibilidade para leitura dos dados;
+Contras:
+-Pouco flexível;
+-Precisa de estilização para melhor visualização;
+
+//Melhorando as tabelas
+-Usar "thead","tbody" e "tfoot";
+-Caption descreve o nome da tabela;
+-Usando rowspan="numero" para definir quantas linhas a tabela terá;
+-Usar cabeçalhos no tbody;
+
+//colgroup
+-Podemso usar o colgroup para selecionar determinada tabela e executar ações. Tabém ajuda no SEO (motores de busca do googles);
+
+//Melhorando a acessibilidade
+-Utilizamos o "scope" para indicar oque está relacionado, melhorando a acessibilidade;
+
+//Parte Head do cabeçalho
+-Descreve configurações da página;
+
+//Meta
+-Definimos metadados do nosso site, como por exemplo o tipo de caracteres definidos;
+
+//Favicon
+-Imagem pequena em formato de ícone para poder diferenciar seu seu ou acessalo mais facilmente;
+
+//Meta importantes para o SEO
+-charset
+-viewport
+-author
+-description
+-robots
+
+//Meta social
+-Meta dados personalizados de empresas como o Facebook que criou o Open Graph;
+-Ajudam com imagens ou textos quando compartilhamos um link;

@@ -1,0 +1,75 @@
+**********CSS************
+
+//Oque é CSS
+-Cascading Style Sheet;
+-Código para criar estilos no HTML
+-HTML é a estrutura, e o CSS é a beleza;
+-Não é uma linguagem de programação;
+-É uma linguagem style sheet;
+
+//Anatomia
+-Selector; ex: h1
+-Declaration; ex: Tude que envolve o seletor
+-Properties; ex:color:
+-Property Value; ex:blue;
+
+//Selectors
+-Conecta um elemento HTML com o CSS
+-Seletor global: *
+-Seletor de elemento: h1
+-Seletor de classe: .red
+-Seletor de atributo, pseudo-classes, pseudo-elemento e outros
+
+//Box model
+-Você irá perceber que quase tudo são caixas do CSS;
+-Posicionamentos, tamanhos, espaçamentos, bordas, cores;
+-Caixa pode ficar ao lado uma da outra, ou acima;
+-Elementos HTML são caixas;
+
+//Linkando css no html
+-Utilizamos a tag <link> no head;
+-podemos linkar outros arquivos css no arquivo css principal com o @import;
+-Temos tambem o style dentro da tag;
+
+//A cascata
+-Seu estilo é lido de cima para baixo, dando prioridade para elementos do mesmo tipo que estiverem abaixo;
+
+//Especifidade
+-É um cálculo matemático, onde, cada tipo de seletor e origem do estilo, possuem valores a serem considerados;
+-0. universal selector, combinatos e nagation pseudo-class (:not());
+-1. Element type selector e pseudo-elements (::before, ::after);
+-10. Classes e attribute selectors ((type="radio"));
+-100 id selector;
+1000 inline;
+
+//Tag !important
+-cuidado, evite o uso;
+-Não é considerado uma boa prática;
+-Quebra o fluxo natural da cascata;
+-Somente usado caso use o código de outro alguém e você não está consegindo alterar o código;
+
+//At-rules
+-Está relaccionado ao comportamento do CSS;
+-Começa com o sinal de "@" seguido do identificador e valor;
+-Exemplos: @import // incluir um css externo, @media //regras condicionais para dispositivos, @font-face // fontes externas, @keyframes // Animação;
+
+//Shorthand
+-Basicamente está reduzindo o nome no css para deixar o código mais legível;
+-Junção de propriedades;
+-Resumido;
+-Legível;
+
+//Funções no css
+-Nome seguido de abre e fecha parentesis;
+-Recebe argumentos; 
+-ex: rgb(255, 0 ,0);
+
+//DevTools
+-Ferramenta para desenvolvedores que reside no nosso navegador;
+
+//Erros de escrita 
+-Temos de tomar cuidado quando escreve o css, pois um erro pode quebrar o código;
+
+//Vendor prefixes
+-Permite que browsers adicione "features" a fim de calocar em uso alguma novidade que vemos no CSS;
+-Ex: "--Webkit-background-clip: text" (Usado em Chrome, Safari, ios e android);

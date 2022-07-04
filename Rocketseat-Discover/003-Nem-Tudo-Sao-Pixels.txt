@@ -1,0 +1,43 @@
+*************Nem tudo são pixels****************
+
+//Valores e unidades de medida
+-Cada propriedade possui valores "propperty: value";
+-Estudo constante a gim de entender as propriedades e seus valores;
+
+//Tipos numéricos
+-<integer> Número inteiro como -10 ou 223
+-<number> Número decilam como -2.4, 64 ou 0.234;	
+-<dimentsion> È um <number> com uma unidade junto: 90deg, 2s, 8px;
+-<percentagem> Representa a fração de outro número: 50%;
+
+//Unidades comuns
+-<length> Representa um valor de distância: px, em, vw;
+-<angle>	Representa um ângulo: deg, rad, turn;
+-<time>	Representa um tempo: s, ms;
+-<resolution>	Representa resoluções para dispositivos: dpi;
+
+//Distâncias absolutas <length>
+-São fixas e não alteram seu valor;
+-Ex: cm(1cm = 96px/2.54), in (inches(polegadas), 1in = 2.54cm = 96px), px (pixels, 1px=1/96th of 1in);
+
+//Distâncias relativas
+-São relativas a algum outro valro, pode ser o elemento pai, ou root, ou o tamanho da tela;
+-Tem o benefício de maior adaptação aos diferentes tipos de tela;
+-Ex: em (tamanho da font do pai), rem (tamanho da font do elemento raiz (root/html)), vw 1% da viewport width, vh 1% da viewport height;
+
+//Porcentagens %
+-Em muitos casos é tratado da mesma maneira que as distâncias <length>;
+-Sempre será relativo a algum valor;
+
+//Posições <position>
+-Representa um conjunto de coordenadas 2D: -top, rigth, bottom, left e center;
+-Usado para alguns tipos de propriedades;
+-Não confundir com a propriedade "position"
+
+//Funções
+-Em programação, funções são reconhecidas por causar um reaproveitamento de código;
+-Ex: rgb(), hsl(), url(), calc();
+
+//Strings e identificadores
+-Strings: Texto envolto em aspas;
+-Identificadores: red, black, gold;

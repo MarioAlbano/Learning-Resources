@@ -4,72 +4,72 @@
 -Capturar dados de entrada (input);
 -interação;
 -Controle;
-//Pré requisitos
--Básico HTML;
-//Dominar
--Estilização;
--Validação;
--Controles customizados;
--Javascript;
+	//Seus pré requisitos:
+	-Básico HTML;
+	//Oque precisa dominar
+	-Estilização;
+	-Validação;
+	-Controles customizados;
+	-Javascript;
 
 
 //<form>
 -Elemento que definirá um formulário;
 -É um container estilo <section> <footer>;
-//Atributos básicos
--action (Aonde este formulário será submetido e se deixado vazio será enviado para uma mesma página);
--method (definirá dois métodos (formato): post (dados ficam escondidos e não aparecem na url. Bastante usado para criação de usuários) e get(verbo http que será enviado para o action));
--O padrão é action na mesma pagina e method GET;
--Escrevemos o conteúdo dentro do form;
--Não faça aninhamento de formas pois irá dar algum problema;
+	//Atributos básicos
+	-action (Aonde este formulário será submetido e se deixado vazio será enviado para uma mesma página);
+	-method (definirá dois métodos (formato): post (dados ficam escondidos e não aparecem na url. Bastante usado para criação de usuários) e get(verbo http que será 	enviado para o action));
+	-O padrão é action na mesma pagina e method GET;
+	-Escrevemos o conteúdo dentro do form;
+	-Não faça aninhamento de forms pois irá dar algum problema;
 
 
 //fieldset legend
--<fieldset>
-agrupamento de campos;
-mesmo propósito;
-semântico;
+<fieldset>
+-agrupamento de campos;
+-mesmo propósito;
+-semântico;
 acessibilidade;
-//Atributos especiais
--disable
-desabilita todos os elementos internos
-não serão enviados ao submeter o formulário
--form
-o id de um formulário ao qual esse fieldset pertence;
-não precisa estar dentro do formulário;
--name
-nome do grupo
-//<legend>
--nome do agrupamento;
--primeiro elemento dentro do fieldset;
+	//Atributos especiais
+	-disable
+	desabilita todos os elementos internos
+	não serão enviados ao submeter o formulário;
+	-form
+	o id de um formulário ao qual esse fieldset pertence;
+	não precisa estar dentro do formulário;
+	-name
+	nome do grupo
+	//<legend>
+	-nome do agrupamento;
+	-primeiro elemento dentro do fieldset;
 
 
 //<label>
 -Associar e identificar uma (ou mais) tag de entrada de dados
 -acessibilidade
 -você poderá clicar para mudar o foco da entrada de dados;
-//atributos
--for
-para fazer a conexão entre este label e a tag de entrada de dados;
-é feita via id do input;
-só funciona com elementos específicos;
-button, input (not hidden), meter, output, progess, select, textarea;
+		//atributos
+	"for"
+	-Para fazer a conexão entre este label e a tag de entrada de dados;
+	-é feita via id do input;
+	-só funciona com elementos específicos:
+	button, input (not hidden), meter, output, progess, select, textarea;
 
 
 //button 
 -representa um botão
 -usado para enviar formulários
 -é estilizado pelo user agent;
-//Atributos comuns
--type
-submit
-reset
-button
--autofocus
--disabled
--name
--value
--form
+	//Atributos comuns
+	-type
+	-submit
+	-reset
+	-button
+	-autofocus
+	-disabled
+	-name
+	-value
+	-form
 
 
 //<datalist>
@@ -82,14 +82,14 @@ button
 <option>apple</option>
 <option>apple</option>
 </datalist>
-//list
--Recebe como valor o id de um <datalist> residente no mesmo documento;
-//Tipos de input suportados
--text, search ,url, email, date, month, week, time, datetime-local, number, range e color;
--Valores de datalist que não são compatíveis com o tipo do <input> não serão apresentados;
-//Tipos de input não suportados (conforme especificação)
--hidden, password, checkbox, radio, file, ou qualquer tipo de button;
--Verificar a compatibilidade com o browser https://caniuse.com;
+	//list
+	-Recebe como valor o id de um <datalist> residente no mesmo documento;
+	//Tipos de input suportados
+	-text, search ,url, email, date, month, week, time, datetime-local, number, range e color;
+	-Valores de datalist que não são compatíveis com o tipo do <input> não serão apresentados;
+	//Tipos de input não suportados (conforme especificação)
+	-hidden, password, checkbox, radio, file, ou qualquer tipo de button;
+	-Verificar a compatibilidade com o browser https://caniuse.com;
 
 
 //<input>
@@ -97,69 +97,190 @@ button
 -Aceita os mais diversos tipos de dados
 -Um dos mais poderosos e complexos
 -Elevado número de combinações
-//Atributos
--type;
--name;
--id;
--autocomplete;	
--autofocus;
--readonly; (quase todos);
--disable;
--value;
--form; (quase todos);
--name;
--required (quase todos);
--placeholder (password, search, tel, text, url). Acessibilidade não consegue ler placeholder;
+	//Atributos
+	-type;
+	-name;
+	-id;
+	-autocomplete;	
+	-autofocus;
+	-readonly; (quase todos);
+	-disable;
+	-value;
+	-form; (quase todos);
+	-name;
+	-required (quase todos);
+	-placeholder (password, search, tel, text, url). Acessibilidade não consegue ler placeholder;
 
 
 //<input type="password">
 -Colocar uma senha de maneira segura;
 -Esconde o que está sendo digitado no compo;
 -O estilo de apresentação do campo, depende do User Agent;
-//Atributos
--minlength / maxlength
-o número mínimo e/ou máximo de caracteres para este campo;
--size
-o número aceitável de caracteres que esse campo deverá conter;
--pattern
-expressão regular para validar o que está sendo digitado no campo;
-Altamente recomendado o uso de um padrão de segurança alta de senhas
-Exemplo: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo 4 e no máximo 8 caracteres;
-* pattern="[0-9a-fA-F]{4,8}"
--inputmode
-poderá alterar o uso de teclados em smartphones. ex: inputmode="numeric";
--autocomplete
-on:permite a sugestão de :new-password ou current-password
-off:desabilita a opção auto completar
-new-password: o navegador poderá sugerir uma nova senha;
+	//Atributos
+	-minlength / maxlength
+	o número mínimo e/ou máximo de caracteres para este campo;
+	-size
+	o número aceitável de caracteres que esse campo deverá conter;
+	-pattern
+	expressão regular para validar o que está sendo digitado no campo;
+	Altamente recomendado o uso de um padrão de segurança alta de senhas
+	Exemplo: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo 4 e no máximo 8 caracteres;
+	* pattern="[0-9a-fA-F]{4,8}"
+	-inputmode
+	poderá alterar o uso de teclados em smartphones. ex: inputmode="numeric";
+	-autocomplete
+	on:permite a sugestão de :new-password ou current-password
+	off:desabilita a opção auto completar
+	new-password: o navegador poderá sugerir uma nova senha;
 
 
 //<input type="email">
 -Espera que o usuário digite um email;
 -Irá validar se o valor digitado é um email;
-//Atributos
--Placeholder
--readonly / disable
--Value
--required
--multiple(o campo irá receber 1 ou mais emails, separado por vírgulas);
--minlenght / maxlenght (o mínimo e/ou máximo valor que o campo irá conter)
--size(valor numérico indicando quantos caracteres esse campo terá);
--pattern (use de expressão regular para validar o campo);
--list (o id de uma tag <datalist> que está no mesmo documento). o <datalist> terá uma lista de valores pré definidos. Os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão;
+	//Atributos
+	-Placeholder
+	-readonly / disable
+	-Value
+	-required
+	-multiple(o campo irá receber 1 ou mais emails, separado por vírgulas);
+	-minlenght / maxlenght (o mínimo e/ou máximo valor que o campo irá conter)
+	-size(valor numérico indicando quantos caracteres esse campo terá);
+	-pattern (use de expressão regular para validar o campo);
+	-list (o id de uma tag <datalist> que está no mesmo documento). o <datalist> terá uma lista de valores pré definidos. Os valores do <datalist> que não forem 	compatíveis com o campo, não serão apresentados como sugestão;
 
 
 //<input type="url" />
 -Espera que o usuário digite uma url;
 -Irá validar se o valor digitado é uma url;
-//Atributos
--placehold
--readonly / disable
--value
--required
--minlength / maxlength
-o mínimo e/ou máximo valor que o campo irá conter
--size
-valor numérico indicando quantos caracteres esse campo deveria conter, modificando o tamanho do campo para o usuário;
--pattarn
-uso da expressão regular para validar o campo;
+	//Atributos
+	-placehold
+	-readonly / disable
+	-value
+	-required
+	-minlength / maxlength
+	o mínimo e/ou máximo valor que o campo irá conter
+	-size :valor numérico indicando quantos caracteres esse campo deveria conter, modificando o tamanho do campo para o usuário;
+	-pattern
+	uso da expressão regular para validar o campo;
+	-list
+	o id de uma tag <datalist> que está no mesmo documento
+	<datalist> irá conter uma lista de valores pré definidos a fim de sugerir ao usuário, quais valores estão disponíveis. Os que não forem compatíveis não serão 	mostrados;
+	-spellcheck
+	habilitar a verificação ortográfica para este input;
+
+//<input type="file" />
+-Usuário poderá escolher 1 ou mais arquivos para enviar no formulário
+	//Atributos
+	-Value
+	Contém o arquivo a ser enviado;
+	-Accept
+	Descreve que tipos de arquivos serão aceitos;
+	exemplo: .doc, .docx, .pdf;
+	-files
+	-A lista de arquivo ou arquivos;
+	-multiple
+	Permeite o envio de múltiplos arquivos;
+		//Enfio de arquivos
+		Para envio dos arquivcos o formulário deverá utilizar o método POST e o atributo enctype como "multipart/form-data";
+
+//<input type="color" />
+-Interface para selecionar cor;
+-Color picker
+	//Atributos
+	-value: RGB
+	Se inválido, o preto será exibido;
+	-list
+	O id de uma tag <datalist> que está no mesmo documento;
+
+//<input type="checkbox">
+-Caixas que podem ser marcadas;
+-Selecionar um valor para ser enviado;
+-Se não selecionado, não será enviado nenhum dado;
+	//Atributos
+	-globais
+	-value
+	Valor que aquele campo contém;
+	Se não estiver presente, o padrão é "on";
+	-checked 
+	Para deixar o campo marcado por padrão;
+		//Marcar múltiplos valores
+		-Usaremos o atributo "name" com o mesmo nome para os diversos campos;
+
+//<input type="hidden">
+-Invisível ao usuário
+-Será enviado com o formulário;
+-Não receberá foco;
+-Leitores de tela não percebem esse campo;
+
+//<input type="radio">
+-Projetado para selecionar uma única opção de um grupo de opções;
+	//Atributos essenciais
+	-checked
+	Indica que o campo foi marcado;
+	-value
+	Valor que aquele campo contém;
+
+//<textarea>
+-Mais de uma linha;
+-Útil para textos grandes;
+	//Atributos
+	-id;
+	-name;
+	-rows e cols;
+	-maxlength e minlength;
+	-wrap;
+		//Outros comuns aos <input>
+		-autocomplete, autofocus, disabled, placeholder, readonly, form, required;
+
+//<select>
+-Controle que fornece um menu de opções
+	//<option>
+	-Contém as opções a serem selecionadas
+	-Atributos necessários
+	Value
+	//Atributos únicos
+	-multiple
+	Habilita múltiplas opções
+	-size
+	Quanto opções visíveis?
+
+//optgroup
+-Faz o agrupamente de várias opções;
+
+//<input type="search" />
+-Para campos de busca
+-É igual ao campo do tipo "text" mas poderá ser um pouco diferente dependendo do user agent;
+	//Atributos
+	-list/ <datalist>;
+	-pattern;
+	-aria-label;
+
+//<input type="number" />
+-Entrada de números
+	//Atributos
+	-min/max;
+	-step;
+
+//Range
+-Controle para selecionar um valor numérico;
+-Slider ou dial control
+	//Atributos
+	-min/max
+	-step
+
+//Data e hora
+-Podemos fazer de alternativa um select;
+-Ainda não suportado por todos os browsers
+	//Atributos
+	-value;
+	type="datetime-local";
+	type="time";
+	type="week";
+
+//Desenhando os formulários
+-Pensar nos requisitos;
+-Ajuda a definir as necessidades;
+	//Dicas:
+	-Simples e focado;
+	-Somente dados necessários;
+	-Verifique o que te agrada;

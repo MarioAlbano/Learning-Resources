@@ -1,0 +1,165 @@
+****  Forms ****
+
+//O que são forms
+-Capturar dados de entrada (input);
+-interação;
+-Controle;
+//Pré requisitos
+-Básico HTML;
+//Dominar
+-Estilização;
+-Validação;
+-Controles customizados;
+-Javascript;
+
+
+//<form>
+-Elemento que definirá um formulário;
+-É um container estilo <section> <footer>;
+//Atributos básicos
+-action (Aonde este formulário será submetido e se deixado vazio será enviado para uma mesma página);
+-method (definirá dois métodos (formato): post (dados ficam escondidos e não aparecem na url. Bastante usado para criação de usuários) e get(verbo http que será enviado para o action));
+-O padrão é action na mesma pagina e method GET;
+-Escrevemos o conteúdo dentro do form;
+-Não faça aninhamento de formas pois irá dar algum problema;
+
+
+//fieldset legend
+-<fieldset>
+agrupamento de campos;
+mesmo propósito;
+semântico;
+acessibilidade;
+//Atributos especiais
+-disable
+desabilita todos os elementos internos
+não serão enviados ao submeter o formulário
+-form
+o id de um formulário ao qual esse fieldset pertence;
+não precisa estar dentro do formulário;
+-name
+nome do grupo
+//<legend>
+-nome do agrupamento;
+-primeiro elemento dentro do fieldset;
+
+
+//<label>
+-Associar e identificar uma (ou mais) tag de entrada de dados
+-acessibilidade
+-você poderá clicar para mudar o foco da entrada de dados;
+//atributos
+-for
+para fazer a conexão entre este label e a tag de entrada de dados;
+é feita via id do input;
+só funciona com elementos específicos;
+button, input (not hidden), meter, output, progess, select, textarea;
+
+
+//button 
+-representa um botão
+-usado para enviar formulários
+-é estilizado pelo user agent;
+//Atributos comuns
+-type
+submit
+reset
+button
+-autofocus
+-disabled
+-name
+-value
+-form
+
+
+//<datalist>
+-lista de valores como sugestão a uma tag <input>
+-valores sugestivos e não obrigatórios
+-Usuário poderão selecionar um dos valores, ou colocar um valor diferente da sugestão.
+-Ex: <datalist id="fruitsdata">
+<option>apple</option>
+<option>apple</option>
+<option>apple</option>
+<option>apple</option>
+</datalist>
+//list
+-Recebe como valor o id de um <datalist> residente no mesmo documento;
+//Tipos de input suportados
+-text, search ,url, email, date, month, week, time, datetime-local, number, range e color;
+-Valores de datalist que não são compatíveis com o tipo do <input> não serão apresentados;
+//Tipos de input não suportados (conforme especificação)
+-hidden, password, checkbox, radio, file, ou qualquer tipo de button;
+-Verificar a compatibilidade com o browser https://caniuse.com;
+
+
+//<input>
+-Um dos mais usados em formulários
+-Aceita os mais diversos tipos de dados
+-Um dos mais poderosos e complexos
+-Elevado número de combinações
+//Atributos
+-type;
+-name;
+-id;
+-autocomplete;	
+-autofocus;
+-readonly; (quase todos);
+-disable;
+-value;
+-form; (quase todos);
+-name;
+-required (quase todos);
+-placeholder (password, search, tel, text, url). Acessibilidade não consegue ler placeholder;
+
+
+//<input type="password">
+-Colocar uma senha de maneira segura;
+-Esconde o que está sendo digitado no compo;
+-O estilo de apresentação do campo, depende do User Agent;
+//Atributos
+-minlength / maxlength
+o número mínimo e/ou máximo de caracteres para este campo;
+-size
+o número aceitável de caracteres que esse campo deverá conter;
+-pattern
+expressão regular para validar o que está sendo digitado no campo;
+Altamente recomendado o uso de um padrão de segurança alta de senhas
+Exemplo: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo 4 e no máximo 8 caracteres;
+* pattern="[0-9a-fA-F]{4,8}"
+-inputmode
+poderá alterar o uso de teclados em smartphones. ex: inputmode="numeric";
+-autocomplete
+on:permite a sugestão de :new-password ou current-password
+off:desabilita a opção auto completar
+new-password: o navegador poderá sugerir uma nova senha;
+
+
+//<input type="email">
+-Espera que o usuário digite um email;
+-Irá validar se o valor digitado é um email;
+//Atributos
+-Placeholder
+-readonly / disable
+-Value
+-required
+-multiple(o campo irá receber 1 ou mais emails, separado por vírgulas);
+-minlenght / maxlenght (o mínimo e/ou máximo valor que o campo irá conter)
+-size(valor numérico indicando quantos caracteres esse campo terá);
+-pattern (use de expressão regular para validar o campo);
+-list (o id de uma tag <datalist> que está no mesmo documento). o <datalist> terá uma lista de valores pré definidos. Os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão;
+
+
+//<input type="url" />
+-Espera que o usuário digite uma url;
+-Irá validar se o valor digitado é uma url;
+//Atributos
+-placehold
+-readonly / disable
+-value
+-required
+-minlength / maxlength
+o mínimo e/ou máximo valor que o campo irá conter
+-size
+valor numérico indicando quantos caracteres esse campo deveria conter, modificando o tamanho do campo para o usuário;
+-pattarn
+uso da expressão regular para validar o campo;

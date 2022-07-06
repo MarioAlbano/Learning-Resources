@@ -21,3 +21,52 @@
 //Font weight
 -Peso da fonte;
 -Depende muito da familia para acessar os pesos;
+
+//Font style
+-O estilo da fonte;
+
+//Font size
+-O tamanho da fonte;
+-Normalmente usamos em ou px;
+
+//Web fonts
+-fontes do sistema x fontes da web;
+-podemos baixar as fontes ou usamos online como o google fonts;
+
+//Font-variant
+-Deixa letras minusculas em caixa alta, porem de um tamanho menor;
+
+//font-stretch
+-Trabalha com alargamento ou encolhimento da fonte;
+-Aceita palavras chaves como: expanded, condensed, normal;
+-Aceita porcentagens de 50% a 200%;
+
+//Letter-spacing
+-Espaço entre caracteres
+-Ex: letter-spacing: lem;
+
+//line-height
+-Espaço entre linhas;
+-Pode ser com unidades ou sem unidades de medida;
+-Comuns: 1.5 ou 2;
+
+//text-transform
+-temos atributos como uppercase, capitalize, lowercase, none;
+
+//text-decoration
+-Aparência decorativa de um texto;
+-line: underline, overline, line-through (podemos aplicar mais de um valor);
+-style: wavy | dotted | double | dashed | solid
+-color: <color> values
+
+//text-align
+-Alinhamento de um texto;
+-muito utilizado;
+
+//text-shadow
+-Sombra aplicada a um texto;
+-Permite múltiplos valores;
+
+//shorthand
+-podemos aplicar a fonte através de um shorthand;
+-utilizando "font: " podemos agrupar todas as propriedades;

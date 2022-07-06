@@ -1,0 +1,196 @@
+---------------------INTRODUÇÃO-----------------------
+//JavasScript Core
+-Liguaguem de programação que roda no Navegador do usuário (front-end);
+-Se você clicar em algum botão da página e aparece uma janela. Isso é o JavaScript;
+-Altyeração do site ou aplicativo, conforme a interação do usuário;
+-Roda também no computador (back-end);
+
+//Oque podemos fazer?
+-Podemos criar aplicações web, mobile (React Native), desktop (Electron);
+-Empresas que usam:
+Facebook
+Google
+Uber
+Netflix
+Tiktok
+-99.99% dos sites na web usam JavaScript;
+-Linguagem obrigatória para quem programa o Front-end Web;
+	//Evolução
+	-A comunidade crese cada vez mais e a linguagem está sempre evoluindo
+		//O que vamos ver no curso?
+		-Tipos de dados;
+		-Variáveis;
+		-Condicionais;
+		-Estruturas de repetição;
+		-...;
+
+		//Dinâmica
+		-Conceitos e fundamentos;
+		-Prática;
+		-Revisão;
+
+//Importância da sintaxe
+-Toda linguagem tem
+-Uma boa comunicação precisa de uma boa sintaxe;
+-82% dos erros para iniciantes na programação;
+
+//Formas de usar o javascript
+-No navegador;
+-No visual studio code;
+-Em compiladores online;
+
+//Criando arquivo JS
+-adicionar no final dos arquivos .js;
+-Evitar utilizar nomes com acentuações;
+
+//Comentário JS
+-Utilizar o // antes do texto;
+-/*Comentário de bloco*/;
+
+
+---------------------INTRODUÇÃO-----------------------
+
+//Tipos de dados
+-Gramática
+	-Elementos da linguagem e suas combinações;
+	-A arte de falar e escrever corretamente;
+-Vocabulário
+	-Conjunto de termos e expressões;
+	-Agrupamento de palavras;
+-Precisamos saber como escrever;
+-Precisamos saber os significados;
+-Precisamos continuar arpendendo, para crescer nosso vocabulário;
+-Conceitos e escrita
+	-Vamos aprender os tipos de dados mais utilizados na linguagem
+	-É possível aprender 80% de uma linguagem nova, com cerca de 20% do vocabulário;
+
+//String
+-Cadeia de caracteres;
+-formas de usar: "" ´´ '';
+
+//Number
+-Números
+	-int, float, NaN, infinity;
+
+//Boolean
+-ou true ou false;
+-pode retornar undefined e null;
+
+//Object
+-Object
+	-Objeto
+	-Propriedades / atributos
+	-funcionalidade / métodos
+
+//Array(vetores)
+	-Uma lista;
+	-Agrupamento de dado;
+
+//ECMAScript (orgão que padroniza o javascript)
+-Conforme o ECMAScript standard temos 9 tipos de dados:
+	-Datas types
+	primitive / primitive value
+	structural
+	strtuctural primitive
+
+//Primitivos
+-string;
+-number;
+-boolean;
+-undefined;
+-symbol;
+-BigInt(tipo de dados para representar números muito grandes);
+
+//Estruturais
+
+-Object
+	Array
+	Map
+	Set
+	Date
+	...
+-Function
+
+//Primitivo estrutual
+-Null;
+
+//Variáveis
+-Nomes simbólicos para receber algum valor;
+-Atalhos de código;
+-Identificadores;
+-3 palavras reservadas para criar uma variável
+	var
+	let
+	const
+-declarar uma variável = criando uma variável;
+
+//Tipagem
+-O JS é uma linguagem fracamente tipada (ou seja, a variável não precisa ser declarada) e dinânima (podemos mudar o tipo da variável);
+-Variáveis não precisam ter um tipo previamente definido;
+-Podemos mudar o conteúdo da variável;
+
+//scope var
+-Escopo determina a visibilidade de alguma variável no JS;
+-Muito flexível, tanto que acaba dando bugs;
+	//Block statement
+	-O bloco, também criará um novo escopo. Chamamos de "block-scoped";
+-Var é global e, também local;
+-Hoisting;
+
+// scope let e const
+-funcionam somente dentro do escopo que foram criados;
+
+// Para cirar nomes
+-JS é case-sensitive (sensível ao caso);
+-JS aceita a cadeia de caracteres Unicode (aspas e acentuações);
+	-Posso:
+	iniciar com esses caracteres especiais: $ _
+	iniciar com letras
+	colocar acentos
+	letras maiúsculas e minúsculas fazem diferença
+	-Não posso:
+	iniciar com números
+	colocar espaços vazios no nome
+	//Ideal:
+	Criar nomes que fazem sentido
+	Que explique o que a variável é ou faz
+	camelCase
+	snake_case
+	Escrever em inglês
+
+
+--------------------Praticando------------------
+
+//Declarando na prática
+-Que tipo de dado foi colocado na variável (typeof variavel);
+
+//Agrupamento de declarações
+let age, isHuman;
+
+//multiplos argumentos na funcao
+console.log(nome, age, isHuman);
+
+//concatenando escrita de texto + variaveis
+"sua idade é" + age;
+
+//template literals 
+${};
+
+//Object
+const person = {
+	name: "Mario",
+	age: 27,
+	weight: 88.5,
+	isAdmin: true
+}
+console.log(person.name);
+
+//Array
+const animals = [
+	"lion",
+	"monkey",
+	"cat"
+]
+console.log(animals[0]);
+
+--------------------Funções------------------

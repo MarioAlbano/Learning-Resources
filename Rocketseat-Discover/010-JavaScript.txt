@@ -216,5 +216,101 @@ console.log(animals[0]);
 -quando lido o return, a função para e retorna o valor de return;
 
 //function scope
--
- 
+-Se não criamos dentro da função e sem parâmetro, ele tenta buscar a variavel fora do escopo;
+-Apos chamado uma função, a mesma pode modificar as variáveis criadas antes dessa função;
+
+//function hoisting
+-Funçõs, sem declarações de let const ou var, também recebem hoisting;
+
+//Arrow function
+-Modo mais compactado de fazer funções;
+Ex: const myName = () => {
+	código_aqui;
+}
+
+//Callback function
+-Significa chamar de volta;
+-chama uma função que chama outra de volta;
+
+//Function () constructor
+-Expressão new;
+-Criar um novo objeto;
+-this keyword (cria um objeto a partir do outro para que quando instanciarmos esta classe podemos usar sem alternar o nome);
+
+
+----------------Manipulando Dados----------------------
+
+//Prototype
+
+-prototype-based language;
+-prototype chain (idéia de sempre buscar propriedades e funções de protótipos passados);
+- __proto__ (mostra todas as propriedades que puxou do objeto. Na parte de baixa mostra as propriedades raiz que o objeto herdou);
+-Uma maneira de herdar prorpiedades e funcionalidades do seu protótipo;
+-Podemos utilizar o propótipo para saber oque tem disponível de funções para trabalharmos com o objeto;
+-Colocando um "." podemos acessar todos esses valores;
+
+
+//Type conversion
+-type conversion (typecasting) (conversão que nós fazemos) vs type coersion (conversão forçada pelo javascript)
+*alteração de um tipo de dado para outro tipo;
+-Exemplo de concatenação de strings com número (type coersion) e quando convertemos a string para numero (type conversion);
+
+//Manipoulando strings e números
+-Transformar string em número e número em string;
+-podemos converter com Number() e String();
+
+//Contando caracteres e quantos digitos tem um número
+- .length mostra quantos caracteres temos;
+- para number podemos converter para string e depois usar o .lenght;
+
+//Transformando um número quebrado com 2 decimais e trocar ponto por vírgula;
+-utilizar o ".toFixed(2)", no caso indicando para podermos ver até duas casas;
+-utilizar o ".replace(".", ",")" para trocarmos palavras;
+-podemos atrelar uma função a outra;
+
+
+//Transformando letras minúsculas em maiúsculas. Faça o contrário disso também
+-utilizar ".toLowerCase()" para minúsculas;
+-utilizar ".toUpperCase()" para maiúsculas;
+
+//Verificando se tem uma palavra específica
+-utilizar ".includes()";
+-é case sensitive;
+
+//Manipulação strings e arrays
+-Separe um texto que contem espaços. Depois trocando o espaço por _;
+-Criar uma variável da string. Utilizar variavel.split(" "). Depois utilizar variavel.join("_") para poder juntar a frase e trocando por "_" ao invés de espaços;
+
+//Criar array com construtor
+-utilizar o new para instanciar uma nova classe
+
+//Elementos do array
+-Contando elementos de um array;
+-adicionar ".lenght" apos o [] do array;
+
+//Transformar uma cadeia de caracteres em elementos de um array
+-utilizar o "Array.from()"
+-podemos por exemplo utilizar o "Array.from(word)" para transformar em array separado por caracteres;
+
+//Manipulando arrays
+-Adicionando um item no fim do array
+	array.push("adicionado_esta_string");
+-Adicionar no começo do array
+	array.unshift("sql");
+-Remover do fim
+	array.pop();
+-Removendo do começo
+	array.shift();
+-Pegar somente alguns elementos do array
+	array.slice(1, 3);
+-remover 1 ou mais items em qualqeur posição do array;
+	array.splice(1, 2);
+-Encontrar a posição de um elemento no array
+	array.indeOf("css");
+
+//Expressões e Operadores
+-Expressions
+-Operators
+	Binary
+	Unary
+	Ternary

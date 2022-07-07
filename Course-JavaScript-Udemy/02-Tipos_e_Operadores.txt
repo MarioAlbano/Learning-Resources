@@ -1,0 +1,89 @@
+//Necessário para os projetos
+-HTML, CSS, Código limpo, estruturação de projetos, responsivo, 
+
+//Oque é JavaScript?
+-é uma linguagem de programação de alto nível
+-criada para dar vida as páginas webs
+-Vanilla JavaScript = Javascript sem frameworks
+-ECMAScrip é o nome de fato da liguagem na documentação, JavaScript é somente o nome fantasia
+-just-in-time compiled, ou seja, não tem delay de compilação igual ao Java
+-Orientada a objetos: podemos entender que uma linguagem é moderna quando podemos trabalhar com objetos
+
+//Onde JavaScrip é utilizada?
+-interagir com HTML e CSS (DOM), servindo para fazer ações nos sites;
+-calcular, manupular e validar dados em prol do que queremos fazer;
+-pode ser utilizada como linguegem server-side (Node.js) para se comunicar como ex: phyton ou php;
+-base de grandes frameworks (React, Angular,Vue);
+
+//Comandos
+-console.log() |Faz um texto e manda para o console do navegador
+
+//Tipos de dados
+-classificação/categoria de um dado;
+-ex: 12, 'olá', True;
+-Number, String, Boolean, Empty Values
+
+//Numbers
+-Trata de números
+-console.log(typeof 13);   typeof verifica o tipo de dado|console.log() manda um texto para o console do navegador
+
+//Numbers: aritméticas
+-mais feitos com números, resultado produz outro number;
+-console.log(2+2);
+-console.log(2*4-3);
+-console.log(8/4);
+- +soma -subtração /divisão %resto;
+
+//Numbers: Special numbers
+-considerados números mas não funcionam como um;
+-infinity  -infinity  NaN (Not a Number);
+
+//Strings
+
+String = texto;
+console.log(typeof "isso é uma String");
+console.log(typeof `este texto aqui também`); template literals
+
+//Strings: Mais detalhes técnicos;
+- com / você consegue pular linha;
+-console.log("Essa é uma String \n De duas linhas");
+-usar o ""
+-template literals ${} usando os backticks ``
+-concatenação com o +
+
+//Booleans
+-guardar um valor de comparação;
+-somente true ou false;
+-console.log(5>2);
+-console.log(3>10);
+
+//Booleans comparação 
+>	|maior que
+< 	|menor que
+>= 	|maior ou igual
+<= 	|menor ou igual
+== 	|igual
+!= 	|diferente
+=== 	|idêntico
+
+//Booleans: operadores lógicos
+
+-Comparam e resultam em um boolean
+- && -and-> Para ser true os dois lados precisam ser verdadeiros
+- || -or-> Para ser true basta um ser verdadeiro
+- !  -not-> inverte os valores(true fica falso)
+
+//Booleans: operador tenário
+-Faz um comparativo em apenas uma linha de código. Manda uma mensagem para true e outra para false;
+-console.log(true ?1:2);
+-não muito utilizado porque dificulta a legibilidade do código
+-como se estivesse falando false? = é falso?
+-console.log((5 > 2)? "é sim" : "é não");
+
+//Empty Values
+-Palavras reservadas undefined e null. Basicamente o Js diz que eles não existem;
+
+//Conversão de tipo automática
+-em determinadas opeações, o javascript converte silenciosamente o tipo do resultado final da operação;
+-console.log("5" + 1) = 51;
+-console.log(2*3) = NaN;

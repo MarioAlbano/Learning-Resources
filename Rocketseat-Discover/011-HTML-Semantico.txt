@@ -1,0 +1,73 @@
+********************Web Semântica**********************
+
+//O que é?
+-Adicionar significado a uma linguagem;
+-No caso do HTML, para dar significado ao conteúdo;
+
+//Web semântica
+-Controlar a organiozação e apresentação do nosso conteúdo;
+-Cada site é único, entretando, existem padrões dou convenções, que nós identificamos intencionalmente ou não intencionalmente;
+-Ao usar uma marcação semântica consistente, para identificar os elementos da página, nós ajudamos os user agents(browsers) a identificar corretamente os elementos e apresentá-los aos visitantes da página;
+-Isso se torna extremamente relevante para acessibilidade, ou seja, para visitantes que precisam usar leitores de página, por exemplo. Com uma página desorganizada, fica complexo para o visitante com necessidades especiais, fazer um bom uso da nossa página.
+
+//A importância das tags HTML semânticas
+-Elas que irão ajudar a criar um HTML semântico, pois algumas tags tem significaods específicos e orientaçõs claras sobre onde devem ficar na página e o motivo dela existir;
+
+//Seções comuns em documentos HTML
+-Cabeçalho <header>
+-Navegação <nav>
+-Conteúdo principal <main>
+-barra lateral <aside>
+-rodapé <footer>
+
+//Header
+-Onde utilizar?
+	Quando no início da página, é visto como global
+	Pode ser usado em outros elementos semânticos como article, section
+	Não utilizar header dentro de header ou footer
+-Múltiplos headers;
+-Não possui atributos específicos;
+
+//Nav
+-Onde e por que utilizar?
+	Pode ser usado no topo ou lateral;
+-Não possui atributos específicos, somente os globais;
+
+//Main
+-Onde e por que utilizar?
+	Onde será selecionado a parte principal do seu site;
+-Não possuem atributos específicos, somente os globais;
+
+//Article
+-Onde e por que utilizar?
+	Relacionado a sua página porém funciona de forma independente;
+-Não possuem atributos específicos, somente os globais;
+
+//Aside
+-Conteúdos levemente relacionados ao conteúdo principal
+	Explicações
+	Glossários
+	Links Extras
+	Biografia do autor
+	Informações de perfil
+-Atributos: apenas globais;
+
+//Footer
+-Geralmente no final da página
+	Informações do autor, copyright, contato, sitemap, voltar ao topo;
+-Atributos: globais;
+
+//Section
+-Onde e por que utilizar?
+	Mostra uma seção do seu site que geralmente não tem outra tag melhor para representálo;
+-Geralmente contém um título e um conteúdo;
+-Apenas globais
+
+//Elementos genéricos não semânticos
+-div
+	Usado se não conseguir um elemento de bloco semântico;
+-span
+	Usado se não conseguir achar um elementop de texto semântico;
+-Em ambas, use atributos globais como id e class para entregar maior significado;
+-Um bom exemplo de div é para carrinhos de loja online. Exemplo bom de span é uma alternativa para o <strong>;
+-Temos de tomar cuidado para não spammar essas tags no nosso documento, procurando sempre alternativas semânticas;

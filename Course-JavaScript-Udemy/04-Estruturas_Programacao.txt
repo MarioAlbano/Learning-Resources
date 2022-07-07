@@ -1,0 +1,149 @@
+***ESTRUTURAS DE PROGRAMAÇÃO***
+
+//Oque é um programa/software (união de declarações);
+-Conjunto de declarações (statements); Junção de tudo, no caso statements e expression
+-statements são conjuntos de expressões (expressions); Intermediário que unem os fragmentos de código
+-Expression é fragmento de código que produz valor; Menor fragmento do programa possível
+statement{expression;expression}
+-Software tem um objetivo. Statements guiam o software para o objetivo. Expressions são valors que o statements tem para guiar o software
+-Statement: console.log(1>12);
+-Expression: console.log('texto');
+
+//Oque são variaveis?
+-Salvamos os valores em variáveis(é um statement);
+-let cafe=4;
+-e depois criar expressoes com elas
+-console.log(cafe*cafe);
+-podemos mudar a variável ao longo do programa
+-podemos criar várias variaveis de uma vez, mas dificulta a legibilidade;
+-let quadrado=4, triangulo=3, retangulo=5;
+-a palavra var tinha algunas problemas técnicos. Com o ES6 lançaram o let
+
+//Outras maneiras de salvar valor
+-Podemos definir valores com var e const;
+-var nome = "nomes";
+-const sobrenome = "sobrenome";
+-var é uma forma mais antiga, você deve optar por let ou const;
+-const vem de constante, ou seja, não pode ser alterado;
+-usar var somente quando não temos outra opção a não ser usar uma versão antiga	
+
+//Regras para nome de variáveis
+-Não pode começar com número;
+-Pode terminar com número;
+-pode ter $ ou _, mas sem outros caracteres especiais;
+-podemos iniciar com letra maiúsculo, porem tendo cuidado com o case sensitive;
+-ou usar o camelCase ex: let loguinSenha = 123;
+
+
+//Nomes de variáveis reservadas
+-Alguns nomes não podem ser usadas pomo exemplo break, case, const, true, typeof, var e muitas outras;
+-porem podemos usar elas e mais um numero. ex break1;
+
+//Como funciona o ambiente
+-ambiente é criado quando um programa é iniciado
+-já vem alem do console.log, outras funções nativamente
+-funções são blocos de código que nos retornam um valor ou ação
+-o ambiente seria o navegador
+
+//Estrutura de uma função
+-são chamadas durante o programa;
+-podemos ouvir(chamar, executar, invocar uma função);
+-chamamos a função pelo nome dela + ();
+-nomeDaFuncao();
+-podemos inserir parametros, em alguns casos obrigatorios(valores que mudam o resultado da função);
+
+//Função biult-in: prompt()
+-recebe um input do usuário e guarda o valor
+-ex: let idade = promp("Qual sua idade?)
+-acaba sendo limitado o design da caixa pois varia de browser, por isso não é muito usado a não ser para testes
+
+//Função biult-in: alert()
+-Exibe uma mensagem na tela do usuário
+-Ex: alert('alerta de mensagem');
+-Pouco utiliza pois assim como o prompt, não pode ser customazada e é considerada invasiva;
+
+//Função biult-in: Math.x()
+-Função utilizada para expressões/cálculos matemáticos;
+-let maiorNumero = Math.max(1,5,2,3);
+-uma função é muito utilizada;
+-Ex: let menorNumero = Math.min(34, 312, 34, 23, 32, 25, 15, 123, 34, 23, 234, 123);
+Math.max(), Math.min(), Math.round(), Math.ceil();
+
+//Função built-in: console.log()
+-Exibe uma mensagem na tela, do argumento que passamos
+-função muito utilizada para testes
+
+//Oque são estruturas de controle
+-Um porograma é executado de cima para baixo.
+Com as estruturas podemos modelar o fluxo do programa;
+-ou seja, dependendo dos valores de statements e expressions, ele tomará um caminho diferente;
+-começo -> condição -> sim ou não -> executar um comando diferente para cada caso (if);
+
+//Estrutura condicional: IF
+-executa um bloco de nota se algo acontecer;
+-condição imposta por um statement;
+-resulta em um boolean
+
+//Estrutura condicional: ELSE
+-Podemos executar um outro bloco de código caso o if não seja atendida;
+-iniciar a bifurcação;
+-só existe junto com o if;
+
+//Estrutura condicional: ELSE IF
+-encadear mais condições com o else if;
+-antes de executar o else verificamos mais de uma condição;
+
+//Estrutura de repetição: 
+-ideia é repetir uma ação até atingir uma condição;
+-ao invéz de fazer inumeros statement, faremos um loop;
+
+//Estrutura de repetição: while
+-Fará uma ação até que a condição seja atingida;
+-Definir um fim para o loop para que não seja infinito;
+
+//Estrutura de repetição: do while;
+-semelhante ao while, com estrutura diferente;
+-quase não usado;
+
+//Estrutura de repetição: for 
+-Semelhante ao while, porém amplamente utilizado;
+-Facil de aprender;
+-Extremamente prático e organizado;
+
+//Identação
+-Organizar e deixar mais legível de ler;
+-não é regra mas cada bloco deve ser aninhado;
+-vão te agradecer no futuro por identar o código;
+-para o código não afeta em nada;
+
+//Forçando a saída de um loop: BREAK
+-As vezes precisamos parar o loop;
+-para isso usamos o break;
+
+//Pulando uma execução do loop: CONTINUE
+-podemos pular o resto da execução
+-para isso usamos o continue
+
+//Incrementando a variável: forma fácil
+x +=1;
+x++;
+
+//Estrutura condicional: switch
+-Quando há a necessidade de vários ifs, podemos utilizar o switch/case;
+-para sair usamos o break;
+-podemos inserir uma expressão default se caso nenhum valor for retornado
+-muitos programadores ainda optam por if's
+
+//Declaração de variáveis
+-let carrovermelhogrande;(errado, difícil de ler)
+-let carro_vermelhor_grande;
+-let CarroVermelhoGrande;
+-let carroVermelhoGrande;(cameCase, o mais utilizado);
+
+//Comentários no JavaScript
+-Utilizado para explicar oque acontece no código;
+-Comentar brevemente, evitando os textos grandes
+-É ignorado pelo interpretador de código;
+-Uma linha e multi-linha;
+- // ou /* */
+

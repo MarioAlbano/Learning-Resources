@@ -194,3 +194,27 @@ const animals = [
 console.log(animals[0]);
 
 --------------------Funções------------------
+
+//Functions
+-Servem para que não precise repetir o código inumeras vezes;
+-Também tem a tarefa de agrupar os códigos;
+-declaration - declaração da função;
+-function statement (corpo da função);
+
+//Executando
+-rodar, chamar, invocar;
+-Execute, run, call, invoke;
+
+//Argumentos e Parâmetros 
+-(2, 3)
+2 3 = argumentos. Usarão esta informação dentro da função;
+(2 , 3) = parametros;
+-Também só funcionam dentro do escopo;
+
+//Retornando valores dentro da função
+-Utilizando a palavra "return"
+-quando lido o return, a função para e retorna o valor de return;
+
+//function scope
+-
+ 

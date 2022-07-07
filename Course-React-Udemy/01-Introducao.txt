@@ -12,10 +12,10 @@
 //Oque é Node.js?
 -O Node.js é uma runtime de JavaScript;
 -Ou seja, uma biblioteca utilizada por um compilador durante a execução do programa;
--Mais rapida pois utiliza uma linguagem de mmais baixo nível para ser processada;
+-Mais rapida pois utiliza uma linguagem de mais baixo nível para ser processada;
 -Que está construída na V8 engine (escrita em C++) da Google;
 -Possibilitando criar softwares em Js no lado do servidor;
--Temos então um código Js rodando em C++ para garantior alta performance;
+-Temos então um código Js rodando em C++ para garantir alta performance;
 
 //O que é npm?
 -O npm é um gerenciador de pacotes do Node;
@@ -27,7 +27,7 @@
 
 //Hello world em React
 -Para criar as nossas aplicações em React vamos utilizar um executor de scripts do Node, que é o npx;
--Com o comando: npx creat-react-app <nome> temos uma nova aplicação sendo gerada;
+-Com o comando: "npx create-react-app <nome>" temos uma nova aplicação sendo gerada;
 -Podemos iniciar a aplicação com npm start;
 -Vamos ver na prática;
 

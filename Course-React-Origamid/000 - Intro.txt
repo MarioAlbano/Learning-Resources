@@ -1,0 +1,22 @@
+******************INTRO********************
+
+//Ambiente
+-Instalar o Node.js / NPM;
+-Instalar o Git;
+-Instalar o Visual Studio Code;
+-React Developer Tools;
+-Configurar settings.JSON para os arquivos react sejma interpretados como javascript;
+
+//Fundamental de JavaScript
+-1 - Tudo é objeto;
+-2 - Arrow Function;
+-3 - Destructuring;
+-4 - Rest e Spread;
+-5 - Module (Export/import);
+-6 - Fetch;
+-7 - Async / Await;
+-8 - Arrays (map e filter);
+-9 - Expressões;
+
+//1 - Tudo é objeto
+-No javascript, tudo é objeto. Isto significa que um objeto possui propriedades e métodos que podem ser diretos ou herdados (protótipo);

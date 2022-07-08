@@ -1,20 +1,37 @@
-****************Fundamentos do React*********************
+**************Fundamentos do React******************
 
 //Criando componentes
 -Na maioria dos projetos os componentes ficam em uma pasta chamada components, que devemos criar;
--Geralemnte são nomeados com a camelCase;
+-Geralmente são nomeados com a camelCase;
 -No arquivo criamos uma função, que contém o código deste componente (a lógica e o template);
 -E também precisamos exportar esta função, para reutilizá-lo;
 
 //Importando componente
 -A importação é a maneira que temos de reutilizar o componente;
--Utilizamos a sintaxe: import X from "./componentes/X" onde X pe o nome do componente;
--Para colocar o componente importado em outro componente, precisamos colocá-lo em forma de tag: <FirstComponent>;
--E então finalizamos o ciclo de importação;
+-Digitar no começo do App.js: " import apelido_do_componente from "./componentes/nome_do_componente" ";
+-No final do arquivo do componente, digitar "export default nome_da_função";
+-Para colocar o componente importado em outro componente, precisamos colocá-lo em forma de tag dentro do App.js: Ex: <FirstComponent>;
 
-//Importando componente
--A importação é a maneira que temos de reutilizar o componente;
--Utilizamos a sintaxe: import X from "./componentes/X" onde X é o nome do componente;
--Para colocar o componente importado em outro componente, precisamos colocá-lo em forma de tag: <FirstComponent>;
--E então finalizamos o cicle de importação;
--Vamos importar o FirstComponent em App;
+//Conhecendo o JSX
+-JSX é o HTML do React;
+-Onde vamos declarar as tags de HTML que serão exibidas no navegador;
+-Ficam no return do componente;
+-Temos algumas diferenças no HTML, por exemplo: class será className;
+-Isso se dá pelas instruções semelhantes de JS e HTML, pois o JSX é JAvaScript, então algumas terão nomes diferentes;
+-O JSX pode ter apenas um elemento pai;
+
+//Comentários no componente
+-Podemos inserir comentários de duas maneiras no componente;
+-Na parte da função, onde é executada a lógica, a sintaxe é: //Algum comentário;
+-E também no JSX: {/*Algum comentário*/};
+-As chaves nos permitem executar sentenças em JavaScript, veremos isso mais adiantes;
+
+//Template Expressions
+-Template Expressions é o recurso que nos permite executar JS no JSX e também interpolar variáveis;
+-Isso será muito útil ao longo dos seus projetos em React;
+-A sintaxe é: {algumCódigoEmJS};
+-Tudo que está entre chaves é processado em JavaScript e nos retorna um resultado;
+
+//Hierarquia de componentes
+-Os componentes que criamos podem ser reutilizados em vários componentes;
+-E ainda componentes podem formar uma hierarquia, sendo importados uns dentro dos outrs, como fizemos em App;

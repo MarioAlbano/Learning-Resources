@@ -42,3 +42,4 @@
 -No React os eventos já estão "prontos", podemos utilizar onClick para ativar uma função ao clicar em um elemento;
 -Esta função é criada na própria função do componente;
 -As funções geralmente tem o padrão handleAlgumaCoisa;
+

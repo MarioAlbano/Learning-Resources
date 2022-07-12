@@ -1,0 +1,91 @@
+******************Git**************************
+
+//Porque precisamos de git?
+-Modificar algo, sem perder o que tinha feito;
+-Salvar/arquivar seu código;
+-Corrompeu seu arquivo ou o computador queimou;
+-Foi solicitada alteração, mas depois de uns meses houve arrependimento e prexisava voltar atrás;
+
+//Controle de versão VCS
+-Registrar de alterações em um ou mais arquivos;
+-Lembrar versões específicas mais tarde;
+-Reverter para estado anterior determinados arquivos ou  um projeto inteiro;
+-Compare as mudanças ao longo do tempo;
+-Veja quem modificiou pela última vez algo que pode estar causando um problema;
+-Quem introduziu um problema ou quando;
+-Se você estragar tudo ou perder arquivos, você pode facilmente recuperar;
+
+//Sistemas locais
+-Copiar os arquivos para outro diretório;
+-Muito comum e muito simples;
+-Incrivelmente propensa a erros;
+-Fácil de sobreescrever arquivos, caso haja feito uma cópia errada;
+
+//Para superar os possíveis erros, existe o RCS - Revision Control System;
+-Ferramenta popular (antigamente) para controle de versão
+-Mantem conjuntos de alterações, ou seja, as diferenças entre os arquivos;
+-Formato especial no disco;
+-Re-criar como qualquer arquivo se parecia em qualquer ponto no tempo, adicionando-se todas as alterações ao arquivo;
+-Falha: E se eu precisar trabalhar com outros desenvolvedores?
+
+//Sistemas centralizados
+-Um único servidor que contém todos os arquivos de controle de versão;
+-Vários clientes usam arquivos a partir desse lugar central;
+-Por muito anos, este tem sido o padrão para controle de versão;
+
+//Vantagens sobre VCSs locais
+-Controle sobre atividades dos colaboradores no projeto;
+-Os administradores têm controle refinado sobre quem pode fazer o que;
+-Mais fácil de administrar um CVCS do que lidar com bancos de dados locais em cada cliente;
+
+//Desvantagens 
+-Se esse servidor der problema por uma hora, durante essa hora ninguém pode colaborar ou salvar as alterações de versão para o que quer que eles estejam trabalhando;
+-Se o disco rígido do banco de daddos central for corrempido, você perde absolutamente tudo;
+-Sistemas VCS locais sofrem com esse mesmo problema;
+-Sempre que você tenha toda o histórico do projeto em um único lugar, há o risco de perder tudo;
+
+//Sistemas distribuídos
+-Exemplo: Git, Mercurial, Bazaar ou Darcs;
+-Duplicar (clonar) localmente o repositório completo;
+-Se qualquer servidor morrer, e esses sistemas estiverem colaborando por meio dele, qualquer um dos repositórios do cliente poderá ser copiado de volta para o servidor;
+-Cada clone é de fato um backup completo de todos os dados;
+-Clientes usam o estado mais recente dos arquivos;
+
+//Resumo
+-Como uma linha de tempo, podemos voltar em pontos passados;
+-Seguindo a mesma analogia, podemos seguir por uma linha diferente;
+
+----------------------------------------------------
+
+//Configurar seu nome e email
+-Digitar "git config user.name “Your Name”";
+-Digitar "git config user.email “name@email.com”"
+
+//git help
+-Digitar "git help nome_da_ação" para receber detalhes;
+
+//git init
+-Iniciando o repositório;
+
+//git commit
+-Digitar "git add ." para adicionar todos os arquivos;
+-Digitar "git commit -a -m" para comitar;
+
+//git log
+-Entendemos o que aconteceu no histórico do seu projeto;
+-"digitar "git log"";
+
+-----------------------------------------------------
+
+//Conceitos
+-Linha do tempo de um arquivo git
+init / clone -> Working Directory -> add -> Stage Area(preparado) -> commit -> Local Repository(commitado)
+
+//Hash SHA-1
+-algoritmo checksum, que converte dados em numeros;
+-feito para sempre ser um número único para cada modificação (pelo menos muito difícil);
+
+//Head 
+-Sempre aponta para que commit estamos;
+
+

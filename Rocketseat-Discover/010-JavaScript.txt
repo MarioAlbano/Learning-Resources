@@ -314,3 +314,123 @@ Ex: const myName = () => {
 	Binary
 	Unary
 	Ternary
+
+//new
+-left-hand-side expression;
+-cria um novo objeto;
+
+//Operadores unários
+-typeof; typeof minha_idade;
+-delete; Ex: delete person.age;
+
+//Operadores aritiméticos
+-Multiplicação *;
+-Divisão /;
+-Soma +;
+-Subtração -;
+-Resto da divisão %;
+-Incremento ++;
+-Decremento --;
+-Exponencial **;
+
+//Grouping operator ()
+- Usar () para agrupar operações que você deseja dar prioridade;
+
+//Operadores de comparação
+-Comparar a resposta com um boolean;
+- utilizar == , != ;
+- == significa igual. === significa igual e do mesmo tipo;
+-A mesma lógica funciona para != e !==;
+
+//Maior e menor que
+-Utilizar <, >, <=, >=;
+
+//Operadores de atribuição (Assigment)
+- utilizar =, +=, -=, *=, 
+
+//Operadores lógicos (logical operators)
+-"true" para verdadeiro, "false" para falso;
+-"&&" para dizer E;
+-"||" para dizer OU;
+-"!" para dizer não;
+
+//Operador condicional (ternário)
+-Condição então valor 1 se não valor 2;
+- "condition ? value1 : value2";
+
+//Operador de string
+-comparação: ==;
+-concatenação: +;
+
+//Falsy
+-Quando um valor é considerado false em contextos onde um booleano é obrigatório (condicionais e loops);
+	false
+	0
+	-0
+	""
+	null
+	undefined
+	NaN
+
+//Truthy
+-Quando um valor é considerado true em contextos onde um booleano é obrigatório (condicionais e loops);
+	true
+	{}
+	[]
+	1
+	3.23
+	0
+	false
+	1
+	infinity
+
+--------------------- Control flow -------------------
+
+//if e else
+-digitando "if(){} else{}";
+-usar o "else if" para adicionar mais um bloco;
+-sempre usar dentro do bloco;
+-criar variáveis para receber condicionais;
+
+//switch
+-uma alternativa para o if else;
+-melhor utilizado quando existem várias alternativas;
+-ex: switch (expression) {
+case "a":
+//código
+break
+case "b": 
+// código
+break
+}
+
+//throw
+-jogar o bloco de código para testar erros;
+
+
+//try...catch
+Try tenta executar o bloco de código e se houver um erro será disparado;
+Catch pega esse erro na aplicação;
+
+//Estrutura de repetição
+-for(inicialização_da_variavel; enquanto_menor_que; incrementa/decrementa){};
+	break = para a execução do loop;
+	continue = pula a execução no momento;
+
+//While
+-Enquanto;
+-Usado como uma alternativa do for;
+-Melhor utilizado quando não sabemos quando o loop irá parar;
+
+//for...of
+-for = pegar. of = de;
+-Uma declaração que vai criar um loop através de alguma variável/array existente;
+-Ex: for(let char of name) {
+	console.log(char);
+}
+
+//for...in
+-Estará pegando as propriedades do objeto;
+-Ex: for(let property in person) {
+	console.log(property);
+}

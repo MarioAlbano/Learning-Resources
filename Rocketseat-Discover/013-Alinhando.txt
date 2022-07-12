@@ -1,0 +1,92 @@
+*******************Alinhando********************
+
+//Layout e evolução
+-Layout tem a ver com a maneira que os elementos estão distribuidos na tela;
+
+//Normal flow
+-Ou flow layout é a maneira que os elementos "block" e "inline" ficam na página;
+
+//tables
+-É a maneira de tabelas onde a tag "table" recebe um display "table" fazendo com que os elementos internos como "td" e "tr" possam ser usados para montar uma tabela;
+
+//Tabless
+-Uso das propriedades "float", "clear" para que os elementos possam mudar de posição na tela;
+
+//Flexbox
+-A caixa se torna flex, fazendo com que os elementos internos possam receber melhor:
+	Alinhamento
+	Ordenação
+	Tamanhos Flexíveis;
+
+----------------------------------------------------
+
+//Terminologia
+-Flex Container; /Container que contém os itens
+	Flex item
+-Nesting	/Itens dentro de outro item
+-Axis /Eixo principal e cruzado
+	main
+		start, end
+	cross
+		start, end
+-flex sizing
+	flexível
+	altera width/height dos itens para preenchimento dos espaços do flex container
+
+----------------------------------------------------
+//Propriedades do flex container
+-Direção dos itens;
+-Multi linhas;
+-alinhamento
+	principal
+	cruzado;
+-espaços entre os itens;
+
+//Direção dos itens
+-Flex é uma dimensão (horizontal ou vertical);
+-Podemos mudar a direção com "flex-direction";
+-Valores: (row | row-reverse | column | column-reverse)
+
+//flex-wrap
+-Podemos usar multi linhas;
+-Cada nova linha, um novo flex container;
+
+//flex-flow
+-shorthand
+-consegue com um propriedade, mudar duas propriedades do flex;
+-flex-direction || flex-wrap
+
+//justify-content
+-Alinhamento dos elementos dentro do container;
+-Distribuição dos elementos;
+	//valores
+	-flex-start
+	-flex-end
+	-center
+	-space-around
+	-space-between
+	-space-evenly;
+
+//align-itens
+-Alinhamento dos elementos no eixo cruzado;
+	//valores
+	-stretch
+	-flex-start
+	-flex-end
+	-center;
+
+//gap
+-Espaços entre os elementos;
+	//valores
+	-Unidades de medidas
+	-fixas: px, pt
+	-flexíveis
+
+-------------------------------------------------
+
+//Propriedades para os itens
+-flex-basis /muda o tamanho do item;
+-flex-grow /adapta e faz o item crescer automaticamente;
+-flex-shrink /faz o item encurtar dependendo do tamanho da caixa;
+-flex /shorthand para as propriedades acima;
+-order /serve para ordenar elementos;

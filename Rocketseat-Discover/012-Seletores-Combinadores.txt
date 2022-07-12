@@ -1,0 +1,76 @@
+*****************Seletores********************
+
+//Seletores
+-Conecta um elemento HTML com o CSS a fim de alterar o elemento;
+
+//Tipos
+-Element selector
+	Todos os elementos HTML
+-ID selector
+	Um elemento que tenha um atributo "id";
+	Cada id deverá ser único;
+-Class selector
+	Os elementos que contenha um atributo "class";
+	Podemos ter uma ou mais classes.
+-Attribute selector
+	Um elemento que tenha um atributo específico;
+-Pseudo-class selector
+	Elementos em um estado específico;
+
+//Múltiplos
+-Você poderá selecionar múltiplos elementos e aplicar alguma regra css para todos eles;
+-Usamos uma separação por vírgulas para isso;
+
+//Combinators
+-Combinadores, pois eles trabalham para buscar e combinar seletores a fim de aplicar uma estilização
+
+//Descendant combinator
+-Identificado por um espaço entre os seletores;
+-Busca um elemento dentro de outro;
+
+//Child combinator
+-Identificado pelço sinal ">" entre dois seletores;
+-Seleciona somente o elemento que é filho direto do pai;
+-Elementos depois do filho direto serão desconsiderados;
+
+//Adjacent sibling combinator
+-Identificado pelo sinal "+" entre dois seletores;
+-Seleciona somente o elemento do lado direito que é irmão direto na hierarquia;
+- "+" seleciona o irmão ao lado;
+- "~" seleciona todos os irmão;
+
+//Utilizando combinators
+-utilizando o ">" para ser bem específico;
+
+//Dica
+-Seletores muito específicos tendem a causar dificuldades no reuso das regras de estilização dos elementos;
+-Muitas vezes, um simples uso de classes, torna o trabalho muito mais eficiente;
+
+-------------------Pseudo-Classes------------------
+
+//pseudo-classes
+-É um tipo de seletor que irá selecionar um elemento que estiver em um estado específico;
+-Exemplo: É o primeiro elemento dentro de uma caixa, ou, o elemento está com o ponteiro do mouse em cima dele;
+-Pseudo-classes começam com 2 pontos seguido do nome da pseudo class ":pseudo-class-name";
+
+//Selecionando elementos com pseudo-classes
+- :first-child  /Primeiro filho de um grupo de elementos;
+- :nth-of-type() /Diz para pegar os tipos, e entre em parentes modificar o numero do elemento;
+- :nth-child() /Diz para pegar os tipos, e entre em parentes modificar o numero do filho;
+- :nth-child(odd) e :nth-child(even) /Even para pares e odd para impares;
+
+//Ações do usuário
+- :hover /Interações onde aciona quando mouse passa por cima;
+- :focus /Quando clicar no campo, ela faz um foco mudando de cor;
+
+//Ações do usuário com css
+- disabled /mudar a cor onde desabilita o campo;
+- required /muda a cor onde o campo é necessário para o envio;
+
+//Pseudo-elements
+-Com speudo-elements nós podemos adicionar elementos HTML pelo próprio CSS;
+
+//Exemplos
+::before
+::after
+::first-line

@@ -1,0 +1,37 @@
+********************* DOM ****************************
+
+
+//DOM (Document Object Model)
+
+-É o HTML convertido para um Objeto JavaScript;
+-API que representa e interage com o HTML;
+-Estrutura de dados do tipo árvore, criada pelo browser;
+-Propriedades e métodos
+
+//Para que?
+-Javascript usa a DOM para se conectar ao HTML;
+-Manipular o HTML com o Javascript;
+-Você só programa pra WEB porque existe a DOM
+
+//getElementById()
+-Pelo id, conseguimos selecionar um elemento pelo javascript para assim alterá-lo;
+
+//getElementByClassName()
+-Pela class, conseguimos selecionar um elemento pelo javascript para assim alterá-lo;
+
+//getElementByTagName()
+-Pela tag, conseguimos selecionar um elemento pelo javascript para assim alterá-lo;
+
+//querySelector()
+-Pelo seletor usando . ou #, podemos selecionar o primeiro elemento pelo javascript e alterá-lo;
+
+//querySelectorAll()
+-Pelo seletor usando . ou #, podemos selecionar todos os elementos pelo javascript e alterá-lo;
+
+//Qual usar?
+
+-getElementById (retorna o elemento)
+-getElementsByClassName (Retorna HTMLCollection);
+-getElementsByTagName (retorna HTMLCollection);
+-querySelector	(retorna o elemento);
+-querySelectorAll (Retorna Nodelist) por exemplo para fazer forEach();

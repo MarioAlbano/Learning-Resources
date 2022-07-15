@@ -29,9 +29,68 @@
 -Pelo seletor usando . ou #, podemos selecionar todos os elementos pelo javascript e alterá-lo;
 
 //Qual usar?
-
 -getElementById (retorna o elemento)
 -getElementsByClassName (Retorna HTMLCollection);
 -getElementsByTagName (retorna HTMLCollection);
 -querySelector	(retorna o elemento);
 -querySelectorAll (Retorna Nodelist) por exemplo para fazer forEach();
+
+//textContent
+-element.textContent = "Olá Devs!";
+-Utilizamos para alterar o conteúdo do texto;
+
+//innerText
+-element.innerText = "Olá devs";
+-Utilizamos inner text para selecionar texto em nodes;
+
+//innerHTML
+-podemos utilzar as tags html dentro dela;
+-Podemos adicionar HTML direto para o seu elemento
+
+//value
+-element.value = document.querySelector("input");
+-Podemos manipular o valor de um campo;
+
+//Manipulando atributos
+-Podemos adicionar ou remover atributos;
+-element.setAttribute("id", "header");
+-element.removeAttribute("class");
+
+//Alterando estilo com o style
+-element.style.backgroundColor = "#fff";
+-Ao invéz de utilizar " - "  como propriedades, aqui usamos o camelCase;
+
+//classList
+-element.classList;
+-Seleciona uma lista de classes;
+
+//Navegando pelos elementos
+	//parentNode parentElement
+	-Podemos pegar o elemento pai;
+	//pegando os filhos
+	-element.childNodes / Leva em conta o espaço vazio
+	-element.children	/ Não leva em conta o espaço
+	-element.lastChild / Ultimo filho
+	-element.lastElementChild / Ultimo elemento filho
+	//Bucando os irmãos
+	-nextSibl	ng
+	-previousElementSibling
+
+//Criando e adicionando elemento na página
+-createElement;
+-append e prepend;
+-insert before;
+
+//Eventos
+-A Dom é direcionada a eventos;
+-digitar "on" e podemos ver a quantidade de eventos;
+
+//Eventos de teclado
+-onkeydown;
+-onkeypress;
+
+
+
+	
+
+

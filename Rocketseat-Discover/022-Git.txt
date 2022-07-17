@@ -88,4 +88,12 @@ init / clone -> Working Directory -> add -> Stage Area(preparado) -> commit -> L
 //Head 
 -Sempre aponta para que commit estamos;
 
+//Git add
+-Usamos o "git add" para adicionar arquivos;
+- podemos adicionar o nome do arquivo ou podemos usar o . para adicionar tudo;
+-Utilizar * para filtrar os arquivos;
+
+//Enviando arquivos
+-
+
 

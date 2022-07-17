@@ -89,6 +89,17 @@
 -onkeydown;
 -onkeypress;
 
+//Adicionando eventos via JS
+-pegar um elemento e transformá-lo com querySelector;
+-nome_do_elemento_selecionado.addEventListener("click", print);
+
+//Outro método de adicionar evento
+-Podemos adicionar com como por exemplo: nome_do_elemento_selecionado.onclick = print;
+-Porêm se repetirmos o processo, ele acaba desconsiderando o primeiro;
+
+//Argumento event
+-event.
+
 
 
 	

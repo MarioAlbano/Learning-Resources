@@ -94,6 +94,46 @@ init / clone -> Working Directory -> add -> Stage Area(preparado) -> commit -> L
 -Utilizar * para filtrar os arquivos;
 
 //Enviando arquivos
--
+-com o git add podemos adicionar ou modificar dos arquivos, que será apresentado no git status;
+
+//Modificações com git diff
+-usar o git-diff para demonstrar modificações;
+
+//git diff staged
+-mostra somente o que está no staged area, ao invéz do repositório;
+
+//deletando arquivos
+-utilizar o git rm nome_do_arquivo;
+
+//renomeando arquivos
+-podemos utilizar o git mv para renomear arquivos;
+
+------------------------------------------------------
+
+//Desfazendo modificações
+-podemos utilizar "git restore nome_do_arquivo" para poder desfazer as mudanças;
+
+//Tirando do staged
+-Podemos utilizar o "git restore --staged .";
+-Outro modo de fazer é com "git reset HEAD .";
+
+//Corrigindo um commit
+-git commit --amend -m "nome_do_commit";
+
+//recuperando arquivos
+-primeiros fazemos o git checkout "nome_do_commit" --;
+
+//Removendo arquivos não rastreados
+-utilizar "git clean -n" para mostrar o que será removido;
+-para remover, utilizar "git clean -f";
+
+//Revertendo um commit
+-utiliziar o "git revert -HEAD -numero_de_commits_abaixo";
+
+
+
+
+
+
 
 

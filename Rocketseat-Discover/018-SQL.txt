@@ -1,0 +1,23 @@
+------------------------- SQL --------------------
+
+//Oque é um banco de dados
+-Repositório sistêmico de informações;
+-Ou seja, local onde vai guardar as informações de forma organizada;
+-As caixas com gavetas são como banco de dados de forma física;
+-Feito para encontrar informações de forma rápida;
+
+//Serviços
+-SQLite, MariaDB, MySQL, PostgreSQL, Firebase, mongoDB, redis;
+
+//Conceitos
+-Tabelas
+-campos
+-informações
+-exemplo escola
+
+//Tipos de campos
+-Text;
+-Number;
+-Datetime;
+-Primary Key;
+-Nomes de campos e tabelas;

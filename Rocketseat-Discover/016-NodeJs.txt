@@ -44,3 +44,50 @@
 	Passou a fazer parte do openjsf.org
 -Está no github;
 -Comunidade ativa;
+
+//Na prática
+-Criar um arquivo com extensão js;
+-abrir o terminal (Ctrl + ');
+-Utilizar "node nome_do_arquivo.js";
+
+//NPM
+-Node package Manager
+-Glossary: Dependencies, Packages, Modules__ 
+
+//Criando um módulo
+-digitar "npm init";
+-pode ser também "npm init -y";
+
+//Utilizando módulo de terceiros
+-npm install 
+
+//O que é o diretório node_modules
+-Módulos que são blocos encapsulados de códigos que se comunicam com uma aplicação externa;
+
+//npm unistall 
+-Para desinstalar um pacote;
+
+//timers
+-Uma maneira de trabalharmos com o tempo dentro do NodeJS
+	serTimeout
+	clearTimeout
+	setInterval
+	clearInterval
+
+//Iremos praticar um pouco mais de
+-Assíncronismo
+-Callbacks
+
+//Event module
+-è um mecanismo para
+	disparar eventos
+	ouvir eventos
+	fazer alguma ação quando ouvir o evento
+	é a base para muito outros módulos como: http, stream, file system, etc...
+
+//O que vamos aprender?
+-Utilizar os eventos
+-Disparar eventos
+-Ouvir eventos
+-Executar ações para determinados eventos
+-Entender como ele é a base para os outros módulos

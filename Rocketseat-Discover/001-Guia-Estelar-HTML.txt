@@ -1,18 +1,18 @@
 ******HTML********
 
-//O que é HTML
+//	O que é HTML
 -Significa Hypertext Markup Language
--Hipertextos Significam textos que levam para outros, porem hoje se tornou algo mais completo;
--Usamos elementos
+-Hipertextos Significam textos que levam para outros, porém hoje se tornou algo mais completo;
+-Usamos elementos;
 
-//Comentários em html
+//	Comentários em html
 -Usar /*Comentário Aqui*/;
 
-//Elementos e atributos
+//	Elementos e atributos
 -Usamos <tag> para criar elementos. Dentro dos elementos especificamos seus atributos;
 -Certos elementos não precisam de atributos e outros não precisam fechar a tag;
 
-//ATributos mais utilizados
+//	Atributos mais utilizados
 -Class
 -contenteditable
 -data-*
@@ -21,55 +21,55 @@
 -style
 -tabindex
 
-//Aninhamento de tags
--Podemos usar uma tag dentro da outra
+//	Aninhamento de tags
+-Podemos usar uma tag dentro da outra;
 
-//Caracteres reservados
+//	Caracteres reservados
 -Temos de nos atentar para certos elementos reservados;
 
-//Anatomia html
+//	Anatomia html
 -Entendendo o passo a passo da estrutura de um documento HTML;
 
-//Semântica
--Dar significado
--Elementos semânticos
+//	Semântica
+-Dar significado;
+-Elementos semânticos;
 
-//Cabeçalhos e parágrafos
--Organizam o nosso texto para ser mais atrativo para ler
+//	Cabeçalhos e parágrafos
+-Organizam o nosso texto para ser mais atrativo para ler;
 -Ajuda os buscadores do google;
 -Ajuda o leitor visual ler o contúdo para pessoas com defeciencias;
 
-//Listas
+//	Listas
 -Ordenadas
 -Não Ordenadas
 
-//Citações
+//	Citações
 -Formas de fazer citações
 -<blockquote>
 -<cite>
 -<q>
 
-//Abreviações
+//	Abreviações
 -tag <abbr>
 
-//Detalhes de contatos
+//	Detalhes de contatos
 -<address>
 
-//Lista de descrição
+//	Lista de descrição
 <dl> Description list 
 <dt></dt> Description Term
 <dd></dd> Description Data
 </dl>
 
-//Representando códigos no computador
+//	Representando códigos no computador
 -<code> Partes genéricas de código;
 -<pre> Blocos de código, pois essa tag mantém os espaçõs em brancos e recuos que eu colocar no meu código;
 
-//Elemtneos genéricos
+//	Elementos genéricos
 -<div> Trabalha com blocos;
 -<span> Trabalha com linha;
 
-//Hyperlinks - Elemento Âncora: <a>
+//	Hyperlinks - Elemento Âncora: <a>
 -Liga um site com o outro;
 -<a href=""> conteudo </a>
 -target: _self(padrão); _blank(abre uma nova aba);
@@ -83,8 +83,7 @@
 
 //Url absolutos e relativos
 -Absolutos: Inclui protocolo e nome de domínio, sempre apontando pro mesmo local pois é absoluto;
--Relativos: 
--Relativo a página aberta no momento, apontará para lugares diferentes;
+-Relativos: Relativo a página aberta no momento, apontará para lugares diferentes;
 
 //<table>
 -Prós: Visualização de dados via linhas e colunas;
@@ -100,7 +99,7 @@ Contras:
 -Usar cabeçalhos no tbody;
 
 //colgroup
--Podemso usar o colgroup para selecionar determinada tabela e executar ações. Tabém ajuda no SEO (motores de busca do googles);
+-Podemos usar o colgroup para selecionar determinada tabela e executar ações. Tabém ajuda no SEO (motores de busca do google);
 
 //Melhorando a acessibilidade
 -Utilizamos o "scope" para indicar oque está relacionado, melhorando a acessibilidade;
@@ -112,7 +111,7 @@ Contras:
 -Definimos metadados do nosso site, como por exemplo o tipo de caracteres definidos;
 
 //Favicon
--Imagem pequena em formato de ícone para poder diferenciar seu seu ou acessalo mais facilmente;
+-Imagem pequena em formato de ícone para poder diferenciar e também para acessa-lo mais facilmente;
 
 //Meta importantes para o SEO
 -charset

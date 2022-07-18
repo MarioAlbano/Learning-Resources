@@ -1,0 +1,46 @@
+----------------------- NodeJs -------------------------
+
+//Pra que serve?
+-backend
+-front end
+-Micro serviços
+-api / weapp, mobile, desktop
+-scripts e automação
+-machine learning (IA)
+
+//Quando não é bom usar?
+-Se precisar de muito processamento, ou seja, CPU, não é recomendado usar Node (por exemplo para vídeos ou fotos);
+
+//Vantagens
+-Rápido;
+-Alta escalabilidade;
+-Aplicações de ponta;
+-JS everywhere;
+-Ecosistema gigante;
+-Casos de uso -> Netflix, Paypal, Linkedin, Uber;
+
+//Oque é
+-JS Runtime enviroment;
+-Não é um Framework;
+-Não é uma linguagem;
+
+//v8
+-interpretador de Js para linguagem de máquina;
+-criado em c++;
+-Baseado nas últimas features do JS;
+-Focado para Chrome mas tem todo o cuidado de não quebrar o Node
+-Não possui a DOM, console ou File System
+
+//Assíncrono
+-Quando executamos mais de 1 evento e não tem nada que o bloqueie;
+
+//História
+-Ryan Dahi em 2009;
+-NPM Versão 1 em 2011
+	compartilhamento de bibliotecas
+	Grande mudança na manutenção e compartilhamento de códigos
+-2015 Node.js Foundation
+	incluiu: IBM, Microsoft, Paypal e Groupon
+	Passou a fazer parte do openjsf.org
+-Está no github;
+-Comunidade ativa;

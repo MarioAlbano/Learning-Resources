@@ -52,3 +52,44 @@
 //comandos arquivos e diretórios;
 - "cd ~" volta pra raiz do usuário;
 - "cd" change directory;
+-"ls" lista arquivos e pastas 
+	"-i" mais informações
+	"-a" all
+	"-h" human
+	"-R" recursive
+	"-S" ordenar pelo tamanho
+-"file"
+	tipo do arquivo
+	informações
+-"stat"
+	dono
+	modificações
+-"mkdir"
+	make directory
+	cria diretórios
+	"-p" cria os diretórios como pai e filho
+-"touch"
+	alterar registro de data e hora de arquivos ou pastas
+	criar um ou mais arquivos
+-"cp" 
+	copiar
+	"-r" para copiar vários arquivos. Neste caso o último argumento será a pasta para que será enviado as cópias
+-"mv"
+	mover (renomear)
+-"rm"
+	remover
+	tomar cuidado pois remove para sempre e não manda para a lixeira
+	"-r" para diretórios
+	"-f" force
+-"*"
+	1 ou mais caracter
+-"?"
+	1 caracter
+-"find <path> arg [expression]"
+	type<d|f>
+	name
+-"less"
+-"cat"
+	ver conteúdo de arquivos
+-"nano"
+-"vim"

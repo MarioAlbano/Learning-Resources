@@ -2,16 +2,16 @@
 
 //Oque é CSS
 -Cascading Style Sheet;
--Código para criar estilos no HTML
+-Código para criar estilos no HTML;
 -HTML é a estrutura, e o CSS é a beleza;
 -Não é uma linguagem de programação;
 -É uma linguagem style sheet;
 
 //Anatomia
 -Selector; ex: h1
--Declaration; ex: Tude que envolve o seletor
--Properties; ex:color:
--Property Value; ex:blue;
+-Declaration: ex: Tudo que envolve o seletor
+-Properties: ex:color:
+-Property Value: ex:blue;
 
 //Selectors
 -Conecta um elemento HTML com o CSS
@@ -46,10 +46,10 @@
 -cuidado, evite o uso;
 -Não é considerado uma boa prática;
 -Quebra o fluxo natural da cascata;
--Somente usado caso use o código de outro alguém e você não está consegindo alterar o código;
+-Somente usado caso use o código de outro alguém e você não está conseguindo alterar o código;
 
 //At-rules
--Está relaccionado ao comportamento do CSS;
+-Está relacionado ao comportamento do CSS;
 -Começa com o sinal de "@" seguido do identificador e valor;
 -Exemplos: @import // incluir um css externo, @media //regras condicionais para dispositivos, @font-face // fontes externas, @keyframes // Animação;
 

@@ -1,0 +1,54 @@
+-------------------- Terminal --------------------
+
+//Por que esse curso?
+-Entender o que é um terminal, shel, bash e outros termos
+-Estudar comandos utilizados para operar no seu sistema operacional
+-Quando você precisar gerenciar um servidor remoto, e não tiver acesso a interface gráfica, você terá que saber alguns comandos básicos para operar o sistema;
+-Terá maior clareza do que fazemos ao executar comandos via terminal;
+-Ganhar confiança quando se deparar a uma tela preta;
+
+//O que é command line
+-Gui
+	Graphical user interface
+	Interface gráfica de usuário
+	Janelas, botoes, menus, mouse
+	ver vídeos, jogar, trabalhar com imagens e edições
+-CLI 
+	command line interface
+	interface de linha de comando
+	enviar comandos
+	ver resultados dos comandos
+	shell ou interpretador é o ambiente
+		executa os comandos
+		conversa com o kernel
+		bash: bourne-again shell
+			por padrão, existe em ambientes linux
+
+//sintaxe
+
+-command(programa que você está rodando, Obrigatório)
+-option (Mudar o comportamento, Explicar ao comando como deve funcionar, geralmente, começa com um traço, geralemnte uma letra somente, a maioria dos comandos)
+-argument/arguments (Onde o comando irá operar?, caminho do arquivo ou diretórios)
+
+//Dicas e truques
+-Tab completion
+	command
+	arguments
+
+//atalhos e ctrl
+-atalhos
+	Setinhas
+		up - down (comandos anteriores, próximos)
+	Ctrl
+		setinhas(pula palavras)
+		A (inicio da linha)	
+		E (final da linha)
+		U (limpa a linha)
+		K (remove do cursor até o final da linha)
+		L (clear)
+
+-------------- Arquivos e diretórios -----------------
+
+//comandos arquivos e diretórios;
+- "cd ~" volta pra raiz do usuário;
+- "cd" change directory;

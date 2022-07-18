@@ -131,6 +131,9 @@ init / clone -> Working Directory -> add -> Stage Area(preparado) -> commit -> L
 -utiliziar o "git revert -HEAD -numero_de_commits_abaixo";
 
 
+//Git show
+-utilizar git show junto com os códigos iniciais do commit para ver as alterações;
+
 
 
 

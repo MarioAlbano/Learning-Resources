@@ -1,0 +1,11 @@
+------------------GitHub-------------------------
+
+//Github
+-Uma plataforma que serve para gerenciar o código do seu projeto;
+-Não é o único serviço disponível para esta finalidadade, porém é o mais famoso;
+
+//Dicas de terminais
+-"mkdir" para criar pastas;
+-"cd" change directory;
+
+		-- Módulo focado na prática --

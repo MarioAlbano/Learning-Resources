@@ -21,3 +21,9 @@
 -Datetime;
 -Primary Key;
 -Nomes de campos e tabelas;
+
+//Regras para nomes de tabelas e campos
+-Deva começar por uma letra do alfabeto
+-Os caracteres seguintes não são permitidos: () +- /* ;=&|#><^'{}%
+-Não pode conter espaços
+-Não pode conter acentuação

@@ -90,4 +90,12 @@
 -A implementação dos métodos e atributos, só poderá ser feita na classe que irá herdar essa abstração
 
 //Conclusão
--
+		Orientação a objetos	
+-Encapsulamento
+-Herança
+-Polimorfismo
+-Abstração
+			-Princípios
+			-Introdução -> Oque é/ Paradigma (maneira 			de se entender ou interpretar o 					problema)/ Estrutural vc POO
+			-Objetos
+			-Classes

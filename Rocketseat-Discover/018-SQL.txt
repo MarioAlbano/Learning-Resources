@@ -15,6 +15,9 @@
 -informações
 -exemplo escola
 
+//Programa que será usado
+-beekeeper studio
+
 //Tipos de campos
 -Text;
 -Number;
@@ -27,3 +30,111 @@
 -Os caracteres seguintes não são permitidos: () +- /* ;=&|#><^'{}%
 -Não pode conter espaços
 -Não pode conter acentuação
+
+
+------------------ COMANDO SELECT --------------------
+
+SELECT * FROM aluno
+//retorna informações da tabela aluno
+
+SELECT * FROM professor
+//retorna informações da tabela professor
+
+SELECT nome, responsavel FROM aluno;
+//retorna informações específicas da tabela aluno
+
+SELECT nome, materia, cpf FROM professor;
+//Mesmo exemplo acima
+
+SELECT * FROM aluno WHERE matricula = 1;
+//Seleciona da tabela aluno somente se encontrar algo específico
+
+SELECT * FROM aluno WHERE nome like 'J%';
+//Seleciona da tabela aluno onde começa com a letra J seguida de qualquer texto
+
+SELECT matricula, cpf FROM aluno WHERE nome like '%G%' //Mesma opção acima porém com campos específicos
+
+
+----------------- OPERADORES LÒGICOS -----------------
+
+SELECT * FROM aluno WHERE matricula = 3 
+//Exemplo do operador = e que só funciona com numbers, diz para mostrar resultados caso encontre o 3
+
+SELECT * FROM aluno where nome like 'jakeliny gracielly'
+//Exemplo do operador like. Tem a mesma funcionalidade do = porém para strings 
+
+SELECT * FROM aluno WHERE matricula > 2;
+//Exemplo de operador de comparação >
+
+SELECT * FROM aluno WHERE matricula < 2;
+//Exemplo de operador de comparação <
+
+SELECT * FROM aluno WHERE matricula >= 2
+//Exemplo de operador de comparação >=
+
+SELECT * FROM aluno WHERE matricula <= 2
+//Exemplo de operador de comparação <=;
+
+SELECT * FROM aluno WHERE matricula <> 1;
+//Exemplo de operador de comparação <>
+
+SELECT * FROM aluno WHERE matricula != 3;
+//Exemplo de operador de comparação =!
+
+
+-------------- OPERADORES MATEMÁTICOS -----------------
+
+SELECT * FROM aluno WHERE matricula = 1 + 1;
+//Exemplo de soma com +
+
+SELECT * FROM aluno WHERE matricula = (3-1);
+//Exemplo de subtração com -
+
+SELECT * FROM aluno WHERE matricula = (2*1)
+//Exemplo de multiplicação com *
+
+SELECT * FROM aluno WHERE matricula = (2/1);
+//Exemplo de divisão com /
+
+SELECT * FROM aluno WHERE matricula = (4%3)
+//Exemplo de resto de módulo da divisão com %
+
+--------------- OPERADORES LÓGICOS --------------------
+
+SELECT * FROM aluno WHERE nome like 'J%' AND matricula < 2;
+//Exemplo com operador lógico &&
+
+SELECT * FROM aluno WHERE matricula > 1 OR nome like 'J$'
+//Exemplo com operador lógico OR
+
+SELECT * FROM funcionarios
+WHERE id_funcionario BETWEEN 4 and 7
+//Exemplo com operador lógico BETWEEN
+
+SELECT * FROM funcionarios 
+WHERE id_departamento IN(1, 2, 5)
+//Exemplo com o operador lógico IN
+
+SELECT * FROM funcionarios 
+WHERE id_departamento NOT IN(1, 2, 5)
+//Exemplo com o operador lógico NOT IN
+
+SELECT * FROM funcionarios 
+WHERE id_departamento IS NULL
+//Exemplo com o operador lógico NULL
+
+SELECT * FROM funcionarios 
+WHERE id_departamento IS NOT NULL
+//Exemplo com o operador lógico NOT NULL
+
+--------------------- MAIS COMANDOS ------------------
+
+INSERT INTO aluno(nome, cpf, responsavel) VALUES ('Mario Albano', 45531775873, 'Marcia')
+//Adicionando informações na tabela
+
+
+UPDATE aluno SET nome='Jonas Bitencurt', responsavel='Btitencurt' WHERE matricula=1;
+//Exemplo de update
+
+DELETE FROM aluno WHERE matricula = 3;
+//Exemplo de delete

@@ -1,0 +1,127 @@
+------------ -MODELAGEM DE ESTRUTURAS -----------------
+
+//Objetivo
+-Apresentação e modelagem de estruturas
+-Conveitos fundamentais 
+-JavaScript
+
+//Por que JavaScript como linguagem para este curso?
+-Linguagem da WEB
+-Linguagem de alto nível
+-Foco no entendimento e não na construção
+
+//O que preciso para acompnahar esse curso?
+-Introdução a programação WEB e conceitos básicos de programação
+-Papel e caneta para anotar os conceitos
+-Editor de textos (escrever o código)
+-Navegador ou NodeJs (Executar o código)
+
+//Por que estrutura de dados?
+-Organizar os dados da aplicação
+-Entender estruturas para melhor tomada de decisão
+-Escrever melhores algoritmos
+-Eficiência
+-Algumas empresas usam como requisito
+
+//algunsdesafios diários de uso de dados são:
+-Entendimento de como estão nossos dados na aplicação
+-Criar listar (ordenadas, não ordenadas)
+-Repetição ou não dos dados dentro da estrutura
+-Organizar os dados pelo par identificador + valor
+
+//O que é estrutura de dados
+-Organizar dados (informações)
+	Textos, números, booleanos
+-Como estão resgistrados na memória
+-Exemplo Array e Objetos
+
+//Gerenciando dados
+-Estrutura de dados tem a ver com a gestão das informações da aplicação
+-Para esse gerenciamento, podemos dividir em 3 etapas: 
+	1 Modelar a estrutura
+	2 Dar vida a estrutura (instanciar essa estrutura)
+	3 Criar as funcionalidades dessa estrutura
+		Exemplo: Inserir, excluir, buscar, exibir, contar
+
+//Arrays
+-Array, vetor ou arranjo, é uma estrutura amplamente utilizada e implementada em quase todas as linguagens de programação
+-Uma das estruturas mais básicas, simples de criar e utilizar
+
+//Características Array
+-Acesso pelo index
+-Respeita a ordem de inserção dos elementos
+-Aceita valores duplicados
+-Dependendo do tamnaho do Arrays, para encontrar e/ou deletar um elemento, será necessário um uso maior de performance
+-Existem muitos métodos já implementados
+	push(), pop(), find(), filter() entre outros
+
+//Exemplos
+-console.log(pilotos[0])
+//Acessa a primeira posição de um array
+
+-console.log(pilotos.length)
+//Acessa número de elementos contidos no array
+
+-for (let piloto of pilotos) {
+console.log(piloto)}
+//Faz um loop acessando cada array e imprimindo
+
+-pilotos.push('Alonso')
+console.log(pilotos)
+//Adiciona um elemento num array
+
+-const senna = pilotos.find(piloto => piloto === 'senna')
+console.log(senna)
+//Procura elementos no array
+
+-pilotos.splice(1, 1)
+console.log(pilotos)
+//Deleta um elemento
+
+//Matrix
+-Matriz ou Vetor multimensional
+-Significa que é um Array, dentro de outro array
+-Poderemos ter muitos níveis
+-para acessar usamos ex: students[0][1]
+
+//Stack
+-Tradução de Stack é pilha
+-Um exemplo é uma pilha de livros
+	linear, um após o outro
+	o último a entrar na pilha é o primeiro a sair
+-Conteitos
+	LIFO: Last In First Out
+		O último elemento a entrar na pilha, aquele elemento do topo da pilha, é o primeiro a sair
+
+//Stack no código
+-Métodos fundamentais:
+	push(): adicionar um elemento a pilha
+	pop(): remover o elemento do topo da pilha
+	peek(): Obter o elemento do topo da pilha
+	Pode haver outros métodos como o size()
+
+//Queue
+-Tradução de Queue é fila
+-Como uma fila em uma loja ou restaurante
+	Linear
+	O primeiro a entra na fila é o primeiro a sair
+-Conceitos
+	FIFO: First in First Out
+		O primeiro elemento a entrar na fila, é o primeiro a sair dela
+	Front (frente) é a referencia do primeiro elemento a entrar na fila
+	Back (fundo) é a referência do último elemento a entrar na fila
+
+//Queue no código
+-Métodos fundamentais
+	enqueue(): adicionar um elemento ao final da fila
+	dequeue(): remover o primeiro elemento a entrar na fila
+	Existem outros métodos como size () e front()
+
+//Visão geral
+-Usamos ED para gerenciar os dados, as informações da nossa aplicação
+-Organizar, ordenar, buscar, são algumas funcionalidades básicas
+-Melhorar a escrita de algoritmos
+-Melhorar a eficiência dos nossos aplicativos
+-Existem muitas estruturas a serem estudadas
+-Estrutura de dados poderá ser um assunto um pouco desafiador, especialmente para quem está no começo da jornada. Mas como qualquer outra habilidade, com o passar do tempo e prática diária, através de desafios da carreira, poderemos entender cada vez melhor
+

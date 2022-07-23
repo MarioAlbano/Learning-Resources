@@ -9,3 +9,12 @@
 -Muito fácil de fazer debugging
 -Install ejs
 -Sintaxe simples
+
+//Passo a passo criação
+-Criar o HTML
+-Criar o servidor
+-Seperar partes do layout
+-Nova página e menu
+-Views e partials para organização
+-Passando um objeto para o ejs
+-Foreach

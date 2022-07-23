@@ -159,27 +159,6 @@
 -Indica a ação que o cliente deseja operar
 -Podem ser chamados de Verbos HTTP
 -Cada um possui a sua semântica
--Características
-	Seguro
-		Não altera o estado do servidor
-		Somente leitura
-		Cliente não solicita alterações
-		Não há carga extra para o servidor
-		O servidor é responsável em manter o método 		seguro
-		Quais são?
-			GET
-				GET / search.html.HTTP/1.1
-			HEAD
-			OPTIONS
-	Idempotente
-		Ao executar o método, a resposta deverá ser 		sempre a mesma
-		Quais são?
-			Todos os seguros são idempotentes
-			PUT
-			DELETE
-		Status code poderá ser diferente
-		O servidor tem a responsabilidade de retornar 		dados da mesma maneira
-		Essa especificação não é garantia de que todos 		os servidores irão aplicar o conceito 				corretamente
 
 //JSON Server
 -criar um servidor em menos de 30 segundos
@@ -187,9 +166,74 @@
 
 //Options
 -Informação sobre disponibilidade da requisição
--Caracteristicas
-	Seguro: Sim
-	Idempotente: SIM
-	BODY
-	Uso em formulários HTML: NÂO
-	Cacheable: NÂO
+	
+//Get
+-Pegar um recurso
+-Somente recebe dados
+
+
+//HEAD
+-Semelhante ao GET, porem recebemos somente o cabeçalho(HEAD;posts)
+	
+//POST
+-Publicar/cadastrar um recurso
+
+//PUT
+-Criar um novo ou atualiza um recurso -> Criação / Atualização
+	
+//PATCH
+-Modificação parceial de um recurso 
+	Diferença entre o PUT
+	PATCH /posts/ 1 HTTP/1.1
+
+//DELETE
+-Remover um recurso -> DELETE / posts HTTP/1.1
+
+-------------------------HEADERS---------------------
+
+//Headers
+-Cabeçalhos
+-Informações adicionais para o pedido ou resposta
+
+//Entendendo pelo contexto
+-General
+-Request headers
+-Response headers
+
+//General
+-Mostra o geral dos heares
+
+//Request
+-Lista todos os headers de pedido
+
+//Response
+-Lista de headers de resposta
+
+
+-----------------------STATUS--------------------------
+
+//100
+100:Continue
+
+//200
+200:OK (GET, POST)
+201:Created (PUT)
+204:NO content (DELETE, PUT)
+
+//300
+301: Moved Permanently
+308:	Permanent Redirect
+302:	Found
+307:	Temporary Redirect
+
+//400
+400: Bad Request
+401:	Unauthorized
+403:	Forbidden
+404:	Not found
+405:	Method Not Allowed
+429:	Too Many Requests
+
+//500
+500: Internal Server Error
+503: Service Unavaiable

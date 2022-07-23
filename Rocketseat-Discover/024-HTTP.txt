@@ -1,0 +1,195 @@
+----------------- PROTOCOLO HTTP --------------------
+
+//HyperText Transfer Protocol
+-Protocolo de transferência de HyperTexto
+
+//Visão Geral
+-Permite troca de informações e dados na internet
+-Uma troca de mensagens
+-HTML, CSS, Scripts, imagens, Video
+-Uma chamada para cada um desses recursos
+
+//Visualizando a comunicação(conversa entre o browser e o servidor)
+-Recurso
+	Local onde irei enviar o pedido
+	Usarei uma URL para acessar o recurso
+	exemplo https://google.com
+-Message
+	Pedido - Header, Body Methods=> Definição do pedido   	e qual a ação que quero fazer no servidor
+-resposta
+	Status code
+	headers
+	body
+-request
+	Headers
+	Body
+		HTML / Conteúdo / JSON
+
+//Visualizando com DevTools
+-Apertando F12
+-Olhar aba networking
+
+//Visualizando com cURL
+-Usar git bash
+-Digitar "curl https://..."
+
+------------------CONCEITOS---------------------------
+
+
+//Conceito
+-Simples
+	Legível
+	Qualquer pessoa
+-Cliente/Servidor
+	Requisição/ Resposta
+	Pedir um lanche
+-Stateless
+	Exemplo: Preenchi os dados de login e senha mas dei 	refresh. Ele é resetado pois não guarda estado
+	Não guarda informações
+	Não existe relação entre conexões
+	Jogar uma moeda
+	Sessões
+		Cookies
+		Storages
+-Extensível
+	Através do cabeçalho, podemos fazer diversas trocas de informações entre o cliente-servidor, conforme a necessidade
+	Headers
+		Informações para comunicação
+	Body
+		Corpo do pedido ou da resposta
+
+//Cliente
+-Cliente
+	User Agent
+		Browser
+		cURL
+	Entidade que dá inicio a comunicação
+-Pedidos
+	Ações do Cliente
+		GET
+		POST
+		PUT
+		DELETE
+
+//Servidor
+-Servidor
+	Se apresenta como uma máquina
+	Preparado para ouvir e processar
+	Vários servidores em um computador
+	Respota -> Status Code -> 404
+						  500
+//Proxies
+-Proxies
+	Representantes
+	Fica entre o cliente e o servidor
+	Ajudam a fazer o transporte dos dados
+	Diversas funções
+		Cache
+		Filtro(tipo um antivírus,ou controle parental)
+		Load balancing (distribuição da carga)
+		Autenticação
+		Autorização
+
+//URI
+-Conceito : Uniform Resource Identifier
+			Identificar um recurso
+			Nome ou localização
+			Exemplo: Você é um Recurso/ Seu nome/ Sua 			localização
+-Resource :
+			O alvo do pedido
+			Qualquer coisa identificável / entidade
+				Digital
+				Abstrata
+					Sessão
+					Autenticação
+				Física
+				Se podemos identificar, nomear, 					endereçar ou manipular, estamos 					falando de um recurso
+-Locator :
+			Locator -> Url
+				Uniform Resource Locator
+				Componentes
+					Obrigatórios
+						Protocolo
+						Domínio
+					Opcionais
+						Subdomínio
+						Path
+						Porta
+						Âncora
+				Exemplos -> 									Https:///www.rocketseat.com.br/blog
+
+-Name : 
+	URN
+		Uniform Resource Name
+		Exemplos -> urn:oasis:names:specification
+
+---------------------- MESSAGES --------------------
+
+//HTTP messages
+-Request
+-Response
+		Mensagens
+		HTTP/1.1
+			Legível
+			Texto
+		HTTP/2
+			Estrutura binária
+			Otimizações
+			Mesma maneira que a versão 1.1
+
+	
+//Request
+	Request line
+		Method
+		Protocol version
+		URI
+	Body
+	Headers
+
+//Response
+-Protocol version
+-Status code
+-Headers
+-Status message
+
+---------------------------METHODS--------------------
+
+//HTTP Methods
+-Define um conjunto de métodos HTTP
+-Indica a ação que o cliente deseja operar
+-Podem ser chamados de Verbos HTTP
+-Cada um possui a sua semântica
+-Características
+	Seguro
+		Não altera o estado do servidor
+		Somente leitura
+		Cliente não solicita alterações
+		Não há carga extra para o servidor
+		O servidor é responsável em manter o método 		seguro
+		Quais são?
+			GET
+				GET / search.html.HTTP/1.1
+			HEAD
+			OPTIONS
+	Idempotente
+		Ao executar o método, a resposta deverá ser 		sempre a mesma
+		Quais são?
+			Todos os seguros são idempotentes
+			PUT
+			DELETE
+		Status code poderá ser diferente
+		O servidor tem a responsabilidade de retornar 		dados da mesma maneira
+		Essa especificação não é garantia de que todos 		os servidores irão aplicar o conceito 				corretamente
+
+//JSON Server
+-criar um servidor em menos de 30 segundos
+-Instalar com o comando "npm install -g json-server"
+
+//Options
+-Informação sobre disponibilidade da requisição
+-Caracteristicas
+	Seguro: Sim
+	Idempotente: SIM
+	BODY
+	Uso em formulários HTML: NÂO
+	Cacheable: NÂO

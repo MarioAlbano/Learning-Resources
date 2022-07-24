@@ -1,0 +1,7 @@
+*********************TYPESCRIPT*********************
+
+//O que é typescript?
+-Criado pela microsoft com um objetivo de trazer uma tipagem para o javascript
+-Javascript não é fortemente tipada (que te obriga a definir os tipos) e com isso as vezes podemos ter erros
+-Não precisa tipar tudo, somente o que você deseja ou o mais importante
+-Ajuda para outros devs entenderem

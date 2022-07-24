@@ -15,3 +15,18 @@
 
 //JSX
 -Sintese que o React usa para que possamos criar as interfaces de forma declarativa
+
+//Organizando arquivos
+-node modules(n]ão alterar)
+-public(não alterar)
+-src
+	assets(não alterar)
+	App.jsx
+	main.jsx
+-.gitignore
+-index.html
+-package-lock.json
+-package.json
+-vite.config.js
+-package-lock.json
+

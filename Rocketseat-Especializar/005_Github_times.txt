@@ -1,0 +1,51 @@
+****************GITHUB PARA TIMES***********************
+
+//Adicionando colaboradores
+-Entrar no settings do projeto, e adicionar colaboradores
+
+//Clonando o projeto
+-"git clone link_do_projeto"
+
+//Criando uma branch para fazer outra funcionalidade
+-"git branch"
+-"git checkout -b"
+-para voltar pra outra branch "git checkout nome_da_)branch"
+
+//Enviando as alterações
+"git add ."
+"git commit -a -m "nome_do_commit""
+"git push origin main" (se necessário, dar --force)
+Entrar no github e dar um pull request
+
+//Fazer o merge
+"git checkout main"
+"git merge funcionalidade_01"
+"git push origin main"
+
+//Excluindo a branch
+"git branch -D nome_da_branch" (obs: não podemos estar nela)
+se estiver no remoto, usar "git push origin --delete nome_da_branch"
+
+//Atualizando as branchs existentes que outros fizeram
+"git fetch"
+
+//Achando todas as branchs
+"git branch -a"
+"git fetch -p" //baixa todas as branchs deletadas
+"git branch -D" //Exclui branchs 
+
+//Deixando uma segurança para alterações na main
+-Repositório Settings > Branch > Branch protection rules
+
+//Resolvendo conflitos
+-Abrir com o VS code e apagar os códigos que não serão usados
+
+//Criando um pull requests
+-Após o push da nova branch, ir até no github e ir na opção criar pull request
+
+//Issues
+-Questões não resolvidos/ pendências
+-Usar a aba Issues
+
+//Projects 
+-Organiza as ações do repositório em formas de to-do

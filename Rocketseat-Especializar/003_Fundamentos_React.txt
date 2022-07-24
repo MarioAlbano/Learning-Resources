@@ -1,0 +1,8 @@
+*****************FUNDAMENTOS REACT********************
+
+//Introdução
+-Chamamos React de biblioteca pois não tem uma opnião forte, ou seja, não impõe uma estrutura de pastas ou um monte de regras como framework geralemnte irão colocar. Ele somente traz aquilo que a gente precisa para criar a interface mas podemos cria-las e implementa-las do jeito que quisermos(flexibilidade)
+
+//Criando um projeto
+-"npm create vite@latest nome_do_projeto --template react"
+-Usar o vite, conseguimos um template para outros frameworks, como também ele somente coloca os arquivos necessários, como por exemplo, node_modules.

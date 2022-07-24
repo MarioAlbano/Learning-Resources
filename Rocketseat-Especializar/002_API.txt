@@ -1,0 +1,26 @@
+******************INTRODUÇÃO A APIs******************
+
+//Por que aprender API?
+-Ajudam a trocar informação entre sistemas
+-Podem ser também de sistemas as quais nós não temos acesso Ex: login com o google ou pagamento com mercado pago
+
+//Analogia simples de API
+-Simulando que vamos ao restaurante, o garçon vem a nossa mesa e falaremos para ele qual o nosso pedido. Ele será responsável por encaminhar esse pedido ao chefe (pois nós não temos acesso a cozinha e nem ao chefe). Então a cozinha tem o papel de preparar o pedido para poder levar para nós. O garçon então leva a resposta para nossa mesa.
+-Neste caso:
+	Mesa: Front End
+	Garçon: API
+	Cozinha: Back End
+	Preparação da comida: Preparando os dados
+	Entregando a comida: Entregando os dados ao front end. A API não consegue modificar nada, somente retorna do backend, já que o front end e o back end, neste caso são de sistemas diferentes
+
+//Formato JSON
+-Veremos muito este formato trabalhando para a web
+-Podemos usar independente de uma linguagem
+-Tem o objetivo de troca de dados entre sistemas
+
+//Principais verbos HTTP
+-GET: a API fornece informações
+-POST: a API recebe informações que devem ou não ser registradas
+-DELETE: a API recebe identificadores de registros que devem ser apagados
+-PUT: a API recebe informações para update de um ou mais registros
+-PATCH: a API recebe informações para update de um registro

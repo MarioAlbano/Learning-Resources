@@ -1,0 +1,43 @@
+------------*Javascript Assíncrono e Promises--------
+
+//Síncrono vs Assíncrono
+-O que é síncrono vs assíncrono no JavaScript?
+-Qual é o fluxo natural de execução do Javascript?
+-O O que é uma callback function?
+-A função setTimeout()
+
+//Síncrono
+-Sistemas síncrono, uma tarefa é concluída após a outra
+-Sistemas assíncronos, tarefas são executadas de maneira independente uma da outra
+
+//Callback conceito
+-Quando chamamos uma tarefa, e dentro dela passo outra função como argumento
+
+//setTimeout
+-Chamar uma função após determinado tempo
+
+//Conectando API com HTTPS e Callback
+-Um exemplo de call back, pois ele primeiro conecta com uma API e depois executa a função
+
+//Oque é uma promise
+-Traduzida como promessa
+-É um objeto JavaScript com a promessa de que algo será realizado
+-É usado para operações assíncronas
+	Carregar um arquivo
+	Leitura de dados de um API
+
+//código de uma promise
+- .then(result => console.log("caso dê certo"))
+- .catch(erro => console.log("Caso dê erro"))
+- .finally(() => console.log("Indicando que independente do resultado finalisou a promessa"))
+
+//Promises com Fetch
+-Função Fetch recebe como argumento a url que quero pegar
+
+//Axios
+-Um cliente HTTP baseado em Promises para fazer requisições
+
+//Async/ Await
+-Maneira de escrever promises
+-Syntactic Sugar
+-Uma maneira mais elegante de criar promessas

@@ -6,3 +6,12 @@
 //Criando um projeto
 -"npm create vite@latest nome_do_projeto --template react"
 -Usar o vite, conseguimos um template para outros frameworks, como também ele somente coloca os arquivos necessários, como por exemplo, node_modules.
+
+//Instalando node_modules
+- Abrir git bash e usar "npm install"
+
+//Executando a aplicação
+- Abrir git bash e usar "npm run dev"
+
+//JSX
+-Sintese que o React usa para que possamos criar as interfaces de forma declarativa

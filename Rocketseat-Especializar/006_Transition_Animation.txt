@@ -1,0 +1,17 @@
+******************************************************
+
+//O que é CSS transition?
+-Quando mudamos algo de forma gradual
+
+//transition property e duration
+-transition-property: será o elemento que o transition irá mudar
+-transition-duration: 1s
+
+//transition timing function
+-transition-timing-function
+-ease início lenta, rápido e final lento (padrão)
+-linear Mesma velocidade do início ao fim
+-easy-in início lento
+-easy-out Final lento
+-easy-in-out início e fim lentos
+-cubic-bezier(n,n,n,n) Permite definir seus próprios valores em uma função cubic-bezier

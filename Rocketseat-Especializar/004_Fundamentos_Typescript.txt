@@ -5,3 +5,97 @@
 -Javascript não é fortemente tipada (que te obriga a definir os tipos) e com isso as vezes podemos ter erros
 -Não precisa tipar tudo, somente o que você deseja ou o mais importante
 -Ajuda para outros devs entenderem
+
+//declaranto em typescript
+- parametro: number
+- parametro: string
+
+//Any
+-Por padrão no typescript, uma variável é do tipo any e que pode armazenar qualquer coisa
+-Temos de tomar cuidado com o any
+
+//Inferência de tipos
+-O TypeScript reconhece automaticamente o tipo da variável ao passar algum valor para ela.
+-Ex: Se declararmos um variavel string e depois declarar o atribuito como um number, retornará um erro
+
+//tipos primitivos
+Esses são os tipos primitivos que podemos utilizar no TypeScript:
+-Boolean / true false
+-string
+-number
+
+//Matrizes
+-Existem duas maneiras de tipar arrays no TypeScript:
+-let arrayNumeros: number[] //Aceita somente números
+-let users: Array<string> //Aceita somente string
+
+//Funções
+-Uma função pode ter ou não um retorno, quando ela não tem um retorno ela é do tipo void
+-Dessa maneira, tipamos dessa forma no TypeScript:
+function showMessages(message: string):void {
+    console.log(message)
+}
+-Já quando a função tem um retorno, a tipagem é inferida automaticamente na função.
+function showMessages(message: string) {
+   return message;
+}
+console.log(showMessages("Oi, João"))
+
+//Union
+-O Operador Union, representado pelo pipe | diz que a variável pode aceitar mais de um tipo. Vamos ao exemplo:
+function printUserId(id: number | string) {
+    console.log(`O ID do usuário é: ${id}`);
+}
+printUserId(101);
+printUserId("101");
+/*Dessa forma, podemos passar tanto number quanto string*/
+
+//Generics
+-O generic no TypeScript nos permite reutilizar uma determinada implementação de código, de forma tipada. Para representar um generic, nós declaramos ele dessa forma <T> (pode ser usado outra letra, existem as convenções que podemos seguir)
+-<S> Representando State, <T> Representando Type, <V> Representando Value, <E> Representando Element>
+
+//Type
+-Para não ficar sempre repetindo os tipos para todas as variáveis podemos criar Types para cada uma delas
+-Ex: type IdType = string | number | undefined;
+let userId: IdType
+
+//Type Assertions
+-Asserção de tipo normalmente é utilizado quando o TypeScript não sabe qual é a tipagem em um determinado objeto
+-Para contornarmos isso, podemos criar um type informando quais são as propriedades desse objeto
+-Como se fosse converter um tipo não definido de um objeto se referenciando com outro objeto
+-Ex: type a = {
+id: number;
+name: string}
+let userResponse = {} as a; 
+
+//Objetos
+-Podemos tipar o objeto utilizando o type
+-Ex: type Point = {x: number; y:number}
+
+Opcional
+-Para informarmos que uma propriedade é opcional, inserimos o sinal de ?
+-Ex: isAdmin?: boolean;
+
+//Intersecção de tipos
+-A intersecção de tipos como o próprio nome já diz, podemos unir dois tipos e usar as suas prorpiedades dentro de um objeto
+-Ex: type User = {id: number, name: string,} type Char ={nickname: string, level number} type PlayerInfor = User & Char;
+
+//Interface
+-Outra maneira de criar tipagens no TypeScript é utilizando a interface
+-Como se estivesse criando um molde
+
+//Type e interface
+-Servem para definir tipagem
+-type: é mais simples, mais fácil para lidar com tipos primitivos, mais flexível
+-Interface: para pessoas que produzem libs, que gostam do paradigma de objeto
+
+//tsconfig
+-Arquivos de conf do typescript
+-Definimos as regras que o typescript seguirá
+
+//Na prática
+-Abrir terminal, usar "npm install"
+- depois usar "npm run dev" para abrir o local host
+- depois "npm install typescript --save-dev" para instalar o typescript
+- criar um "tsconfig.json" na pasta raiz
+- renomear o arquivo "jsx" para "tsx"

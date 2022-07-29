@@ -1,0 +1,35 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.detail {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    transition-property: background-color;
+    transition-duration: 4s;
+}
+
+.detail:hover {
+    background-color: aqua;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.line {
+    width: 100%;
+    background-color: blue;
+    height: 25px;
+    margin-bottom: 10px;
+    transition: width;
+    transition-duration: 1s;
+}
+
+body:hover .line {
+    width: 20px;
+    background-color: rgb(255, 0, 234);
+}

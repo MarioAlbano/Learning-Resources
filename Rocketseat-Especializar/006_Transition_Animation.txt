@@ -15,3 +15,42 @@
 -easy-out Final lento
 -easy-in-out início e fim lentos
 -cubic-bezier(n,n,n,n) Permite definir seus próprios valores em uma função cubic-bezier
+
+//transition delay
+-transition-delay é uma propriedade CSS que permite atrasar o inicio de uma transição em segundos
+-Dica: podemos usar um shortcut em transition colocando property e duration juntos
+
+//transition property all
+-transition-property: all, é usado para aplicar transição em todos os elementos quantificáveis disponíveis e que estejam sofrendo alteração
+
+//O que é CSS animation?
+-CSS Animations é uma ferramenta do CSS que permite criar animações sem a interação do usuário, onde elas podem acontecer de forma automática
+
+//animation name e duration
+-animation-name é o nome da animação criada com @keyframes
+-animation-duration é o tempo de duração em uma escala de segundos
+
+//Keyframes com porcentagens
+-Essa é uma forma útil quando queremos ter uma animação que execute vários comportamentos em sua duração, então podemos colocar o inicio da animação como 0% e o fim da animação como 100%, usando qualquer outro valor de porcentagem nos referimos ao momento da duração daquela animação em porcentagem e definimos seu comportamento.
+
+//Animation delay
+-animation-delay é uma propriedade CSS que permite atrasar o início de uma animação em uma escala de segundos
+
+//Animation iteration count
+-A propriedade animation-iteration-count define quantas vezes a animação será repetida, podendo ser colocada como um número, exemplo 3, fará a animação se repetir 3 vezes. Podemos colocar o valor como "infinite” o que vai fazer a animação se repetir sem fim
+
+//Animation direction
+	normal: começa pela primeira chave do @keyframes e vai ate a última, se o iteration count estiver setado, no momento de repetir, será também da primeira chave do @keyframes ate a ultima
+	reverse: começa pela última chave do @keyframes e vai ate a primeira, se o iteration count estiver setado, no momento de repetir, será também da última chave do @keyframes ate a primeira.
+	alternate: começa pela primeira chave do @keyframes e vai ate a última, se o iteration count estiver setado, no momento de repetir, será da última chave do @keyframes ate a primeira, e na próxima repetição volta a ser da primeira chave para a última e assim por diante alternando.
+	alternate-reverse.: começa pela última chave do @keyframes e vai ate a primeira, se o iteration count estiver setado, no momento de repetir, será da primeira chave do @keyframes ate a última, e na próxima repetição volta a ser da última chave para a primeira e assim por diante alternando.
+
+//Animation timing function
+ease - Início lento, rápido e final lento (este é o padrão)
+linear - Mesma velocidade do início ao fim
+easy-in - Início lento
+easy-out - Final lento
+easy-in-out - Início e fim lentos
+
+//Animation fill mode
+-Animation fill mode

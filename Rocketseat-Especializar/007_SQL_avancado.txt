@@ -1,0 +1,4 @@
+***************************************************
+
+//Relações entre tabelas
+-Com o SQL conseguimos relacionar mais de uma tabela

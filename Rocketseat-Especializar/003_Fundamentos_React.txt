@@ -30,3 +30,43 @@
 -vite.config.js
 -package-lock.json
 
+//Estilizando uma página
+-adicionar na div uma "className="nome_da_classe""
+
+//Componentes
+Componente nada mais do que um bloco de código reutilizável e independente.
+
+//Propriedades
+-As propriedades dentro de um componente faz com que você possa passar valores diferentes para cada um deles.
+-Para isso usamos o (props)
+
+//Estado
+-O Hook useState permite ter variáveis em componentes funcionais. Você passa o estado inicial para esta função e ele retorna uma variável com o valor atual do estado (não necessariamente o estado inicial).
+-Uma variável comum não consegue refletir algo no front end, já um estado consegue
+
+//Usando o estado
+- "import React, { useState} from 'react';"
+- Depois "const [nome_estado, setStudentName] = useState();" /*o primeiro é o estado, a segunda é o valor que atualiza o estado*/
+
+//Imutabilidade
+O conteúdo da variável não deve ser modificado e sim substituído.
+
+//KeyProp
+Em uma listagem, normalmente utilizamos o map() do JavaScript para trazer todos os dados dessa lista. No React, precisamos passar uma propriedade key para que esse dado nunca se repita e evitar que erros desse tipo aconteçam.
+
+//Hooks
+São funções que permitem conectar os recursos de estados e ciclos de vida do React a partir de componentes funcionais. Normalmente os Hooks iniciam com a palavra use por convenção. Exemplos de hooks: useState, useEffect
+
+//Header
+-Criamos uma tag <header> em nossa Home para indicar quem é o usuário que está editando
+
+//useEffect
+-O useEffect é executado automaticamente sempre que o componente é renderizado
+-A estrutura do useEffect é da seguinte forma:
+	useEffect(() => {//cógidos que serão executado}, []);
+
+//Consumindo API
+-Nessa aula utilizamos a API oficial do Github dentro do useEffect com o método fetch()
+
+//useEffect Async
+-requisições assíncronas utilizando o Hook useEffect

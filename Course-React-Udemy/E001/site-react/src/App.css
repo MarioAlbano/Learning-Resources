@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 .App-logo {
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.section-react {
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  background-color: #282c34;
+  position: relative;
+  bottom: -220px;
 }

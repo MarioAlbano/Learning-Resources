@@ -51,3 +51,7 @@
   position: relative;
   bottom: -220px;
 }
+
+.botao-evento {
+  background-color: aqua;
+}

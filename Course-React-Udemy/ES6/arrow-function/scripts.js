@@ -1,22 +1,35 @@
-//Testando variáveis var explicando o por que do uso de let e const
-var varA = 10;
-var varB = 20;
+//Função normal
 
-if (varB > varA) {
-    var x = 5;
-    console.log(x);
+const soma = function (a, b) {
+    return (
+        a + b
+    )
+}
+console.log(soma(5, 4));
+
+//Função Arrow Function com somente uma linha
+//Com arrow function é mais fácil chamar o This
+const somaArrow = (a, b) => a + b;
+console.log(somaArrow(5, 4));
+
+const greetings = () => {
+    let name = "Juan"
+
+    if (name == "Juan") {
+        console.log(`Olá ${name}, seja bem vindo!`);
+    }
+    else {
+        console.log(`Infelizmente o usuário ${name} não foi encontrado. Tente novamente`);
+    }
 }
 
-// console.log(x); -> Aqui o var vaza do escopo
+const myName = "Albano";
+const arrowName = () => console.log(myName);
+arrowName();
 
-for (let i = 0; i < 5; i++) {
-    console.log(i)
+const iniciarTempo = () => {
+    let testeTempo = "200";
+    setTimeout(console.log(testeTempo), 2000);
 }
-// console.log(i); -> Aqui o let não vaza do escopo
 
-const name = "Alice";
-() => {
-    const name = "Hamilton";
-    console.log(name);
-}
-console.log(name);
+iniciarTempo();

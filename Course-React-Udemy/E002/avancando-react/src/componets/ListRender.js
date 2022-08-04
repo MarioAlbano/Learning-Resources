@@ -1,19 +1,20 @@
 import { useState } from 'react'
 
+
+//Necessário refazer exercício
 const ListRender = () => {
     const [nomesFuncionarios] = useState(["Mario", "Hamilton", "Batshuayi"]);
-
     const [users, setUsers] = useState([
-        { nome: "Mario", idade: 27, id: 1 },
-        { nome: "Hamilton", idade: 43, id: 2 },
-        { nome: "Batshuayi", idade: 28, id: 3 }
+        { id: 1, name: "Matheus", age: 31 },
+        { id: 2, name: "Jones", age: 19 },
+        { id: 3, name: "Scorpion", age: 201 },
     ]);
 
     const deleteRandom = () => {
         const randomNumber = Math.floor(Math.random() * 4);
 
         setUsers((prevUsers) => {
-            return prevUsers.filter((user) => randomNumber !== user.id)
+            return prevUsers.filter((user) => randomNumber !== user.id);
         });
     };
 

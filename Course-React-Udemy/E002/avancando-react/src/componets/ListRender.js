@@ -7,7 +7,7 @@ const ListRender = () => {
         <div>
             <ul>
                 {nomesFuncionarios.map(
-                    (item) => <li>{item}</li>
+                    (item, i) => <li key={i}>{item}</li>
                 )}
             </ul>
         </div>

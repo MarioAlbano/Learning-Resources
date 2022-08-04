@@ -1,15 +1,14 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
 const ListRender = () => {
-    const [lista] = useState(["Mario", "Andrew", "Timo"])
-    
+    const [nomesFuncionarios] = useState(["Mario", "Hamilton", "Batshuayi"])
 
     return (
         <div>
             <ul>
-                {lista.map((item) => (
-                    <li>{item}</li>
-                ))}
+                {nomesFuncionarios.map(
+                    (item) => <li>{item}</li>
+                )}
             </ul>
         </div>
     )

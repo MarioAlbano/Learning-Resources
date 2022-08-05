@@ -1,14 +1,10 @@
-//Comentário de uma linha
-/*Comentário de
-Múltiplas linhas*/
+let spaceship = "Golias";
+let velocity = 80;
+let velocityB = 90;
 
-const nomeMaior = prompt("Pessoa A: Qual o seu nome?");
-const idadeMaior = prompt("Pessoa A: Qual a sua idade");
-
-const nomeMenor = prompt("Pessoa B: Qual o seu nome?");
-const idadeMenor = prompt("Pessoa B: Qual a sua idade?");
-
-let soma = (idadeMaior - idadeMenor);
-
-alert(`${nomeMaior} ${idadeMaior} \n\n ${nomeMenor} ${idadeMenor}`);
-alert(`A diferença entre a idade é de ${soma} anos`);
+//Exemplo operador AND
+console.log(velocity == 80 && velocityB == 90);
+//Exemplo operador OR
+console.log(velocityB == 190 || velocity == 80);
+//Exemplo operador NOT
+console.log(velocityB != "teste")

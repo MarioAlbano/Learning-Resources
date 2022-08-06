@@ -6,3 +6,11 @@
 //Sobre o curso
 -Vitalício
 -Com as tecnologias atuais que o mercado pede
+
+//Oque é ser Programador
+-Alguem que desenvolve software
+-Software: sequências de instruções a serem seguidas ou executadas para modificar um informação ou acontecimento
+
+//Mundo hoje voltado para a programação
+-Temos sites e aplicativos de Relacionamento, Saúde, finanças, Trabalho e outras infinidades de áreas
+-Softwares estão tomando lugares onde é feitos trabalhos repetitivos e em breve parte do trabalho intelectual

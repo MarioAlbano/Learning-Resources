@@ -1,1 +1,31 @@
 ************************************************
+
+//Como funciona a Web
+-Quando digitamos algo no navegador, ele busca informações em um servidor web
+-Servidores é um software que recebe requisições e responde com os arquivos solicitados
+
+//HTTP
+-É o idioma para que o cliente e o servidor se entendam
+
+//Outros protocolos
+-SMTP = Recebe e envia emails
+-FTP = recebimento e download de arquivos
+
+//Servidores webs
+-Softwares mais famosos para criação desses servidores: Apache, Nginx
+
+//Servidor ip
+-É um rótulo numérico atribuido a cada dispositivo
+-Serve para identificar o Cliente ou o servidor
+
+//DNS
+-Sistema de nome de domínio. Tem uma gestão de nomes para apontar o IP específico
+
+//Devolvendo site
+-Após descobrir o ip correto, ele retorna a árvore DOM
+
+//Front end | Back End | FullStack
+-Front end cuida da parte visual (interface), já o Back end cuida da parte que não vemos como por exemplo banco de dados, regras de negócios e API. O Fullstack consegue fazer os dois
+
+//Sistema operacional 
+-Conjuntos de programas que gerencia os recursos do sistema

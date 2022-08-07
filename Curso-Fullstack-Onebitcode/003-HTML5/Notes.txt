@@ -1,1 +1,13 @@
 ************************************************
+
+//HTML
+-Linguagem de marcação de hipertexto (links)
+-Se popularizou junto com a internet
+
+//Estruturas
+-Divididos em tags
+-Consultar as tags na documentação
+
+//Listas
+-Ordenadas = Com números
+-Não ordenadas = Sem números

@@ -5,7 +5,7 @@
 -Se popularizou junto com a internet
 
 //Estruturas
--Divididos em tags
+-Divididos em tags como por exemplo <h1>, <p>, <a>, <img>
 -Consultar as tags na documentação
 
 //Listas
@@ -14,3 +14,7 @@
 
 //Organização
 -Organizamos com Div e Span
+
+//Tabelas 
+-Usa a tag <table>, <caption>, <tr>, <th>, <td>
+-Olhar documentação

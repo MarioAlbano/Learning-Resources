@@ -16,5 +16,17 @@
 -Organizamos com Div e Span
 
 //Tabelas 
--Usa a tag <table>, <caption>, <tr>, <th>, <td>
+-Usa as tags <table>, <caption>, <tr>, <th>, <td>
 -Olhar documentação
+
+//Forms
+-Registro de usuários, envios de dados em modo geral
+-Usa as tags <input>, type=, name=, value= 
+-GET(baixa informações de uma página) / POST(Enviando informações através de um form)
+-back-end recebe as informações
+-Temos vários tipos, consultar documentação
+
+//Validações
+-Usando o required
+-Especificar o tipo no type
+-Olhar na documentação

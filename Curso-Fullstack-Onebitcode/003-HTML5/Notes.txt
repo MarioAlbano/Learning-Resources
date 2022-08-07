@@ -11,3 +11,6 @@
 //Listas
 -Ordenadas = Com números
 -Não ordenadas = Sem números
+
+//Organização
+-Organizamos com Div e Span

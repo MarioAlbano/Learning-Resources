@@ -14,6 +14,19 @@
 -Por nome, RGB, Hexadecimais (mais utilizada), HSL, HWB
 
 //Partes importantes:
--background
--border
--seletores
+-Background
+-Border
+-Seletores
+
+//Seletores especiais
+-* (todos os elementos)
+-Pai para filho (um seletor e depois outro)
+-Descendência (elemento > dentro dele outro elemento)
+-Adjacente + (selecionando somente oque vem após)
+-Seletor de atributor (a[href="/recibo"] {}), pseudo-classes)
+
+//Especifificidade
+Determina quais regras serão aplicadas
+
+//Herança
+Quando por exemplo definimos uma cor para a Div os elementos herdam isto

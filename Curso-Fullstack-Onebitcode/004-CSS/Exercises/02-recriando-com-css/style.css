@@ -1,0 +1,26 @@
+/*Definindo as variáveis*/
+:root{
+    --blue-color : #2c3e50;
+    --yellow-color : #f1c40f;
+    --red-color : #e74c3c;
+}
+
+* {
+    color: #fff;
+}
+
+body {
+    background-color: var(--blue-color);
+}
+
+.h3-week {
+    color: var(--yellow-color);
+}
+
+.h2-week {
+    background-color: var(--yellow-color);
+}
+
+#astronomy-class {
+    color: var(--red-color);
+}

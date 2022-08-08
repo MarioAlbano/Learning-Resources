@@ -7,5 +7,6 @@ p {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     margin: 30px;
+    border: 2px solid #000;
 }
 

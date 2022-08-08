@@ -30,3 +30,12 @@ Determina quais regras serão aplicadas
 
 //Herança
 Quando por exemplo definimos uma cor para a Div os elementos herdam isto
+
+//Texto e fontes
+-Deixar a que mais desejamos, outra que desejamos, e uma genérica
+
+//Box model
+-Content
+-Padding
+-Border
+-Margin

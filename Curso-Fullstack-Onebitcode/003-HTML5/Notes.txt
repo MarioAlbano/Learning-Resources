@@ -30,3 +30,9 @@
 -Usando o required
 -Especificar o tipo no type
 -Olhar na documentação
+
+//HTML5
+-Trás uma semântica melhor par as tags, tags de audio e video, header main e footer e novos inputs
+
+//Semântica HTML
+-Dar um significado as informações apresentadas

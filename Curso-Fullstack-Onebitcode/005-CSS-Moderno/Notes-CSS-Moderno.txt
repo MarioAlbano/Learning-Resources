@@ -1,0 +1,11 @@
+**************************************************
+
+//Pilares do CSS Moderno
+-Responsividade (Media Querty e Mobile First)
+-Flexbox 
+-Grid
+
+//Responsividade
+-Usar o google Dev Tools
+-Redimensionar a nova tela para procurar possíveis quebras no site
+-Trabalhar até no tamanho mínimo de 280px

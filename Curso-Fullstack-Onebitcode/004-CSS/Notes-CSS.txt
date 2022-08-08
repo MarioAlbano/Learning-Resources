@@ -12,3 +12,8 @@
 
 //Cores CSS
 -Por nome, RGB, Hexadecimais (mais utilizada), HSL, HWB
+
+//Partes importantes:
+-background
+-border
+-seletores

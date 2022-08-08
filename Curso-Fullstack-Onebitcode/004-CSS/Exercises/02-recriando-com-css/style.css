@@ -18,7 +18,9 @@ body {
 }
 
 .h2-week {
+    color: #000;
     background-color: var(--yellow-color);
+    border: 2px solid #000;
 }
 
 #astronomy-class {

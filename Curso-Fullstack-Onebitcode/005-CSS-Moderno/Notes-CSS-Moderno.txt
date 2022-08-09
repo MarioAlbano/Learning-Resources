@@ -23,3 +23,5 @@
 -"flex-basis" define um tamanho base e não deixa encolher mais que o tamanho definido
 -"flex" junta os três acima na ordem de: grow, shrink, basis
 -"order" define qual ordem irá aparecer
+
+//Grid layout

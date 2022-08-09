@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background-color: rgb(169, 169, 169);
+}
+
+main div {
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+main p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+}

@@ -16,3 +16,10 @@
 -gap: linhaspx colunaspx
 -justify-content
 -align-items
+
+//Outras opções no flex
+-"flex-grow"	expande o elemento
+-"flex-shrink" encolhe o elemento
+-"flex-basis" define um tamanho base e não deixa encolher mais que o tamanho definido
+-"flex" junta os três acima na ordem de: grow, shrink, basis
+-"order" define qual ordem irá aparecer

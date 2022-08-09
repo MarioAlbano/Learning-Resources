@@ -9,3 +9,10 @@
 -Usar o google Dev Tools
 -Redimensionar a nova tela para procurar possíveis quebras no site
 -Trabalhar até no tamanho mínimo de 280px
+
+//Flexbox
+-Serve para alinha em linha nossos conteúdos
+-Podemos usar "flex diretion:" e atribuir a row ou column inverse
+-gap: linhaspx colunaspx
+-justify-content
+-align-items

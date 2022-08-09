@@ -25,3 +25,9 @@
 -"order" define qual ordem irá aparecer
 
 //Grid layout
+-"display: grid" ativa o grid
+-"grid-template-colums" define a quantidade de colunas
+-"grid-template-rows" define a quantidade de linhas
+-"gap" define uma margem entre os items
+-"grid-column" define o quanto o elemente irá ocupar em uma coluna
+-"grid-rows" define qual linha o elemento será inserido

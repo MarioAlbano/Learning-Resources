@@ -13,3 +13,35 @@
 .main-intro p {
     font-size: 1.25rem;
 }
+
+.main-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 70px;
+    margin: 25px 25px 0 70px;
+}
+
+.main-section {
+    height: 100%;
+    border: 4px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+}
+
+.content-section {
+padding: 20px;
+}
+
+.content-section  img {
+    width: 340px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.main-aside {
+    width: auto;
+    height: 800px;
+    border: 4px solid black;
+    background-color: red;
+}

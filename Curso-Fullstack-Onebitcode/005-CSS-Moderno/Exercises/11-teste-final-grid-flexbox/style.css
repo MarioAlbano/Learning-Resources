@@ -1,3 +1,10 @@
 /* Importing another CSS files */
 @import url(css/header.css);
 @import url(css/main.css);
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}

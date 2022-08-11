@@ -1,0 +1,15 @@
+/*Main Part*/
+.main-intro {
+    display: grid;
+    place-items: center;
+    padding: 0.625rem;
+}
+
+.main-intro h1 {
+    padding: 0.625rem;
+    text-transform: uppercase;
+}
+
+.main-intro p {
+    font-size: 1.25rem;
+}

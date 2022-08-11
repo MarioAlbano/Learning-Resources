@@ -1,0 +1,3 @@
+/* Importing another CSS files */
+@import url(css/header.css);
+@import url(css/main.css);

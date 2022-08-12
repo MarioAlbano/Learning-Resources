@@ -1,0 +1,28 @@
+.footer-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.25rem;
+    background-color: #2A282A;
+    padding: 2.5rem;
+    margin-top: 40px;
+}
+
+.footer-class img {
+    width: 12.5rem;
+    height: auto;
+}
+
+.footer-class a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid transparent;
+}
+
+.footer-class a:hover {
+    color: #BF0D3C;
+    border-bottom: 2px solid #fff;
+    transition: 1s;
+}

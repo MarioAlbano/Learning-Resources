@@ -22,7 +22,7 @@
 
 .header-a-group {
     display: flex;
-    gap: 2.5rem;
+    gap: 40px;
 }
 
 .header-a {
@@ -34,6 +34,28 @@
 }
 
 .header-a:hover {
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #BF0D3C;
+    ;
+    color: #BF0D3C;
     transition: 0.6s;
+}
+
+@media (max-width: 800px) {
+    .header-a-group {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 545px) {
+    .header-class {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .header-class img {
+        width: 150px;
+        height: auto;
+        padding: 10px;
+    }
 }

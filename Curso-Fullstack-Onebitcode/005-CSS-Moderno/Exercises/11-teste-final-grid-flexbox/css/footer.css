@@ -22,7 +22,7 @@
 
 .footer-class a:hover {
     color: #BF0D3C;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #BF0D3C;
     transition: 1s;
 }
 

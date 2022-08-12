@@ -65,6 +65,10 @@
     box-sizing: border-box;
 }
 
+.content-section p {
+    line-height: 1.5;
+}
+
 .content-title {
     text-align: left;
     font-size: 22px;

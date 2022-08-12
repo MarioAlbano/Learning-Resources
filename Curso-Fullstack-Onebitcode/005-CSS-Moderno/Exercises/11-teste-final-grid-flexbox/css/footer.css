@@ -17,7 +17,6 @@
     text-decoration: none;
     color: #fff;
     font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
     border-bottom: 2px solid transparent;
 }
 
@@ -25,4 +24,36 @@
     color: #BF0D3C;
     border-bottom: 2px solid #fff;
     transition: 1s;
+}
+
+@media (max-width: 555px) {
+    .footer-class img {
+        width: 150px;
+        height: auto;
+    }
+
+    .footer-class a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 435px) {
+    .footer-class {
+        padding: 10px 20px;
+    }
+
+    .footer-class img {
+        width: 100px;
+        height: auto;
+    }
+
+    .footer-class a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 350px) {
+    footer {
+        width: auto;
+    }
 }

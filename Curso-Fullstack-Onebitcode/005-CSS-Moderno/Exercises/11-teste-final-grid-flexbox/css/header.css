@@ -59,3 +59,10 @@
         padding: 10px;
     }
 }
+
+@media (max-width: 400px) {
+    .header-class {
+        padding: 0;
+        width: auto;
+    }
+}

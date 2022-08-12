@@ -13,6 +13,7 @@
     height: 6.25rem;
     background-color: #2A282A;
     padding: 2.5rem;
+    border-bottom: 4px solid #BF0D3C;
 }
 
 .header-class img {

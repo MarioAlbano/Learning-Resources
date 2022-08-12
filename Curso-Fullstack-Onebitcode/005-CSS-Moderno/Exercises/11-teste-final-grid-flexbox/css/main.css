@@ -3,6 +3,7 @@
     display: grid;
     place-items: center;
     padding: 0.625rem;
+    margin: 20px 0;
 }
 
 .main-intro h1 {
@@ -12,6 +13,7 @@
 
 .main-intro p {
     font-size: 1.25rem;
+    color: #383838;
 }
 
 .main-container {
@@ -92,6 +94,7 @@
     flex-direction: column;
     gap: 15px;
     padding: 20px;
+    border: 4px solid #000;
 }
 
 .main-aside h3 {

@@ -1,2 +1,10 @@
 ************************************************
-//
+//O que é um software?
+-Sequência de instruções a serem executadas para a manipulação de um dado ou um acontecimento
+
+//O que o programador faz?
+-Sites, sites mobile, chatbots, Softwares embarcados (que controlam máquinas)
+
+//sobre a programação
+-Softwares estão em quase tudo que usamos
+-Estão substituindo os trabalhos repetitivos e em breve os intelectuais também

@@ -1,2 +1,14 @@
 ************************************************
-//
+//Aprendendo sobre HTML
+-Como funciona
+-Principais elementos
+-Compreender forms
+-Novidades do html5
+-Organização do código
+
+//HTML
+-Linguagem de marcação de hipertexto utilizada pra criação de páginas web
+-Hypertexto: links que se conectam
+-Criado para compartilhar pesquisas
+-tags básicas
+

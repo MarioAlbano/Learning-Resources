@@ -10,5 +10,7 @@
 -Linguagem de marcação de hipertexto utilizada pra criação de páginas web
 -Hypertexto: links que se conectam
 -Criado para compartilhar pesquisas
--tags básicas
+-tags básicas (p, h1...h6, hr, br, strong, etc ...)
 -Lista ordenada e não ordenada
+-Div e spans
+-atributos

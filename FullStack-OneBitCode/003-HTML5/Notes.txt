@@ -22,3 +22,4 @@
 -Semântica para as tags
 -Tags para incluir áudio e vídeo
 -Tags para separar partes do side (header, section, aside, footer)
+-Semântica no HTML5

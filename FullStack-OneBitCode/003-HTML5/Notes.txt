@@ -16,3 +16,9 @@
 -atributos
 -tabelas (como criar, thead, tbody, tfoot)
 -forms (tipos de input, enviar, metodo get e post)
+
+//HTML5
+-última versao do html
+-Semântica para as tags
+-Tags para incluir áudio e vídeo
+-Tags para separar partes do side (header, section, aside, footer)

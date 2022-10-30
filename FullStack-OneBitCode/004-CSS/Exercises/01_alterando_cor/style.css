@@ -1,5 +1,4 @@
 li {
-  color: red;
   background-color: blueviolet;
 }
 
@@ -15,4 +14,12 @@ body {
   background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.li-moon {
+  color: red;
+}
+
+.li-60 {
+  font-size: 60px;
 }

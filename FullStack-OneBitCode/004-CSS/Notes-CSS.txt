@@ -18,3 +18,12 @@ h1	   { color:blue;     font-size:12px;}
 //Background e border
 -background: propriedade para definir o fundo
 -border: a borda de um elemento
+
+//Classes e ids
+-Uma forma de alterar um elemento específico
+-especificidade
+- * para todos
+- seletores de descendência, seletores de pai para filho, seletores adjacentes, seletores de atributo, pseudo-classes, pseudo-elementos
+
+//Herança
+-Características que os filhos herdam dos pais

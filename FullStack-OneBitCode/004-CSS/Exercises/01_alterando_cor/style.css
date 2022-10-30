@@ -1,25 +1,13 @@
-li {
-  background-color: blueviolet;
-}
-
-h1 {
-  color: purple;
-  /* border-width: 5px;
-  border-style: solid;
-  border-color: yellow; */
-  border: 5px solid yellow;
-}
-
 body {
   background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.li-moon {
-  color: red;
+h2+p {
+  color: yellow;
 }
 
-.li-60 {
-  font-size: 60px;
+a[href="test"] {
+  color: red;
 }

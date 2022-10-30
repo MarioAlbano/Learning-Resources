@@ -30,3 +30,7 @@ h1	   { color:blue;     font-size:12px;}
 
 //Texto e fontes
 -Personalizam a página
+-font-family, font-weight, font-size, line-height
+
+//Box-model
+-content, padding, border, margin

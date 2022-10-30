@@ -1,0 +1,17 @@
+h1 {
+  font-family: 'Geostar', cursive;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.5;
+  border: solid;
+  margin: auto;
+  width: 7%;
+  padding: 10px;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}

@@ -1,33 +1,7 @@
-**************************************************
+			*****CSS Moderno*****
 
-//Pilares do CSS Moderno
--Responsividade (Media Querty e Mobile First)
--Flexbox 
--Grid
+//Css Moderno + responsividade
+-Responsividade(visão geral, media query, mobile first)
+-flexbox
+-grid
 
-//Responsividade
--Usar o google Dev Tools
--Redimensionar a nova tela para procurar possíveis quebras no site
--Trabalhar até no tamanho mínimo de 280px
-
-//Flexbox
--Serve para alinha em linha nossos conteúdos
--Podemos usar "flex diretion:" e atribuir a row ou column inverse
--gap: linhaspx colunaspx
--justify-content
--align-items
-
-//Outras opções no flex
--"flex-grow"	expande o elemento
--"flex-shrink" encolhe o elemento
--"flex-basis" define um tamanho base e não deixa encolher mais que o tamanho definido
--"flex" junta os três acima na ordem de: grow, shrink, basis
--"order" define qual ordem irá aparecer
-
-//Grid layout
--"display: grid" ativa o grid
--"grid-template-colums" define a quantidade de colunas
--"grid-template-rows" define a quantidade de linhas
--"gap" define uma margem entre os items
--"grid-column" define o quanto o elemente irá ocupar em uma coluna
--"grid-rows" define qual linha o elemento será inserido

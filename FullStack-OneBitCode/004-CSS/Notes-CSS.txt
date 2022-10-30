@@ -1,1 +1,20 @@
-******CSS*****
+				******CSS*****
+
+//Objetivos do módulo
+-Entender o que é Css
+-Cores, Background, Seletores, Espcificidade e herança no CSS, incluir fontes e posicionamento dos elementos
+
+//Oque é?
+-Cascade style sheets (folha de estilo em cascatas)
+-Define o estilo de um documento, não deve ser definida dentro do HTML
+Exemplo:			  Declaration
+Seletor { Property:Value; Property:Value;}
+h1	   { color:blue;     font-size:12px;}  
+
+//Cores
+-Browsers aceitam 140 nomes (não recomendado)
+-RGB, Hexadecimais, HSL, HWB  	
+
+//Background e border
+-background: propriedade para definir o fundo
+-border: a borda de um elemento

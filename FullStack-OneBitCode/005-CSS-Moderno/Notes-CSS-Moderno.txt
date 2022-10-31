@@ -5,3 +5,9 @@
 -flexbox
 -grid
 
+//Responsividade
+-Usar o google devs tools para analisar o layout em diferentes tipos de telas
+-ideal para o menor tamanho seria 280 px, já a maior até 4k
+-Dependendo do layout, recolocar barras laterais 
+
+//Media query

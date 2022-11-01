@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #AAA8AA;
+}
+
+.box-style {
+  height: 200px;
+  width: 200px;
+  border: 3px solid #000;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.span-text {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}

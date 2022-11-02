@@ -14,3 +14,4 @@
 -media (max-width: px) enquanto menor que
 -media (min-width: px) enquanto maior que
 -podemos juntar os dois para algo específico
+

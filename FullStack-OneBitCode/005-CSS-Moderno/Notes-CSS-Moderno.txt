@@ -15,3 +15,10 @@
 -media (min-width: px) enquanto maior que
 -podemos juntar os dois para algo específico
 
+//Flexbox
+-Alinhar os itens em linha
+-Ajuda muito para a responsividade
+
+//Grid-layout
+-Organiza os itens em linha e coluna
+-Ajuda muito para a responsividade

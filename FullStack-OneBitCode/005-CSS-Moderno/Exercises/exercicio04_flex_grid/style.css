@@ -27,18 +27,22 @@ body {
     "div-01 div-02 div-03"
     "div-04 div-04 div-04"
     "div-05 div-05 div-06";
+
 }
 
 .div-01 {
   grid-area: div-01;
+  min-width: 250px;
 }
 
 .div-02 {
   grid-area: div-02;
+  min-width: 250px;
 }
 
 .div-03 {
   grid-area: div-03;
+  min-width: 250px;
 }
 
 .div-04 {
@@ -47,12 +51,63 @@ body {
 
 .div-05 {
   grid-area: div-05;
+  min-width: 350px;
 }
 
 .div-06 {
   grid-area: div-06;
+  min-width: 250px;
 }
 
 .footer-layout {
   display: flex;
+}
+
+@media (max-width: 790px) {
+  .container-div {
+    grid-template-areas:
+      "div-01 div-01 div-01"
+      "div-02 div-02 div-02"
+      "div-03 div-03 div-03"
+      "div-04 div-04 div-04"
+      "div-05 div-05 div-06";
+  }
+}
+
+@media (max-width: 630px) {
+  .container-div {
+    grid-template-areas:
+      "div-01 div-01 div-01"
+      "div-02 div-02 div-02"
+      "div-03 div-03 div-03"
+      "div-04 div-04 div-04"
+      "div-05 div-05 div-05"
+      "div-06 div-06 div-06";
+  }
+}
+
+@media (max-width: 385px) {
+  .div-01 {
+    min-width: auto;
+  }
+
+  .div-02 {
+    min-width: auto;
+  }
+
+  .div-03 {
+    min-width: auto;
+  }
+
+  .div-04 {
+    min-width: auto;
+  }
+
+  .div-05 {
+    min-width: auto;
+  }
+
+  .div-06 {
+    min-width: auto;
+  }
 }

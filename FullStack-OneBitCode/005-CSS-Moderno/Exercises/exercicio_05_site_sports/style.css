@@ -1,9 +1,11 @@
+/*CSS Reset*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*Header Part*/
 header {
   display: flex;
   height: 100px;
@@ -36,8 +38,10 @@ header nav .a-nav-style:hover {
   transition: 0.7s;
 }
 
+/* Main Part */
 main {
   padding: 20px;
+  display: grid;
 }
 
 main section h1 {
@@ -59,7 +63,7 @@ main .main-container {
   align-content: flex-start;
   gap: 50px 0px;
   flex-wrap: wrap;
-  padding: 20px 5vw;
+  padding: 20px 1em;
   width: 65vw;
 }
 
@@ -95,7 +99,7 @@ main .main-container {
   margin-top: 20px;
   padding: 20px;
   width: 30vw;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: #393839;
   color: rgb(212, 212, 212);
@@ -122,6 +126,7 @@ main .main-container {
   border: 3px solid #000;
 }
 
+/* Footer */
 footer {
   display: flex;
   height: 100px;
@@ -147,4 +152,101 @@ footer .back-button {
 footer .back-button:hover {
   border-bottom: 3px solid #000;
   transition: 0.7s;
+}
+
+/*Media Queries*/
+@media (max-width: 1345px) {
+  .div-elements {
+    width: 220px;
+  }
+
+  .article-flexbox {
+    gap: 50px 60px;
+  }
+}
+
+@media (max-width: 1248px) {
+  main .main-container {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .article-flexbox {
+    width: 55vw;
+  }
+}
+
+@media (max-width: 970px) {
+  main {
+    padding: 0px;
+  }
+
+  main .main-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .article-flexbox {
+    width: auto;
+  }
+
+  .aside-flexbox {
+    width: auto
+  }
+}
+
+@media (max-width: 685px) {
+  main .main-container {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 532px) {
+  .article-flexbox {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  main section h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  main .main-container {
+    width: auto;
+  }
+
+  .div-elements {
+    width: 300px;
+  }
+}
+
+@media (max-width: 340px) {
+  main section h1 {
+    font-size: auto;
+  }
+
+  .div-elements {
+    width: auto;
+  }
+
+  .aside-flexbox {
+    width: auto;
+  }
+
+  header {
+    width: auto;
+  }
 }

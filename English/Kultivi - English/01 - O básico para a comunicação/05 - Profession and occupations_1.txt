@@ -1,0 +1,67 @@
+
+Profession and occupations
+
+
+Actor / Actress
+Architect
+Astronaut
+Baker
+Bricklayer
+Butcher
+Cashier
+Cook
+Dentist
+Doctor
+Taxi/ Bus/ Limo/ Truck drivers
+Electrician
+Engineer
+Fireman
+Gerdener
+Lawyer
+Mechanic
+Nurse
+Painter
+Plumber
+Police officer
+Realtor
+Secretary
+Receptionist
+Singer
+Soccer Player
+Student
+Teacher
+Waitress
+Waiter
+
+Ex:
+He is na Architect
+He is na astronaut
+He is a baker
+He is a bricklayer
+He is a butcher
+She ia a cashier
+He is a cook
+He is a dentist
+He is a doctor
+They are Taxi/ Bus/ Limo/ Truck drivers
+He is an electrician
+He is na engineer
+He is a fireman
+He is a gerdener
+He is a lawyer
+He is a mechanic
+She is a nurse
+He is a painter
+He is a plumber
+He is a police officer
+He is a realtor
+She is a secretary
+She is a receptionist
+He is a singer
+He is a soccer player
+She is a student
+She ia a teacher
+She ia a waitress
+He is a waiter
+
+

@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2A282A;
+  padding: 20px 40px;
+}
+
+
+header .logo-img {
+  height: 40px;
+  width: auto;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header nav .a-nav-style {
+  text-decoration: none;
+  color: #D4D4D4;
+  border-bottom: 3px solid transparent;
+  padding: 8px;
+}
+
+header nav .a-nav-style:hover {
+  border-bottom: 3px solid #000;
+  transition: 0.7s;
+}
+
+main {
+  padding: 20px;
+}
+
+main section h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main section p {
+  text-align: center;
+}
+
+main .main-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.article-flexbox {
+  display: flex;
+  align-content: flex-start;
+  gap: 50px 0px;
+  flex-wrap: wrap;
+  padding: 20px 5vw;
+  width: 65vw;
+}
+
+.title-style {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.div-elements {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+}
+
+.div-elements:hover {
+  border: 3px solid #000;
+}
+
+.div-img {
+  height: 210px;
+  width: 270px;
+  border-radius: 10px;
+}
+
+.aside-flexbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 30vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #393839;
+  color: rgb(212, 212, 212);
+}
+
+.aside-flexbox div h3 {
+  text-align: center;
+}
+
+.aside-flexbox div img {
+  height: 150px;
+  width: 200px;
+}
+
+.div-extra {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border: 3px solid transparent;
+  border-radius: 10px;
+}
+
+.div-extra:hover {
+  border: 3px solid #000;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2A282A;
+  padding: 20px 40px;
+}
+
+footer img {
+  height: 40px;
+  width: auto;
+}
+
+footer .back-button {
+  text-decoration: none;
+  color: rgb(212, 212, 212);
+  font-size: 20px;
+  border-bottom: 3px solid transparent;
+  padding: 10px;
+}
+
+footer .back-button:hover {
+  border-bottom: 3px solid #000;
+  transition: 0.7s;
+}

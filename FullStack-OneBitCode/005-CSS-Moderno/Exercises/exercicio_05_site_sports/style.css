@@ -12,6 +12,14 @@ footer {
   align-items: center;
   padding: 40px;
   background-color: #2A282A;
+  border-bottom: 3px solid #C90B3D;
+  transition: 1.4s;
+}
+
+header:hover,
+footer:hover {
+  border-bottom: 3px solid #000;
+  transition: 1.4s;
 }
 
 .ImgLogo {

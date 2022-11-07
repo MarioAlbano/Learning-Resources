@@ -75,20 +75,6 @@ main {
   grid-area: containerMainArticle;
 }
 
-.containerMainAside {
-  background-color: #393839;
-  color: #D4D4D4;
-  width: 80%;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.25rem 0;
-  padding-bottom: 1.25rem;
-  grid-area: containerMainAside;
-  min-width: 18.75rem;
-}
-
 .cardArticle {
   display: flex;
   flex-direction: column;
@@ -107,6 +93,26 @@ main {
 .cardArticle h3 {
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.cardArticle img {
+  width: 17.5rem;
+  height: 12.5rem;
+  border-radius: 0.625rem;
+}
+
+.containerMainAside {
+  background-color: #393839;
+  color: #D4D4D4;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem 0;
+  padding-bottom: 1.25rem;
+  grid-area: containerMainAside;
+  min-width: 18.75rem;
 }
 
 .asideTitle {
@@ -134,12 +140,6 @@ main {
   text-transform: uppercase;
 }
 
-.cardArticle img {
-  width: 17.5rem;
-  height: 12.5rem;
-  border-radius: 0.625rem;
-}
-
 .cardAside img {
   width: 15.625rem;
   height: 10.9375rem;
@@ -158,9 +158,6 @@ main {
 
 @media (max-width: 655px) {
   .containerMain {
-    grid-template-areas:
-      "containerMainArticle"
-      "containerMainAside";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,12 +193,12 @@ main {
     align-self: center;
   }
 
+  .cardArticle h3 {
+    text-align: center;
+  }
+
   .cardAside img {
     width: 12.5rem;
     height: 10.9375rem;
-  }
-
-  .cardArticle h3 {
-    text-align: center;
   }
 }

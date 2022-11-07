@@ -7,6 +7,7 @@
 header,
 footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 40px;
@@ -63,6 +64,7 @@ main {
   justify-content: center;
   gap: 20px;
   padding-bottom: 20px;
+  grid-area: containerMainArticle;
 }
 
 .containerMainAside {
@@ -75,6 +77,8 @@ main {
   align-items: center;
   gap: 20px 0;
   padding-bottom: 20px;
+  grid-area: containerMainAside;
+  min-width: 300px;
 }
 
 .cardArticle {
@@ -138,4 +142,43 @@ main {
   text-decoration: none;
   color: #D4D4CA;
   font-size: 18px;
+}
+
+@media (max-width: 655px) {
+  .containerMain {
+    grid-template-areas:
+      "containerMainArticle"
+      "containerMainAside";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 520px) {
+
+  header,
+  footer {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+
+  .containerMainAside {
+    min-width: auto;
+  }
+
+  .cardArticle img {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+
+  .cardAside img {
+    width: 200px;
+    height: 175px;
+  }
+
+  .cardArticle h3 {
+    text-align: center;
+  }
 }

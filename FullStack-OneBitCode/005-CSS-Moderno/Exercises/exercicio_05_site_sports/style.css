@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #2A282A;
+}
+
+.ImgLogo {
+  width: 200px;
+  height: auto;
+}
+
+.navFlex {
+  display: flex;
+  gap: 0 20px;
+}
+
+.navAStyle {
+  text-decoration: none;
+  color: #D4D4CA;
+  font-size: 18px;
+  border: 2px solid transparent;
+  padding: 5px;
+}
+
+.navAStyle:hover {
+  border-bottom: 2px solid #D4D4CA;
+  transition: 0.7s;
+}
+
+#titleSection {
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+.containerMain {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "containerMainArticle containerMainAside";
+}
+
+.containerMainArticle {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.containerMainAside {
+  background-color: #393839;
+  color: #D4D4D4;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0;
+  padding-bottom: 20px;
+}
+
+.cardArticle {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+.cardArticle:hover {
+  border: 2px solid #000;
+  transition: 0.3s;
+}
+
+.asideTitle {
+  margin-top: 20px;
+}
+
+.cardAside {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+.cardAside:hover {
+  border: 2px solid #d4d4d4;
+  transition: 0.3s;
+}
+
+.cardArticle img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.cardAside img {
+  width: 250px;
+  height: 175px;
+  border-radius: 10px;
+}
+
+.cardAside h3 {
+  text-align: center;
+}
+
+.buttonReturn {
+  text-decoration: none;
+  color: #D4D4CA;
+  font-size: 18px;
+}

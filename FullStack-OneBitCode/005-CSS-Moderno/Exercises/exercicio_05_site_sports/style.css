@@ -41,6 +41,10 @@ footer {
   padding: 20px 0;
 }
 
+#titleSection h1 {
+  font-weight: 500;
+}
+
 main {
   margin-bottom: 20px;
 }
@@ -86,8 +90,15 @@ main {
   transition: 0.3s;
 }
 
+.cardArticle h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 .asideTitle {
   margin-top: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .cardAside {
@@ -100,6 +111,11 @@ main {
 .cardAside:hover {
   border: 2px solid #d4d4d4;
   transition: 0.3s;
+}
+
+.cardAside h3 {
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .cardArticle img {

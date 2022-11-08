@@ -3,10 +3,10 @@ ul li {
 }
 
 ol li {
-  background-color: aqua;
+  background-color: blue;
 }
 ol li:hover {
-  background-color: yellow;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

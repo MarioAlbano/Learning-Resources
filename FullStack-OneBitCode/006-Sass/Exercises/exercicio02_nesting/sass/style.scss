@@ -1,14 +1,19 @@
+@import "colors/colors.scss";
+@import "size/size.scss";
+
+
+
 ul {
   li{
-    background-color: red;
+    background-color: $color-01;
   }
 }
 
 ol {
   li {
-    background-color: aqua;
+    background-color: $color-02;
     &:hover {
-    background-color: yellow;
+    height: $size-height;
   }
   }
 }

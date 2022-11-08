@@ -12,4 +12,7 @@
 -Serve para encurtar o trabalho se for alterar as cores futuramente
 
 //Nesting
--
+-Conseguimos alterar elementos do nesting com mais facilidade, economizando linhas de código
+
+//Divisões dos arquivos 
+-Podemos criar uma pasta chamada "sass", e depois outras pastas com arquivos, e então importar tudo para o arquivo style principal

@@ -1,0 +1,8 @@
+$color-red: red;
+$square-width: 200px;
+$square-height: 200px;
+.square {
+  background-color: $color-red;
+  width: $square-width;
+  height: $square-height;
+}

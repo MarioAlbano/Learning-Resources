@@ -8,4 +8,8 @@
 -Organiza o código por meio de divisões
 -facilidade (variáveis, imports, funções)
 
-//
+//Variáveis
+-Serve para encurtar o trabalho se for alterar as cores futuramente
+
+//Nesting
+-

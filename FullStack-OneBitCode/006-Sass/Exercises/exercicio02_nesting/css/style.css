@@ -1,0 +1,12 @@
+ul li {
+  background-color: red;
+}
+
+ol li {
+  background-color: aqua;
+}
+ol li:hover {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

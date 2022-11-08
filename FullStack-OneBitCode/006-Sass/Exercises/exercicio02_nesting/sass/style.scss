@@ -1,0 +1,14 @@
+ul {
+  li{
+    background-color: red;
+  }
+}
+
+ol {
+  li {
+    background-color: aqua;
+    &:hover {
+    background-color: yellow;
+  }
+  }
+}

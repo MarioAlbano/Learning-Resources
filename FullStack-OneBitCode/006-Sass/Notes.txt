@@ -1,3 +1,11 @@
 ************************************************
 
 //SSaS
+-Desenvolvimento front end
+-Syntactically Awesome StyleSheets
+-pré-processado (escrevemos em sass e depois ele vira css)
+-2 modelos: sass e scss
+-Organiza o código por meio de divisões
+-facilidade (variáveis, imports, funções)
+
+//

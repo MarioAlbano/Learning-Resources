@@ -7,6 +7,7 @@
 -2 modelos: sass e scss
 -Organiza o código por meio de divisões
 -facilidade (variáveis, imports, funções)
+- "sass --watch sass/style.scss:css/style.css"
 
 //Variáveis
 -Serve para encurtar o trabalho se for alterar as cores futuramente
@@ -23,3 +24,8 @@
 -Podemos utilizar duas propriedades ao mesmo tempo
 - "@mixin nome_variável($..., $..., $...) {...:$... ;}"
 - "@include nome_variável(propriedade, propriedade, propriedade)"
+
+//Heranças e extends
+-Similar ao nesting porém com classes
+-Utilizar &.nome_da_classe dentro do classe pai. Só funciona as duas classes juntas
+-Para o extends, "@extend .nome_da_classe"

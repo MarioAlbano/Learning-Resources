@@ -4,9 +4,11 @@
   color: $color;
 }
 
+$red: red;
+
 .cardDiv {
   h1 {
-    @include paragraphLayout(20px, 500, red)
+    @include paragraphLayout(20px, 500, $red)
   }
   p {
     @include paragraphLayout(20px, 500, blue)

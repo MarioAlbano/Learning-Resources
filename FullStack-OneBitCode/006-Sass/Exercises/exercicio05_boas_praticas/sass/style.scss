@@ -1,0 +1,7 @@
+@import "common/common.scss";
+@import "pages/login.scss";
+@import "pages/cadastro.scss";
+
+.pStyleHome {
+  @include paragraphStyle(1.125rem, red);
+}

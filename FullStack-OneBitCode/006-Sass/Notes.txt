@@ -16,3 +16,6 @@
 
 //Divisões dos arquivos 
 -Podemos criar uma pasta chamada "sass", e depois outras pastas com arquivos, e então importar tudo para o arquivo style principal
+
+//Mixin
+-Podemos utilizar duas propriedades ao mesmo tempo

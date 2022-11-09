@@ -21,4 +21,5 @@
 
 //Mixin
 -Podemos utilizar duas propriedades ao mesmo tempo
-- "@mixin nome_variável($..., $..., $...) {...: ;}"
+- "@mixin nome_variável($..., $..., $...) {...:$... ;}"
+- "@include nome_variável(propriedade, propriedade, propriedade)"

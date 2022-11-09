@@ -1,3 +1,12 @@
-
+.cardDiv h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+}
+.cardDiv p {
+  font-size: 20px;
+  font-weight: 500;
+  color: blue;
+}
 
 /*# sourceMappingURL=style.css.map */

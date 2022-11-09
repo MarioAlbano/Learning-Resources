@@ -1,0 +1,14 @@
+@mixin paragraphLayout($font-size, $font-weight, $color){
+  font-size:$font-size ;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+.cardDiv {
+  h1 {
+    @include paragraphLayout(20px, 500, red)
+  }
+  p {
+    @include paragraphLayout(20px, 500, blue)
+  }
+}

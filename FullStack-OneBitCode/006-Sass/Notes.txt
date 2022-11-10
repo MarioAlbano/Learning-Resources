@@ -30,7 +30,7 @@
 -Utilizar &.nome_da_classe dentro do classe pai. Só funciona as duas classes juntas
 -Para o extends, "@extend .nome_da_classe"
 
-//Boas práticas com Sass GVMBYMBXVX
+//Boas práticas com Sass GVMBYMBXVX 9BWLB05U9AP089665 00191278874
 -Útil para nós mesmo e para futuros programadores fazerem a manutenção do código
 -Criar dentro da pasta sass pastas como pages, variables, common (elementos comuns entre todas as páginas)
 -Comentar e importar as páginas
@@ -40,3 +40,8 @@
 //Function em sass
 -utilizar a documentação para usar as funções pré-definidas
 -podemos criar com "@function" "@if" "@return"
+
+//Minify
+-junta todo o código css para economizar código
+-não faz diferença em pequenos sites, porém faz diferença com códigos grandes
+- "sass sass/style.scss:css/style.css --style compressed"

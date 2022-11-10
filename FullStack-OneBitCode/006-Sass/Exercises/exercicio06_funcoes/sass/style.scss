@@ -13,7 +13,7 @@
 
 body {
   h1 {
-    @include mixinBackground(green);
+    @include mixinBackground(white);
     text-align: center;
   }
 }

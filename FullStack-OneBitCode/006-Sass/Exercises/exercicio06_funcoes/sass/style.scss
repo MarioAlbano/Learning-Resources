@@ -1,0 +1,19 @@
+@function adaptiveColor($background-color) {
+  @if (lightness($background-color) > 50) {
+    @return black;
+  } @else {
+    @return white;
+  }
+}
+
+@mixin mixinBackground($color) {
+  color: adaptiveColor($color);
+  background-color: $color;
+}
+
+body {
+  h1 {
+    @include mixinBackground(green);
+    text-align: center;
+  }
+}

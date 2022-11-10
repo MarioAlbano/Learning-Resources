@@ -36,3 +36,7 @@
 -Comentar e importar as páginas
 -Escolher nome das variáveis que seja de fácil identificação
 -Utilizar o mixing, aplicando o @include na página quando se tratar de várias prorpiedades juntas
+
+//Function em sass
+-utilizar a documentação para usar as funções pré-definidas
+-podemos criar com "@function" "@if" "@return"

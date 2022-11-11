@@ -1,5 +1,4 @@
 ************************************************
-//Instalação Bootstrap
+//Bootstrap
 -Copiar o link da documentação, colar o css acima do title e o js antes de fechar a tag body
-
-//Tipografia
+-Consultar documentação é essencial

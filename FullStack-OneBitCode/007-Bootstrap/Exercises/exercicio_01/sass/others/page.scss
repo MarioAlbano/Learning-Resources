@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../assets/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.customBox {
+  background-color: $bgColor;
+  width: 450px;
+  color: $colorOne;
+}
+
+.customLogo {
+  width: 220px;
+}
+
+.customP {
+  color: $colorOne;
+}

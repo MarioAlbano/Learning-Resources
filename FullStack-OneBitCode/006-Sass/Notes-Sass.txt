@@ -23,7 +23,7 @@
 //Mixin
 -Podemos utilizar duas propriedades ao mesmo tempo
 - "@mixin nome_variável($..., $..., $...) {...:$... ;}"
-- "@include nome_variável(propriedade, propriedade, propriedade)"
+- "@include nome_variável(propriedade, propriedade, pr		opriedade)"
 
 //Heranças e extends
 -Similar ao nesting porém com classes
@@ -38,7 +38,7 @@
 -Utilizar o mixing, aplicando o @include na página quando se tratar de várias prorpiedades juntas
 
 //Function em sass
--utilizar a documentação para usar as funções pré-definidas
+-utilizar a documentação para usar a	s funções pré-definidas
 -podemos criar com "@function" "@if" "@return"
 
 //Minify

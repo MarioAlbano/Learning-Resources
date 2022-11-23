@@ -30,6 +30,12 @@
   padding: 30px 50px;
 }
 
+.arrow-container {
+  font-size: 3.75rem;
+  text-align: center;
+  margin-top: 3.125rem;
+}
+
 * {
   margin: 0;
   padding: 0;

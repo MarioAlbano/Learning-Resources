@@ -1,5 +1,5 @@
 .container-01 {
-  height: 100vh;
+  height: 430px;
   background-image: url(../../assets/home/01.jpg);
   background-size: cover;
   background-position: center;
@@ -23,9 +23,24 @@
   border: solid 2px #fff;
 }
 
+.container-04 {
+  height: 480px;
+  background-image: url(../../assets/home/03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-05 {
+  padding-top: 140px;
+  padding-left: 20px;
+  color: #fff;
+  line-height: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .uppercase-text {
@@ -42,7 +57,7 @@
 }
 
 .font-24 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
 }
 

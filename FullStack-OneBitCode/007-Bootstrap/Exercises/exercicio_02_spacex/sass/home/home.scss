@@ -1,5 +1,5 @@
 .container-01 {
-  height: 100vh;
+  height: 430px;
   background-image: url(../../assets/home/01.jpg);
   background-size: cover;
   background-position: center;
@@ -21,4 +21,18 @@
   font-size: 16px;
   padding: 15px 30px;
   border: solid 2px #fff;
+}
+
+.container-04 {
+  height: 480px;
+  background-image: url(../../assets/home/03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-05 {
+  padding-top: 140px;
+  padding-left: 20px;
+  color: #fff;
+  line-height: normal;
 }

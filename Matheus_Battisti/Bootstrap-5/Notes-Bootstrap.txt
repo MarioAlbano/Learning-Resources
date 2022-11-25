@@ -1,0 +1,5 @@
+-----Bootstrap------
+
+//O que é?
+-O bootstrap é uma biblioteca de componentes, em que partes já vem criadas e cabe a nós alterá-las
+-Agiliza o processo de criação e tem um sistema de grid muito de fácil adaptação ao responsivo

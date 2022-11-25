@@ -1,5 +1,5 @@
 .container-01 {
-  height: 430px;
+  height: 100vh;
   background-image: url(../../assets/home/01.jpg);
   background-size: cover;
   background-position: center;
@@ -24,7 +24,7 @@
 }
 
 .container-04 {
-  height: 480px;
+  height: 100vh;
   background-image: url(../../assets/home/03.jpg);
   background-size: cover;
   background-position: center;
@@ -35,4 +35,41 @@
   padding-left: 20px;
   color: #fff;
   line-height: normal;
+}
+
+.container-06 {
+  height: 100vh;
+  background-image: url(../../assets/home/02.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-07 {
+  height: 100vh;
+  background-image: url(../../assets/home/04.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-08 {
+  height: 65px;
+  background-color: #000000;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-copy {
+  color: #555252;
+}
+
+.footer-font {
+  font-size: 10px;
+  margin: 0;
+}
+
+.footer-href {
+  text-decoration: none;
+  color: #fff;
 }

@@ -1,0 +1,12 @@
+//O que é uma linguagem de programação
+-Conjunto de códigos que tem instruções para o computador
+-Diferentes de linguagens de marcação e estilização
+-Podem ser de alto nível(mais próxima da linguagem humana) ou baixo nível (mais proxima da linguagem do computador)
+-Podem ser compiladas ou interpretadas
+
+//Javascript
+-Nome oficial ECMAScript. De alto nível e interpretada
+-Multiparadigma
+-Principal linguagem de programação usada pelos navegadores web
+-Junto com HTML e CSS forma a web
+-Pode ser usada fora do navegador através de runtimes como o node

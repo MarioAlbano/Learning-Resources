@@ -10,3 +10,29 @@
 -Principal linguagem de programação usada pelos navegadores web
 -Junto com HTML e CSS forma a web
 -Pode ser usada fora do navegador através de runtimes como o node
+
+//Tipos de dados
+-Formas de representar dados
+-Primitivos: As mais simples (number e bigint, string, boolean, null e undefined)
+-Objetos e funções
+
+//Variáveis
+-Armazenam dados para usá-los no código
+-Criando variáveis: var, let, const
+-Nomeando variáveis: Nomes significativos, camelCase
+
+//Operadores e expressões
+-Operadores: aritméticos, agrupamento, atribuição, encadeamento, incremento e decremento
+
+//Comentários
+-Linhas do código que serão ignoradas
+-Servem para ajudar a entender o código
+
+//Recursos nativos do navegador
+-console.log()
+-console.error()
+-console.warn()
+-window.alert()
+-window.prompt()
+-window.confirm()
+-document

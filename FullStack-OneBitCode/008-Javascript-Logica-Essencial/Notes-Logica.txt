@@ -36,3 +36,10 @@
 -window.prompt()
 -window.confirm()
 -document
+-\n
+
+//Comparação de dados
+-Retornam um boolean
+-Operadores ( ==, ===, !=, !==, >, >=, <, <= )
+
+//Operadores lógicos

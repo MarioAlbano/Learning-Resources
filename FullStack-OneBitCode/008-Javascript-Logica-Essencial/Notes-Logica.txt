@@ -43,3 +43,11 @@
 -Operadores ( ==, ===, !=, !==, >, >=, <, <= )
 
 //Operadores lógicos
+E(&&): Só verdadeiro se ambas foram verdadeiras
+Ou(||): Só é falso se ambas forem falsas
+Not(!): Inverte o resultado
+
+//Estruturas condicionais
+-Permite criar blocos de códigos que serão executadas somente quando uma determinada operação lógica for verdadeira
+-Se o bloco de cima for falso, pode ser adicionado ELSE para acrescentar mais um bloco
+-Operador ternário: Forma abreviada e autoavaliada do IF ELSE

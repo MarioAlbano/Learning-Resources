@@ -51,3 +51,8 @@ Not(!): Inverte o resultado
 -Permite criar blocos de códigos que serão executadas somente quando uma determinada operação lógica for verdadeira
 -Se o bloco de cima for falso, pode ser adicionado ELSE para acrescentar mais um bloco
 -Operador ternário: Forma abreviada e autoavaliada do IF ELSE
+
+//SWITCH
+-Permite criar blocos como se fosse o IF, porém com vários casos
+-Podemos definir algo para que se repita sempre
+-Podemos parar a execução após algum caso

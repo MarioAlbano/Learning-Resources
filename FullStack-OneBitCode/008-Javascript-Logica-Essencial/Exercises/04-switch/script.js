@@ -10,7 +10,7 @@ Quilômetro (hm) /1000
 
 //Creating user values
 const userValue = parseFloat(prompt("Digite um valor em metros"));
-const userOption = parseFloat(prompt("Digite uma opção: \n1 - Milímetro\n2 - Centímetro\n3 - Decímetro\n4 - Decâmetro\n5 - Hectômetro\n6 - Quilômetro"));
+const userOption = parseFloat(prompt("Digite uma opção: \n1 - Milímetro\n2 - Centímetro\n3 - Decímetro\n4 - Decâmetro\n5 - Hectômetro\n6 - Quilômetro \n7 - Sair"));
 let converterResult = 0;
 
 //Starting switch case

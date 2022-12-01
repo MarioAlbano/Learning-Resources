@@ -52,7 +52,12 @@ Not(!): Inverte o resultado
 -Se o bloco de cima for falso, pode ser adicionado ELSE para acrescentar mais um bloco
 -Operador ternário: Forma abreviada e autoavaliada do IF ELSE
 
-//SWITCH
+//Switch
 -Permite criar blocos como se fosse o IF, porém com vários casos
 -Podemos definir algo para que se repita sempre
 -Podemos parar a execução após algum caso
+
+//While
+-Estrutura de repetição
+-Aceita o break para parar a repetição
+-Atenção: precisa de uma condição falsa para não ter loop infinito

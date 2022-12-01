@@ -1,13 +1,10 @@
-//Creating variable velocity
-carVelocity = 80;
-alert(`Velocidade atual ${carVelocity} km/h`);
+let userOption = 0;
 
-//Initializing loop
 do {
-  carVelocity -= 20;
-  alert(`Velocidade reduzida para ${carVelocity}km/h`);
-}
-while (carVelocity > 0);
+  userOption = prompt("Qual opção você deseja?\n1- Funcionalidade um\n2- Funcionalidade dois\n3- Funcionalidade três\n4- Funcionalidade quatro\n5- Encerrar programa");
 
-//Display info
-alert(`Carro parou!`);
+  alert(`Opção escolhida ${userOption}`);
+}
+while (userOption != 5);
+
+alert("Encerrando o programa");

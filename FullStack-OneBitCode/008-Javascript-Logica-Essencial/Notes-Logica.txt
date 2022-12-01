@@ -61,3 +61,7 @@ Not(!): Inverte o resultado
 -Estrutura de repetição
 -Aceita o break para parar a repetição
 -Atenção: precisa de uma condição falsa para não ter loop infinito
+
+//Do while
+-Parecido com o while, porém executa pelo menos uma vez o bloco mesmo que seja falsa
+-Basicamente executa o do, e se a condição do while for verdadeira, refaz denovo a condição do do

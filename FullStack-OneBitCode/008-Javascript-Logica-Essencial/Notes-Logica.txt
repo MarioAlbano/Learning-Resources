@@ -65,3 +65,8 @@ Not(!): Inverte o resultado
 //Do while
 -Parecido com o while, porém executa pelo menos uma vez o bloco mesmo que seja falsa
 -Basicamente executa o do, e se a condição do while for verdadeira, refaz denovo a condição do do
+
+//For
+-Também serve para repetições, porém diferente do while e do while
+-Exemplo é quando queremos iterar um número
+-inicialização ; condição ; finalização

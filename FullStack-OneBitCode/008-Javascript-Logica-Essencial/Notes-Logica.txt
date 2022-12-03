@@ -70,3 +70,17 @@ Not(!): Inverte o resultado
 -Também serve para repetições, porém diferente do while e do while
 -Exemplo é quando queremos iterar um número
 -inicialização ; condição ; finalização
+
+//Estrutura de dados
+-Uma forma diferente de armazenar e organizar dados, facilitando na busca
+-Estrutura de dados clássicas:
+ Lista ligada -> um elemento indica outro
+ Array -> coleção de elementos com índice
+ Fila(Queue) -> FIFO -> Coleção de elementos, primeiro que entra, primeiro que sai
+ Pilha(Stack) ->LILO -> Coleção de elementos onde o primeiro elemento ser retirado é o último a entrar
+ Árvore(Tree) ->  Conjunto de elementos em nós, organizados em estrutura hierárquica não sequencial.
+
+//Estrutura de dados no javascript e outras linguagens de alto nível
+-Listas(Arrays)
+-Dicionários(Objetos)
+-Tipos primitivos: Valor(único) e Estrutura de dados: referência(alterar valor original)

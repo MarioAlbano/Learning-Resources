@@ -84,3 +84,14 @@ Not(!): Inverte o resultado
 -Listas(Arrays)
 -Dicionários(Objetos)
 -Tipos primitivos: Valor(único) e Estrutura de dados: referência(alterar valor original)
+
+//Arrays
+-Estrutura flexível do javascript para se trabalhar com todo tipo de lista
+-Pode armazenar qualquer tipo de dado e ter qualquer tamanho
+-possuem funções para vários casos de uso como:
+ enfileirar e desenfileirar
+ empilhar e desempilhar
+ achar o índice de um valro
+ cortar e concatenar
+ outros
+

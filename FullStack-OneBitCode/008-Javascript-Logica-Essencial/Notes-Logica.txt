@@ -95,3 +95,14 @@ Not(!): Inverte o resultado
  cortar e concatenar
  outros
 
+//Trabalhando com arrays
+-array.push -> insere no final do array
+-array.unshift -> insere no inicio do array
+-array.pop -> remove no final do array
+-array.shift -> remove no início do array
+-includes -> verifica se algo existe no array
+-indexOf -> pesquisa pelo índice
+-slice -> copia uma parte do array e salva em um novo. Ex: (arr.slice(0,4) ou (arr.slice(-4)
+-concat -> cancatena dois arrays
+-splice -> substitui elementos
+-for usando []->   iterar elementos do array

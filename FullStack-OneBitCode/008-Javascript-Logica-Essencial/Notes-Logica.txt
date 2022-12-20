@@ -96,6 +96,7 @@ Not(!): Inverte o resultado
  outros
 
 //Trabalhando com arrays
+Obs: Nem sempre conseguiremos ver o que está no array
 -array.push -> insere no final do array
 -array.unshift -> insere no inicio do array
 -array.pop -> remove no final do array

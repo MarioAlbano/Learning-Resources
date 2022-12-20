@@ -104,6 +104,7 @@ Obs: Nem sempre conseguiremos ver o que está no array
 -includes -> verifica se algo existe no array
 -indexOf -> pesquisa pelo índice
 -slice -> copia uma parte do array e salva em um novo. Ex: (arr.slice(0,4) ou (arr.slice(-4)
+Obs2: Eles são novos arrays e mantém o original intacto
 -concat -> cancatena dois arrays
 -splice -> substitui elementos
 -for usando []->   iterar elementos do array

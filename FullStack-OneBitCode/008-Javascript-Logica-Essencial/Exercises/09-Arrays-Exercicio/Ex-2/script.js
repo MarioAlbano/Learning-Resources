@@ -27,4 +27,6 @@ do {
   }
 } while (userOption != "3")
 
+//Exiting program
+
 alert("Saindo do sistema. Obrigado pela visita!");

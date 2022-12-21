@@ -11,7 +11,7 @@ do {
   for (i = 0; i < cardList.length; i++) {
     showCards += `"${cardList[i]}" `;
   }
-  alert(`Cartas do baralho: ${showCards}.`);
+  alert(`${cardList.length} Cartas no baralho: ${showCards}.`);
 
   userOption = prompt("Digite uma opção:" + "\n" + "1- Adicionar uma carta " + "\n" + "2- Puxar uma carta" + "\n" + "3- Sair");
 
@@ -28,5 +28,4 @@ do {
 } while (userOption != "3")
 
 //Exiting program
-
 alert("Saindo do sistema. Obrigado pela visita!");

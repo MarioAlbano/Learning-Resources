@@ -1,5 +1,5 @@
 //Initializing Cards Array
-let cardList = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+let cardList = [];//"2", "3", "4", "5", "6", "7", "8", "9", "10"
 let userOption;
 
 //System starting
@@ -11,7 +11,16 @@ do {
   for (i = 0; i < cardList.length; i++) {
     showCards += `"${cardList[i]}" `;
   }
-  alert(`${cardList.length} Cartas no baralho: ${showCards}.`);
+
+  if (cardList.length > 0) {
+    if (cardList.length == 1) {
+      alert(`${cardList.length} Carta no baralho: ${showCards}.`);
+    } else {
+      alert(`${cardList.length} Cartas no baralho: ${showCards}.`);
+    }
+  } else {
+    alert("Sem cartas restantes no baralho!");
+  }
 
   userOption = prompt("Digite uma opção:" + "\n" + "1- Adicionar uma carta " + "\n" + "2- Puxar uma carta" + "\n" + "3- Sair");
 
@@ -19,8 +28,13 @@ do {
     const newCard = prompt("Qual o nome da carta?");
     cardList.push(newCard);
   } else if (userOption == "2") {
-    const removedCard = cardList.pop();
-    alert(`A carta retirada foi a ${removedCard}.`);
+    if (cardList != false) {
+      const removedCard = cardList.pop();
+      alert(`A carta retirada foi a ${removedCard}.`);
+    }
+    else {
+      alert("Não existe mais cartas no baralho!");
+    }
   }
   else if (userOption == "4") {
     alert("Desculpe, opção inválida. Tente novamente por favor.");

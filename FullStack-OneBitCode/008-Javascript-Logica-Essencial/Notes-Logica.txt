@@ -108,3 +108,5 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -concat -> cancatena dois arrays
 -splice -> substitui elementos
 -for usando []->   iterar elementos do array
+
+//Arrays bidimensionais

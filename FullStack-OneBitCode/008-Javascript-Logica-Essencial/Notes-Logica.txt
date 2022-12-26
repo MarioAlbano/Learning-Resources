@@ -110,3 +110,6 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -for usando []->   iterar elementos do array
 
 //Arrays bidimensionais
+-São como matrizes em matemática
+-Um array dentro de outro array
+-Utilizar console.table(array_matriz) para uma melhor visualização

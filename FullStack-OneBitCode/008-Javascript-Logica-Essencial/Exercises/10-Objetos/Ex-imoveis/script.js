@@ -30,12 +30,19 @@ do {
       alert("Retornando ao menu...");
     }
   }
-  if (userOption == "2") {
-    for (i = 0; i < propertieList.length; i++) {
-      alert(`Imóvel ${i + 1}:\nPropietário: ${propertieList[i].name}.\nQuartos: ${propertieList[i].rooms}.\nBanheiros: ${propertieList[i].bathrooms}.\nGaragem: ${propertieList[i].garage}.`);
+  else if (userOption == "2") {
+    if (propertieList.length == "0") {
+      alert("Não há imóveis registrado no sistema!");
+    } else {
+      for (i = 0; i < propertieList.length; i++) {
+        alert(`Imóvel ${i + 1}:\nPropietário: ${propertieList[i].name}.\nQuartos: ${propertieList[i].rooms}.\nBanheiros: ${propertieList[i].bathrooms}.\nGaragem: ${propertieList[i].garage}.`);
+      }
     }
   }
-
+  else if (userOption == 3) {
+    alert("Saindo do programa.\nObrigado pela visita e até breve!...");
+  }
+  else if (userOption != "1" || userOption != "2" || userOption != "3") {
+    alert("Desculpe, opção não identificada. Por favor, leia com atenção e tente novamente!");
+  }
 } while (userOption != 3)
-
-alert("Saindo do programa.\nObrigado pela visita e até breve!...");

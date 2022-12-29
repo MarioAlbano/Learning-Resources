@@ -129,3 +129,8 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -Se a função não tiver um retorno, elá devolverá undefined
 -Return só pode ser usado uma vez, e o que vem depois será inacessível
 
+//Escopo
+-Onde valores e expressões estão associados
+-Não conseguimos ler fora a variável dentro da função, somente se passar o return
+-var fica disponível no escopo mais externo
+-var mesmo se declarado depois, acaba indo no topo do programa

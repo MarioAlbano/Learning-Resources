@@ -25,3 +25,10 @@ function testingParameter(x) {
 }
 
 testingParameter(objectParameter);
+
+//Return functions
+function returnFunction(x) {
+  return (x * 3);
+}
+
+console.log(returnFunction(3));

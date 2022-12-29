@@ -126,4 +126,6 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -Pode ser vista como :Entrada, Procedimento, Saída
 -Entrada e saída são opcionais
 -Entrada: Parâmetros (ou argumentos). Saidas: Retorno.
+-Se a função não tiver um retorno, elá devolverá undefined
+-Return só pode ser usado uma vez, e o que vem depois será inacessível
 

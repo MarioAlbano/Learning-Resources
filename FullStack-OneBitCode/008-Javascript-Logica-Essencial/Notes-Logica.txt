@@ -134,3 +134,7 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -Não conseguimos ler fora a variável dentro da função, somente se passar o return
 -var fica disponível no escopo mais externo
 -var mesmo se declarado depois, acaba indo no topo do programa
+
+//Métodos
+-São funções atreladas a um objeto
+-this: Serve para referenciar o própio objeto

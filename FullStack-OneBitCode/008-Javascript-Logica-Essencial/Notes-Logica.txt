@@ -140,7 +140,8 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -this: Serve para referenciar o própio objeto
 
 //Funções recursivas
--Uma função que chama ela mesma
+-Uma função que chama ela mesma até não poder mais
+-Para isso ela tem algo dentro dele para ter uma condição falsa em determinado momento
 -Para fazer isso, é só chamar a função() dentro da mesma função
 -Tomar cuidado para não chamar a função infinitamente, pois cada chamada funciona como um sistema de pilha, em que a última precisa ser finalizada para a outra sser concluída
 -Podemos usar um if e else para evitar funções infinitas

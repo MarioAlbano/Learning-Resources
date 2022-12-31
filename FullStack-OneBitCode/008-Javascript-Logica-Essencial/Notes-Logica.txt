@@ -153,3 +153,6 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -Assim como variáveis criadas com o var, a função anônima não pode acessar antes da inicialização
 
 // High-Order functions ou funções de alta ordem
+-Uma função maior que contém uma função menor dentro dela como parâmetro
+-For each: Executa uma função para cada elemento do array
+-Callback function:

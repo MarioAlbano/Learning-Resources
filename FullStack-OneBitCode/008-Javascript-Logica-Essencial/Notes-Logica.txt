@@ -155,4 +155,8 @@ Obs2: Eles são novos arrays e mantém o original intacto
 // High-Order functions ou funções de alta ordem
 -Uma função maior que contém uma função menor dentro dela como parâmetro
 -For each: Executa uma função para cada elemento do array
--Callback function:
+-Callback function:É a espera de uma função como parâmetro
+
+//Map
+-map: permite obter um novo array a partir de um array existente
+-

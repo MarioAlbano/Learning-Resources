@@ -44,7 +44,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 | Folder              | Description                                      |
 | ----------          | -------------------------------------------      |
-| **Programming**     | Notes about web development material             |
-| **Soft-Skills**     | Notes about  soft skills material                |
+| **Programming**     | Files and notes about web development material   |
+| **Soft-Skills**     | Files and notes about  soft skills material      |
 
 <p align="center">Made with 💜 by Mario</p>

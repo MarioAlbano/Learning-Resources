@@ -31,3 +31,7 @@
 -.push() insere no final do array
 -.unshift() insere no início do array
 -if(lista.indexOf("nomeProcurado") > -1){} é um jeito de fazer uma condição baseado se encontra ou não algo no array
+
+//Loop
+-Podemos usar o While, For para repetições
+-Muito útil nos programas

@@ -48,3 +48,7 @@
 -localStorage: salva localmente, então não perde. Para criar: localStorage.setItem("nome", "Mario"); Para obter: localStorage.getItem("nome"); Para deletar: localStorage.removeItem("nome");
 -Outra forma de usar seria: localStorage.nome = "Mario";. Não funciona com o remover
 -sessionStorage: salva no navegador, se fechar ele se perde
+
+//Var, const, let
+-Var consegue sair de escopos, atrapalhando as vezes o desenvolvimento
+-let e const conseguem ser acessados somente dentro do escopo

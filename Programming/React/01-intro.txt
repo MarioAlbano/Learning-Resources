@@ -17,3 +17,6 @@
 
 //Comandos de entrada
 -usar o prompt para guardar informações
+
+//Dom
+-Utilizar id em um elemento e usar o document.getElementById("nomeDoElemento").innerHTML

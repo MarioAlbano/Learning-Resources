@@ -158,5 +158,5 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -Callback function:É a espera de uma função como parâmetro
 
 //Map
--map: permite obter um novo array a partir de um array existente
+-map: permite obter um novo array a partir de um array existente 
 -

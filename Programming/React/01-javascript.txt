@@ -35,3 +35,12 @@
 //Loop
 -Podemos usar o While, For para repetições
 -Muito útil nos programas
+-Também podemos usar o switch case para escolhas
+
+//Temporarização
+-Executa de tempos em tempos, e outro que após um tempo ele executa
+-setInterval(minhaFuncao, 1000); No caso ela chama uma função e executa de 1 em 1 segundo
+-setTimeout(minhaFuncao, 3000); No caso chama a função após um tempo e encerra
+-clearInterval(variavelDoTemporizador); se colocado numa variavel, consegue parar o temporizador
+
+//Webstorage

@@ -44,3 +44,7 @@
 -clearInterval(variavelDoTemporizador); se colocado numa variavel, consegue parar o temporizador
 
 //Webstorage
+-Salvar dados que o usuário deixo antes de sair
+-localStorage: salva localmente, então não perde. Para criar: localStorage.setItem("nome", "Mario"); Para obter: localStorage.getItem("nome"); Para deletar: localStorage.removeItem("nome");
+-Outra forma de usar seria: localStorage.nome = "Mario";. Não funciona com o remover
+-sessionStorage: salva no navegador, se fechar ele se perde

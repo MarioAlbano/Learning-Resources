@@ -75,3 +75,8 @@
 Se tiver somente uma linha o escopo da função como por exemplo um return, podemos excluir os {}, ex: (parametro) => return parametro;
 
 //Includes, endsWith e startsWith
+-includes = verifica se inclui algo no que pesquisamos
+-endsWith = verifica se termina com o parametro que passamos
+-startsWith = Verifica se começa com o parametro que passamos
+-São case sensitive e retornam ou true ou false
+-Evitar ter que fazer repetição com loops e fors

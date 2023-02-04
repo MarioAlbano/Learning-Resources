@@ -60,3 +60,12 @@
 //Spread operator
 -Uma forma simplificada de unir array e objetos;
 -Para array: let numeros = [...primeiros,4,5,6];
+
+//Rest operator
+-Quando não soubermos quantos parâmetros o usuário irá passar, utilizamos o rest operator
+-function minhaLista(...nomes){};
+
+//Operações com vetores
+-podemos usar o .map(fucntion(item)) para percorrer todo o vetor
+-Para somar tudo num vetor podemos utilizar .reduce(function(total, proxItem))
+-Para achar algo no vetor podemos utilizar o .find(function());

@@ -80,3 +80,9 @@ Se tiver somente uma linha o escopo da função como por exemplo um return, pode
 -startsWith = Verifica se começa com o parametro que passamos
 -São case sensitive e retornam ou true ou false
 -Evitar ter que fazer repetição com loops e fors
+
+//Some e Every
+-Faz comparações e verificações em arrays
+-some: pelo menos um
+-every: todos em consideração
+-usar some ou every e depois fazer uma função, que irá ser retornado true ou false

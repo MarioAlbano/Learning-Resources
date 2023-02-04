@@ -69,3 +69,9 @@
 -podemos usar o .map(fucntion(item)) para percorrer todo o vetor
 -Para somar tudo num vetor podemos utilizar .reduce(function(total, proxItem))
 -Para achar algo no vetor podemos utilizar o .find(function());
+
+//Funções anônimas
+-Para usarmos funções anonimas como parâmetros, podemos omitir o nome ex: function(parametro) {}; ou podemos abreviar mais ainda (parametro) => {};
+Se tiver somente uma linha o escopo da função como por exemplo um return, podemos excluir os {}, ex: (parametro) => return parametro;
+
+//Includes, endsWith e startsWith

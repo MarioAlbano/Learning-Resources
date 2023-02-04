@@ -56,3 +56,7 @@
 //Desconstruindo arrays e objetos
 -Para objetos: let {nome} = pessoa; Com isso consegue extrair e armazenar em uma variável. Podemos criar mais de uma variável ao mesmo tempo. Para renomear basta que utilize let {nome:myName} = pessoa;
 -Para array basta que apontemos o índice: let {0:segundonome, 2: idade} = nomes; Um outro jeito seria: let [nome, sobrenome, idade] = nomes;
+
+//Spread operator
+-Uma forma simplificada de unir array e objetos;
+-Para array: let numeros = [...primeiros,4,5,6];

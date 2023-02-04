@@ -52,3 +52,7 @@
 //Var, const, let
 -Var consegue sair de escopos, atrapalhando as vezes o desenvolvimento
 -let e const conseguem ser acessados somente dentro do escopo
+
+//Desconstruindo arrays e objetos
+-Para objetos: let {nome} = pessoa; Com isso consegue extrair e armazenar em uma variável. Podemos criar mais de uma variável ao mesmo tempo. Para renomear basta que utilize let {nome:myName} = pessoa;
+-Para array basta que apontemos o índice: let {0:segundonome, 2: idade} = nomes; Um outro jeito seria: let [nome, sobrenome, idade] = nomes;

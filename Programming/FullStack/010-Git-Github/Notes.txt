@@ -22,3 +22,28 @@
 -echo: colocar conteúdo em um arquivo
 -touch: cria novos arquivos
 -pwd: mostra a pasta que estamos
+-cat nomeDoArquivo: mostra o conteudo do arquivo dentro do terminal
+-less nomeDoArquivo: abre o arquivo
+-cp: cópia um arquivo 
+-mv: renomeia o arquivo
+-rm: remove o arquivo. Para pastas: rm -rf nomeDaPasta
+-clear: limpa o terminal
+-history: ultimos comandos que fizemos
+-history | grep nomeDoComando: faz uma filtragem de todos os comandos que especificamos
+
+//Configurando o git
+-git config --global user.name "Mario Albano"
+-git config --global user.email "marioalbanon@gmail.com"
+-git config --list: verifica se está tudo correto
+
+//Criando um novo repositório
+-git init
+
+//ciclo de vida arquivos
+-monitorado: já commitamos, inalterado, modificados, selecionados
+-não monitorado: arquivos que não estavam no último commit e que não estão em seleção
+
+//primeiro commit
+-após o git init, usar git add nomeDoArquivo
+-usar o git status para verificar se foi
+-git commit -m 'feat:created ...' : comita com uma mensagem

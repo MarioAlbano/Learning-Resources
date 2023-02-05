@@ -62,3 +62,44 @@
 -git commit --amend: modifica a mensagem do recente commit
 -git reset HEAD nomeDoArquivo: remove o arquivo da fase de staged
 -git checkout -- nomeDoArquivo: desfaz as alterações do commit
+
+//Branchs
+-Servem para desenvolvermos features isoladas
+-Branch master é a principal
+-podemos unir as branchs usando o comando merge
+
+//Como utilizar branchs
+-git branch: verifica as branchs
+-git branch nomeDaBranch: cria uma nova branch
+-git branch nomeDaOutraBranch: troca de branch
+-git branch -b nomeDaOtru
+-git branch -d nomeDaOutraBranch: deleta a branch
+
+//Merge
+-Útil para unir novas funcionalidades de branchs separadas
+-git merge nomeDaBranch: une as branchs
+
+//Repositório Github
+-Os repositorio tem star, como se fossem curtidas e também forks para que se você quiser copiar e trabalhar na sua própria versão alternativa
+-Pull request: pessoas que fizeram um fork, alteraram e querem mandar de volta para a branch principal
+
+//Copiando o projeto
+-Clicar no botão, copiar o link que o git irá disponibilizar
+-git clone linkDoGithub: consegue copiar o projeto
+
+//Criando um novo repositório
+-ir na aba repositório e clicar em 'New'
+-crie um README.md
+-pra subir o projeto no github, temos que linkar ele usando "git remote add origin linkDoGitHub"
+-pra dar o push, utilizar "git push origin master"
+
+//Baixando as atualizações do projeto
+-git pull origin master
+-para fazer pull request e merge, entrar no site do github e fazer-los manualmente
+
+//Ignorando arquivos
+-criar um arquivo chamado .gitignore
+-adicionar o nome do arquivo dentro desse .gitignore
+
+//Conectando ao Github com uma chave SSH
+-Seguir o tutorial do Gihub para chave SSH

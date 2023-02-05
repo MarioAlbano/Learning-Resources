@@ -60,4 +60,5 @@
 //Desfazendo alterações
 -volta atrás de um commit
 -git commit --amend: modifica a mensagem do recente commit
--git reset HEAD nomeDoArquivo: remove o arquivo da fase de staged para o que era antes do commit
+-git reset HEAD nomeDoArquivo: remove o arquivo da fase de staged
+-git checkout -- nomeDoArquivo: desfaz as alterações do commit

@@ -1,0 +1,3 @@
+//React
+-React: biblioteca criada pelo facebook para criar interfaces de usuário(criar telas)
+-backend: servidor e banco de dados

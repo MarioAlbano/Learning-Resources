@@ -1,1 +1,24 @@
-************************************************
+//Git conceitos
+-o que é git: Um sistema de controle de versão de arquivos
+-Útil para colaborar em projetos
+-Evita o uso desnecessário de pastas em outros locais(ex: pen drives ou em outros computadores) e não tem problema de alguém bagunçar o código
+-Registra modificações, recupera uma versao especifica, resgata perda de arquivos importantes ou de uma versão anterior
+
+//Fluxo de trabalho
+-Workdir: diretório de arquivos do projeto no computador
+-index: área temporária de arquivos
+-HEAD: aponta para o último commit (versão salva) do projeto
+
+//Github
+-Hospeda projetos git
+-permite projetos privados ou open source
+-faz networking entre programadores
+-serve também como um portfólio online
+
+//Comandos no terminal
+-mkdir: cria uma pasta
+-cd: troca de diretório
+-ls: mostrar conteúdo do diretório
+-echo: colocar conteúdo em um arquivo
+-touch: cria novos arquivos
+-pwd: mostra a pasta que estamos

@@ -44,6 +44,20 @@
 -não monitorado: arquivos que não estavam no último commit e que não estão em seleção
 
 //primeiro commit
--após o git init, usar git add nomeDoArquivo
+-após o git init, usar git add nomeDoArquivo, ou usar git add --all
 -usar o git status para verificar se foi
 -git commit -m 'feat:created ...' : comita com uma mensagem
+
+//Git log
+-Podemos verificar as alterações com o git log
+-git log
+-git log --stat para verificar o histórico de commits
+
+//Visualizando as diferenças
+-Útil para verificar o por que dos bugs
+-git diff: mostra as modificações que fizemos
+
+//Desfazendo alterações
+-volta atrás de um commit
+-git commit --amend: modifica a mensagem do recente commit
+-git reset HEAR nomeDoArquivo: remove o arquivo da fase de staged para o que era antes do commit

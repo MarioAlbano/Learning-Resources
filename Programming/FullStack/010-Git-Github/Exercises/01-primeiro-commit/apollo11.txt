@@ -1,1 +1,5 @@
-Data: 20 de julho de 1969. Foto: Primeiro voo tripulado a pousar na lua
+Data: 14 de novembro de 1969.
+Foto: Primeiro voo tripulado a pousar na lua.
+Duração: 8 dias.
+
+Descrição: lorem ipsum

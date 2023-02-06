@@ -1,1 +1,43 @@
-************************************************
+//Typescript Introdução
+-Typescript é um javascript com sintaxe para tipos
+-É uma linguagem de programação, porém considerado como um superset de javascript pois é uma linguagem construida em cima do javascript
+-Traz mais recursos e facilidades na hora de escrever-mos nosso código
+-Fortemente tipada
+-Todo código javascript válido é código typescript válido
+
+//O por que usar
+-Após acostumar, sua produtividade aumenta
+-IDE fica mais inteligente mostrando erros
+-mostra os erros na da compilação ao invés da execução
+-curva de aprendizagem menor visto que é baseada no javascript
+-Recursos extras como tuplas, enums, melhor suporte a POO e outras
+
+//Quando usar?
+-Vantajoso em projetos grandes
+-Quando se tem conhecimento do javascript
+-É preciso saber quando usar suas funcionalidades
+
+//Typescript vs Javascript
+-Mesma sintaxe básica (delcaração de variáveis, operadores lógicos e aritméticos, condicionais e repetições, funções, Objetos, Promises)
+-suporte ES6+
+-Typescript tipagem forte, Javascript tipagem fraca. Exemplo: em js, podemos escrever uma variável string e depois redefinila para número sem problemas e em ts precisamos de um método para isso
+-No node o ts precisa ser compilado e o js não
+
+//Principais features
+-Tipagem em variaveis, obj, parametros e retornos de funções
+-Criamos nossos proprios tipos e interfaces
+-Checagem de erros pela IDE
+-Função autocompletar da IDE
+-Excelente documentação e suporte da comunidade
+
+//Tipos primitivos
+-boolean, string e number
+-Ex: let example: boolean = true; let example: number = 10;let example> string = 'Hello'
+-Também temos que especificar para o array: let example: Array<number>=[1,2,3,4]
+
+//Inferência de tipo
+-Passe o mouse sobre os parâmetros da função e clique em "Correção rápida" e "Inferir todos os tipos de uso"
+-Agora é possível usar o autocompletar dentro da função, pois a IDE já sabe quais propriedades que o objeto possui. Além disso, ele sinaliza erro ao tentar atribuir um valor que tenha um tipo diferente dos anotados
+
+//Como instalar o Typescript
+-Abrir o projeto e digitar npm intall --save-dev typescript

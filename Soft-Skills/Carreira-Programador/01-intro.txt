@@ -1,0 +1,80 @@
+//Carreira como programador - Tópicos principais
+-O que é a carreira de programador e suas divisões
+-Como encontrar jobs
+-Como trabalhar como freelancer
+-Como continuar evoluindo
+
+//Carreira
+-Alguem que dddesenvolve, escreve ou faz manutenções em códigos
+-Desenvolvimento Web
+-Desenvolvimento Mobile
+-Desenvolvimento Games
+-Desenvolvimento Sistemas embarcados
+-Desenvolvimento de sistemas de inteligência artificial
+
+//Modalidade
+-Presencial x Remoto
+-Fixo x Freelancer
+-CLT x PJ
+-Brasil x Exterior
+
+//Divisões 
+-Junior
+-Pleno
+-Senior
+
+//Como buscar e encontrar Jobs
+-Defina em qual área trabalhar
+-Defina a modalidade
+-Começe a pesquisar vagas: google, programathor, Linkedin, trampos.co, Angel.co
+-Não precisa saber exatamente tudo da vaga pois a empresa pode ensinar o candidato ou você pode apreder rapidamente o que falta
+-Liste os principais pontos essenciais
+-Crie sua identidade pessoal: Linkedin, Github
+-Melhore sua identidade pessoal com projetos e postagens
+-Corra atrás das vagas baseadas no seu perfil
+-Responda com energia as mensagens
+
+//No processo seletivo
+-Resolva primeiro o que for pedido, leia e releia várias vezes
+-Inclua features extras se for possível
+-Se não der tempo de fazer tudo, entregue da mesma forma, justifique o porque e diga o que vai fazer numa próxima vez
+-Deixe bem claro na descrição o que foi feito e o que foi pedido, o explica tambem o que não foi feito e o por que
+
+//Entrevista
+-Conte um pouco sobre você, quais são suas experiências que te dão base para a vaga (experiência de trabalho e estudos)
+-Como eu posso agregar a equipe (demonstre sua vontade de ajudar a empresa)
+
+//Como trabalhar como freelancer
+-trabalhar para uma ou mais empresas ou clientes
+-freelancer.com, workana.com, 99freelas
+-Se candidate com uma apresentação e como fará a entrega
+-Crie uma planilha para se organizar
+-Combine exatamente cada feature, peça para ele ler e concordar, combine a entrega e prestar muita atenção nessa fase para evitar futuros conflitos
+-Onde o código vai ficar, deploy, taxas de hospedagem, entregas parciais por semana
+-Cobre por conteudo extra
+-Caso estoure o prazo 
+-Pergunte para o cliente se voce pode colocar o trabalho no seu portfólio
+
+//Ferramentas úteis
+Cobrar: PagSeguro nacional e Paypal internacional
+Para se organizar: Trello e Task Management do Teams
+Comunicação: hangouts.google
+Planejar e exibir o projeto: MindMeinster, Pencil Project
+
+//Dicas extras
+-Tenha uma reserva financeira de três meses
+-Carreira de longo prazo
+
+//Como continuar evoluindo
+-Programação é uma profissão que preccisa evoluir sempre
+-Como está em constante evolução, se for disciplinado, consegue se destacar da grande multidão
+-Maneiras mais fácil de evoluir: Estudando, Trabalhando
+-Hards skills e soft skills
+-Futuras Hardskills: Aprender React Native, Aprender novos frameworks de javascript como por exemplo AdonisJs e VueJs, Uso de banco de dados, Docker, Deploy em VPS, Testes automatizados.
+-Futuras SoftSkilss: Habilidades sociais
+-Sugestões: Trabalho em equipe, Comunicação escrita e falada, Controle emocional, Gerenciamento de times, Gestão de tempo (Pomodoro -> pomofocus), Organização, Lógica
+-Reveja e aplique e esses conhecimentos
+
+//Contabilidade
+-PJ = Própria empresa em que você irá prestar serviços, mais flexível mas com menos direitos
+-Programador não pode ser MEI, tem que ser simples ou outra modalidade

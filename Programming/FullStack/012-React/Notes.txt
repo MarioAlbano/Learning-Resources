@@ -35,3 +35,22 @@
 -Exemplo: const element = <h1> className='title'>Hello World!</h1>
 
 //Hello World em React
+-instalar o react copiando o CDN link do site oficial
+-criar uma div com o id 'root' e criar um arquivo js com o nome da página
+-Exemplo de um componente
+ReactDOM.render(
+  React.createElement(
+    'h1', null, 'Hello World'
+  ),
+  document.getElementById('root'));
+
+//Como React atualiza as views
+-DOM: objeto criado pelo browser e representa a estrutura do nosso documento html e nos dá meios para interagirmos com ele
+-Virtual Dom: É uma representação em javascript do DOM original
+-O DOM é mais lento e menos performático
+-Virtual Dom encontra a maneira mais economica de atualizar o DOM
+-para processamento, é mais barato criar elementos do react ao invez de elementos do dom
+-Para renderizar um elemento, escolhemos um nó do DOM (no caso o div com id root) e tudo dentro desse nó será atualizado pelo Virtual Dom
+
+//Create React App
+-usar no terminal 

@@ -45,3 +45,11 @@
 -junta todo o código css para economizar código
 -não faz diferença em pequenos sites, porém faz diferença com códigos grandes
 - "sass sass/style.scss:css/style.css --style compressed"
+
+//Resumo
+-Se nunca instalou no computador, utilizar 'npm install -g sass'
+-Criar uma pasta chamada sass. Dentro desta passa criar o arquivo style.scss
+-Usar 'sass --watch sass/style.scss:style/style.css'
+-criar o padrão como ex cores em variáveis, ex: $btn-red: #ff4043; $large-text: 32px;
+-criar outros arquivos dentro do sass, para depois juntar tudo no arquivo sass principal
+-para importar, usar: "@import: 'sass/"header.scss"'

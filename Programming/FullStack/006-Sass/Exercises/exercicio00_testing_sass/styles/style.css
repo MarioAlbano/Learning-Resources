@@ -1,0 +1,13 @@
+p {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.divContainer {
+  width: 300px;
+  height: 450px;
+  background-color: green;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

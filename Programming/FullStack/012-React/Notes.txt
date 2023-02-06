@@ -1,1 +1,37 @@
-************************************************
+//React
+-Uma biblioteca muito pedida pelo mercado
+-React é "uma biblioteca Javascript declarativa, eficiente e flexível para criação de interfaces de usuário (UI)"
+-É uma biblioteca, e não um framework pois resolve o problema de exibir as informações na tela
+-Baseado em components, como se fossem blocos de lego para depois serem reaproveitados
+-É usado para criar SPAs (single page application)
+-É feito com Javascript
+-O React é eficiente (Virtual DOM)
+-Pode ser usado para criação de apps com react native
+-Usada no Facebook, Instagram, Netflix, Whatsapp
+
+//Components
+-Pedaços da telas, que dividem a interface do usuário em partes independentes e reutilizáveis
+
+//funções em javascript
+-Aceitam entradas arbitrárias chamadas de proops	
+-Retornam elementos react
+
+//Dois tipos de componentes
+-Função
+-Classe(features extras)
+-Exemplo de componente: function Welcome(props) {
+	return <h1>Hello, {props.name}</h1>	
+}
+
+//O que é JSX
+-Não é apenas HTML nem apenas JS
+-Serve para mostrar como nossa user interface deve ser
+-JSX não é imterpretado pelo browser, por isso devemos usar um transpiler(por exemplo o babel) e se transformará em um outro código
+-Ao invés de colocar Javascript no HTML, o JSX nos permite colocar HTML em Javascript
+
+//Vantagens do JSX 
+-Similaridade com o HTML
+-Melhor integração entre o HTML e o Js
+-Exemplo: const element = <h1> className='title'>Hello World!</h1>
+
+//Hello World em React

@@ -1,3 +1,25 @@
 //React
 -React: biblioteca criada pelo facebook para criar interfaces de usuário(criar telas)
 -backend: servidor e banco de dados
+-React é baseado em componentes
+-Componentes é basicamente as divisões do site
+-Podemos colocar componentes dentro de um componente
+-React faz mais o que o JS puro conseguiria fazer
+-Manipula a DOM
+-Utilizado para construção de projetos SPA
+-SPA: single page application, onde existe somente uma página e as outras são escritas e modificadas pelo javascript
+-Com isso, ao invés do back end retornar o próprio HTML formatado, ele retorna os dados no formato JSON. Essas são as famosas API's
+-Desta forma o Back end fica separado totalmente do Front-End
+
+//Instalando
+-Precisamos primeiramente baixar o node.js
+-usar o comando 'npx create-react-app nomeDoMeuApp'
+-Depois precisamos rodar a aplicação, para isso entrar dentro da pasta e usar 'npm start'
+
+//Começando o projeto
+-node_modules: não mexemos nessa pasta, ela contem as dependencias para o projeto funcionar
+-public: mais importante é o index.js, porém não iremos manipular os componentes nela
+-src: onde iremos manipular os componentes, arquivo principal é o index.js que chama outros componentes.
+-criando um componente: 'export default function Nomedocomponente(){return(<h1>Digite aqui seus códigos<h1>)}'
+-Deletar arquivos não importantes: App.css, App.test.js, index.css, logo.svg, setupTests.js, reportWebVitals.js
+-Depois disso limpar o index.js

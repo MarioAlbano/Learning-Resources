@@ -53,4 +53,41 @@ ReactDOM.render(
 -Para renderizar um elemento, escolhemos um nó do DOM (no caso o div com id root) e tudo dentro desse nó será atualizado pelo Virtual Dom
 
 //Create React App
--usar no terminal 
+-usar no terminal "npx creat-react-app nomedomeuapp";
+-Usaremos a pasta src para alterar as depêndencias
+-Para escrever um componente: function App() {
+return()} 
+-no final, o projeto react é compilado para html, css e js e pode ser hospedado em lugar que só aceita arquivos estáticos
+-No package.json esta mais informações sobre nossa aplicação
+-Create React App cria nossa aplicação com um servidor imbutido e com hot reload
+
+//Criando um component
+-Usar o function HelloWorld() {
+return()}
+-Dentro do return, é retornado o JSX
+-dentro do componente principal, colocar em tags e fechar no final outros componentes que criamos, e: <HelloWorld/>
+-props: parametros para a função
+-usar import nomeDaFuncao from nomeDoArquivoJs
+-usar export default nomeDaFuncao
+-para facilitar, podemos criar as funções em arrow functions
+-podemos usar um componente de classe, ex: class HelloWorld extends React.Component {render () {return ...;}}
+
+//Criando um component Lorem Ipsum
+-recriar o projeto
+-na pasta src, criar uma pasta chamada components
+-criar um componente em PascalCase contendo um lorem dentro de um <p>
+-importe no App.js
+
+//Agrupando components
+-criar uma nova pasta dentro de src, e criar o index.js, pois sempre que você referenciar uma pasta, ele procurará o index.js
+-Podemos criar um Fragment pois dentro de um componente só pode ter um único nó: <React.Fragment> </React.Fragment>
+-Também podemos criar arquivos style e depois somente dar um import 'pasta/nomeDoArquivo'. Esta é uma forma básica de css no react
+
+//Dividindo e reutilizando ccomponents
+-Criar uma pasta para componentes reutilizáveis
+-Criar por exemplo um style que pode ser reaproveitado em outros componentes
+
+//Conhecendo as props(prorpiedades)
+-função pura: não altera as propriedades passada a ela, se por exemplo os parâmetros forem os mesmos, os resultados sempre serão os mesmos. Função impura ocorre o contrário, os mesmos parâmetros podem ter resultados diferentes
+-Única regra estrita do react: Todos os componentes React tem que agir como funções puras em relação ao seus props
+-podemos usar o props para deixar os componentes dinâmicos, um exemplo é os mini vídeos do youtube, com props podemos fazer o mesmo código para mostrar nome de videos e visualizações diferentes para cada um

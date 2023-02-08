@@ -126,3 +126,28 @@ if(!props.description) return null;
 //O que são estados
 -State é um objeto em javascript que guarda dados de um componente e determina seu comportamento
 -Quando um estado é atualizado, o componente é re-renderizado
+-Diferença entre props e state: props é passa para outros componentes(componente pai para filho). State pertence a cada componente
+-Diferença de component de classe vs component funcional: Antes somente component de classe poderiam usar o state e por isso eram importante. Porém recentemente houve a inclusão de hooks no react e permitem que conseguimos alterar esses estados com component funcional
+
+//Criando um state
+-Exemplo de state de classe:
+constructor(props) {
+super(props);
+this.state = {
+	count: 0
+}
+}
+-Depois podemos manipulá-los:
+incrementCount() {
+	this.setState((state) => {
+	return {count: state.count + 1}
+});
+}
+-Já um component funcional
+import React, {useState} from 'react';
+const [count, setCount] = useState(0);
+-Depois para manipulá-los:
+setCount(count + 1)
+
+//Criando classes
+-Uso do constructor e super

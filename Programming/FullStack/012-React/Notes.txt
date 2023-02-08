@@ -54,6 +54,7 @@ ReactDOM.render(
 
 //Create React App
 -usar no terminal "npx creat-react-app nomedomeuapp";
+-Depois entrar na nova pasta criada com o terminal e digitar ""npm start;
 -Usaremos a pasta src para alterar as depêndencias
 -Para escrever um componente: function App() {
 return()} 
@@ -91,3 +92,37 @@ return()}
 -função pura: não altera as propriedades passada a ela, se por exemplo os parâmetros forem os mesmos, os resultados sempre serão os mesmos. Função impura ocorre o contrário, os mesmos parâmetros podem ter resultados diferentes
 -Única regra estrita do react: Todos os componentes React tem que agir como funções puras em relação ao seus props
 -podemos usar o props para deixar os componentes dinâmicos, um exemplo é os mini vídeos do youtube, com props podemos fazer o mesmo código para mostrar nome de videos e visualizações diferentes para cada um
+-exemplo: const GrayImg = (props) => { return(<img src={props.nomeDaProps}); Depois ir no js principal e colocar <GreyImg nomeDaProps='linkdaimagemaqui';
+
+//Criando um props na prática ****
+-Criar um novo arquivo e exportar, importar para seu js principal
+-No novo componente, escrever algo como: 
+const NomeDoComponente = (props) => {return(<fragment>
+<p>{props.nomeDoMeuProps}</p>
+</fragment>)}
+-No arquivo principal, chamar seu componente e passar o que será substituido pelo props, ex:
+<NomeDoComponente nomeDoMeuProps='Aqui é um texto aleatório para mostrar a funcionalidade dos props'>;
+-Podemos ir além e ao invés de colocar no parâmetro "props", podemos colocar colocar o nome dos props como se fossem parâmetros normais, e chamar eles dentro de "{nomeDoMeuProps}"
+
+//Eventos ****
+-Como no javascript eventos de como por exemplo click, podemos também
+-Criar uma função
+-Dentro de por exemplo button onClick={nomeDaMinhaFuncao}
+-Se caso quisermos deixar para ele carregar a função depois, por exemplo clickar numa div, podemos passar no parâmetro uma nova função contendo a função de ação
+
+//Renderização condicional ****
+-Exibir as informações quando a gente desejar, como se fosse a mesma lógica padrão dos if e else para determinada informação
+-Podemos fazer o mesmo para classes do css. Como por exemplo:
+<img className={props.exist ? 'gray-img' : 'color-img'}>
+
+//Impedindo componente renderizar até a condição ser atingida ****
+-podemos fazer um if dizendo se não for encontrado tal condição, para retornar null. Exemplo:
+if(!props.description) return null;
+
+//Renderizando multiplos componentes ****
+-Por padrão criar um .map() e passar por todos os elementos
+-Em JSX podemos fazer dele, fazendo essa operação do javascript dentro do {}
+
+//O que são estados
+-State é um objeto em javascript que guarda dados de um componente e determina seu comportamento
+-Quando um estado é atualizado, o componente é re-renderizado

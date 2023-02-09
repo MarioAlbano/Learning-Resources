@@ -1,0 +1,11 @@
+//O que vamos aprender nesse módulo?
+-Juntar as peças combinando HTML, CSS e Javascript
+-Criar comportamentos dinâmicos nas páginas web
+-o que é DOM e como manipulá-lo
+-Eventos
+-2 mini projetos práticos
+
+//O que são os eventos
+-Forma dinâmica de executar o javascript numa página HTML
+-Permite executar o javascript sem travar o carregamento da página
+-Serão somente executadas se o usuário fazer ações específicas na página 

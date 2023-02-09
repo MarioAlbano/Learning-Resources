@@ -158,6 +158,22 @@ Obs2: Eles são novos arrays e mantém o original intacto
 -For each: Executa uma função para cada elemento do array
 -Callback function:É a espera de uma função como parâmetro
 
-//Map
+//Mais sobre funções
 -map: permite obter um novo array a partir de um array existente 
--
+-filter: Selecionar elementos específicos de um array e cria um novo array com esses elementos
+-reduce: transforma o array em um outro valor. Útil par fazer a soma de dentro de um array ou reorganizar dados de um array
+-sort: podemos pegar os elementos do array e troca-los de posição de acordo com algum critério. Ex: ordenar pelo número. Ele modifica o array, portento não precisa criar uma variaável par ele
+-Uma dica seria criar um slice() para não modificar o array original
+
+//Objetos globais do javascript
+-São objetos padrão do javascript que ficam sempre dispiníveis para utilizarmos
+-Tem a mesma lógica das funções reservadas. Elas já existem e podemos referenciar, porém para uma função específica
+-Object: converte para objeto
+-Array: converte para array
+-String: converte para string
+-Number: converte para números
+-Date: converte para datas
+-Math: converte para cálculos matemáticos
+-Escrevendo esses objetos e apertando '.' podemos acessar mais opções. Ex: Math(2,10); que significa 2 elevado a 10
+
+

@@ -11,3 +11,10 @@ function sumFunction(a, b) {
 }
 
 console.log(highFunction(2, 3, sumFunction));
+
+//Another example of a High-Order function it's a forEach() function
+let myArray = ["Maça", "Pera", "Banana", "Morango"];
+
+myArray.forEach((justARandomNameForTestingPorpose) => {
+  console.log(justARandomNameForTestingPorpose + " É uma fruta");
+});

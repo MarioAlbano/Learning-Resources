@@ -96,5 +96,24 @@ const splicedArray = groupedArray.splice(2, 0, "Splice example here!");
 console.log(groupedArray);
 
 //Slice syntax: slice(starts, end); If negative, the count will be started in the end of array. Slice will create a new array
-const sliceArray = groupedArray.slice(0, 4);
+let sliceArray = groupedArray.slice(0, 4);
 console.log(sliceArray, " ", groupedArray);
+
+//For exmaple
+for (i = 0; i <= 5; i++) {
+  console.log(`Eu sou o contador ${i}`);
+}
+
+// while example
+whileCounter = 0;
+while (whileCounter <= 5) {
+  console.log(`Eu sou o contador ${whileCounter}`);
+  whileCounter++;
+}
+
+// Do ... While example
+let doCounter = 0;
+do {
+  console.log(doCounter);
+  doCounter++;
+} while (doCounter <= 5);

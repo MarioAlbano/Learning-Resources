@@ -90,3 +90,11 @@ console.log(groupedArray);
 
 const reversedArray = groupedArray.reverse();
 console.log(groupedArray);
+
+//Splice syntax: splice(starts, delete, "insertelemente here", "Alternatively another element here");
+const splicedArray = groupedArray.splice(2, 0, "Splice example here!");
+console.log(groupedArray);
+
+//Slice syntax: slice(starts, end); If negative, the count will be started in the end of array. Slice will create a new array
+const sliceArray = groupedArray.slice(0, 4);
+console.log(sliceArray, " ", groupedArray);

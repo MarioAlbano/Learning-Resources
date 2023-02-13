@@ -9,3 +9,16 @@
 -Forma dinâmica de executar o javascript numa página HTML
 -Permite executar o javascript sem travar o carregamento da página
 -Serão somente executadas se o usuário fazer ações específicas na página 
+
+//Eventos
+-onmouseenter
+-onchange
+-onfocus
+-onblur	
+-onclick
+-como parâmetro, podemos criar uma nova função em um arquivo js externo e usar nos eventos
+
+//DOM
+-Modelo de objeto de documento
+-É como se criasse um modelo da nossa página do documento em forma de objeto
+-O javascript consegue acessar esse conteúdo HTML com poder de manipulálos como ler, criar, excluir, modificar elementos, modificar estilo

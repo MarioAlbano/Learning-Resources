@@ -19,3 +19,9 @@ const recursiveFunction = () => {
 };
 
 recursiveFunction();
+
+//Testing ternary operators
+const userPersonAge = 16;
+const userPersonName = userPersonAge > 10 ? "Pedro" : "Heimish";
+
+console.log(userPersonName);

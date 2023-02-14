@@ -1,0 +1,2 @@
+//Javascript
+-Podemos testar no console do navegador ou de preferência em editores de texto

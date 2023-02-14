@@ -22,3 +22,17 @@
 -Modelo de objeto de documento
 -É como se criasse um modelo da nossa página do documento em forma de objeto
 -O javascript consegue acessar esse conteúdo HTML com poder de manipulálos como ler, criar, excluir, modificar elementos, modificar estilo
+
+//Obtendo elementos HTML do DOM
+-Obter vários elementos HTMLColletion: getElementsByTagName(), getElementByClassName()
+-Obter vários elementos NodeList: getElementsByName(), querySelectorAll()
+-obter um único elemento: getElementById(), querySelector()
+
+//Usando na prática 
+-criar uma variável = document.getElementById('nomeDoId')
+-podemos utilizar o querySelector e querySelectorAll
+
+//Criando novos elementos no DOM
+-document.createElemente()
+-.innerHTML adiciona conteúdo ao elemento
+-.appendChild(newElement) adiciona um novo nó

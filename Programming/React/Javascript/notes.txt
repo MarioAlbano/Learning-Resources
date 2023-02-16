@@ -1,0 +1,13 @@
+//Start no Javascript
+-Podemos testar no console do navegador ou de preferência em editores de texto
+
+//Básico de Javascript
+-Variáveis: onde armazenamos e manipulamos, como atribuições ou concatenações
+-As variáveis são case sensitive
+-Ela tem palavras reservadas
+-Comentários: usar // ou /**/
+-Pomemos usar eventos para deixar nosso site interativo
+-Funções: organiza e evita de ter que repetir várias vezes o mesmo código
+-Array: Lista, muito útil e muito utilizado no mercado de trabalho
+-Temos métodos de arrays para manipulá-los como: join, indexOf, pop, shift
+-Podemos alterar sabendo a posição e atribuindo um novo valor

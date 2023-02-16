@@ -58,3 +58,16 @@ const infoFunction = (userName, userSurname, userAge) => {
   text = document.querySelector(".pChange");
   text.innerText = `Seu nome é ${userName}, sobrenome ${userSurname}, com a idade de ${userAge}`;
 };
+
+let marioArray = ["Mario", "Albano", 27];
+console.log(marioArray);
+console.log(marioArray.length);
+console.log(marioArray[1]);
+
+console.log(marioArray.indexOf("Batushuayi")); // -1 means that indexof dont finded anything inside the array
+console.log(marioArray.indexOf(27));
+
+const userArray = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+console.log(userArray);
+userArray.pop();
+console.log(userArray);

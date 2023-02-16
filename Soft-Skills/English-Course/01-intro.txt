@@ -6,3 +6,19 @@
 -Bring a pen and a note(in my case a windows notepad)
 -Using question and answer
 -This course is split into 4 main sections
+
+//The 9 big parts of speech
+-Nouns |	Names a person, place or thing:David, TV
+-Pronouns |	Replaces a noun:He,she
+-Verbs |	Action or doing word:Sing, jump
+-Adverbs |	Describe a verb: Quietly, slowly
+-Adjectives |	Describe a noun:Shiny, fay
+-Articles |	Help defines a noun:The, a
+-Conjunctions |	Connects parts of speech:Because, and
+-Prepositions |	Give ideas for place or time:Between, above
+-Interjections |	Expressing emotions:Yeah!
+
+//Verbs
+-Regular: Padrão fixo
+-Inregular: Padrão não fixo
+

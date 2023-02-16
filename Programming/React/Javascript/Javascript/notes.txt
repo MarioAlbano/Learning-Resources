@@ -1,2 +1,7 @@
-//Javascript
+//Start no Javascript
 -Podemos testar no console do navegador ou de preferência em editores de texto
+
+//Básico de Javascript
+-Variáveis: onde armazenamos e manipulamos, como atribuições ou concatenações
+-As variáveis são case sensitive
+-Ela tem palavras reservadas

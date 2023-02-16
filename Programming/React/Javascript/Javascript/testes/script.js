@@ -38,6 +38,23 @@ const changeText = () => {
   );
 };
 
-// const changeButton = () => {
-//   this.innerText = prompt("Qual o meu nome?");
-// };
+const changeText2 = () => {
+  let area2 = document.querySelector("#area2");
+  let exitProgram = false;
+
+  do {
+    let userText = prompt("Qual a nova mensagem de bem vindo?");
+    if (userText) {
+      area2.innerText = userText;
+      exitProgram = true;
+      alert(`Seu novo texto usado será "${userText}"`);
+    } else {
+      alert("Algo não válido!");
+    }
+  } while (exitProgram == false);
+};
+
+const infoFunction = (userName, userSurname, userAge) => {
+  text = document.querySelector(".pChange");
+  text.innerText = `Seu nome é ${userName}, sobrenome ${userSurname}, com a idade de ${userAge}`;
+};

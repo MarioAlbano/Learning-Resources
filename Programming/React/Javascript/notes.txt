@@ -9,5 +9,26 @@
 -Pomemos usar eventos para deixar nosso site interativo
 -Funções: organiza e evita de ter que repetir várias vezes o mesmo código
 -Array: Lista, muito útil e muito utilizado no mercado de trabalho
--Temos métodos de arrays para manipulá-los como: join, indexOf, pop, shift
+-Temos métodos de arrays para manipulá-los como: join = junta e sepera por algo, indexOf = sabe o índice, pop = Remove o último, shift = remove o primeiro
 -Podemos alterar sabendo a posição e atribuindo um novo valor
+
+//Evoluindo no javascript
+-Loops: podemos usar while, for, do while
+-Switch: podemos usar para evitar vários if else
+-Temporizador: passar um eventos em determinado tempo. Usar setInterval() para infinitamente, ou setTimeout para exercutar uma vez só
+-WebStorage: Salvar alguma informação do usuário. setItem, getItem, removeItem
+
+//Javascript Avançado
+-This: Comportamento dele depende do escopo. Fora da função é do document, dentro do método se referencia ao própio objeto, se atributido a uma variável passa a referenciar essa variável a não ser que ocorra uma call()
+-Javascript Assíncrono: 
+-Closures:
+-Event Loop: 
+-Recursão:
+-Scope:
+-Hoisting: Elevação que ocorre com funções, e por causa disso podemos inicializar uma função antes da sua declaração. Também acontece com var porém não é inicializado. Com const e let ocorrem erro.
+-Herança propótipa:
+-bind, call, apply:
+-reduce:
+-generators:
+-fetch:
+-callbacks:

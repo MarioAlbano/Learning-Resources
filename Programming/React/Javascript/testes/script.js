@@ -59,6 +59,7 @@ const infoFunction = (userName, userSurname, userAge) => {
   text.innerText = `Seu nome é ${userName}, sobrenome ${userSurname}, com a idade de ${userAge}`;
 };
 
+//Working with arrays
 let marioArray = ["Mario", "Albano", 27];
 console.log(marioArray);
 console.log(marioArray.length);
@@ -67,7 +68,59 @@ console.log(marioArray[1]);
 console.log(marioArray.indexOf("Batushuayi")); // -1 means that indexof dont finded anything inside the array
 console.log(marioArray.indexOf(27));
 
-const userArray = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+let userArray = [00, 10, 20, 30, 40, 50, 60, 70, 80];
 console.log(userArray);
 userArray.pop();
 console.log(userArray);
+console.log(userArray.indexOf(30));
+console.log(userArray.indexOf(3));
+console.log(userArray);
+userArray.shift("John");
+console.log(userArray);
+
+userArray[0] = "Jimmy";
+console.log(userArray);
+
+//Using while loop
+let Variable_a = 0;
+while (Variable_a < 2) {
+  Variable_a++;
+  console.log(Variable_a);
+}
+
+//Using for loop
+for (i = 0; i <= 5; i++) {
+  console.log(i);
+}
+
+//Using document.write
+document.write("Este é somente um teste");
+
+function chooseMenu() {
+  const userSwitchOption = prompt("Qual opção do menu você deseja?");
+  switch (userSwitchOption) {
+    case "1":
+      alert("Saindo um Refrigerante");
+      break;
+    case "2":
+      alert("Saindo um Lanche");
+      break;
+    case "3":
+      alert("Saindo uma Batata Frita");
+      break;
+    default:
+      alert("Opção inválida! Tente novamente, por favor.");
+  }
+}
+
+//setInterval and setTimeout examples
+let iCounter = 0;
+const infiniteCounter = () => {
+  console.log(`O contador está em: ${iCounter}`);
+  iCounter++;
+};
+const startTimer = setInterval(infiniteCounter, 1000);
+startTimer;
+
+//Stoping the timer
+// clearInterval(startTimer);

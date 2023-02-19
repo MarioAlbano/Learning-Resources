@@ -123,4 +123,12 @@ const startTimer = setInterval(infiniteCounter, 1000);
 startTimer;
 
 //Stoping the timer
-// clearInterval(startTimer);
+clearInterval(startTimer);
+
+//Creating and get a webstorage
+localStorage.userName = "John";
+console.log(localStorage.userName); //Expected John
+//Deleting a webstorage variable
+localStorage.removeItem("userName");
+console.log(localStorage.userName); //Expected undefined
+

@@ -20,15 +20,3 @@
 
 //Javascript Avançado
 -This: Comportamento dele depende do escopo. Fora da função é do document, dentro do método se referencia ao própio objeto, se atributido a uma variável passa a referenciar essa variável a não ser que ocorra uma call()
--Javascript Assíncrono: 
--Closures:
--Event Loop: 
--Recursão:
--Scope:
--Hoisting: Elevação que ocorre com funções, e por causa disso podemos inicializar uma função antes da sua declaração. Também acontece com var porém não é inicializado. Com const e let ocorrem erro.
--Herança propótipa:
--bind, call, apply:
--reduce:
--generators:
--fetch:
--callbacks:

@@ -76,3 +76,10 @@ namesEntry(
 );
 
 //Another exercise
+const olderUsers = ["Mario", "Marcia", "Alice"];
+
+function registerUsers(olderUsers, ...newUsers) {
+  let newDataEntry = [...olderUsers, ...newUsers];
+  console.log(newDataEntry);
+}
+registerUsers(olderUsers, "a", "b", "c");

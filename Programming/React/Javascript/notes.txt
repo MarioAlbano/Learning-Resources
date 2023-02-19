@@ -22,6 +22,7 @@
 -Template literals: Usar o `` para concatenar strings mais fáceis. Utilizar o ${nomeDaVariavel} para concatenar variáveis
 -Descontrução em Javascript: Desestruturamos objetos e arrays
 -Spread operator: Podemos juntar as operações, consequentemente usando menos linhas
+-rest operator: Usado quando não sabemos quantas entradas terá em nossa função, ele repete para cada entrada
 
 //Javascript Avançado
 -This: Comportamento dele depende do escopo. Fora da função é do document, dentro do método se referencia ao própio objeto, se atributido a uma variável passa a referenciar essa variável a não ser que ocorra uma call()

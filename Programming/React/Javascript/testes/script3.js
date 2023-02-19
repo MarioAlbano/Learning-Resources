@@ -57,3 +57,22 @@ function registerPersonJob(inputObject) {
   console.log(newData);
 }
 registerPersonJob(myPersonObjectPlus);
+
+//Example using rest operator
+function namesEntry(...nameEntry) {
+  console.log(nameEntry);
+}
+
+namesEntry(
+  "Mario",
+  "Marcia",
+  "Mauricio",
+  "Jonny",
+  "Batshuayi",
+  "Marco",
+  "Reus",
+  "Miner",
+  "Jonson",
+);
+
+//Another exercise

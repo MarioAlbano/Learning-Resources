@@ -17,6 +17,10 @@
 -Switch: podemos usar para evitar vários if else
 -Temporizador: passar um eventos em determinado tempo. Usar setInterval() para infinitamente, ou setTimeout para exercutar uma vez só
 -WebStorage: Salvar alguma informação do usuário. setItem, getItem, removeItem
+-Podemos usar a mesma lógica do webstorage para os sessionStorage
+-Let, var, const: var sai do escopo enquanto let e const não. Const não deixa alterar o valor e deve ser a preferência num desenvolvimento, alterando somente quando necessário para let.
+-Template literals: Usar o `` para concatenar strings mais fáceis. Utilizar o ${nomeDaVariavel} para concatenar variáveis
+-Descontrução em Javascript: 
 
 //Javascript Avançado
 -This: Comportamento dele depende do escopo. Fora da função é do document, dentro do método se referencia ao própio objeto, se atributido a uma variável passa a referenciar essa variável a não ser que ocorra uma call()

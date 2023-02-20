@@ -24,7 +24,9 @@
 -Spread operator: Podemos juntar as operações, consequentemente usando menos linhas
 -rest operator: Usado quando não sabemos quantas entradas terá em nossa função, ele repete para cada entrada
 -Função anônima: podemos usar uma função sem nome ou usar arrow function sem as {} como parâmetro
--Includes: 
+-Includes: Verifica se existe dentro do array o parâmetro passado
+-some:retorna true se pelo menos um bate com o parâmetro passado
+-every:retorna booleon se todos passar na condição que passarmos
 
 //Javascript Avançado
 -This: Comportamento dele depende do escopo. Fora da função é do document, dentro do método se referencia ao própio objeto, se atributido a uma variável passa a referenciar essa variável a não ser que ocorra uma call()

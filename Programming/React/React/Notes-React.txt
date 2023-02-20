@@ -1,0 +1,24 @@
+//Como funciona os sites
+-Parte back-end (lado do servidor onde não vemos)
+-Parte front-end (parte onde se cria as telas de um modo agradável ao cliente)
+
+//React
+-Biblioteca para criação de interfaces
+-São divididos em componentes
+-Podemos ter componentes dentro de componentes
+-Faz mais do que o js consegue sozinho
+-Manipula a DOM 
+-Utilizado para spa's
+
+//O que é spa's
+-Normalmente apos renderizado pelo HTML teriamos um modelo MVC, e cada view seria uma tela
+-Com Spa's teriamos somente uma página principal e as outras são escritas e modificadas pelo javascript
+
+//Iniciando um projeto React
+-Primeiro precisamos do NPM
+-"npx create-react-app my-app"
+-"cd my-app"
+-"npm start"
+
+//Limpando o projeto
+-limpar o App.js

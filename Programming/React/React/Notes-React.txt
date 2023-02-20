@@ -21,4 +21,8 @@
 -"npm start"
 
 //Limpando o projeto
--limpar o App.js
+-limpar o App.js 
+-limpar exportações e importações inúteis no index.js
+-Deixar somente src > App.js, index.js, gitignore, package.json, readme
+
+//Entendendo prosps e component

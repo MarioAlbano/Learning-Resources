@@ -4,37 +4,24 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      myCounter: 0,
+      hour: "00:00:00",
     };
-    this.increase = this.increase.bind(this);
   }
 
-  increase = () => {
-    let state = this.state;
-    state.myCounter += 1;
-    this.setState(state);
-  };
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({ hour: new Date().toLocaleTimeString() });
+    }, 1000);
+  }
 
-  decrease = () => {
-    let state = this.state;
-    state.myCounter -= 1;
-    this.setState(state);
-  };
-
-  reset = () => {
-    let state = this.state;
-    state.myCounter = 0;
-    this.setState(state);
-  };
+  componentDidUpdate() {
+    console.log("Atualizou o State!");
+  }
 
   render() {
     return (
       <div>
-        <h1>Este é um teste pois meu último arquivo não renderizou</h1>
-        <h2>Contador: {this.state.myCounter}</h2>
-        <button onClick={this.decrease}>Diminuir</button>
-        <button onClick={this.increase}>Aumentar</button>
-        <button onClick={this.reset}>Resetar</button>
+        <h1>Horário de Brasília: {this.state.hour}</h1>
       </div>
     );
   }

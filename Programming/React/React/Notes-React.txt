@@ -47,3 +47,47 @@
 -Na função criada, usar o "this.setState(noDaVariável)"
 -Debaixo do constructor, usar o bind, "this.nomeDaFuncao = this.nomeDaFuncao.bind(this);" significando que estamos querendo mudar o pai
 -Fazer a lógica dentro da função, puxando o valor do state com "this.state.NomeDoMeuState"
+
+//Reforçando states
+-Componentes com estados: StateFull
+-Compoenntes sem estados: StateLess
+-Os sem estados são estados utilizados somente para algo pequeno no site	
+-Com estados quase sempre seram vindas junto com classes
+
+//Ciclos de vida de um componente
+-É como o ciclo de vida de um ser humano: Cria, modifica várias vezes e morre
+
+//componentDidMount(){}
+-componentDidMount(){} Faz algo somente uma vez quando o componente é montado
+-trabalhando com hora: criar dentro do componentDidMount um setInterval, e dentro da função anônima, chamar o setState e usar "nomeDoState: new Date().toLocaleTimeString" 
+-ex: componentDidMount() {
+    setInterval(() => {
+      this.setState({ hour: new Date().toLocaleTimeString() });
+    }, 1000);
+  }
+
+//componentDidUpdate(){}
+-Ativa algo quando nosso state é atualizado
+
+//shouldComponentUpdate(){}
+-Um boolean se precisa ou não atualizar um state. Usamos juntamente com uma comparação
+
+//Resumo ciclo de vida 
+-Então como vimos na aula nos ciclos de vida do componente temos:
+-Inicialização
+-Montagem
+-Atualização
+-Desmontagem
+
+//ciclo de vida
+-Inicialização: Nesta fase, o componente React se prepara para sua inicialização, configurando os estados iniciais e props padrões se houverem.
+- Montagem: Depois de preparar com todas as necessidades básicas, estado e props, o nosso Componente React está pronto para ser montado no DOM do navegador.
+componentWillMount() É executado quando o componente estiver prestes a ser montado no DOM da página. Assim, após esse método ser executado o componente irá criar o nó no navegador. Todas as coisas que você deseja fazer antes do componente ser montado, devem ser definidas aqui.
+-componentDidMount() Este é o método que é executado depois que o componente foi montado no DOM
+- Atualização: Esta fase começa quando o componente React já nasceu no navegador e cresce recebendo novas atualizações. O componente pode ser atualizado de duas maneiras, através do envio de novas props ou a atualização do seu estado.
+componentDidUpdate() é chamado imediatamente após a atualização.
+componentWillUpdate() É executado somente quando shouldComponentUpdatedevolver true.
+-Desmontagem: Nesta fase, o componente não é mais necessário e será desmontado do DOM. O método que se chama nesta fase é o: componentWillUnmount()
+
+//Eventos
+-Para melhor manutenção e legibilidade, dividimos nossos componentes em outras páginas

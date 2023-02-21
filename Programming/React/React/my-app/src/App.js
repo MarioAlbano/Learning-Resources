@@ -8,12 +8,16 @@ class App extends Component {
     };
   }
 
+  increase = () => {
+    alert("Aumento");
+  };
+
   render() {
     return (
       <div>
         <h1>Este é um teste pois meu último arquivo não renderizou</h1>
         <h2>Contador: {this.state.myCounter}</h2>
-        <button>Aumentar</button>
+        <button onClick={this.increase}>Aumentar</button>
         <button>Diminuir</button>
       </div>
     );

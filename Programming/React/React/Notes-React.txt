@@ -98,3 +98,6 @@ componentWillUpdate() É executado somente quando shouldComponentUpdatedevolver 
 -Quando queremos renderizar uma coisa ou outra no nosso componente
 -Criar uma props dentro do state. Depois usar "this.state.nomeDoProsVerificador === 1 && digite o código aqui"
 -podemos usar também os operadores ternários
+
+//Listas
+-

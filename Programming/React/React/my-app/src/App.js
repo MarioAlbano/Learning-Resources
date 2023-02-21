@@ -6,8 +6,10 @@ class App extends Component {
     this.state = {
       myStatus: true,
     };
+    this.desactive = this.desactive.bind(this);
+    this.active = this.active.bind(this);
   }
-
+  
   desactive = () => {
     this.setState({ myStatus: false });
   };

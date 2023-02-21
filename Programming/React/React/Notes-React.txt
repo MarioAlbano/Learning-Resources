@@ -26,3 +26,5 @@
 -Deixar somente src > App.js, index.js, gitignore, package.json, readme
 
 //Entendendo prosps e component
+-Prop: atributo que possamos receber e mostrar para o usuário
+-component: stateless: Componente burro, não tem ciclo de vida e só exibe class component:

@@ -1,63 +1,40 @@
-const SocialMembers = (props) => {
+import React, { Component } from "react";
+
+class MyTeam extends Component {
+  render() {
+    return (
+      <div>
+        <h2>Este é um h2 de um componente de classe</h2>
+        <h3>Meu nome é {this.props.firstName}</h3>
+        <h3>E meu sobrenome é {this.props.forName}</h3>
+        <About firstName="John Jones" forName="Bones" />
+        <More Example="EscritoEmUmComponenteFuncional!" />
+      </div>
+    );
+  }
+}
+
+const More = (props) => {
   return (
-    <div>
-      <p>
-        Aqui está o social {props.SocialOne}, {props.SocialTwo},{" "}
-        {props.SocialThree}
-      </p>{" "}
-      <a href={props.Link} target="_blank">
-        Link para o Google aqui!
-      </a>
-    </div>
+    <div>Este é um exemplo de um componente funcional {props.Example}</div>
   );
 };
 
-const WelcomeTeam = (props) => {
-  return (
-    <div>
-      <About
-        TeamName={props.Tname}
-        MemberOne={props.MemberOne}
-        MemberTwo={props.MemberTwo}
-        MemberThree={props.MemberThree}
-      />
-      <SocialMembers
-        SocialOne={props.SocialOne}
-        SocialTwo={props.SocialTwo}
-        SocialThree={props.SocialThree}
-        Link={props.Link}
-      />
-      <hr />
-    </div>
-  );
-};
-
-const About = (props) => {
-  return (
-    <div>
-      <h1>Olá, o nome do time é {props.TeamName}</h1>
-      <h2>
-        O time é composto por {props.MemberOne}, {props.MemberTwo} e{" "}
-        {props.MemberThree}.
-      </h2>
-    </div>
-  );
-};
+class About extends Component {
+  render() {
+    return (
+      <div>
+        <h3>Meu nome é {this.props.firstName}</h3>
+        <h3>E meu sobrenome é {this.props.forName}</h3>
+      </div>
+    );
+  }
+}
 
 export default function App() {
   return (
     <div>
-      <h1>Meet our team!</h1>
-      <WelcomeTeam
-        Tname="Alpha Team"
-        MemberOne="Jonny"
-        MemberTwo="Sarah"
-        MemberThree="Mike"
-        SocialOne="Insta"
-        SocialTwo="Discord"
-        SocialThree="Youtube"
-        Link="https://www.google.com"
-      />
+      <MyTeam firstName="Mario" forName="Albano" />
     </div>
   );
 }

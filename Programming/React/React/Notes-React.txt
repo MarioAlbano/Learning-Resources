@@ -27,4 +27,9 @@
 
 //Entendendo prosps e component
 -Prop: atributo que possamos receber e mostrar para o usuário
--component: stateless: Componente burro, não tem ciclo de vida e só exibe class component:
+-component: stateless: Componente burro, não tem ciclo de vida e só exibe
+
+//Class component
+-usar "import React, { Component } from "react";" na primeira linha
+-usar "class NomeDoComponente extends Component{}"
+-Podemos referenciar as props usando o "this"

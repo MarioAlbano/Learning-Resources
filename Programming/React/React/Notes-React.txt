@@ -93,3 +93,8 @@ componentWillUpdate() É executado somente quando shouldComponentUpdatedevolver 
 -Para melhor manutenção e legibilidade, dividimos nossos componentes em outras páginas
 -Não esquecer do this para chamar funções dentro do onClick
 -Não esquecer que sentro do setState temos de colocar {}
+
+//Renderização condicional
+-Quando queremos renderizar uma coisa ou outra no nosso componente
+-Criar uma props dentro do state. Depois usar "this.state.nomeDoProsVerificador === 1 && digite o código aqui"
+-podemos usar também os operadores ternários

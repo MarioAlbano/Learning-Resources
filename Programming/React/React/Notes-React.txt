@@ -91,3 +91,5 @@ componentWillUpdate() É executado somente quando shouldComponentUpdatedevolver 
 
 //Eventos
 -Para melhor manutenção e legibilidade, dividimos nossos componentes em outras páginas
+-Não esquecer do this para chamar funções dentro do onClick
+-Não esquecer que sentro do setState temos de colocar {}

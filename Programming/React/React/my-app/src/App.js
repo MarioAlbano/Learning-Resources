@@ -1,16 +1,45 @@
-//Creating component without {} and return
-const MyFirstComponent = (props) => (
-  <h2>
-    Este é meu {props.userName} componente! Este aqui é um props:
-    {props.userProps}
-  </h2>
-);
-
-//Creating component with {} and return
-const MySecondComponent = () => {
+const SocialMembers = (props) => {
   return (
     <div>
-      <h3>Este é meu segundo componente em React!</h3>
+      <p>
+        Aqui está o social {props.SocialOne}, {props.SocialTwo},{" "}
+        {props.SocialThree}
+      </p>{" "}
+      <a href={props.Link} target="_blank">
+        Link para o Google aqui!
+      </a>
+    </div>
+  );
+};
+
+const WelcomeTeam = (props) => {
+  return (
+    <div>
+      <About
+        TeamName={props.Tname}
+        MemberOne={props.MemberOne}
+        MemberTwo={props.MemberTwo}
+        MemberThree={props.MemberThree}
+      />
+      <SocialMembers
+        SocialOne={props.SocialOne}
+        SocialTwo={props.SocialTwo}
+        SocialThree={props.SocialThree}
+        Link={props.Link}
+      />
+      <hr />
+    </div>
+  );
+};
+
+const About = (props) => {
+  return (
+    <div>
+      <h1>Olá, o nome do time é {props.TeamName}</h1>
+      <h2>
+        O time é composto por {props.MemberOne}, {props.MemberTwo} e{" "}
+        {props.MemberThree}.
+      </h2>
     </div>
   );
 };
@@ -18,16 +47,17 @@ const MySecondComponent = () => {
 export default function App() {
   return (
     <div>
-      <h1>Olá mundo!</h1>
-      <MyFirstComponent userName="Pr1meiro" userProps="Pr0ps" />
-      <MyFirstComponent userName="S3gund0" userProps="Pro0ps 02" />
-      <MySecondComponent />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
-        quo dolor? Quos ducimus voluptas inventore similique voluptate, delectus
-        laborum excepturi officia rerum, commodi, animi consequuntur ipsum
-        voluptatem provident ratione odio!
-      </p>
+      <h1>Meet our team!</h1>
+      <WelcomeTeam
+        Tname="Alpha Team"
+        MemberOne="Jonny"
+        MemberTwo="Sarah"
+        MemberThree="Mike"
+        SocialOne="Insta"
+        SocialTwo="Discord"
+        SocialThree="Youtube"
+        Link="https://www.google.com"
+      />
     </div>
   );
 }

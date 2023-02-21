@@ -33,3 +33,17 @@
 -usar "import React, { Component } from "react";" na primeira linha
 -usar "class NomeDoComponente extends Component{}"
 -Podemos referenciar as props usando o "this"
+
+//Para criar uma nova página
+-Usar a linha "import React, { Component } from "react";"
+
+//States
+-Props são estáticas e states são estados que conseguimos trocar o valor dentro
+-Criamos um constructor que recebe as props. Depois super(props) pra ele poder acessar todas as informações e usar tudo do componente pai que no caso o render(). Por último criar o this.state ={} para colocar todas as states que são relacionadas. Para usar, dentro do render colocamos {this.state.nomeDoMeuState}
+-Com isso conseguimos mudar o valor da state sem ter que recarregar a página
+-Podemos adicionar uma função sem o const enquanto estiver dentro da class
+
+//Alterando a state
+-Na função criada, usar o "this.setState(noDaVariável)"
+-Debaixo do constructor, usar o bind, "this.nomeDaFuncao = this.nomeDaFuncao.bind(this);" significando que estamos querendo mudar o pai
+-Fazer a lógica dentro da função, puxando o valor do state com "this.state.NomeDoMeuState"

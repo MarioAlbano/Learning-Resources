@@ -1,0 +1,30 @@
+import React, { Component } from "react";
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      myName: "John",
+      myCounter: 0,
+    };
+    this.increaseCounter = this.increaseCounter.bind(this);
+  }
+
+  incriaseCounter = () => {
+    let state = this.state.myCounter;
+    state += 1;
+    this.setState(state);
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>Teste com State = {this.state.myName}</h1>
+        <button onClick={this.incriaseCounter}>Aumentar</button>
+        <button>Diminuir</button>
+      </div>
+    );
+  }
+}
+
+export default App;

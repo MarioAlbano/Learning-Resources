@@ -6,10 +6,13 @@ class App extends Component {
     this.state = {
       myCounter: 0,
     };
+    this.increase = this.increase.bind(this);
   }
 
   increase = () => {
-    alert("Aumento");
+    let state = this.state;
+    state.myCounter += 1;
+    this.setState(state);
   };
 
   render() {

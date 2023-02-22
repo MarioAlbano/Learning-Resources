@@ -100,4 +100,17 @@ componentWillUpdate() É executado somente quando shouldComponentUpdatedevolver 
 -podemos usar também os operadores ternários
 
 //Listas
--
+-usar o map para criarmos listas
+-Ex: "{this.state.programFeed.map((item) => {
+          return (
+            <li key={item.id}>
+              Nome: {item.userName} / Curtidas:{item.likes} / Comentários:
+              {item.comments}
+            </li>"
+-usar key juntamente com um id para não gerar erro no console
+
+//Condicionais exemplo
+-Em react, usar o condicional ternário ou o if dentro de uma função. Exemplo de ternário:
+{this.props.comments > 1
+            ? "Comments: " + this.props.comments
+            : "Comment: " + this.props.comments}

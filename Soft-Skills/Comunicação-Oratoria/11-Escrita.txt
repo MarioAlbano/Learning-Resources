@@ -1,0 +1,43 @@
+//Comunicação por escrita
+-O que, como, quando
+
+//Quem
+-Quem deve receber
+
+//O que
+-Pergunte a eles o que é importante ter nesse relatório
+
+//Como
+-Perguntar se prefere receber de jeito visual ou somente com as informações necessárias
+
+//Quando
+-Em quanto em quanto tempo devemos produzir o relatório
+
+//Como escrever um bom Email
+-Um email bem escrito faz a diferença de alguem ler ou arquivar
+-Pensar em um bom título para o email
+Ex:
+Título: [nomeDaEmpresa] Relatório janeiro/2020 [spoiler: a Globo é nossa]
+-No corpo do email: ser claro, organizado e objetivo, e se precisar listar algo, que seja em tópicos Ex:
+----------
+Bom dia Daniel, tudo bem?
+Antes de mais nada, muito obrigado pelo seu interesse e atenção em nossa conversa de agora há pouco. Entendi perfeitamente as necessidades da sua empresa quanto à gestão de projetos e, sem dúvida, podemos fazer um grande trabalho juntos.
+
+Conforme prometi, neste email estou lhe enviando:
+
+1. Um link de ...: 
+https
+
+2. Alguns slides (em anexo) que falam...
+
+3. A proposta comercial (em anexo) para utilização...
+
+Enquanto conversar com seus pares sobre ..., se precisar de qualquer ajuda, conte comigo. 
+Meus contatos de WhatsApp e Skype estão na assinatura deste email.
+
+Muito obrigado e, como combinado, aguardo seu retorno até ...
+
+Atencionasamente,
+
+{Aqui usar a auta assinatura do email}
+---------------------------------------------------

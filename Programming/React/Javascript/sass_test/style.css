@@ -1,0 +1,28 @@
+h1 {
+  font-size: 100px;
+}
+
+body {
+  background-color: beige;
+}
+
+.button-patter-01, .button-patter-02 {
+  width: 200px;
+  height: 250px;
+  color: aqua;
+}
+
+.button-patter-02 {
+  font-size: 7.5rem;
+}
+
+button {
+  background-color: blue;
+}
+
+section {
+  background-color: white;
+}
+section h2 {
+  color: green;
+}/*# sourceMappingURL=style.css.map */

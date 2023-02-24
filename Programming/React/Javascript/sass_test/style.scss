@@ -1,0 +1,41 @@
+//In SASS we can add comment like Javascript
+
+//To create a variable, we just need to add $ in the beginning
+$large-font: 100px;
+$color: #fff;
+
+h1 {
+  font-size: $large-font;
+}
+
+//Use _nameOfThePart to create new pages in scss. Use @import to import some page
+@import "registerPage";
+
+.button-patter-01 {
+  width: 200px;
+  height: 250px;
+  color: aqua;
+}
+
+//We can use @extend to add a class attributs in another class
+.button-patter-02 {
+  @extend .button-patter-01;
+  font-size: 7.5rem;
+}
+
+//We can create @mixin and use it with @include like a function
+@mixin defineTheme($color: blue) {
+  background-color: $color;
+}
+
+button {
+  @include defineTheme;
+}
+
+//We can use nested like HTML in SASS
+section {
+  background-color: white;
+  h2 {
+    color: green;
+  }
+}

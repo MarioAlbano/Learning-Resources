@@ -1,11 +1,9 @@
 import React from "react";
 
-function NewProps(props) {
-  return (
-    <React.Fragment>
-      <h1>It's just a test with props: {props.newText}</h1>
-    </React.Fragment>
-  );
+class NewProps2 extends React.Component {
+  render() {
+    return <h1>Hello {this.props.newText}!</h1>;
+  }
 }
 
-export default NewProps;
+export default NewProps2;

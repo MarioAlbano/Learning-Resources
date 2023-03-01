@@ -1,11 +1,11 @@
 import React from "react";
-import NewProps from "./NewProps";
+import NewProps2 from "./NewProps";
 
 //Component need to start with Uppercase. Lowercase means a HTML for React
 function App() {
   return (
     <React.Fragment>
-      <NewProps newText="Hong-Ming-Son" />
+      <NewProps2 newText="Hong-Ming-Son" />
     </React.Fragment>
   );
 }

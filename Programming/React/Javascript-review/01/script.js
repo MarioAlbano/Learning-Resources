@@ -28,3 +28,22 @@ console.log(numberA * numberB);
 
 //Output value througth document.write
 document.write("Esse é um teste de Output");
+
+//Arrays and arrays methods Javascript
+let userInfo = ["Mario", "Albano", 27, "Single"];
+console.log(userInfo);
+
+//forEach: for each element from an array doing something
+userInfo.forEach((item) => {
+  console.log(item + " Info.");
+});
+
+//unshift: Insert on first position
+userInfo.unshift("Data Science");
+console.log(userInfo);
+
+//shift: Remove the first position element
+userInfo.shift();
+console.log(userInfo);
+
+//

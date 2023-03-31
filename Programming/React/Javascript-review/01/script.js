@@ -59,6 +59,15 @@ console.log(userInfo);
 userInfo.pop();
 console.log(userInfo);
 
+//Splice: when we need to put elements in the middle of array
+const myFruitsExample = ["Banana", "Orange", "Apple", "Melon", "Lemon"];
+myFruitsExample.splice(2, 0, "RandomFruit", "RandomFruit2");
+console.log(myFruitsExample);
+
+//Slice: when you need to cut an array. Tip: It's like dont have element 0 here
+const animalsExample = ["Lion", "Tiger", "Eagle", "Dog", "Cat", "Bear"];
+console.log(animalsExample.slice(0, 3));
+
 //unshift: Insert on first position
 userInfo.unshift("Data Science");
 console.log(userInfo);
@@ -66,6 +75,10 @@ console.log(userInfo);
 //shift: Remove the first position element
 userInfo.shift();
 console.log(userInfo);
+
+//Join: When we need concatenating between elements of array
+const joinExample = ["Vehicle: Warship", "Person: Captain Flint"];
+console.log(joinExample.join(" = "));
 
 //Loops
 

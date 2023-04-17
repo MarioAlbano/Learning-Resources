@@ -125,3 +125,9 @@ switch (switchUserOption) {
   default:
     console("Number not founded");
 }
+
+//Destructuring in Array: Create a variable in the simple way with elements of an array
+const destructuringExample = ["desName", "desAge", "desCode"];
+[Y, X] = destructuringExample;
+console.log(Y);
+console.log(X);

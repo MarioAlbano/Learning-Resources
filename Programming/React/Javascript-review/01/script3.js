@@ -29,3 +29,19 @@ if (localStorage.nome == null) {
 
 localStorage.list = [1, 2, 3, 4];
 console.log(localStorage.list);
+
+//var let and const
+const varExample = 1;
+if (varExample == 1) {
+  var varExample2 = 2;
+}
+console.log(varExample2);
+
+const letExample = 1;
+if (letExample == 1) {
+  let letExample2 = 2;
+}
+// console.log(letExample2); Expected error
+
+// letExample = "3"; Expected error
+console.log(`Template literals example`);

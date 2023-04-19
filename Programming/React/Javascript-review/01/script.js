@@ -29,4 +29,23 @@ function entry2() {
     secondaryArea.innerText = prompt("Qual o nome desse h2?");
   }
 }
-  
+
+//Array in javascript
+let myList = ["Mario", "Albano", "Pereira", "Navas", 27];
+console.log(myList[2]); //Expected "Pereira"
+
+//indexOf join pop shift push
+console.log(myList.indexOf("Mario"));
+
+let arrayList = myList.join(" - ");
+console.log(arrayList);
+
+myList.pop();
+console.log(myList);
+
+myList.shift();
+console.log(myList);
+
+myList.push("Brazilian");
+console.log(myList);
+ 

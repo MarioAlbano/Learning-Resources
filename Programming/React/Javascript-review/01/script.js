@@ -48,4 +48,38 @@ console.log(myList);
 
 myList.push("Brazilian");
 console.log(myList);
- 
+
+//While
+let whileVariable = 10;
+
+while (whileVariable <= 20) {
+  document.write(`<br>A variável está valendo ${whileVariable}`);
+  whileVariable++;
+}
+
+document.write("<br><br>X está valendo 10! <br>");
+
+//For
+for (i = 10; i <= 20; i++) {
+  document.write(`<br>A variável está valendo ${i}`);
+}
+
+//Switch
+document.write(
+  "<br>Escolha uma opção: 1 - Água 2 - Refrigerante 3 - Água de coco",
+);
+// const userOption = prompt("Qual a opção?");
+
+switch (userOption) {
+  case "1":
+    alert("Você escolheu uma água");
+    break;
+  case "2":
+    alert("Você escolheu um refrigerante");
+    break;
+  case "3":
+    alert("Você escolheu uma água de coco");
+    break;
+  default:
+    alert("Opção não identificada. Por favor tente novamente!");
+}

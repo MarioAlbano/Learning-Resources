@@ -152,3 +152,26 @@ const randomName = "Fabricia";
 console.log(randomName.endsWith("cia"));
 console.log(randomName.endsWith("Y"));
 console.log(randomName.startsWith("Fa"));
+
+//Some Every
+const namesTest = ["Mario", "Albano", "Pereira"];
+
+console.log(namesTest.some((item) => item === "Albano"));
+console.log(namesTest.some((item) => item === "Hanzo Hasashi"));
+
+const namesTest2 = ["Brazilian", "Brazilian", "Brazilian", "Brazilian"];
+
+console.log(namesTest2.every((item) => item === "Brazilian"));
+console.log(namesTest2.every((item) => item === "Brasileiro"));
+
+const namesTest3 = [
+  { subject: "Rain", game: "Mortal Kombat" },
+  { subject: "Kabal", game: "Mortal Kombat" },
+];
+
+console.log(namesTest3.every((item) => item.game === "Mortal Kombat"));
+console.log(namesTest3.every((item) => item.subject === "Sub-Zero"));
+
+if (namesTest3.every((item) => item.game === "Mortal Kombat")) {
+  console.log("Todos os personagens são do mesmo jogo");
+}

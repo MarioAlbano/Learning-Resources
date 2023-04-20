@@ -142,3 +142,13 @@ const findExample2 = finalList.find((item) => {
   return item === 100;
 });
 console.log(findExample2); //Expecte undefined
+
+//includes, endsWith startsWith
+const testArray01 = ["John", "Wick", "Dog"];
+console.log(testArray01.includes("John"));
+console.log(testArray01.includes("The Rock"));
+
+const randomName = "Fabricia";
+console.log(randomName.endsWith("cia"));
+console.log(randomName.endsWith("Y"));
+console.log(randomName.startsWith("Fa"));

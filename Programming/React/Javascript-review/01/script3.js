@@ -101,3 +101,15 @@ function glassworkRegister(entry) {
 }
 
 console.log(glassworkRegister(glassworkPattern));
+
+//Rest Operator
+const restFunction = (...entryNames) => {
+  console.log(entryNames);
+};
+
+restFunction("Mario", "Albano", "Pereira", "Navas");
+
+const restFunctionNumbers = (...entryNumbers) => {
+  console.log(entryNumbers);
+};
+restFunctionNumbers(1, 2, 3, 4, 5, 6, 7);

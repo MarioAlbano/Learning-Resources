@@ -113,3 +113,32 @@ const restFunctionNumbers = (...entryNumbers) => {
   console.log(entryNumbers);
 };
 restFunctionNumbers(1, 2, 3, 4, 5, 6, 7);
+
+//Array operations
+//Map
+const mylist = [0, 1, 2, 3, 4, 5];
+const finalList = [6, 7, 8, 9, 10];
+
+const mapFuncExample = mylist.map((item, index) => {
+  return item * 3;
+});
+const mapFuncExample2 = mylist.map((item, index) => {
+  return item + index;
+});
+console.log(mapFuncExample);
+console.log(mapFuncExample2);
+
+const sumArray = mylist.reduce((item, index) => {
+  return item + index;
+});
+console.log(sumArray);
+
+const findExample = finalList.find((item) => {
+  return item === 10;
+});
+console.log(findExample);
+
+const findExample2 = finalList.find((item) => {
+  return item === 100;
+});
+console.log(findExample2); //Expecte undefined

@@ -45,3 +45,59 @@ if (letExample == 1) {
 
 // letExample = "3"; Expected error
 console.log(`Template literals example`);
+
+//Destructuring (Dont affect the orginial array)
+const personA = {
+  name: "Mario",
+  age: 27,
+  country: "Brazil",
+};
+console.log(personA);
+
+let { age } = personA;
+console.log(age);
+let { name, country } = personA;
+console.log(name, country);
+let { name: MyName, country: MyCountry } = personA;
+console.log(MyCountry, MyName);
+
+const newArray = ["Jonnhy", "Sonia", "Cassie"];
+
+let { 0: joao, 1: sonia, 2: cassia } = newArray;
+console.log(joao, sonia, cassia);
+
+let [joao1, sonia2, cassia2] = newArray;
+console.log(joao1, sonia2, cassia2);
+
+//Spread Operator
+const Array1 = [0, 1, 2, 3];
+const Array2 = [...Array1, 4, 5, 6, 7];
+
+console.log(Array1);
+console.log(Array2);
+
+const personB = {
+  ...personA,
+  isSingle: true,
+  areHuman: true,
+  hobby: "Video games",
+};
+console.log(personB);
+
+const glassworkPattern = {
+  name: "Mario",
+  age: 27,
+  experience: true,
+};
+
+function glassworkRegister(entry) {
+  let employee = {
+    ...entry,
+    id: 1294,
+    headquarters: "São Paulo",
+  };
+
+  return employee;
+}
+
+console.log(glassworkRegister(glassworkPattern));

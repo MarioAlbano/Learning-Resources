@@ -4,37 +4,24 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Jonny",
-      counter: 0,
+      date: "00:00:00",
     };
-
-    this.increaseCounter = this.increaseCounter.bind(this);
-    this.decreaseCounter = this.decreaseCounter.bind(this);
   }
 
-  increaseCounter() {
-    let state = this.state;
-    state.counter += 1;
-    this.setState(state);
+  //Creating a componentDidMount, using a set interval with functions to get data time
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({ date: new Date().toLocaleTimeString() });
+    }, 1000);
   }
 
-  decreaseCounter() {
-    let state = this.state;
-    if (state.counter === 0) {
-      alert("Não é possível diminuir!");
-    } else {
-      state.counter -= 1;
-      this.setState(state);
-    }
-  }
+  //Creating a componentDidUpdate and using one clg for each update that "date" have
+  componentDidUpdate() {}
 
   render() {
     return (
       <div>
-        <h1>Teste</h1>
-        <button onClick={this.increaseCounter}>+</button>
-        {this.state.counter}
-        <button onClick={this.decreaseCounter}>-</button>
+        <h1>{this.state.date}</h1>
       </div>
     );
   }

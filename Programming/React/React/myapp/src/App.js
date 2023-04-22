@@ -1,38 +1,34 @@
-import { Component } from "react";
+import React, { Component } from "react";
+
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      status1: false,
+      myFeed: [
+        { userId: 1, userName: "Mario", userLikes: "100", userComments: "12" },
+        {
+          userId: 2,
+          userName: "Lucas",
+          userLikes: "1000",
+          userComments: "500",
+        },
+        { userId: 3, userName: "Fabio", userLikes: "5", userComments: "1" },
+      ],
     };
-    this.logIn = this.logIn.bind(this);
-    this.logOff = this.logOff.bind(this);
-  }
-
-  logIn() {
-    this.setState({ status1: true });
-  }
-
-  logOff() {
-    this.setState({ status1: false });
   }
 
   render() {
     return (
       <div>
-        {this.state.status1 ? (
-          <div>
-            {" "}
-            <h2>Usuário logado. Bem vindo ao sistema!</h2>
-            <button onClick={this.logOff}>Clique para Deslogar</button>
-          </div>
-        ) : (
-          <div>
-            {" "}
-            <h2>Usuário deslogado. Clique no botão abaixo para Logar</h2>
-            <button onClick={this.logIn}>Clique para Logar</button>
-          </div>
-        )}
+        {this.state.myFeed.map((item) => {
+          return (
+            <div key={item.userId}>
+              <h2>{item.userName}</h2>
+              <a>Possui {item.userLikes} Likes</a> /{" "}
+              <a>Possui {item.userComments} Comentários</a>
+            </div>
+          );
+        })}
       </div>
     );
   }

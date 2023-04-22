@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Feed from "./components/Feed";
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +13,8 @@ class App extends Component {
           userLikes: "1000",
           userComments: "500",
         },
-        { userId: 3, userName: "Fabio", userLikes: "5", userComments: "1" },
+        { userId: 3, userName: "Fabio", userLikes: "5", userComments: "2" },
+        { userId: 4, userName: "Anastásio", userLikes: "1", userComments: "1" },
       ],
     };
   }
@@ -22,11 +24,12 @@ class App extends Component {
       <div>
         {this.state.myFeed.map((item) => {
           return (
-            <div key={item.userId}>
-              <h2>{item.userName}</h2>
-              <a>Possui {item.userLikes} Likes</a> /{" "}
-              <a>Possui {item.userComments} Comentários</a>
-            </div>
+            <Feed
+              id={item.userId}
+              name={item.userName}
+              likes={item.userLikes}
+              comments={item.userComments}
+            />
           );
         })}
       </div>

@@ -1,37 +1,66 @@
 import React, { Component } from "react";
-import Feed from "./components/Feed";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      myFeed: [
-        { userId: 1, userName: "Mario", userLikes: "100", userComments: "12" },
-        {
-          userId: 2,
-          userName: "Lucas",
-          userLikes: "1000",
-          userComments: "500",
-        },
-        { userId: 3, userName: "Fabio", userLikes: "5", userComments: "2" },
-        { userId: 4, userName: "Anastásio", userLikes: "1", userComments: "1" },
-      ],
+      userLogin: "",
+      userPassword: "",
+      userGender: "male",
     };
+    this.changeEmail = this.changeEmail.bind(this);
+    this.optionGender = this.optionGender.bind(this);
+  }
+
+  changeEmail(e) {
+    this.setState({ userLogin: e.target.value });
+  }
+
+  optionGender(e) {
+    this.setState({ userGender: e.target.value });
   }
 
   render() {
     return (
       <div>
-        {this.state.myFeed.map((item) => {
-          return (
-            <Feed
-              id={item.userId}
-              name={item.userName}
-              likes={item.userLikes}
-              comments={item.userComments}
-            />
-          );
-        })}
+        <h2>Entrar no sistema</h2>
+
+        <label>Login: </label>
+        <input
+          type="email"
+          name="email"
+          gender="male"
+          value={this.state.userLogin}
+          onChange={this.changeEmail}
+        />
+        <br />
+        <br />
+
+        <label>Senha: </label>
+        <input
+          type="password"
+          name="password"
+          value={this.state.userPassword}
+          onChange={(e) => {
+            this.setState({ userPassword: e.target.value });
+          }}
+        />
+        <br />
+        <br />
+
+        <label>Sexo: </label>
+        <select
+          name="gender"
+          value={this.state.userGender}
+          onChange={this.optionGender}
+        >
+          <option value="male">Masculino</option>
+          <option value="female">Feminino</option>
+        </select>
+
+        <h3>{this.state.userLogin}</h3>
+        <h3>{this.state.userPassword}</h3>
+        <h3>{this.state.userGender}</h3>
       </div>
     );
   }

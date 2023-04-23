@@ -1,0 +1,23 @@
+body {
+  background-color: #eff7f6;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.container-img {
+  width: 18.75rem;
+  height: 25rem;
+  margin-top: 2.1875rem;
+}
+
+.container-phrase {
+  font-style: italic;
+  color: #24272b;
+}

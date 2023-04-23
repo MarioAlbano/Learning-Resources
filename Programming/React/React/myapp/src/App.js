@@ -4,63 +4,59 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      userLogin: "",
-      userPassword: "",
-      userGender: "male",
+      form: {
+        userName: "",
+        userEmail: "",
+        userPassword: "",
+      },
     };
-    this.changeEmail = this.changeEmail.bind(this);
-    this.optionGender = this.optionGender.bind(this);
+
+    this.formsData = this.formsData.bind(this);
   }
 
-  changeEmail(e) {
-    this.setState({ userLogin: e.target.value });
-  }
-
-  optionGender(e) {
-    this.setState({ userGender: e.target.value });
+  formsData(e) {
+    let updatedForm = this.state.form;
+    updatedForm[e.target.name] = e.target.value;
+    this.setState({ form: updatedForm });
   }
 
   render() {
     return (
       <div>
-        <h2>Entrar no sistema</h2>
-
-        <label>Login: </label>
+        <h2>Novo usuário</h2>
+        <label>Nome: </label>
         <input
-          type="email"
-          name="email"
-          gender="male"
-          value={this.state.userLogin}
-          onChange={this.changeEmail}
+          type="text"
+          name="userName"
+          value={this.state.form.userName}
+          onChange={this.formsData}
         />
         <br />
+
+        <label>Email: </label>
+        <input
+          type="email"
+          name="userEmail"
+          value={this.state.form.userEmail}
+          onChange={this.formsData}
+        />
         <br />
 
         <label>Senha: </label>
         <input
           type="password"
-          name="password"
-          value={this.state.userPassword}
-          onChange={(e) => {
-            this.setState({ userPassword: e.target.value });
-          }}
+          name="userPassword"
+          value={this.state.form.userPassword}
+          onChange={this.formsData}
         />
         <br />
         <br />
 
-        <label>Sexo: </label>
-        <select
-          name="gender"
-          value={this.state.userGender}
-          onChange={this.optionGender}
-        >
-          <option value="male">Masculino</option>
-          <option value="female">Feminino</option>
-        </select>
+        <button type="submit">Enviar dados</button>
 
-        <h3>{this.state.userLogin}</h3>
-        <h3>{this.state.userPassword}</h3>
-        <h3>{this.state.userGender}</h3>
+        <h3>{this.state.form.userName}</h3>
+        <h3>{this.state.form.userEmail}</h3>
+        <h3>{this.state.form.userPassword}</h3>
       </div>
     );
   }

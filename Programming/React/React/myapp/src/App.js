@@ -17,7 +17,7 @@ class App extends Component {
   startClock() {
     //Using a variable 'timer' to pause the timer with clearInterval.
 
-    if (this.timer !== null) {
+    if (this.timer != null) {
       clearInterval(this.timer);
       this.state.buttonStart = "Go";
       this.timer = null;

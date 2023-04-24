@@ -1,9 +1,28 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
 function App() {
+  const [tasks, setTasks] = useState(["Pay bills", "Study Hooks in React"]);
+
+  const [input, setInput] = useState("");
+
+  function handleAdd() {
+    setTasks([...tasks, input]);
+    setInput("");
+  }
+
   return (
     <div>
-      <h1>Hooks</h1>
+      <ul>
+        {tasks.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+      <input
+        type="text"
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+      />
+      <button onClick={handleAdd}>Adicionar uma tarefa</button>
     </div>
   );
 }

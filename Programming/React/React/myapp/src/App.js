@@ -1,54 +1,45 @@
-import React, { useState, useEffect, useMemo, useCallback } from "react";
+import React, { useState, useEffect } from "react";
+import "./style.css";
+//https://sujeitoprogramador.com/rn-api/?api=posts
 
 function App() {
-  const [tasks, setTasks] = useState(["Pay bills", "Study Hooks in React"]);
+  const [nutri, setNutri] = useState([]);
 
-  const [input, setInput] = useState("");
-
-  //it's like componetDidUpdate or componentDidMount. Every uptade we can trigger a function
   useEffect(() => {
-    const tasksStorage = localStorage.getItem("tasks");
-
-    if (tasksStorage) {
-      setTasks(JSON.parse(tasksStorage));
+    function loadApi() {
+      let url = "https://sujeitoprogramador.com/rn-api/?api=posts";
+      fetch(url)
+        .then((r) => r.json())
+        .then((json) => {
+          console.log(json);
+          setNutri(json);
+        });
     }
+    loadApi();
+    console.log(nutri);
   }, []);
 
-  useEffect(() => {
-    localStorage.setItem("tasks", JSON.stringify(tasks));
-  }, [tasks]);
-
-  //Using useCallback to prevent unnecessary re-renders from functions
-  const handleAdd = useCallback(() => {
-    setTasks([...tasks, input]);
-    setInput("");
-  }, [tasks, input]);
-
-  //We can use useMemo to avoid unnecessary re-renders
-  const sumTasks = useMemo(() => tasks.length, [tasks]);
-
-  const handleKeyPress = (event) => {
-    if (event.key === "Enter") {
-      handleAdd();
-    }
-  };
-
   return (
-    <div>
-      <ul>
-        {tasks.map((item) => (
-          <li key={item}>{item}</li>
-        ))}
-      </ul>
-      <input
-        type="text"
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
-        onKeyDown={handleKeyPress}
-      />
-      <button onClick={handleAdd}>Adicionar uma tarefa</button>
-      <h3>Você tem {sumTasks} tarefas!</h3>
+    <div className="container">
+      <header>
+        <strong>Nutrição Informação</strong>
+      </header>
+
+      {nutri.map((item) => {
+        return (
+          <article key={item.id} className="posts">
+            <strong className="title">{item.titulo}</strong>
+            <img src={item.capa} alt="Capa do título" className="cover" />
+            <p className="subtitle">{item.subtitulo}</p>
+            <h4>Categoria: {item.categoria}</h4>
+            <a href="" className="button">
+              Acessar
+            </a>
+          </article>
+        );
+      })}
     </div>
   );
 }
+
 export default App;

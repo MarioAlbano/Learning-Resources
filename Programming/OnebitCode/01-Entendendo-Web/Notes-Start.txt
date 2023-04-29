@@ -1,0 +1,25 @@
+//Servidor Web
+-Software em um computador, recebe requisições e responde com arquivos
+
+//HTTP
+-Protocolo que o browser e o servidor se entendam
+
+//IP
+-Número único que cada aparelho tem quando conectado a rede.
+
+//DNS
+-Associa nomes de sites com números
+
+//Partes da Web
+-Front-End, Back-End, Fullstack
+
+//O que é um software?
+-Sequência de instruções para a manipulação
+
+//O que o programador faz?
+-Sites, sites mobile, chatbots, embarcados
+
+//Sobre a programação
+-Softwares estão em quase tudo que usamos
+-Estão substituindo os trabalhos repetitivos
+ 

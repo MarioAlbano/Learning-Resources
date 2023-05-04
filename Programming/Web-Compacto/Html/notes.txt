@@ -1,1 +1,6 @@
 //HTML
+-Linguagem de marcação
+-Elemento HTLM
+-HTML: Estrutura CSS: Estilização
+-Head: Características Body: Conteúdo
+ 

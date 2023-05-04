@@ -1,1 +1,4 @@
 //PHP
+-Interpretada, funciona no servidor
+-Comunica com base de dados
+-Cria API, submissão de infos

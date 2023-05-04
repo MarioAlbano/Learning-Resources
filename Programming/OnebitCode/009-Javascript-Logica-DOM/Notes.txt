@@ -1,10 +1,3 @@
-//O que vamos aprender nesse módulo?
--Juntar as peças combinando HTML, CSS e Javascript
--Criar comportamentos dinâmicos nas páginas web
--o que é DOM e como manipulá-lo
--Eventos
--2 mini projetos práticos
-
 //O que são os eventos
 -Forma dinâmica de executar javascript
 -Executadas se o usuário fazer ações específicas na página 
@@ -26,10 +19,6 @@
 -Obter vários elementos HTMLColletion: getElementsByTagName(), getElementByClassName()
 -Obter vários elementos NodeList: getElementsByName(), querySelectorAll()
 -obter um único elemento: getElementById(), querySelector()
-
-//Usando na prática 
--criar uma variável = document.getElementById('nomeDoId')
--podemos utilizar o querySelector e querySelectorAll
 
 //Criando novos elementos no DOM
 -document.createElemente()

@@ -34,3 +34,6 @@
 -2xx: Success
 -3xx: Redirection
 -4xx: Client Error
+
+//Criando API
+-Usar 'npm init -y'

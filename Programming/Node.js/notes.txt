@@ -10,3 +10,27 @@
 -Arquitetura Event-loop (Call stack)
 -Single-thread
 -Non-Blocking i/o (Não perde conexão)
+
+//API Rest
+-Fluxo: Requisição e resposta
+-Frontend: recebe
+-Resposta: Através de estrutura de dados
+
+//Rotas
+-GET: Pegando info
+-POST: Postando info
+-PUT: Editando info
+
+//Vantagens
+-Vários clientes
+-Dados padronizados
+
+//JSON
+-JavaScript Objec Notation
+-São os dados estruturados
+
+//HTTP Codes
+-1xx: Informations
+-2xx: Success
+-3xx: Redirection
+-4xx: Client Error

@@ -1,0 +1,12 @@
+//Node
+-Back-end
+-Rotas
+
+//NPM
+-Instala bibliotecas
+-Cria bibliotecas
+
+//Características
+-Arquitetura Event-loop (Call stack)
+-Single-thread
+-Non-Blocking i/o (Não perde conexão)

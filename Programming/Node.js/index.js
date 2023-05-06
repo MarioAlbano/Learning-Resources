@@ -24,11 +24,11 @@ const express = require("express");
 const server = express();
 
 //Usando uma requisição GET. Req para requisitar info, Res uma resposta pro front
-server.get("/curso", (req, res) => {
-  //Retorno no front
-  //Retornando após o =
-  const nome = req.query.nome;
-  return res.json({ curso: `Aprendendo ${nome}` });
+server.get("/curso/:id", (req, res) => {
+  const nome = req.query.nome; //Retornando após o "="
+  const id = req.params.id;
+
+  return res.json({ curso: `Aprendendo ${id}` }); //Usando uma resposta devolvendo Objeto
 });
 //Ouvindo a porta 3000
 server.listen(3000);

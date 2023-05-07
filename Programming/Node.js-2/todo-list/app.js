@@ -6,6 +6,11 @@ app.get("/", (req, res) => {
   res.send("<h1>Minha lista de tarefas!</h1>"); //Enviar uma tag h1
 });
 
+//Criando uma nova rota, usando JSON quando acessado o link/json
+app.get("/json", (req, res) => {
+  res.json({ title: "Título 1", done: "Ainda não" });
+});
+
 app.listen(3000, () => {
   console.log("Servidor foi iniciado");
 }); //Dando início ao servidor, ouvindo a porta 3000

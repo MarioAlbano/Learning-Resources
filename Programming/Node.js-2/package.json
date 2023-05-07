@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }

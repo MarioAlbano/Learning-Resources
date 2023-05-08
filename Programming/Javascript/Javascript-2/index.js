@@ -79,3 +79,31 @@ const undefinedExemplo = undefined; //Váriavel que não existe
 
 //Listas
 const namesLista = ["Felipe", "Ronaldo", "Vagner", 10, false];
+console.log(namesLista[0]);
+console.log(namesLista[2]);
+
+//Método push
+namesLista.push("Antônio"); //Adiciona como último elemento
+console.log(namesLista);
+
+namesLista.pop(); //Remove como último elemento
+console.log(namesLista);
+
+namesLista.shift(); //Remove o primeiro elemento
+console.log(namesLista);
+
+namesLista.unshift("Batshuayi"); //Adiciona como primeiro elemento
+console.log(namesLista);
+
+namesLista[0] = "Reus";
+console.log(namesLista); //Renomeia um item da lista
+
+console.log(namesLista.indexOf("Vagner")); //Mostra o índice que está um elemento
+
+const namesListaSort = namesLista.sort();
+console.log(namesListaSort);
+
+console.log(namesLista.length); //Verifica o tamanho do array
+
+console.log(Array.isArray(namesLista)); //Verifica se é um array
+console.log(Array.isArray(resultadoLet));

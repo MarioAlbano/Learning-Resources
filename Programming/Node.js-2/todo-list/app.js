@@ -16,3 +16,5 @@ app.listen(3000, () => {
 }); //Dando início ao servidor, ouvindo a porta 3000
 
 //Instalaremos o nodemon para não ter que dar reload no servidor (npm install nodemon --save-dev, depois npx nodemon,)
+
+//Instalar postman. Subir servidor (nodemon file_name.js)

@@ -130,3 +130,46 @@ console.log(
     return acumulador + idade;
   }, 0)
 ); //idade seria o elemento a percorrer, acumulador serio o 0 que foi passado
+
+//Usando Objetos
+const pessoa = {
+  firstName: "Mario",
+  lastName: "Albano",
+  age: 27,
+  hobbies: ["Games", "Séries", "Academia", "Corrida"],
+};
+console.log(pessoa.firstName);
+console.log(pessoa.hobbies);
+console.log(pessoa.hobbies[pessoa.hobbies.length - 1]);
+
+//Usando destructuring
+const { firstName: primeiroNome } = pessoa;
+console.log(primeiroNome);
+
+//Adicionando algo no Objeto
+pessoa.altura = 175;
+console.log(pessoa.altura);
+
+//Adicionando objeto no objeto
+const novoObjTeste = { peso: 85 };
+pessoa.descricao = novoObjTeste;
+console.log(pessoa);
+
+const { descricao } = pessoa;
+console.log(descricao);
+
+//Acessando um objeto específico dentro de um objeto
+const todos = [
+  { id: 1, description: "Estudar", isCompleted: false },
+  { id: 2, description: "Ler", isCompleted: true },
+  { id: 3, description: "Praticar", isCompleted: false },
+];
+console.log(todos[2].description);
+
+//Convertendo Objeto para JSON. JSON é uma string
+const infoAPI = JSON.stringify(todos);
+console.log(infoAPI);
+
+//Convertendo JSON para objeto
+const infoAPI2 = JSON.parse(infoAPI);
+console.log(infoAPI2[0]);

@@ -105,5 +105,28 @@ console.log(namesListaSort);
 
 console.log(namesLista.length); //Verifica o tamanho do array
 
-console.log(Array.isArray(namesLista)); //Verifica se é um array
-console.log(Array.isArray(resultadoLet));
+console.log(Array.isArray(namesLista)); //Verifica se é um array, no caso true
+console.log(Array.isArray(resultadoLet)); //Verifica se é um array, no caso false
+
+//Usando o map
+const arrayExemplo3 = [1, 2, 3, 4, 5];
+const arrayComMap = arrayExemplo3.map((number) => {
+  return number * 2;
+});
+console.log(arrayComMap);
+
+//Usando o filter
+const idadeArray = [8, 13, 27, 30, 22, 40];
+console.log(
+  idadeArray.filter((age) => {
+    return age % 2 === 0;
+  })
+);
+
+//Usando o reduce
+const idadeArray2 = [8, 13, 27, 30, 22, 40];
+console.log(
+  idadeArray2.reduce((acumulador, idade) => {
+    return acumulador + idade;
+  }, 0)
+); //idade seria o elemento a percorrer, acumulador serio o 0 que foi passado

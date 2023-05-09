@@ -130,3 +130,4 @@ console.log(
     return acumulador + idade;
   }, 0)
 ); //idade seria o elemento a percorrer, acumulador serio o 0 que foi passado
+Teste;

@@ -14,7 +14,6 @@
 -Possui apenas um núcleo (single threaded)
 -Suporta várias operações simultâneas (non-blocking)
 
-
 //Módulos
 -Podemos criar nossos próprios módulos (nossos arquivos) e importá-los
 -O Node.js vem com módulos pré-instalados (path, fs, http etc.)

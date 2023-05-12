@@ -5,19 +5,29 @@
 -Agiliza front end
 
 //Instalando
--Copiar e colar o link e o script na documentação
+-Documentação
 
 //Programando
--Não precisamos gravar, mas sim conhecer os componentes
+-Não precisa decorar
 -Consultar documentação
--Copiar e excluir o que não usar ou criar o nosso a partir das preferências de classe
+-Copiar e excluir partes ou criar
 
 //CSS
--Muitas vezes somente o bootstrap não será o suficiente, então usaremos CSS
--Linka abaixo do bootstrap
--Ter atenção com os níveis de seleção. 
+-As vezes precisamos do CSS
+-Link abaixo do bootstrap
+-Atenção com os níveis de seleção. 
 
 //Breakpoints
--São pontos específicos criados por media query para deixr responsivo
--Padrão para a maioria dos dispositivos
+-Pontos específicos para telas, responsivo
+-cm, md, lg
+
+//Containers
+-Separar o site em áreas
+
+//Container fluid
+-Utiliza uma área maior, 100% da área útil
+-Elimina margens
+
+//Container por breakpont
+-container-sm, container-md, container-lg
 */

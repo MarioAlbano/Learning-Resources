@@ -1,0 +1,26 @@
+.button-custom {
+  background-color: aliceblue;
+}
+
+#vertical {
+  height: 250px;
+  border: 2px solid;
+  border-color: coral;
+}
+
+#vertical .row {
+  height: 100%;
+}
+
+.col-6 {
+  height: 50px;
+}
+
+.custom-example {
+  border: 2px solid blue;
+}
+
+/* .custom-h2-container {
+  height: 300px;
+  border: 4px solid black;
+} */

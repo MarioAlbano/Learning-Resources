@@ -1,0 +1,7 @@
+.highlight-border {
+  border: 2px solid #000;
+}
+
+.custom-color-child > div:nth-child(odd) {
+  background-color: aqua;
+}

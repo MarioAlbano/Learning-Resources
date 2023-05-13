@@ -64,4 +64,10 @@
 //Gutters
 -Intervalos entre as colunas
 -Ex: gx-2, gy-4
+
+//Boostrap Icons
+-ícones em svg(não perdem resolução por ser vetorizado) gratuitos
+-Não dependemos de bibliotecas de terceiros
+-Representados pela tag <i>
+-São considerados fontes, mudando o font-size e color
 */

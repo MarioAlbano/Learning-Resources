@@ -1,5 +1,0 @@
-************************************************
-//Bootstrap
--Copiar o link da documentação, colar o css acima do title e o js antes de fechar a tag body
--Consultar documentação é essencial
--" https://bootstrapdoconebitcode.netlify.app/index.html "

@@ -96,32 +96,18 @@
 //Deletando dados
 -DELETE FROM <tabela> WHERE <condição>
 
-//Texto gerado pelo chatGPT
-As a junior full-stack developer working with SQL, it's important to have a good understanding of fundamental SQL commands to interact with databases effectively. Here are some essential SQL commands that a junior full-stack developer should know:
+//JOIN
+-SELECT * FROM tabela INNER JOIN tabela2 ON tabela.id = tabela2.id
+-SELECT * FROM tabela LEFT JOIN tabela2 ON tabela.id = tabela2.id
+-SELECT * FROM tabela RIGHT JOIN tabela2 ON tabela.id = tabela2.id
 
-1. **SELECT**: Used to retrieve data from a database table. It allows you to specify the columns to retrieve, apply filters with the `WHERE` clause, join tables, and perform various other operations.
+//GROUP BY
+-Agroup rows to combine in one row
+-SUM(), MAX(), MIN(), AVG(), COUNT()
 
-2. **INSERT INTO**: Used to insert new records into a database table. You provide the table name and the values to be inserted into the corresponding columns.
+//ORDER BY
+-Used as asc or desc one list
 
-3. **UPDATE**: Used to modify existing records in a database table. It allows you to update specific columns with new values based on specified conditions using the `WHERE` clause.
-
-4. **DELETE**: Used to delete records from a database table. It allows you to remove specific rows based on specified conditions using the `WHERE` clause.
-
-5. **CREATE TABLE**: Used to create a new database table. You define the table name and its columns along with their data types, constraints, and other attributes.
-
-6. **ALTER TABLE**: Used to modify the structure of an existing database table. It enables you to add, modify, or delete columns, change data types, and perform other structural changes.
-
-7. **DROP TABLE**: Used to delete an entire database table and remove all its data.
-
-8. **JOIN**: Used to combine rows from two or more tables based on related columns. Common join types include `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, and `FULL JOIN`.
-
-9. **GROUP BY**: Used in conjunction with aggregate functions like `SUM`, `COUNT`, `AVG`, etc., to group rows based on specified columns.
-
-10. **ORDER BY**: Used to sort the result set in ascending or descending order based on one or more columns.
-
-11. **WHERE**: Used to filter rows based on specified conditions in `SELECT`, `UPDATE`, or `DELETE` statements.
-
-12. **LIKE**: Used in conjunction with the `WHERE` clause to search for patterns in string values using wildcard characters (`%` and `_`).
-
-These are some of the essential SQL commands that a junior full-stack developer should be familiar with. Understanding these commands will provide a solid foundation for working with databases and performing common database operations.
+//LIKE
+-Search for a specific pattern in a collumn, usefull for find values ex: like 'a%' will return 'amanda'
 */

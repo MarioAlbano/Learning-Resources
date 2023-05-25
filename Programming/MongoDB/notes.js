@@ -1,6 +1,4 @@
 /*//MongoDB
--Banco de dados não estruturado
--Flexibilidade, escalabilidade horizontal, performance
 -document: objects, collection: group of documents, database: group of collections
 
 //Installing
@@ -44,4 +42,32 @@
 -Before deleting: export collection first
 -db.name_collection.deleteOne({parameter})
 -db.name_collection.deleteMany({parameter})
+-to add backup in our file: compass, add data, 
+
+//comparison operators
+-not equal: db.collection_name.find({name:{$ne: "name_here"}})
+-last then: db.collection_name.find({age:{$lt:27}})
+-last then or equal: db.collection_name.find({age:{$lte:27}})
+-greater then: db.collection_name.find({age:{$gt:27}}})
+-greater then or equal: db.collection_name.find({age:{$gte:27}}})
+-greater then or equal AND less then and equal: db.collection_name.find({age:{$gte:27, $lte:40}}})
+-verify values in: db.name_collection.find({name:{$in: [value1, value2, value3]}})
+-verify values not in: db.name_collection.find({name:{$nin: [value1, value2, value3]}})
+
+//logical operators
+-find{$and: [{},{}]}
+-find{$or: [{},{}]}
+-find{$nor: [{},{}]}
+-find{age:{$not:{$condition: 30}}}
+
+//Indexes
+-data structures that help improve the performance of queries by enabling faster data retrieval
+-db.collection_name.createIndex({name:1}) 
+-db.collection_name.getIndexes()
+-db.collection_name.dropIndex("name_1")
+
+//collections
+-show collections
+-db.createCollection('teachers', {capped:true, size:10000000, max:100}, {autoIndexId: false})
+-db.collection_name.drop()
  */

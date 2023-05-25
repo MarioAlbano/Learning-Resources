@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "646f3dc9b15666ac98da9e97"
+  },
+  "name": "Mario",
+  "age": 27,
+  "gpa": 4,
+  "isMarried": true,
+  "inputtest": true,
+  "isSingle": false
+},{
+  "_id": {
+    "$oid": "646f3e59b15666ac98da9e98"
+  },
+  "name": "John",
+  "age": 30,
+  "inputtest": true
+},{
+  "_id": {
+    "$oid": "646f3e59b15666ac98da9e99"
+  },
+  "name": "Azpilicueta",
+  "age": 37,
+  "inputtest": true
+},{
+  "_id": {
+    "$oid": "646f3e59b15666ac98da9e9a"
+  },
+  "name": "hamilton",
+  "age": 40,
+  "inputtest": true
+},{
+  "_id": {
+    "$oid": "646f3fcd635933b8f79bae3e"
+  },
+  "name": "Saul",
+  "age": 44,
+  "inputtest": true
+},{
+  "_id": {
+    "$oid": "646f41f9b15666ac98da9e9b"
+  },
+  "name": "Reus",
+  "age": 33,
+  "gpa": 4.4,
+  "fullTime": true,
+  "registerDate": {
+    "$date": "2023-05-25T11:09:45.200Z"
+  },
+  "graduationDate": null,
+  "courses": [
+    "Best marksman",
+    "strike fisrt",
+    "power of habit"
+  ],
+  "addres": {
+    "street": "nowhere street",
+    "city": "borussia",
+    "country": "Germany"
+  },
+  "inputtest": true
+}]

@@ -39,4 +39,9 @@
 
 //update
 -db.students.updateOne({ex: id}, {$set:{ ex: fied_name: false}})
+
+//delete
+-Before deleting: export collection first
+-db.name_collection.deleteOne({parameter})
+-db.name_collection.deleteMany({parameter})
  */

@@ -34,10 +34,9 @@
 
 //find
 -db.name_collection.find({filter})
--db.name_collection.find({filter, another_filter})
+-db.name_collection.find({filter, another_filter_for_field})
 -db.name_collection.find({}, {name:true, _id: false})
 
-
 //update
--db.students.updateOne({})
+-db.students.updateOne({ex: id}, {$set:{ ex: fied_name: false}})
  */

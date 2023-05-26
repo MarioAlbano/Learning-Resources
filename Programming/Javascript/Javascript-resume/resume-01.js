@@ -21,3 +21,57 @@
 -Eventos
 -Criar e validar um formulário
  */
+
+//Var,let,const
+if (1 === 1) {
+  var testScopeVar = 10;
+}
+console.log(testScopeVar); //Esperado sair do escopo
+
+const constTest = "Olá"; //constTest = "Tchau!"; //console.log(constTest);
+
+//Strings
+let message = "Hello World!";
+console.log(message.length);
+let newMessage = "Aprendendo Javascript";
+console.log(`${message} ${newMessage}`);
+console.log(message.toUpperCase());
+
+const testNames = "Mario,Albano,Pereira,Navas";
+console.log(testNames.split(","));
+
+//Numbers
+const numberTest = 25;
+console.log(numberTest / 2);
+console.log(numberTest * 2);
+console.log(numberTest + 105);
+console.log(numberTest.toString() + 5);
+console.log(typeof numberTest);
+
+//Booleans
+console.log(2 == 3);
+console.log(2 == 2);
+
+//Null e undefined
+const nullTest = null; //Vazio porém variável iniciada
+const undefinedTest = undefined; //Vazio e a variável não é iniciada
+
+//Listas =  atualizar índice específico array, indexOf, sort(), isArray
+const newListTest = ["Azpilicueta", "Batshuayi", "Eden Hazard", 100, null];
+console.log(newListTest[0]);
+newListTest.push("Hyong-Ming-Son");
+console.log(newListTest);
+newListTest.unshift("Matuiti");
+console.log(newListTest);
+newListTest.shift();
+console.log(newListTest);
+newListTest.pop();
+console.log(newListTest);
+console.log(newListTest.indexOf(100));
+newListTest[3] = null;
+console.log(newListTest);
+console.log(newListTest.indexOf(null));
+
+console.log(newListTest);
+newListTest.sort();
+console.log(newListTest);

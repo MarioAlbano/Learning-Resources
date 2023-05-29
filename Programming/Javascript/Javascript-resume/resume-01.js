@@ -56,8 +56,15 @@ console.log(2 == 2);
 const nullTest = null; //Vazio porém variável iniciada
 const undefinedTest = undefined; //Vazio e a variável não é iniciada
 
-//Listas =  atualizar índice específico array, indexOf, sort(), isArray
-const newListTest = ["Azpilicueta", "Batshuayi", "Eden Hazard", 100, null];
+//Listas
+const newListTest = [
+  "Lewandowski",
+  "Batshuayi",
+  "Azpilicueta",
+  "Eden Hazard",
+  100,
+  null,
+];
 console.log(newListTest[0]);
 newListTest.push("Hyong-Ming-Son");
 console.log(newListTest);
@@ -75,3 +82,7 @@ console.log(newListTest.indexOf(null));
 console.log(newListTest);
 newListTest.sort();
 console.log(newListTest);
+console.log(Array.isArray(newListTest));
+
+//Map, filter e Reduce =
+//Map: transforma cada item do array. Filter: Novo array que contém somente os elementos originais que satisfaçam alguma condição. Reduce: Quando você quer transformar todo o array em um número

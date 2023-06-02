@@ -90,11 +90,41 @@ console.log(Array.isArray(newListTest));
 const numbersTest = [0, 1, 2, 3, 4];
 console.log(
   numbersTest.map((item) => {
-    return item * 2;
+    return item * 2; //Mapeia e retorna cada número * 2
   })
 );
 
-//Objetos = nome, sobrenome, idade. Acessar propriedades. Acessar propriedades específica de um array. Testar sem Destructuring e com Destructuring. Criar uma nova propriedade. Acessar objeto dentro de objeto. Destructuring com renomeação. Acessar propriedades do objeto dentro do array pai.
+console.log(
+  numbersTest.filter((item) => {
+    return item % 2 == 0; //Filtra todos os números pares
+  })
+);
+
+console.log(
+  numbersTest.reduce((acumulador, valorAtual) => {
+    return acumulador + valorAtual;
+  }, 5) //Soma todos os números, começando com 5
+);
+
+//Objetos = Testar sem Destructuring e com Destructuring. Criar uma nova propriedade. Acessar objeto dentro de objeto. Destructuring com renomeação. Acessar propriedades do objeto dentro do array pai.
+
+const testObject = { nome: "Mario", sobrenome: "Albano", idade: 27 };
+console.log(testObject.nome);
+console.log(testObject.idade);
+
+const testObject2 = {
+  nome: "Eduardo",
+  sobrenome: "Marques",
+  idade: 40,
+  cursos: ["Javascript", "Typescript", "React"],
+};
+console.log(testObject2.cursos[1]);
+
+let nome = testObject2.nome; //Sem destructuring
+console.log(nome);
+
+let { idade } = testObject2; //Com destructuring
+console.log(idade);
 
 /*//JSON = converter objeto para json(JSON.stringify()), converter json para objeto(JSON.parse())
 -Usado para transição de dados

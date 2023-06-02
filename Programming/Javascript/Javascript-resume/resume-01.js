@@ -133,12 +133,44 @@ console.log(testObject2);
 
 console.log(testObject2.idiomas); //Acessando objeto dentro do objeto
 
-/*//JSON = converter objeto para json(JSON.stringify()), converter json para objeto(JSON.parse())
--Usado para transição de dados
-*/
+//JSON
+const testObject3 = {
+  nome: "Marco",
+  sobrenome: "Reus",
+  idade: 34,
+  atributos: {
+    valocidade: 95,
+    chute: 90,
+    passe: 90,
+    drible: 93,
+    defesa: 65,
+    fisico: 83,
+    time: "Borussia Dortmund",
+  },
+};
+
+const jsonExample = JSON.stringify(testObject3); //Convertendo objeto para JSON
+console.log(jsonExample);
+const convertedJson = JSON.parse(jsonExample); //Convertendo JSON para objeto
+console.log(convertedJson);
 
 /*//Loop = for, usar o for para acessar um array, for of, forEach, while, forIn (menos usado)
  */
 
 /*//Condicionais = if, if else, if else if else, == e ===, &&, ||, ternary operators, switch,
+ */
+
+/*//Truthy e Falsy = usar !! para saber se é true ou false. String vazia, 0, undefined, com false. Array vazio e objeto vazio como true. Charcar se uma lista é vazia. Booleando inversor !
+ */
+
+/*//Funções e Arrow functions = função padrão com 2 parâmetro, criar variável com resultado de uma função, fazer função passar valor para parêmtros caso não seja iniciada, arrow function, usar sem {} virando automaricamente um return
+-Faz uma determinada ação
+ */
+
+/*//Javascript com programação orientada a objetos = usar classe com contructor, assinalar as variáveis criadas pelo constructor com o objeto que criamos, criar uma nova variável e instanciar com a keyword new, criar métodos dentro da classe com this e usar-los, método estático 'static metodo()', herdar heranças(usando super)
+-Fazer um protótipo e imprimimos algo baseado no protótipo
+*/
+
+/*//Selecionar elementos do DOM =
+-Árvore cópia do html que é manipulável
  */

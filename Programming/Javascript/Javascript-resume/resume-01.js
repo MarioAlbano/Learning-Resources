@@ -86,3 +86,22 @@ console.log(Array.isArray(newListTest));
 
 //Map, filter e Reduce =
 //Map: transforma cada item do array. Filter: Novo array que contém somente os elementos originais que satisfaçam alguma condição. Reduce: Quando você quer transformar todo o array em um número
+
+const numbersTest = [0, 1, 2, 3, 4];
+console.log(
+  numbersTest.map((item) => {
+    return item * 2;
+  })
+);
+
+//Objetos = nome, sobrenome, idade. Acessar propriedades. Acessar propriedades específica de um array. Testar sem Destructuring e com Destructuring. Criar uma nova propriedade. Acessar objeto dentro de objeto. Destructuring com renomeação. Acessar propriedades do objeto dentro do array pai.
+
+/*//JSON = converter objeto para json(JSON.stringify()), converter json para objeto(JSON.parse())
+-Usado para transição de dados
+*/
+
+/*//Loop = for, usar o for para acessar um array, for of, forEach, while, forIn (menos usado)
+ */
+
+/*//Condicionais = if, if else, if else if else, == e ===, &&, ||, ternary operators, switch,
+ */

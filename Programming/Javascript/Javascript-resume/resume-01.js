@@ -1,4 +1,4 @@
-/*//Javascript
+/*//****************Javascript****************
 -Linguagem interpretada
 -ECMAScript
 -Navegador(cliente) e servidor(node)
@@ -7,7 +7,7 @@
 -Fullstack
 -Mobile, Desktop
 
-//Fundamentos do javascript
+//****************Fundamentos do javascript****************
 -Variáveis e tipos de dados
 -Listas (arrays)
 -Objetos
@@ -22,7 +22,7 @@
 -Criar e validar um formulário
  */
 
-//Var,let,const
+//****************Var,let,const****************
 if (1 === 1) {
   var testScopeVar = 10;
 }
@@ -30,7 +30,7 @@ console.log(testScopeVar); //Esperado que a variável var saia do escopo
 
 const constTest = "Olá"; //constTest = "Tchau!"; //console.log(constTest);
 
-//Strings
+//****************Strings****************
 let message = "Hello World!";
 console.log(message.length); //Verificando tamanho da string
 let newMessage = "Aprendendo Javascript";
@@ -40,7 +40,7 @@ console.log(message.toUpperCase()); //Usando métodos na string para caixa alta
 const testNames = "Mario,Albano,Pereira,Navas";
 console.log(testNames.split(",")); //Usando método de dividir string separando por vírgula
 
-//Numbers
+//****************Numbers****************
 const numberTest = 25; //Exemplo de número e manipulações com números
 console.log(numberTest / 2);
 console.log(numberTest * 2);
@@ -48,11 +48,11 @@ console.log(numberTest + 105);
 console.log(numberTest.toString() + 5);
 console.log(typeof numberTest);
 
-//Booleans
+//****************Booleans****************
 console.log(2 == 3); //Ou true ou False
 console.log(2 == 2);
 
-//Null e undefined
+//****************Null e undefined****************
 const nullTest = null; //Vazio porém variável iniciada
 const undefinedTest = undefined; //Vazio e a variável não é iniciada
 
@@ -85,7 +85,7 @@ newListTest.sort(); //Organiza o array
 console.log(newListTest);
 console.log(Array.isArray(newListTest)); //Verifica se é um array ou não
 
-//Map, filter e Reduce
+//****************Map, filter e Reduce****************
 //Resumo = Map: transforma cada item do array. Filter: Novo array que contém somente os elementos originais que satisfaçam alguma condição. Reduce: Quando você quer transformar todo o array em um número
 const numbersTest = [0, 1, 2, 3, 4];
 console.log(
@@ -106,7 +106,7 @@ console.log(
   }, 5) //Soma todos os números, começando com 5
 );
 
-//Objetos
+//****************Objetos****************
 const testObject = { nome: "Mario", sobrenome: "Albano", idade: 27 }; //Exemplo objeto
 console.log(testObject.nome);
 console.log(testObject.idade);
@@ -133,7 +133,7 @@ console.log(testObject2);
 
 console.log(testObject2.idiomas); //Acessando objeto dentro do objeto
 
-//JSON
+//****************JSON****************
 const testObject3 = {
   nome: "Marco",
   sobrenome: "Reus",
@@ -154,14 +154,99 @@ console.log(jsonExample);
 const convertedJson = JSON.parse(jsonExample); //Convertendo JSON para objeto
 console.log(convertedJson);
 
-/*//Loop = for, usar o for para acessar um array, for of, forEach, while, forIn (menos usado)
- */
+//*****************Loop****************
+console.log(Object.keys(testObject3.atributos).length); //Acessando o tamanho de um objeto
 
-/*//Condicionais = if, if else, if else if else, == e ===, &&, ||, ternary operators, switch,
- */
+for (let i = 0; i < testObject2.cursos.length; i++) {
+  console.log(testObject2.cursos[i]);
+} //Exemplo for em arrays
 
-/*//Truthy e Falsy = usar !! para saber se é true ou false. String vazia, 0, undefined, com false. Array vazio e objeto vazio como true. Charcar se uma lista é vazia. Booleando inversor !
- */
+for (let value of Object.values(testObject3.atributos)) {
+  console.log(value);
+} //Exemplo for of em objetos
+
+for (let value of testObject2.cursos) {
+  console.log(value);
+} //Exemplo for of em Arrays
+
+let whileExampleTest = 0;
+while (whileExampleTest <= 10) {
+  console.log(whileExampleTest);
+  whileExampleTest++;
+} //Exemplo while
+
+Object.keys(testObject3.atributos).forEach((element) => {
+  console.log(element);
+}); //Exemplo forEach com objetos
+
+testObject2.cursos.forEach((curso) => {
+  console.log(curso);
+}); //Exemplo forEach com array
+
+//*****************Condicionais*****************
+const ifExampleTest = 10;
+const ifExampleTest2 = 20;
+
+if (ifExampleTest === 10 && typeof ifExampleTest == "number") {
+  console.log("Teste de if");
+} else if (ifExampleTest2 == 20) {
+  console.log("Teste de if2");
+} else {
+  console.log("Erro no if");
+} //Exemplo if else, else if, ==, === e &&
+
+if (ifExampleTest === 100 || typeof ifExampleTest == "number") {
+  console.log("Teste de if");
+} else if (ifExampleTest2 == 20) {
+  console.log("Teste de if2");
+} else {
+  console.log("Erro no if");
+}
+
+const ternaryExample = 20;
+console.log(ternaryExample > 18 ? "Maior de idade" : "Menor de idade"); //Examplo de operador ternário
+
+const switchTest = 3;
+switch (switchTest) {
+  case 0:
+    console.log("Número é o zero");
+    break;
+  case 1:
+    console.log("Número é o um");
+    break;
+  case 2:
+    console.log("Número é o dois");
+    break;
+  case 3:
+    console.log("Número é o três");
+    break;
+  default:
+    console.log("Não identificado nenhum número");
+} //Exemplo de Switch case
+
+//*****************Truthy e Falsy*****************
+const truthyExample = []; //Exemplo de valor verdadeiro
+const truthyExample2 = {}; //Exemplo de valor verdadeiro
+const falsyExample = null; //Exemplo de valor falso
+const falsyExample2 = 0; //Exemplo de valor falso
+const falsyExample3 = undefined; //Exemplo de valor falso
+const falsyExample4 = false; //Exemplo de valor falso
+const falsyExample5 = ""; //Exemplo de valor falso
+const reversorValor = !true; //Exemplo do operador reversor !
+console.log(!!truthyExample);
+console.log(!!truthyExample2);
+console.log(!!falsyExample);
+console.log(!!falsyExample2);
+console.log(!!falsyExample2);
+console.log(!!falsyExample4);
+console.log(reversorValor);
+
+const verificarVazio = [];
+console.log(
+  `Verificador de array fazio: ${
+    verificarVazio.length > 0 ? "Array cheio" : "Array vazio"
+  }`
+); //Exemplo para verificar se o array é vazio
 
 /*//Funções e Arrow functions = função padrão com 2 parâmetro, criar variável com resultado de uma função, fazer função passar valor para parêmtros caso não seja iniciada, arrow function, usar sem {} virando automaricamente um return
 -Faz uma determinada ação
@@ -184,3 +269,9 @@ console.log(convertedJson);
 
 /*validação de formulários = selecionar os campos com o queryselector, usar um addeventlistener e criar uma mensagem de erro caso o campo estiver vazio. Alterar uma class do css com .classList. Adicionar li num ul existente a cada input (createelement, classlist, textcontent). Usar o appendChild(). Dar um setTimeout depois de 3 segundos para limpar a mensagem de erro
  */
+
+/*//Javascript Assíncrono
+-Código assíncrono leva um tempo para ser executado, pode ser bem sucedido ou não
+-Exemplos: chamada para api, interação com banco de dados
+-Maneiras de lidar com o código: Callback, Promises, Promises com Async/Await
+*/

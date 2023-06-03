@@ -319,6 +319,7 @@ console.log(exemploAluno);
 exemploAluno.cursarMateria("SQL"); //Objeto criado a partir de uma classe com herança de uma outra classe
 
 //***************Document Object Model***************
+// const elementoExemplo =
 
 /*//Selecionar elementos do DOM = usar o getElementbyId, usar uma variável para o getelementbyid(referência ao elemento), usar o .innerText, usar o querySelector(retorna o elemento em si, e só retorna o primeiro elemento) , pegar um id e class ao mesmo tempo pelo querySelector, querySelectorAll, querySelectorAll especificando um filho de uma classe, usar getElementsByClassName(não conseguimos usar métodos de lista), getElementsByTagName
  */

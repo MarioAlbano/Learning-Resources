@@ -297,10 +297,30 @@ pessoaExemplo1.criandoNovoMetodo2 = function (curso) {
 }; //Criando um novo método do objeto instanciado
 pessoaExemplo1.criandoNovoMetodo2("PHP");
 
-//herdar heranças(usando super)
+class Estudante extends pessoaExemplo {
+  constructor(nome, idade, universidade, presencial) {
+    super(nome, idade);
+    this.universidade = universidade;
+    this.presencial = presencial;
+  }
+  cursarMateria(materia) {
+    console.log(
+      `Sou o ${this.nome} com a idade de ${
+        this.idade
+      }. Estou cursando a disciplina de ${materia} ${
+        this.presencial ? "presencialmente no campus" : "a distância"
+      }`
+    );
+  }
+} //Exemplo de herdar herança com o super. 'Estudante' herda características de 'Pessoa' e reaproveita estruturas pré-definidas
+
+const exemploAluno = new Estudante("Mario", 27, "Puc", false);
+console.log(exemploAluno);
+exemploAluno.cursarMateria("SQL"); //Objeto criado a partir de uma classe com herança de uma outra classe
+
+//***************Document Object Model***************
 
 /*//Selecionar elementos do DOM = usar o getElementbyId, usar uma variável para o getelementbyid(referência ao elemento), usar o .innerText, usar o querySelector(retorna o elemento em si, e só retorna o primeiro elemento) , pegar um id e class ao mesmo tempo pelo querySelector, querySelectorAll, querySelectorAll especificando um filho de uma classe, usar getElementsByClassName(não conseguimos usar métodos de lista), getElementsByTagName
--Árvore cópia do html que é manipulável
  */
 
 /*//Manipulando DOM = remover um li entre 3 li(firstElementChild.remove). Remover usando children e Remover o do meio (children[1]). usar lastElementChild, mudar style de um elemento

@@ -325,9 +325,9 @@ tituloPagina.innerText = "Formulário D.O.M.";
 const subtituloPagina = document.querySelector(".subtitulo-form");
 subtituloPagina.innerHTML = "Teste de dom com formulários";
 
-const doisForms = document.querySelectorAll(".input-nome, .input-email");
+const doisForms = document.querySelectorAll(".label-nome, .label-email");
 doisForms.forEach((input) => {
-  input.style.color = "red";
+  input.style.color = "blue";
 }); //Utilizando dois valores no querySelectorAll
 
 const tagExemplo = document.getElementsByTagName("h6");
@@ -356,12 +356,38 @@ ulSelecionado.removeChild(ulSelecionado.children[0]); //Com uma linha, deletamos
 
 ulSelecionado.querySelector(".li-teste-form").remove(); //Especificado dentro do pai, encontrado em elemento pelo querySelector e removido em sequência
 
-/*//Eventos = usar o addEventListener, usar o preventDefault para evitar um submit, usar o target para pegar o valor do input, alterar o valor com .value. Fazer validação simples caso o campo esteja em branco, e se estiver preenchido trocar o fundo. Trocar os items pelo valor do nome e email
--Fazer uma ação quando algo acontecer
- */
+//***************Eventos***************
+const botaoTexto = document.querySelector(".botao-acao-1");
+botaoTexto.addEventListener("click", (evento) => {
+  evento.preventDefault(); //Desliga o reload da página
 
-/*validação de formulários = selecionar os campos com o queryselector, usar um addeventlistener e criar uma mensagem de erro caso o campo estiver vazio. Alterar uma class do css com .classList. Adicionar li num ul existente a cada input (createelement, classlist, textcontent). Usar o appendChild(). Dar um setTimeout depois de 3 segundos para limpar a mensagem de erro
- */
+  const campoNome = document.querySelector(".input-nome");
+  if (campoNome.value == "") {
+    alert("Campo de Nome vazio. Por favor insira um Nome.");
+    return;
+  }
+  const novoNome = document.createElement("li");
+  novoNome.innerText = campoNome.value;
+  const ulPai = document.querySelector(".ul-form");
+  ulPai.appendChild(novoNome);
+  campoNome.value = "";
+});
+
+const botaoEmail = document.querySelector(".botao-acao-2");
+botaoEmail.addEventListener("click", (evento) => {
+  evento.preventDefault();
+
+  const campoEmail = document.querySelector(".input-email");
+  if (campoEmail.value == "") {
+    alert("Campo de E-mail vazio. Por favor insira um E-mail.");
+    return;
+  }
+  const novoEmail = document.createElement("li");
+  novoEmail.innerText = campoEmail.value;
+  const ulPai = document.querySelector(".ul-form");
+  ulPai.appendChild(novoEmail);
+  campoEmail.value = "";
+});
 
 /*//Javascript Assíncrono
 -Código assíncrono leva um tempo para ser executado, pode ser bem sucedido ou não

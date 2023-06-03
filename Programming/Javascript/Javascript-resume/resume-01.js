@@ -171,6 +171,13 @@ console.log(convertedJson);
 -Fazer um protótipo e imprimimos algo baseado no protótipo
 */
 
-/*//Selecionar elementos do DOM =
+/*//Selecionar elementos do DOM = usar o getElementbyId, usar uma variável para o getelementbyid(referência ao elemento), usar o .innerText, usar o querySelector(retorna o elemento em si, e só retorna o primeiro elemento) , pegar um id e class ao mesmo tempo pelo querySelector, querySelectorAll, querySelectorAll especificando um filho de uma classe, usar getElementsByClassName(não conseguimos usar métodos de lista), getElementsByTagName
 -Árvore cópia do html que é manipulável
+ */
+
+/*//Manipulando DOM = remover um li entre 3 li(firstElementChild.remove). Remover usando children e Remover o do meio (children[1]). usar lastElementChild, mudar style de um elemento
+ */
+
+/*//Eventos = usar o addEventListener, usar o preventDefault para evitar um submit
+-Fazer uma ação quando algo acontecer
  */

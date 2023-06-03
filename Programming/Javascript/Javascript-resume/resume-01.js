@@ -248,13 +248,56 @@ console.log(
   }`
 ); //Exemplo para verificar se o array é vazio
 
-/*//Funções e Arrow functions = função padrão com 2 parâmetro, criar variável com resultado de uma função, fazer função passar valor para parêmtros caso não seja iniciada, arrow function, usar sem {} virando automaricamente um return
--Faz uma determinada ação
- */
+//*****************Funções e Arrow functions*****************
+function funcaoExemplo(x, y = 10) {
+  return x * 5 + y;
+} //Exemplo função simples
 
-/*//Javascript com programação orientada a objetos = usar classe com contructor, assinalar as variáveis criadas pelo constructor com o objeto que criamos, criar uma nova variável e instanciar com a keyword new, criar métodos dentro da classe com this e usar-los, método estático 'static metodo()', herdar heranças(usando super)
--Fazer um protótipo e imprimimos algo baseado no protótipo
-*/
+console.log(funcaoExemplo(15)); //Chamando a função
+
+const resultadoFuncaoExemplo = funcaoExemplo(15); //Atribuindo o valor da função a uma variável. Precisa do return na função para isto funcionar
+console.log(resultadoFuncaoExemplo);
+
+const arrowFunctionExampe = (x, y = 10) => {
+  return x * 5 - y;
+}; //Exemplo arrow function
+console.log(arrowFunctionExampe(15));
+
+const arrowFunctionExampe2 = (x) => x; //Exemplo de arrow function sem o {}. Ele entende automaticamente que há um return
+console.log(arrowFunctionExampe2(100));
+
+//*****************Javascript com programação orientada a objetos*****************
+class pessoaExemplo {
+  constructor(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+  } //Criada a classe, definido os parâmetro e usando o this para acessá-los
+
+  falar() {
+    console.log(`Olá! Meu nome é ${this.nome} e eu tenho ${this.idade} anos.`);
+  } //Criado um método. Podemos acessar as propriedades da nossa classe com o this
+
+  static andar20passos() {
+    console.log(`Você andou ${20} passos!`);
+  } //Exemplo de método estático. Não pode ser acessado diretamente por outras classes
+}
+
+pessoaExemplo.andar20passos(); //Exemplo usando método estático não acessível para objetos instanciados
+
+const pessoaExemplo1 = new pessoaExemplo("Edgar", 34); //Instanciando de uma classe
+pessoaExemplo1.falar(); //Usando o método da classe original pelo objeto criado
+
+pessoaExemplo1.criandoNovoMetodo = (curso) => {
+  console.log(`Eu sou ${this.nome}. Agora eu estou estudando ${curso}.`);
+}; //Criando um novo método do objeto instanciado. Com arrow function não conseguimos usar o this
+pessoaExemplo1.criandoNovoMetodo("Java");
+
+pessoaExemplo1.criandoNovoMetodo2 = function (curso) {
+  console.log(`Eu sou ${this.nome}. Agora eu estou estudando ${curso}.`);
+}; //Criando um novo método do objeto instanciado
+pessoaExemplo1.criandoNovoMetodo2("PHP");
+
+//herdar heranças(usando super)
 
 /*//Selecionar elementos do DOM = usar o getElementbyId, usar uma variável para o getelementbyid(referência ao elemento), usar o .innerText, usar o querySelector(retorna o elemento em si, e só retorna o primeiro elemento) , pegar um id e class ao mesmo tempo pelo querySelector, querySelectorAll, querySelectorAll especificando um filho de uma classe, usar getElementsByClassName(não conseguimos usar métodos de lista), getElementsByTagName
 -Árvore cópia do html que é manipulável

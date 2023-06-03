@@ -319,13 +319,42 @@ console.log(exemploAluno);
 exemploAluno.cursarMateria("SQL"); //Objeto criado a partir de uma classe com herança de uma outra classe
 
 //***************Document Object Model***************
-// const elementoExemplo =
+const tituloPagina = document.getElementById("titulo-form");
+tituloPagina.innerText = "Formulário D.O.M.";
 
-/*//Selecionar elementos do DOM = usar o getElementbyId, usar uma variável para o getelementbyid(referência ao elemento), usar o .innerText, usar o querySelector(retorna o elemento em si, e só retorna o primeiro elemento) , pegar um id e class ao mesmo tempo pelo querySelector, querySelectorAll, querySelectorAll especificando um filho de uma classe, usar getElementsByClassName(não conseguimos usar métodos de lista), getElementsByTagName
- */
+const subtituloPagina = document.querySelector(".subtitulo-form");
+subtituloPagina.innerHTML = "Teste de dom com formulários";
 
-/*//Manipulando DOM = remover um li entre 3 li(firstElementChild.remove). Remover usando children e Remover o do meio (children[1]). usar lastElementChild, mudar style de um elemento
- */
+const doisForms = document.querySelectorAll(".input-nome, .input-email");
+doisForms.forEach((input) => {
+  input.style.color = "red";
+}); //Utilizando dois valores no querySelectorAll
+
+const tagExemplo = document.getElementsByTagName("h6");
+Array.from(tagExemplo).forEach((inputSelecionado) => {
+  inputSelecionado.innerText = "Texto criado com getElementsByTagName";
+}); //Selecionado a tag h6, converter objetos de array para objetos iterável, alterado texto interno
+
+const alterandoPrimeiroFilho = document.querySelector(
+  "#div-teste-form :first-child"
+);
+alterandoPrimeiroFilho.innerText = "Texto gerado pelo pai";
+
+const alterandoPelaClasse = document.getElementsByClassName("h5-teste-form");
+for (let i = 0; i < alterandoPelaClasse.length; i++) {
+  const elemento = alterandoPelaClasse[i];
+  elemento.style.color = "blue";
+} //Alterando com o getElementsByClassName. Como não é um array iterável, usamos o for para iterar e mudar
+
+//***************Manipulando DOM***************
+const novoLi = document.createElement("li"); //Criando novo li
+novoLi.innerText = "Novo li criado pelo JS"; //Atribuindo texto ao novo li
+
+const ulSelecionado = document.querySelector(".ul-form"); //Apontando onde está a ul
+ulSelecionado.appendChild(novoLi); //Filho acrescentado com o appendChild()
+ulSelecionado.removeChild(ulSelecionado.children[0]); //Com uma linha, deletamos um filho específico
+
+ulSelecionado.querySelector(".li-teste-form").remove(); //Especificado dentro do pai, encontrado em elemento pelo querySelector e removido em sequência
 
 /*//Eventos = usar o addEventListener, usar o preventDefault para evitar um submit, usar o target para pegar o valor do input, alterar o valor com .value. Fazer validação simples caso o campo esteja em branco, e se estiver preenchido trocar o fundo. Trocar os items pelo valor do nome e email
 -Fazer uma ação quando algo acontecer

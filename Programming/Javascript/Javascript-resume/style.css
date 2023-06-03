@@ -11,13 +11,14 @@ body {
 
 .container-principal {
   display: flex;
+  gap: 20px;
   flex-direction: column;
   align-items: center;
-  width: 50vw;
-  height: 50vh;
+  max-width: 50vw;
+  max-height: 50vh;
   justify-content: center;
   border: 2px solid #000;
-  padding: 20px 0;
+  padding: 50px;
   font-size: 25px;
   margin-top: 20vh;
 }

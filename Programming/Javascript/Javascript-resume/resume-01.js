@@ -178,6 +178,9 @@ console.log(convertedJson);
 /*//Manipulando DOM = remover um li entre 3 li(firstElementChild.remove). Remover usando children e Remover o do meio (children[1]). usar lastElementChild, mudar style de um elemento
  */
 
-/*//Eventos = usar o addEventListener, usar o preventDefault para evitar um submit
+/*//Eventos = usar o addEventListener, usar o preventDefault para evitar um submit, usar o target para pegar o valor do input, alterar o valor com .value. Fazer validação simples caso o campo esteja em branco, e se estiver preenchido trocar o fundo. Trocar os items pelo valor do nome e email
 -Fazer uma ação quando algo acontecer
+ */
+
+/*validação de formulários = selecionar os campos com o queryselector, usar um addeventlistener e criar uma mensagem de erro caso o campo estiver vazio. Alterar uma class do css com .classList. Adicionar li num ul existente a cada input (createelement, classlist, textcontent). Usar o appendChild(). Dar um setTimeout depois de 3 segundos para limpar a mensagem de erro
  */

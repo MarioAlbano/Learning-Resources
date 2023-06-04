@@ -428,14 +428,15 @@ novoUsuarioTeste; //Exemplo de callback. Função passada como argumento de uma 
 function obterDados() {
   return new Promise((resolvido, rejeitado) => {
     setTimeout(() => {
-      const dados = ""; //Experimente adicionar alguma informação aqui para ver como o código se comporta
+      const dados = "asdas"; //Experimente adicionar alguma informação aqui para ver como o código se comporta
       if (dados) {
         resolvido("Acesso a promise com sucesso!");
       } else {
         rejeitado("Erro na promise!");
       }
     }, 1500);
-  });
+  }); //Criado uma promise, mostrando ser mais legível que uma callback
+  console.log("Teste indicando que isso não será executado");
 }
 
 obterDados()
@@ -445,3 +446,26 @@ obterDados()
   .catch((erroPassado) => {
     console.log(erroPassado);
   }); //Usando a promise com then e catch
+
+function obterDados2() {
+  return new Promise((resolvido, rejeitado) => {
+    setTimeout(() => {
+      const dados = "dados"; //Tente apagar os dados
+      if (dados) {
+        resolvido("Promise com Async/Await resolvida!");
+      } else {
+        rejeitado("Erro na Promise com Async/Await!");
+      }
+    }, 1500);
+  });
+}
+
+const bucadorDados = async () => {
+  try {
+    const testeDados = await obterDados2();
+    console.log(testeDados);
+  } catch (erroPromise) {
+    console.error(erroPromise);
+  }
+};
+bucadorDados();

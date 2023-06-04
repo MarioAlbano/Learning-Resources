@@ -421,4 +421,27 @@ const novoUsuarioTeste = criarLogin(
     console.log(falha);
   }
 );
-novoUsuarioTeste; //Exemplo de callback. Função passada como argumento de uma outra função e que podemos controlar quando será ativada. Passado adicionado o callback de acerto e outro de erro.
+novoUsuarioTeste; //Exemplo de callback. Função passada como argumento de uma outra função e que podemos controlar quando será ativada. Passado adicionado o callback de acerto e outro de erro. O problema de callback é que o aninhamento de funções tornam o código de difícil legibilidade
+
+//Fazer exemplo Promises, Async await com try e catch. Usar uma API com o axios usando promises e depois com async await
+
+function obterDados() {
+  return new Promise((resolvido, rejeitado) => {
+    setTimeout(() => {
+      const dados = ""; //Experimente adicionar alguma informação aqui para ver como o código se comporta
+      if (dados) {
+        resolvido("Acesso a promise com sucesso!");
+      } else {
+        rejeitado("Erro na promise!");
+      }
+    }, 1500);
+  });
+}
+
+obterDados()
+  .then((dadosPassado) => {
+    console.log(dadosPassado);
+  })
+  .catch((erroPassado) => {
+    console.log(erroPassado);
+  }); //Usando a promise com then e catch

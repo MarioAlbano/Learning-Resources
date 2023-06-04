@@ -395,13 +395,30 @@ botaoEmail.addEventListener("click", (evento) => {
 -Código assíncrono leva um tempo para ser executado, pode ser bem sucedido ou não
 -Exemplos: chamada para api, interação com banco de dados
 -Maneiras de lidar com o código: Callback (primeira solução), Promises (segunda solução com atualizações), Promises com Async/Await (solução atualmente mais atualizada)
+= callbacks: onSuccess, onError. return onError(new Error(). onSuccess é a própria função passada)
+  promises: 
 */
 
-function saudacoes(x) {
-  console.log(`Olá usuário ${x}!`);
-}
+const criarLogin = (usuario, senha, callback, error) => {
+  const erro = false; //Experimente trocar essa parte para ver como o código se comporta
+  console.log({ usuario, senha });
 
-function entradaDados(nome, callback) {
-  callback(nome);
-}
-entradaDados("Henrique", saudacoes); //Exemplo de callback. Função passada como argumento de uma outra função. Permite uma função invocar outra função
+  if (erro) {
+    error(new Error("Erro ao logar no sistema!"));
+    return;
+  }
+  callback();
+};
+const novoUsuarioTeste = criarLogin(
+  "nome@gmail",
+  123456,
+  () => {
+    setTimeout(() => {
+      console.log("Usuário logado no sistema!");
+    }, 1500);
+  },
+  (falha) => {
+    console.log(falha);
+  }
+);
+novoUsuarioTeste; //Exemplo de callback. Função passada como argumento de uma outra função e que podemos controlar quando será ativada. Passado adicionado o callback de acerto e outro de erro.

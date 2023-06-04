@@ -357,40 +357,51 @@ ulSelecionado.removeChild(ulSelecionado.children[0]); //Com uma linha, deletamos
 ulSelecionado.querySelector(".li-teste-form").remove(); //Especificado dentro do pai, encontrado em elemento pelo querySelector e removido em sequência
 
 //***************Eventos***************
-const botaoTexto = document.querySelector(".botao-acao-1");
+const botaoTexto = document.querySelector(".botao-acao-1"); //Selecionado o botão
 botaoTexto.addEventListener("click", (evento) => {
-  evento.preventDefault(); //Desliga o reload da página
+  evento.preventDefault(); //Criado um evento no botão. Desliga o reload da página com o preventDefault()
 
-  const campoNome = document.querySelector(".input-nome");
+  const campoNome = document.querySelector(".input-nome"); //Seleciona o campo de entrada do nome
   if (campoNome.value == "") {
+    //Verifica se está vazio
     alert("Campo de Nome vazio. Por favor insira um Nome.");
     return;
   }
-  const novoNome = document.createElement("li");
-  novoNome.innerText = campoNome.value;
-  const ulPai = document.querySelector(".ul-form");
-  ulPai.appendChild(novoNome);
-  campoNome.value = "";
+  const novoNome = document.createElement("li"); //Cria um li
+  novoNome.innerText = campoNome.value; //Atribui o valor do campo ao atributo criado
+  const ulPai = document.querySelector(".ul-form"); //Aponta aonde está o elemento pai
+  ulPai.appendChild(novoNome); //Adiciona um filho no elemento pai
+  campoNome.value = ""; //Reseta o campo para uma nova entrada de dados
 });
 
-const botaoEmail = document.querySelector(".botao-acao-2");
+const botaoEmail = document.querySelector(".botao-acao-2"); //Seleciona o campo de entrada do nome
 botaoEmail.addEventListener("click", (evento) => {
   evento.preventDefault();
 
   const campoEmail = document.querySelector(".input-email");
   if (campoEmail.value == "") {
+    //Verifica se está vazio
     alert("Campo de E-mail vazio. Por favor insira um E-mail.");
     return;
   }
-  const novoEmail = document.createElement("li");
-  novoEmail.innerText = campoEmail.value;
-  const ulPai = document.querySelector(".ul-form");
-  ulPai.appendChild(novoEmail);
-  campoEmail.value = "";
+  const novoEmail = document.createElement("li"); //Cria um li
+  novoEmail.innerText = campoEmail.value; //Atribui o valor do campo ao atributo criado
+  const ulPai = document.querySelector(".ul-form"); //Aponta aonde está o elemento pai
+  ulPai.appendChild(novoEmail); //Adiciona um filho no elemento pai
+  campoEmail.value = ""; //Reseta o campo para uma nova entrada de dados
 });
 
-/*//Javascript Assíncrono
+/***************Javascript Assíncrono***************
 -Código assíncrono leva um tempo para ser executado, pode ser bem sucedido ou não
 -Exemplos: chamada para api, interação com banco de dados
--Maneiras de lidar com o código: Callback, Promises, Promises com Async/Await
+-Maneiras de lidar com o código: Callback (primeira solução), Promises (segunda solução com atualizações), Promises com Async/Await (solução atualmente mais atualizada)
 */
+
+function saudacoes(x) {
+  console.log(`Olá usuário ${x}!`);
+}
+
+function entradaDados(nome, callback) {
+  callback(nome);
+}
+entradaDados("Henrique", saudacoes); //Exemplo de callback. Função passada como argumento de uma outra função. Permite uma função invocar outra função

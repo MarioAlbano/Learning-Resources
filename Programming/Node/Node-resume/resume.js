@@ -31,13 +31,19 @@
 -Comando úteis: npm init, npm install express, npm -g install nodemon
 */
 
-/*Passos
--iniciar o npm
--teste: criar e exportar módulos (module.exports, usar variavel com require em outro arquivo)
--usar nodemon (saber a diferença entre instalar globalmente e --save-dev, criar um script no package.json). Adicionar node_modules no git ignore
--testar require('path'): path.basename(__filename); path.dirname(__filename); path.extname(__filename); path.join(__dirname, "teste", "teste.html")
--testar require('fs'): fs.mkdir(__dirname, '/testePasta',(error) => {if(error){return ...} clg("criada com sucesso!")});
-fs.writeFile(path.join(__dirname, '/testeArquivo', 'teste.html'), 'Olá mundo', (error) => {if(error)...});
-fs.appendFile(path.join(__dirname, '/teste', '/teste.html'), "Adicionando informação sem sobreescrever o arquivo", (error)=>{if(error)...})
-fs.readFile(path.join(__dirname, '/teste', 'teste.html'), 'utf8', (error, data)=>{if(error){return...} clg(data)})
+/*Módulo 'path'
+-path.basename: ler documento
+-path.dirname: ler diretório
+-path.extname: ler extensão arquivo
+-path.join: adiciona caminho do diretório
+ */
+
+/*Módulo 'fs'
+-fs.mkdir: Cria pasta
+-fs.writeFile: Cria arquivo
+-fs.appendFile: Altera um arquivo sem deleta-lo
+*/
+
+/*Anotações
+-
 */

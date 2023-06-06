@@ -53,7 +53,6 @@
  */
 
 /*Anotações
--criar uma outro if para outra rota com json;
 -instalar express, converter o mesmo código para express(mandar uma tag h1, mandar um JSON)
 -conectar com o mongodb pela cloud, configurar banco na nuvem(guardar login e senha), instalar mongoose,  criar pasta src\database\connect.js
 -dar require no mongoose, criar um async await no mongoose.conect(url_gerada_pela_nuvem, (error)=>{}); dar module.exports

@@ -53,9 +53,10 @@
  */
 
 /*Anotações
--instalar express, converter o mesmo código para express(mandar uma tag h1, mandar um JSON)
--conectar com o mongodb pela cloud, configurar banco na nuvem(guardar login e senha), instalar mongoose,  criar pasta src\database\connect.js
--dar require no mongoose, criar um async await no mongoose.conect(url_gerada_pela_nuvem, (error)=>{}); dar module.exports
--introdução a variáveis de ambiente; criar arquivo .env e adiciona-lo no gitignore. Criar login=asda e senha=asdas no arquivo; instalar a dependência dotenv pelo terminal, usar require e nome_variavel.config(), ir onde coloca a admin e senha e colocar process.env.nome_variavel_do_arquivo, nessa mesma string troca o nome da database;
--usar no arquivo index principal o arquivo do connect
-*/
+-Criar o user Schema (criar pasta models e dentro dele o scheme); new mongoose.Schema. 
+-Criar o Model: mongoose.model
+-Endpoints: rotas
+-usar UserModel.create(req.body)
+-testar a rota com o postman, adicionar async await e enviar dados
+-criar um endpoins para GET
+ */

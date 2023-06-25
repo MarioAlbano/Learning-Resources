@@ -1,0 +1,17 @@
+//O que é Node.js?
+-Javascript que executa fora de um navegador (V8)
+-Utilizado para APIs
+-Apenas um núcleo (single threaded), várias operações simultâneas (non-blocking)
+-Vantagens: baixo custo pelo ótimo uso de memória, facilidade com o front-end, rápido simples e escalável
+
+//Módulos no node.js
+-Podemos criar nossos módulos e importá-los
+-Node já vem com alguns pré instalados
+
+//NPM - Node pacage manager
+-Podemos instalar módulos de terceiros
+-São armazenados no "node_modules"
+
+//Fazer
+-npm init 
+-criar um index.js e person.js. Criar classe no person e exportar para o index

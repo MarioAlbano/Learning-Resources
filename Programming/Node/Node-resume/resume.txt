@@ -13,5 +13,3 @@
 -São armazenados no "node_modules"
 
 //Fazer
--npm init 
--criar um index.js e person.js. Criar classe no person e exportar para o index

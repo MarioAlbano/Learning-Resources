@@ -12,4 +12,20 @@
 -Podemos instalar módulos de terceiros
 -São armazenados no "node_modules"
 
-//Fazer
+//Criando e exportando
+-Iniciar o projeto com o 'npm.init'
+-Podemos criar nossos próprios módulos e depois usar o 'module.exports'
+-No outro arquivo usar o 'require()'
+
+//gitignore
+-Criar '.gitignore'
+-Adicionar 'node_modules/'
+
+//Nodemon
+-Para não subir o servidor sempre que ouver uma alteração, usamos o nodemoon
+-'npm install nodemon --save-dev'
+-depois no package.json, adicionar '"start": "nodemon index.js"'
+-rodar com o npm start
+
+//To-do
+-criar um arquivo chamado 'path.js' e testar os módulos: basename, 

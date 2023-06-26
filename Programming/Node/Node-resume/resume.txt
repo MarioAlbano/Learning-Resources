@@ -28,4 +28,5 @@
 -rodar com o npm start
 
 //To-do
--criar um arquivo chamado 'path.js' e testar os módulos: basename, 
+-importar path para o index e testar os módulos: extname, parse, join
+-dar require no módulo fs e usar junto com o path

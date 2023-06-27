@@ -12,4 +12,13 @@ console.log(fileFolder);
 //Criar objeto Path
 //Juntar caminhos de arquivos
 
-//No fs -> Criar uma pasta com promisse
+//No fs:
+//Criar uma pasta com promisse
+//Criando um arquivo
+//Adicionar à um arquivo(appendfile)
+//Ler arquivos
+
+//Criando servidor:
+//Dar require no http, definir porta, createServer com if nas rotas com '/home' mandando uma tag e '/users' mandando um JSON convertido de um objeto.
+//Fazer o mesmo código com o Express
+//Configurar o mongodb para a cloud

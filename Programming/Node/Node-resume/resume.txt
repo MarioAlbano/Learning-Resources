@@ -30,3 +30,23 @@
 //To-do
 -importar path para o index e testar os módulos: extname, parse, join
 -dar require no módulo fs e usar junto com o path
+
+--------------ANOTAÇÔES------------------
+
+//Criando o servidor e as endpoints:
+-Dar require no http, definir porta, createServer com if nas rotas com '/home' mandando uma tag e '/users' mandando um JSON convertido de um objeto.
+-Fazer o mesmo código com o Express
+-Configurar cloud.mongodb (criar conta e aguar admin e senha, conectar com a aplicação, instalar mongoose )
+-Criar pasta src\database e criar o connect.js. Nele usar o sync await com o 'mongoose.connect'. Criar um '.env' para dados sensíveis e para usá-lo instalar uma biblioteca chamado dotenv. Chamar o arquivo no index após o dotenv.config()
+-Dentro do src criar a pasta models e criar o arquivo user.models.js. Dentro do arquivo dar require no mongoose, criar um Shema e depois um model. Exportar módulo
+-Importar para o express e criar um endpoint para criação de usuários
+-Usar o app.use(express.json()) para entender qua vamos JSON nas requisições. Baixar o Postman e testar a criação de usuário olhando no site do mongodb
+-Criar um get async para retornar todos os usuários do banco com o UserModel.find({})
+-Criar um endpoint para retornar por um determidado ID usando o UserModel.findById()
+-Criar um endpoint para atualizar por um determinado ID usando o UserModel.findByIdAndUpdate(id, req.body, {new: true})
+-Criar um endpoint com o delete por um determinado ID usando o UserModel.findByIdAndRemove
+
+//Middlewares no express => funções executadas antes de qualquer ação do express
+
+//Biblioteca ejs =>No express usar o 'app.set('view engine', 'ejs') app.set('views', './src/views')'. Criar uma nova pasta view e o arquivo index.ejs.  No express fazer um get que tenha 'res.render("index")' e retorne uma variável em tag.  Exibir pelo pelo ejs o banco de dados usando uma lista para a view
+//Dividindo ejs: podemos dividir o próprio html do ejs. Podemos também incluir CSS no ejs

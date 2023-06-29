@@ -8,6 +8,8 @@ console.log(fileName);
 const fileFolder = path.basename(__dirname);
 console.log(fileFolder);
 
+//*Obs: Rever aula OPP e Assíncronos
+
 //Extensão do arquivo
 //Criar objeto Path
 //Juntar caminhos de arquivos
@@ -17,8 +19,3 @@ console.log(fileFolder);
 //Criando um arquivo
 //Adicionar à um arquivo(appendfile)
 //Ler arquivos
-
-//Criando servidor:
-//Dar require no http, definir porta, createServer com if nas rotas com '/home' mandando uma tag e '/users' mandando um JSON convertido de um objeto.
-//Fazer o mesmo código com o Express
-//Configurar o mongodb para a cloud

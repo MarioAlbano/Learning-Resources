@@ -1,3 +1,33 @@
 //Nodejs
 -Back-end
 -Rotas
+
+//NPM/YARN
+-Instalar bibliotecas de terceiros
+-Criar próprias bibliotecas
+
+//Características do Node.js
+-Call Stack (pilha de eventos)
+-Single-thread
+-Non-Blocking I/O
+
+//API REST
+-Fluxo: Requisição e resposta. Front: Recebe os dados e processa. Resposta: Através de uma estrutura de dados.
+-Rotas / Métodos HTTP: GET, POST, PUT, DELETE
+
+//Requisição
+-GET http://api.com/usuarios (Buscando info de todos os usuários)
+-GET http://api.com/usuarios/1 (Buscando info do usuário 1)
+
+//HTTP Codes
+-1xx: Informação
+-2xx: Sucesso
+-3xx: Redirecionamento
+-4xx: Client Error
+-5xx: Server Error
+
+//Todo-API
+-Adicionar Express
+-Usar o Express e iniciar o servidor
+-Usar um clg caso sucesso em iniciar o servidor
+-Retornar um texto e depois um JSON como resposta

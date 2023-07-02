@@ -31,3 +31,12 @@
 -Usar o Express e iniciar o servidor
 -Usar um clg caso sucesso em iniciar o servidor
 -Retornar um texto e depois um JSON como resposta
+-Adicionar uma query params e testar conforme foi passado nos params na view
+-Fazer o mesmo que o exemplo acima mas com route params
+-Adicionar o insomnia e testar
+-Acessar um array específico com o parâmetro enviado
+-Instalar o nodemon
+-Criar um crud
+-Middlewares com if para caso o body do parâmetro vir vazio. Criar também uma variável no middlewares para testar nos endpoints
+
+//Aplicação1 Todo

@@ -1,19 +1,10 @@
 //Typescript
--Muito utilizado pelo mercado
--Acompanhado de frameworks populares
--Evita muitos bugs em grandes aplicações e facilita a documentação e organização do código
--Não é uma linguagem de programação
--É um superset do javascript
--Javascript é uma linguagem fracamente tipada
--Depois do desenvolvimento ele é convertido para javascript novamente
+-Com base no JavaScript, adiciona tipagem estática ao Javascript
+-Todo código Typescript é convertido para js pelo Typescript Compiler
+-Muito utilizado pelo mercado para evitar bugs
+-Tipagem dinâmica e tipagem estática
+-Liguagens estáticas que possuem compiladores
 
-//Instalando o typescript
--Entrar no site oficial do typescript
--rodar no terminal "npm install -g typescript"
--para testar se funcionou usar no terminal "tsc --version"
-
-//Utilizando o typescript
--criar um arquivo .ts na pasta
--clicar bom o botao direito na pasta usando o visual code e clicar em abrir terminal
--depois compilar abrindo no terminal e digitando "tsc nomeDoSeuArquivoTs"; 
--o typescript deixa o codigo mais enxuto
+//Criando código Typescript
+-No terminal, usar "tsc index.ts" para criar um arquivo js
+-Configurar o typescript: Terminal e usar "tsc --init": Podemos configurar a versão, módulo, pasta de saída do arquivo JS, pasta que será procurado o arquivo ts

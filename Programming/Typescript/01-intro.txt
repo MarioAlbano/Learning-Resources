@@ -1,9 +1,10 @@
 //Typescript
--Com base no JavaScript, adiciona tipagem estática ao Javascript
+-Linguagem de programação com base no JavaScript, adiciona tipagem estática ao Javascript
 -Todo código Typescript é convertido para js pelo Typescript Compiler
--Muito utilizado pelo mercado para evitar bugs
--Tipagem dinâmica e tipagem estática
+-Evita erros, deixa a IDE "mais inteligente", recursos extras como tuplas, enums, melhor suporte a POO
+-Fortemente tipada. Tipagem dinâmica e tipagem estática
 -Liguagens estáticas que possuem compiladores
+-Vantajoso em projetos grandes
 
 //Criando código Typescript
 -No terminal, usar "tsc index.ts" para criar um arquivo js

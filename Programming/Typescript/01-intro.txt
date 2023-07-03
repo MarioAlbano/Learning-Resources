@@ -9,3 +9,10 @@
 //Criando código Typescript
 -No terminal, usar "tsc index.ts" para criar um arquivo js
 -Configurar o typescript: Terminal e usar "tsc --init": Podemos configurar a versão, módulo, pasta de saída do arquivo JS, pasta que será procurado o arquivo ts
+
+//Tipos
+-:string
+-:number
+-:boolean
+-:any
+-:string[]

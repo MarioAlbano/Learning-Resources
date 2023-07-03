@@ -12,4 +12,5 @@ userInput = "10";
 
 let myArray: string[] = ["A", "B", "C", "D"];
 console.log(myArray);
-//Todo: vários tipos de array
+
+//Todo: tupla, lista de tupla, Intersections, Enum, Type Assertions, funções com string;void, object type, uso do ?, lista de objeto

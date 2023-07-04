@@ -1,0 +1,44 @@
+//Apresentação
+-Introdução
+-Aprendendo com o chatGPT
+-Front end com chatGPT
+-Back-end com chatGPT
+-Banco de dados com chatGPT
+
+//Introdução
+-Criar conta
+-Detalhando melhor os prompts
+
+//Definição do chatGPT
+-Desenvolvido pela OpenAI, modelo de linguagem GPT-4
+-Utiliza aprendizado profundo (Deep Learning)
+-Usa técnica chamada "Transformadores"
+
+//chatGPT para desenvolvedores
+-Pode ser usado como um tutor interativo com perguntas e respostas instantâneas
+-Ajuda na resolução de problemas com sugestões
+-Aumento de produtividade e eficiência
+-Ajuda na integração com APIs
+-Criração de documentação técnica
+-Gera comentários no nosso código para legibilidade
+-Sugere melhorias
+-Integração com IDes e git
+
+//Limitações
+-Limitado até setembro de 2021
+-Talvez gere informações não precisa
+
+//Aprendendo com o chatGPT
+-Entende e gera código de várias linguagens de programação
+-Os menos populares podem ter menor precisão
+-Aprendendo conceitos, como por exemplo, Design Pattern, MVC
+-Aprender estruturas de código, por exemplo: condicional, estruturas de repetição, funções
+-Aprender OOP com Chat GPT
+-Aprender Design Patterns com chatGPT
+-Aprender estruturas de dados e algoritmo
+-Geração de exercícios
+-Explicando código
+
+//chatGPT para Front-end
+-Geração de código HTML
+-

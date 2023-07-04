@@ -1,0 +1,39 @@
+//Cronograma
+-Aprender a dominar os princípios chaves e principais técnicas do teste de software
+-Ter mais uma ferramenta disponível
+
+//O que é teste de software
+-Verificação sobre o sistema ou parte dele para garantir que tenha a saída esperada
+-Ver se tem o comportamento planejado, se não, há falhas
+-Não verificam completamente pois as entradas são infinitas
+-Testes não garantem qualidade
+-Custam de 20% a 30% do custo total
+
+//Teste é essencial
+-Exemplo histórico - Jogo da disney: Não funcionou em todos os computadores
+-Exemplo histórico - Espacionave Ariane 5 explodiu por que o sistema não converteu um valor real para um inteiro
+-Exemplo histórico - BUG no software - Quase uma 3° guerra começou por causa de erros detectados
+
+//Situação das empresas
+-Construir softwares melhores, mais rápidos e mais baratos
+-Poucos testers e muitos programadores
+-Programadores não são as pessoas ideais para testar os sistemas
+
+//Perfil dos profissionais
+-Visão pessimista para erros: Detalhista, Criterioso, Paciente, Perspicaz, Focado, Motivado
+-Visão crítica, elaborando testes relevantes
+-Visão voltada para qualidade, Executar os testes no tempo planejado
+
+//Fundamentos do teste de software
+-Quando Testar: Níveis de teste
+-Como testar:Caixa branca, Caixa Preta
+-O que testar?: Tipos de teste
+
+//Níveis de teste
+-Unidade: (Encontrar falhas dentro de uma pequena parte do sistema, e testá-la independente do resto). Feito pelo programador. Ferramentas: Junit, PHPUnit, XXXUnit
+-Integração: (Valida comunicação entre os componentes de um sistema). Feito pelo programador. Ferramentas: Junit, PHPunit, XXXUnit
+-Sistema: (Executa como ponto de vista o usuário final, pelo navegador, pós projeto concluído). Planejados e executados pela equipe de teste, no caso os cenários de testes
+-Aceitação: (Um ou dois usuários testando o sistema e depois dizendo o feedback)
+-Alfa: (Grupo pequeno de usuários testando o sistema e depois dizendo o feedback)
+-Beta: (Grupo grande de usuários, com público alvo definido, testando o sistema e depois dizendo o feedback)
+-Teste de Regressão: (Realizado a qualquer momento, reexecuta testes após alterações no sistema. Nessa hora que os testes automátizados fazem a diferença)

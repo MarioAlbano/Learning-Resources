@@ -41,4 +41,34 @@
 
 //chatGPT para Front-end
 -Geração de código HTML
--
+-Analisar o código e adicionar semântica nele
+-Depuração de HTML
+-Adicionar acessibilidade
+-Sugestão de código CSS
+-Componentes com HTML e CSS
+-Correção de CSS 
+-Soluções com HTML, CSS e Javascript
+-Funções em Javascript (Datas, Regex)
+-Ajuda com erros no Javascript
+-Criando componentes com React
+-Sugerir libs de alguma funcionalidade mais complexa
+
+//chatGPT para Back-end
+-Estrutura base da API
+-Conversão do Javascript para Typescript
+-Gerando dados de teste (Mock)-Prevenção de falahas de segurança
+-Gerando validações
+-Integrações de outros serviços
+-Gerando comentários e documentação
+-Sugestão de stack
+-Refatorar código para performance ou legibilidade
+-Testes unitários
+-Criar Regex
+
+//chatGPT para Banco de dados
+-Criação de tabelas
+-Geração de dados
+-Análise de consultas, se performa mal ou precisa ser aprimorada
+-Explicar queries longas/complexas
+-Reescrever query de um banco para outro banco
+-Converter SQL em código ORM

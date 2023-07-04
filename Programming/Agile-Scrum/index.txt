@@ -1,0 +1,27 @@
+//O que é um projeto
+-Esforço temporário que produz algo único
+-Independente da área, sempre estamos lidando com projetos
+-Gestão de projetos: Ponto A ao ponto B para concluir um projeto com máxima de eficiência. Evitar caminhos que fracassam um projeto e seguir as que dão certo
+
+//Gestão de projetos tradicional x Ágil
+-Tradicional:Foco no planejamento do que será feito do início ao fim do projeto. Contras: Muita documentação com difícil mudanças, trás o projeto só ao final. Bons para certos projetos exemplo em construção
+-Scrum: Dirigido por valores, respondendo a mudanças do cliente, tendo foco um produto que funcione e satisfaça o cliente, entregando ao longo do projeto para o cliente de modo que possa avaliar. Ágil = rápido, flexível, adaptável e responsivo ás mudanças
+-Ambos são boas, dependendo muito do projeto
+
+//Scrum
+-"Framework simples para gerenciar projetos complexos"
+-1° pilar: Transparência: Todos possuem conhecimento sobre o que está sendo feito
+-2° pilar: Inspeção: Revisões programadas, reuniões diárias
+-3° pilar:  Adapatação: Mudanças. A cada 2 semanas há uma validação
+
+//Fluxo do Scrum
+-Necessidade: Backlog do produto(planejamento do escopo do produto)
+-Sprint: A cada duas semanas, temos uma interação(sprint), ou seja, Backlog da sprint. Todos os dias reuniões diárias com a equipe
+-O ciclo se repete até a entre total com o cliente satisfeito
+
+//Equipes, papéis e responsabilidades
+-Centrais: Equipe Scrum(equipe que desenvolve, se auto organizam), Scrum Master(Referência as práticas do scrum e que fiscaliza se o time está seguindo), Dono do protudo(Cliente ou as partes envolvidas e que tomam as decisões)
+-Não-essenciais: Usuários, fornecedores, parceiros(Não vão participar ativamente do projeto)
+
+//Scrum em grande projetos
+-"Scrum dos Scrums", one há varios times de scrum onde o Scrum master representa a equipe, e há um Scrum Master Chefe que cooderna os outros Scrum Master

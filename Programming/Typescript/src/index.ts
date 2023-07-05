@@ -50,4 +50,34 @@ let typeExample: any = "Teste de Type aqui";
 let typeExample2: number = (typeExample as string).length;
 console.log(typeExample2);
 
-//Todo: Type Assertions, funções com string;void, object type, uso do ?, lista de objeto
+//Função com String exemplo
+function processName(name: string): void {
+  console.log(name);
+}
+processName("Joseph");
+
+//Object type exemplo
+interface Pessoa1 {
+  nome: string;
+  idade: number;
+  email: string;
+  adicional?: string;
+}
+
+const Albano: Pessoa1 = {
+  nome: "Mario",
+  idade: 28,
+  email: "mariom@gmail.com",
+};
+
+console.log(Albano);
+
+const Albano2: Pessoa1 = {
+  nome: "Mario",
+  idade: 28,
+  email: "mariom@gmail.com",
+  adicional: "Exemplo de '?' em typescript",
+};
+
+console.log(Albano2);
+//Todo: lista de objeto

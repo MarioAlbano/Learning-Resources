@@ -1,0 +1,3 @@
+//Docker
+-Plataforma para construir, rodar e transferir do ambiente de teste/desenvolvimento para produção
+-Veio para resolver o "funciona na minha máquina". Resolve possíveis conflitos de versões, configurações e etc, colocando tudo em container

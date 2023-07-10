@@ -60,4 +60,14 @@ const Albano2 = {
     adicional: "Exemplo de '?' em typescript",
 };
 console.log(Albano2);
-//Todo: uso do ?, lista de objeto
+//Arrow function exemplo
+const sumNumbers = (a, b) => {
+    return a * b;
+};
+console.log(sumNumbers(2, 2));
+const Edgar = {
+    myName: "Edgar",
+    myAge: 40,
+};
+console.log(Edgar);
+//Todo:type, type blueprint e usando uma lista de objeto em um outro type, usar ! em paramtros de função, Unions, interfaces(readonly, intersection, reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected), generics, promises com generics, classes com generics

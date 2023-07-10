@@ -80,4 +80,25 @@ const Albano2: Pessoa1 = {
 };
 
 console.log(Albano2);
-//Todo: lista de objeto
+
+//Arrow function exemplo
+const sumNumbers = (a: number, b: number): number => {
+  return a * b;
+};
+console.log(sumNumbers(2, 2));
+
+//Type exemplo
+type myselfPerson = {
+  myName: string;
+  myAge: number;
+};
+
+//Instanciando o Type
+const Edgar: myselfPerson = {
+  myName: "Edgar",
+  myAge: 40,
+};
+
+console.log(Edgar);
+
+//Todo:type, type blueprint e usando uma lista de objeto em um outro type, usar ! em paramtros de função, Unions, interfaces(readonly, intersection, reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected), generics, promises com generics, classes com generics

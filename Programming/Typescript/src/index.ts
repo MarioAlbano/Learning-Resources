@@ -88,17 +88,65 @@ const sumNumbers = (a: number, b: number): number => {
 console.log(sumNumbers(2, 2));
 
 //Type exemplo
+type Stats = {
+  pace: number;
+  stamina: number;
+};
+
 type myselfPerson = {
   myName: string;
   myAge: number;
+  myWeight?: number;
+  listStatus?: Stats[];
 };
 
 //Instanciando o Type
 const Edgar: myselfPerson = {
   myName: "Edgar",
   myAge: 40,
+  listStatus: [
+    {
+      pace: 60,
+      stamina: 50,
+    },
+    {
+      pace: 70,
+      stamina: 150,
+    },
+    {
+      pace: 95,
+      stamina: 100,
+    },
+  ],
 };
 
 console.log(Edgar);
 
-//Todo:type, type blueprint e usando uma lista de objeto em um outro type, usar ! em paramtros de função, Unions, interfaces(readonly, intersection, reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected), generics, promises com generics, classes com generics
+//Exemplo com ! para mostrar que algo existe
+const printName = (nameWillPrint: number) => {
+  console.log(nameWillPrint);
+};
+printName(Edgar.myWeight!);
+
+//Intersection exemplo
+type Academic = {
+  course: string;
+};
+
+const Student: myselfPerson & Academic = {
+  myName: "Mario",
+  myAge: 28,
+  course: "Full Stack",
+};
+console.log(Student);
+
+//Unions exemplo
+const FuncaoUnion = (data: string | number) => {
+  console.log(data);
+};
+FuncaoUnion(10);
+FuncaoUnion("Um texto aqui");
+
+//Interfaces exemplo Obs: type mais flexível e pode ter combinações. Interface descreve objeto, adequado para propriedades e métodos
+
+//Todo: interfaces(readonly, reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected), generics, promises com generics, classes com generics

@@ -65,9 +65,41 @@ const sumNumbers = (a, b) => {
     return a * b;
 };
 console.log(sumNumbers(2, 2));
+//Instanciando o Type
 const Edgar = {
     myName: "Edgar",
     myAge: 40,
+    listStatus: [
+        {
+            pace: 60,
+            stamina: 50,
+        },
+        {
+            pace: 70,
+            stamina: 150,
+        },
+        {
+            pace: 95,
+            stamina: 100,
+        },
+    ],
 };
 console.log(Edgar);
-//Todo:type, type blueprint e usando uma lista de objeto em um outro type, usar ! em paramtros de função, Unions, interfaces(readonly, intersection, reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected), generics, promises com generics, classes com generics
+//Exemplo com ! para mostrar que algo existe
+const printName = (nameWillPrint) => {
+    console.log(nameWillPrint);
+};
+printName(Edgar.myWeight);
+const Student = {
+    myName: "Mario",
+    myAge: 28,
+    course: "Full Stack",
+};
+console.log(Student);
+//Unions exemplo
+const FuncaoUnion = (data) => {
+    console.log(data);
+};
+FuncaoUnion(10);
+FuncaoUnion("Um texto aqui");
+//Todo: Unions, interfaces(readonly, intersection, reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected), generics, promises com generics, classes com generics

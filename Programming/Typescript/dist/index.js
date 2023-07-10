@@ -1,4 +1,5 @@
 "use strict";
+var _a;
 //Number exemplo
 const myAge = 28;
 console.log(myAge);
@@ -83,8 +84,12 @@ const Edgar = {
             stamina: 100,
         },
     ],
+    register() {
+        return "Deu certo!";
+    },
 };
 console.log(Edgar);
+console.log((_a = Edgar.register) === null || _a === void 0 ? void 0 : _a.call(Edgar));
 //Exemplo com ! para mostrar que algo existe
 const printName = (nameWillPrint) => {
     console.log(nameWillPrint);
@@ -102,4 +107,31 @@ const FuncaoUnion = (data) => {
 };
 FuncaoUnion(10);
 FuncaoUnion("Um texto aqui");
-//Todo: Unions, interfaces(readonly, intersection, reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected), generics, promises com generics, classes com generics
+const sumNumbers2 = (x, y) => {
+    return x + y;
+};
+const subtractionNumber2 = (x, y) => {
+    return x - y;
+};
+console.log(sumNumbers2(5, 5));
+console.log(subtractionNumber2(15, 25));
+//Classe exemplo
+class PersonC {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    GreetSomeone() {
+        console.log("Olá");
+    }
+}
+const Albano3 = new PersonC("Albano", 18);
+console.log(Albano3);
+console.log(Albano3.name);
+const Reus = {
+    name: "Marco Reus",
+    age: 30,
+};
+console.log(Reus);
+// Reus.name = "Lukaku"; Esperado um erro
+//Todo: reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected, generics, promises com generics, classes com generics

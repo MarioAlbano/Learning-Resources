@@ -98,6 +98,7 @@ type myselfPerson = {
   myAge: number;
   myWeight?: number;
   listStatus?: Stats[];
+  register?(): string;
 };
 
 //Instanciando o Type
@@ -118,9 +119,13 @@ const Edgar: myselfPerson = {
       stamina: 100,
     },
   ],
+  register() {
+    return "Deu certo!";
+  },
 };
 
 console.log(Edgar);
+console.log(Edgar.register?.());
 
 //Exemplo com ! para mostrar que algo existe
 const printName = (nameWillPrint: number) => {
@@ -147,6 +152,70 @@ const FuncaoUnion = (data: string | number) => {
 FuncaoUnion(10);
 FuncaoUnion("Um texto aqui");
 
-//Interfaces exemplo Obs: type mais flexível e pode ter combinações. Interface descreve objeto, adequado para propriedades e métodos
+//Interfaces exemplo Obs: type mais flexível e pode como blueprint ter combinações de tipos. Interface descreve objeto, adequado para propriedades e métodos
+interface MathCalcs {
+  (x: number, y: number): number;
+}
 
-//Todo: interfaces(readonly, reestringir funções, criar funções no type, classes com typescript, métodos, implements, protected), generics, promises com generics, classes com generics
+const sumNumbers2: MathCalcs = (x, y) => {
+  return x + y;
+};
+
+const subtractionNumber2: MathCalcs = (x, y) => {
+  return x - y;
+};
+console.log(sumNumbers2(5, 5));
+console.log(subtractionNumber2(15, 25));
+
+//Classe exemplo
+class PersonC {
+  name: string;
+  protected age: number;
+  //Protected are accessible within the defining class and its subclasses .Private are accessible only within the defining class.
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+  GreetSomeone(): void {
+    console.log("Olá");
+  }
+}
+const Albano3 = new PersonC("Albano", 18);
+console.log(Albano3);
+console.log(Albano3.name);
+
+//readyonly exemplo
+interface AnotherPerson {
+  readonly name: string;
+  age: Number;
+}
+
+const Reus: AnotherPerson = {
+  name: "Marco Reus",
+  age: 30,
+};
+console.log(Reus);
+// Reus.name = "Lukaku"; Esperado um erro
+
+//Generics exemplo
+interface printUsuario<T> {
+  name: string;
+  age: number;
+  data: T;
+}
+
+const Azpilicueta: printUsuario<string> = {
+  name: "Azpilicueta",
+  age: 32,
+  data: "Chelsea",
+};
+const Hazard: printUsuario<number> = {
+  name: "Hazard",
+  age: 28,
+  data: 11,
+};
+console.log(Azpilicueta);
+console.log(Hazard);
+
+//Todo: promises com generics, classes com generics

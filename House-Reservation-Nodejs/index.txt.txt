@@ -1,5 +1,0 @@
-//todo
--npm init -y
--Add express, created 'src' folder
--Dentro do src criar: app.js, server.js, routes.js
--No app.js: importar express, 

@@ -1,0 +1,41 @@
+//Habilidades técnicas
+-Domínio do front-end e Back-end: JS, TS, React, Next.js, Node
+-Conhecimentos em banco de dados: Postgres, MongoDB e Prisma (ORM)
+-Arquitetura de Software: Saber elaborar e planejar sistemas do zero e dividi-lo em etapas menores
+
+//Habilidade Comportamntais
+-Boa comunicação: Saber fazer perguntas para solucionar um problema
+-Pensamento crítico: Capacidade de avaliar diferentes abordagens para solucionar um problema
+-Se acostumar a aprender: ler documentações e manter a calma nos erros
+
+//Brainstorming
+-Idéias para resolver um problema, no caso criar um sistema de reserva de viagens
+-Buscar viagens (localização, data, valor)
+-Ver detalhes de uma viagem (4 Fotos, descrição, foto principal, destaques, preço por noite, data, hóspides)
+-Reservar uma viagem (Outro usuário não pode selecionar data já selecionada, respeitar o máximo de hóspedes)
+-Cancelar essas viagens(Ao cancelar, data fica disponível)
+
+//Diagramação do Banco de dados
+-Viagem:
+  ID (String)[PK]
+  Name (String)
+  Location (String)
+  Start Date (Date) 
+  End Date (Date)
+  Price Per Day (Number)
+  Description (String) 
+  Cover Image (String)
+  Images Urls (String)
+  Highlights (String[])
+  Max Guests (Number) 
+
+-Trip Reservations
+  ID (String) [PK]
+  Trip ID (String) [FK]
+  User Id (String) [FK]
+  Start Date (Date) 
+  End Date (Date)
+  Total Paid (Number)
+
+-User
+  ID (String) [PK]

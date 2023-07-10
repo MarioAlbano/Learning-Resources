@@ -169,21 +169,15 @@ console.log(subtractionNumber2(15, 25));
 
 //Classe exemplo
 class PersonC {
-  name: string;
-  protected age: number;
   //Protected are accessible within the defining class and its subclasses .Private are accessible only within the defining class.
 
-  constructor(name: string, age: number) {
-    this.name = name;
-    this.age = age;
-  }
+  constructor(name: string, protected age: number) {}
   GreetSomeone(): void {
     console.log("Olá");
   }
 }
 const Albano3 = new PersonC("Albano", 18);
 console.log(Albano3);
-console.log(Albano3.name);
 
 //readyonly exemplo
 interface AnotherPerson {

@@ -1,0 +1,13 @@
+//O que é React
+-Biblioteca para criar interfaces de usuário
+-Fácil de replicar para mobile com React Native
+-Conceito de componente
+
+//Componentes
+-Construir aplicações como se fossem peças de lego para montar a página
+-Componente é uma função JavaScript (JSX)
+-Vantagem de Reusabilidade e ótimo para trabalho em equipe
+
+//Início
+-"npx create-react-app ."
+-iniciar o projeto com "npm start"

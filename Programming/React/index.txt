@@ -11,3 +11,7 @@
 //Início
 -"npx create-react-app ."
 -iniciar o projeto com "npm start"
+-ctrl e clicque no componente vai direto para o arquivo onde ele está
+-Apagar tudo do app.js, imr e export default
+-Tudo que for javascript usar dentro do {}
+-Limpar arquivos inúteis

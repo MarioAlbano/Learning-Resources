@@ -15,3 +15,11 @@
 -Apagar tudo do app.js, imr e export default
 -Tudo que for javascript usar dentro do {}
 -Limpar arquivos inúteis
+
+//Adicionando css
+-Criar um 'App.css' e importar no App.js
+-Usar className ao invés de class
+
+//useState
+-imr {useState}
+-const [nomeState, novoNomeState] = useState("Valor inicial aqui")

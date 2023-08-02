@@ -1,0 +1,12 @@
+//Instalação
+-JDK e IDE (IntelliJ)
+
+//Como funciona
+-IDE passa o código para o JDK, Joga para o JRE(compilador) que usa uma máquina virtual(JVM) e passa para o computador
+
+//Edições
+-Java SE = Java normal
+-Java EE = Java para empresas
+-Java ME = Java para celulares
+-Java FX = Java para desktops
+

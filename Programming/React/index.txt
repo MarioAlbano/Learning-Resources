@@ -23,3 +23,13 @@
 //useState
 -imr {useState}
 -const [nomeState, novoNomeState] = useState("Valor inicial aqui")
+
+//Usando conceito de componentes
+-"sfc" cria novo componente
+-Criar uma pasta 'components'
+-Criar os componentes separados e depois importar para a página
+-No componente usar imr, uma arrow function com return, depois export default
+-No App.js, usar somente <Componente />
+
+//Props
+-Dados passado de um componente pai para filho

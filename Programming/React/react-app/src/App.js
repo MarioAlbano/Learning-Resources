@@ -1,19 +1,16 @@
 import React, { useState } from "react";
 import "./App.css";
+import Tasks from "./components/Tasks";
 
 const App = () => {
-  let [message, newMessage] = useState("Esta é uma mensagem comum");
+  const [tasks] = useState([
+    { id: "1", nome: "Mario" },
+    { id: "2", nome: "João" },
+  ]);
 
   return (
     <div className="container">
-      {message}
-      <button
-        onClick={() => {
-          newMessage("Este é um texto feito por useState");
-        }}
-      >
-        Clique em mim!
-      </button>
+      <Tasks tasks={tasks} />
     </div>
   );
 };

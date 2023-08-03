@@ -25,3 +25,27 @@
 
 //Scrum em grande projetos
 -"Scrum dos Scrums", one há varios times de scrum onde o Scrum master representa a equipe, e há um Scrum Master Chefe que cooderna os outros Scrum Master
+
+//Princípio 1 - Controle empírico de processos
+-Transparência (Onde todos sabem o que está sendo feito, todos podem opinar, backlog visível)
+-Inspeção: Verificação e acompanhamento do projeto
+-Adaptação: Adaptar para o objetivo do cliente, adaptar também as regras conforme o projeto
+
+//Princípio 2 - Auto organização
+-Os profissionais assumem o compromisso, são automotivados com a sua liberdade
+
+//Princípio 3 - Colaboração
+-Para grandes disafios, precisa de colaboração. Consciência(conhecer o trabalho dos colegas), articulação(dividir o esforço), apropriação(Ajudar o colega num momento de travamento)
+
+//Princípio 4 - Priorização baseada em valores
+-Entregar valores para o cliente. A cada sprint entregar uma parte do projeto. Priorizar as necessidades do cliente
+
+//Princípio 5 - Time Boxing
+-Reuniões com hora de início e finalização
+-Evitar reuniões longas
+
+//Princípio 6 - iterativo-incremental
+-Repetir até que o projeto esteja concluído
+
+//Vantagens Scrum
+-

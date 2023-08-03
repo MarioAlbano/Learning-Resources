@@ -10,3 +10,15 @@
 -Java ME = Java para celulares
 -Java FX = Java para desktops
 
+//Organização
+-Package
+-Class
+-Method
+-Statements
+
+//Variáveis
+-Primitive types: (byte(128), short(32k), int(2b), long, float, double, char, boolean). Não podemos usar os métodos delas
+-Reference Data Types: Armanezam referência de objetos. Podemos usar métodos
+
+//Input
+-Scanner

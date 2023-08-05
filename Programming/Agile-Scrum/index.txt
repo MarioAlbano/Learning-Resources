@@ -48,4 +48,10 @@
 -Repetir até que o projeto esteja concluído
 
 //Vantagens Scrum
--
+-Entrega de valor, maior produção por causa do tempo pré-definido, foco, colaboração, cumunicação intensa
+
+//Exemplo Prático - Scrum
+-Fazer o projeto no proj4.me
+-Definir visão do projeto em word (Título, Objetivo (smart), Justificativa, Descrição geral, Equipe, Partes interessadas, Premissas, Premissas, Escopo Excluído, riscos preliminares). Definido pelo scrum owner.
+-Definir a equipe scrum: Entre 5~9 pessoas, buscar pessoas ágeis e flexíveis, com boa comunicação para trabalharem de forma autônoma (Scrum master, dono do produto, time scrum)
+-Criação do backlog do produto

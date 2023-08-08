@@ -1,58 +1,62 @@
-//O que é um projeto
+//O que é um projeto - Módulo 01
 -Esforço temporário que produz algo único
 -Independente da área, sempre estamos lidando com projetos
 -Gestão de projetos: Ponto A ao ponto B para concluir um projeto com máxima de eficiência. Evitar caminhos que fracassam um projeto e seguir as que dão certo
 
-//Gestão de projetos tradicional x Ágil
+//Gestão de projetos tradicional x Ágil  - Módulo 02
 -Tradicional:Foco no planejamento do que será feito do início ao fim do projeto. Contras: Muita documentação com difícil mudanças, trás o projeto só ao final. Bons para certos projetos exemplo em construção
 -Scrum: Dirigido por valores, respondendo a mudanças do cliente, tendo foco um produto que funcione e satisfaça o cliente, entregando ao longo do projeto para o cliente de modo que possa avaliar. Ágil = rápido, flexível, adaptável e responsivo ás mudanças
 -Ambos são boas, dependendo muito do projeto
 
-//Scrum
+//Scrum e seu fluxo - Módulo 03
 -"Framework simples para gerenciar projetos complexos"
 -1° pilar: Transparência: Todos possuem conhecimento sobre o que está sendo feito
 -2° pilar: Inspeção: Revisões programadas, reuniões diárias
 -3° pilar:  Adapatação: Mudanças. A cada 2 semanas há uma validação
-
-//Fluxo do Scrum
 -Necessidade: Backlog do produto(planejamento do escopo do produto)
 -Sprint: A cada duas semanas, temos uma interação(sprint), ou seja, Backlog da sprint. Todos os dias reuniões diárias com a equipe
 -O ciclo se repete até a entre total com o cliente satisfeito
-
-//Equipes, papéis e responsabilidades
 -Centrais: Equipe Scrum(equipe que desenvolve, se auto organizam), Scrum Master(Referência as práticas do scrum e que fiscaliza se o time está seguindo), Dono do protudo(Cliente ou as partes envolvidas e que tomam as decisões)
 -Não-essenciais: Usuários, fornecedores, parceiros(Não vão participar ativamente do projeto)
-
-//Scrum em grande projetos
 -"Scrum dos Scrums", one há varios times de scrum onde o Scrum master representa a equipe, e há um Scrum Master Chefe que cooderna os outros Scrum Master
 
-//Princípio 1 - Controle empírico de processos
+//Princípios do Scrum - Módulo 04
+*Princípio 1 - Controle empírico de processos
 -Transparência (Onde todos sabem o que está sendo feito, todos podem opinar, backlog visível)
 -Inspeção: Verificação e acompanhamento do projeto
 -Adaptação: Adaptar para o objetivo do cliente, adaptar também as regras conforme o projeto
-
-//Princípio 2 - Auto organização
+*Princípio 2 - Auto organização
 -Os profissionais assumem o compromisso, são automotivados com a sua liberdade
-
-//Princípio 3 - Colaboração
+*Princípio 3 - Colaboração
 -Para grandes disafios, precisa de colaboração. Consciência(conhecer o trabalho dos colegas), articulação(dividir o esforço), apropriação(Ajudar o colega num momento de travamento)
-
-//Princípio 4 - Priorização baseada em valores
+*Princípio 4 - Priorização baseada em valores
 -Entregar valores para o cliente. A cada sprint entregar uma parte do projeto. Priorizar as necessidades do cliente
-
-//Princípio 5 - Time Boxing
+*Princípio 5 - Time Boxing
 -Reuniões com hora de início e finalização
 -Evitar reuniões longas
-
-//Princípio 6 - iterativo-incremental
+*Princípio 6 - iterativo-incremental
 -Repetir até que o projeto esteja concluído
-
-//Vantagens Scrum
+*Vantagens Scrum
 -Entrega de valor, maior produção por causa do tempo pré-definido, foco, colaboração, cumunicação intensa
 
-//Exemplo Prático - Scrum
+//Fase 'Iniciar' - Módulo 05
 -Fazer o projeto no proj4.me
 -Definir visão do projeto em word (Título, Objetivo (smart), Justificativa, Descrição geral, Equipe, Partes interessadas, Premissas, Premissas, Escopo Excluído, riscos preliminares). Definido pelo scrum owner.
 -Definir a equipe scrum: Entre 5~9 pessoas, buscar pessoas ágeis e flexíveis, com boa comunicação para trabalharem de forma autônoma (Scrum master, dono do produto, time scrum)
 -Criação do backlog do produto (identificando as necessidades das partes interessadas, coletando histórias de usuário, definindo prioridades, planejamento de release)
--Planejar a próxima sprints, implementar
+
+//Fase 'Planejar e estimar' - Módulo 06
+-Refinar o backlock antes de planejar a sprint
+-Planejando a próxima sprinmt
+-Criando e estimando tarefas
+
+//Fase 'Implementar' - Módulo 07
+-Entregáveis
+-Reunião diária
+-Refinar backlog
+
+//Fase 'Revisão e retrospectiva' - Módulo 08
+-Entregando valor e obtendo retrospectiva
+-Evitando erros recorrentes
+
+//Fase 'Release' - Módulo 09

@@ -60,3 +60,5 @@
 -Evitando erros recorrentes
 
 //Fase 'Release' - Módulo 09
+-Entregando os entragáveis
+-Retrospectiva do projeto: Evitando erros recorrentes

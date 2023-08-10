@@ -21,3 +21,12 @@
 -'npm install express'
 -Se quisermos, podemos adicionar um script
 
+//Criando enpoint
+-usar com require o express
+-definir uma porta
+-criar um end point
+-user o listen com a porta
+
+//Route e Query params
+-Route: app.get('/users/:name')res.params.name;
+-Query: 

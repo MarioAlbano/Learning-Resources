@@ -1,0 +1,23 @@
+//Como funciona uma API
+-Exemplo: Quando queremos do desktop ou mobile alterar o banco de dados, poderíamos fazer essa ponte diretamente. Entretando qualquer usuário teria esse poder para criar um novo ou alterar um existente. Por isso entra a API que é o código que o front não tem acesso e que faz esse tipo de gerenciamento.
+-Precisamos fazer algum tipo de comunicação, como por exemplo http.
+
+//Métodos HTTP
+-GET: Quando queremos buscar informações, por exemplo uma lista
+-POST: Criação de algo, exemplo usuário
+-PUT: Mudar tudo
+-PATCH: Mudar algo específico
+-DELETE: Deleta algo específico
+
+//Status code
+-100~199: Respostas de informações
+-200~299: Respostas de sucesso
+-300~399: Respostas de redirecionamento
+-400~499: Respostas de erro de cliente
+-500~599: Respostas de erro do servidor
+
+//Iniciando o Express
+-'npm init'
+-'npm install express'
+-Se quisermos, podemos adicionar um script
+

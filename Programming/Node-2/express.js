@@ -1,4 +1,4 @@
-const express = require("express"); //Importing express
+import express from "express";
 const app = express(); //Using instance
 const PORT = 3030; //Creating port
 

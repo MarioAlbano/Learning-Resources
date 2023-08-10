@@ -1,3 +1,26 @@
+//JavaScript - Manipulando Arrays de objetos
+-.map 
+-Exemplo: 
+-.forEach
+-Exemplo: 
+-.filter
+-Exemplo: 
+-.find
+-Exemplo: 
+-.reduce
+-Exemplo: 
+-.keys
+-Exemplo: 
+-.sort
+-Exemplo: 
+-.some
+-Exemplo: 
+-.every
+-Exemplo: 
+-.flatMap
+-Exemplo: 
+
+
 //Como funciona uma API
 -Exemplo: Quando queremos do desktop ou mobile alterar o banco de dados, poderíamos fazer essa ponte diretamente. Entretando qualquer usuário teria esse poder para criar um novo ou alterar um existente. Por isso entra a API que é o código que o front não tem acesso e que faz esse tipo de gerenciamento.
 -Precisamos fazer algum tipo de comunicação, como por exemplo http.
@@ -37,3 +60,6 @@
 -"nodemon nome_do_arquivo"
 -Podemos também adicionar um script
 
+//Importar sem dar o require()
+-Adicionar "type": "module" no package.json depois de description
+-Depois usar no arquivo principal "import express from 'express'"

@@ -27,6 +27,13 @@
 -criar um end point
 -user o listen com a porta
 
-//Route e Query params
+//Route params
 -Route: app.get('/users/:name')res.params.name;
--Query: 
+
+//Instalando nodemon
+-Útil para não precisar sempre dar reload no arquivo pelo node após configurações
+-"npm install -g nodemon"
+-Podemos instalar na dependência também
+-"nodemon nome_do_arquivo"
+-Podemos também adicionar um script
+

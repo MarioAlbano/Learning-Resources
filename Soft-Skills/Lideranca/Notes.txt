@@ -1,2 +1,49 @@
 //Introdução Liderança
 -Lidar com outras pessoas para objetivos
+-Todos podemos aprender essa habilidade
+
+//Chefe x Líder 
+-Chefe: Usa os outros para seu objetivo pessoal, pega pesado, sem senso de justiça
+-Líder: Direciona os outros para os objetivos da empresa da melhor maneira, proativo
+
+//Dica 01 - Saia da sua zona de conforto
+-As melhores oportunidades estão fora da nossa zona de conforto
+-Comunicação: reforçar maus hábitos e substituir por melhorees palavras
+
+//Dica 02 - Trabalhe sua motivação e otimismo
+-Ter um visão positiva sobre as coisas
+-Aprender a melhorar o desempenho do grupo
+
+//Dica 03 - Desenvolva empatia
+-Entender o desejo da sua equipe
+-Sabendo o que eles desejam, é mais fácil motivá-los
+
+//Empatia: intenção x realidade
+-Dependendo da forma que dizemos, somos interpretados errados
+
+//Tipos de líder
+-Há diferentes tipos de líderes
+-Exigente, Autocrático, Liberal, Visionário, Democrático, Coach
+
+//Dica 04 - Não escolha seu tipo
+-Se adapte a sua equipe e ao seu projeto
+
+//Dica 05 - Escolha suas referências
+-Veja alguem da sua rotina e copie hábitos de liderança que você admire
+
+//Extra - Negociação
+-Planejamento (Definir seus objetivos, mínimo a vender e o esperado, contra argumentos)
+-Rapport (fazer uma ligação pessoal com o cliente)
+-Exploração (Buscar as espectativas)
+-Acordo (Barganha)
+-Fechamento (Recapitular e acordar por escrito formal)
+-Erros: Não planejar, pular etapas, expectativas exageradas, não preservar a sua imagem, inflexível
+
+//Extra - Produtividade pessoal
+-Por que fazer?: Conseguir balancear sua vida pessoal com a profissional. Considerada a melhor metodologia do mundo
+-Getting Things Done (GTD)
+-Coletar (Anotar tudo que precisa ser feito, guardar em exemplo: google calendar)
+-Processar (Processar a tarefa pela tabela do GTD)
+-Organizar (Organizar em lista dependendo do contexto que estamos)
+-Planejar (Quando vamos fazer, deixar um tempo de sobra, colocá-lo em um calendário, definir um dia)
+-Executar (Executar as tarefas, ser flexível, manter as prioridades)

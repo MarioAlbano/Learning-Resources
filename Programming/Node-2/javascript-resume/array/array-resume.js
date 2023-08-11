@@ -28,3 +28,9 @@ console.log(filterExample);
 //find example
 const findExample = myNumbers.find((number) => number > 2);
 console.log(findExample);
+
+//reduce example
+const sumNumbers = myNumbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 5);
+console.log(sumNumbers);

@@ -34,3 +34,6 @@ const sumNumbers = myNumbers.reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
 }, 5);
 console.log(sumNumbers);
+
+//Usando keys no node
+const funcao

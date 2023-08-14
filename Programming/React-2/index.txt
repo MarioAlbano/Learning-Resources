@@ -1,0 +1,9 @@
+//Documentação
+-https://react.dev/
+
+//Instalar Vite
+-Antes, instalar node, vscode, configurar vscode
+-'npm create vite@latest'
+-Usar React > Typescript
+-Usar 'npm install'
+-Usar 'npm run dev'

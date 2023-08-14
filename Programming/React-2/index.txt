@@ -7,3 +7,7 @@
 -Usar React > Typescript
 -Usar 'npm install'
 -Usar 'npm run dev'
+
+//Limpando o projeto
+-Deletar pasta 'assets'
+-na pasta 'src', deixar somente main.tsx e editar o App.tsx apagando tudo e dar um export defaul function App(){return()}

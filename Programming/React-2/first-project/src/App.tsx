@@ -1,3 +1,7 @@
+// Change this:
+import { Test } from "./components/test";
+import { Footer } from "./components/footer";
+
 export default function App() {
   return (
     <div>
@@ -5,6 +9,9 @@ export default function App() {
       <Student name={"Mario"} age={28} />
       <Student name={"Edgar"} age={18} />
       <Student name={"Edmilson"} age={50} />
+      <Test name="Mario" age={28} email="John@hmail.br" />
+      <Footer law="1646324" />
+      <Footer />
     </div>
   );
 }

@@ -11,3 +11,11 @@
 //Limpando o projeto
 -Deletar pasta 'assets'
 -na pasta 'src', deixar somente main.tsx e editar o App.tsx apagando tudo e dar um export defaul function App(){return()}
+
+//Criando componente com Typescript
+-Criar um 'interface', definir as variáveis que vão receber e seus tipos
+-Passa-los através de 'função({nome_props}: nome_interface)'
+-criar e importar como arquivo tsx. usar no arquivo principal: import {nome_funcao} from './nome_arquivo_comAFunção'
+
+//useStates
+-Usado quando queremos que algo reaja a alguma ação

@@ -1,0 +1,10 @@
+//Wordpress
+-CMS (Onde uma função altera para um texto salvo em banco de dados)
+-Mais utilizado do mundo (Mais de 50% da web utiliza)
+-Open Source
+-PHP e Mysql (fácil de aprender e baixo custo de servidores)
+-O cliente não precisa saber HTML e Css, grande comunidade, customização, interface simples
+
+//Wordpress.org vs Wordpress.com
+-Org: Gratito, 100% Livre, Precisa ser Hospedado
+-Com: Gratuito até certo ponto, código não é livre

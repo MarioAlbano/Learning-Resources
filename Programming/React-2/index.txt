@@ -17,5 +17,17 @@
 -Passa-los através de 'função({nome_props}: nome_interface)'
 -criar e importar como arquivo tsx. usar no arquivo principal: import {nome_funcao} from './nome_arquivo_comAFunção'
 
-//useStates
--Usado quando queremos que algo reaja a alguma ação
+//useState
+-Usado quando queremos que algo reaja a alguma ação. Ser dinâmico.
+-input: Quando queremos usar seu valor. setInput: Quando queremos trocar seu valor. Exemplo: 
+import {useState} from 'react'; 
+const [input, setInput] = useState("Valor que quero deixar padrão");
+
+
+//tipagem nos useState
+-Usar exemplo: useState<string | number>("Valor padrão")
+
+//Usando useState como objeto
+-Definir uma interface. No useState, use: useState<nome_interface>
+
+//To-do: Criar fução, criar um input, criar um useState e usar para trocar o valor do input dinâmicamente. Mudar tipagem do useState com o typescript<>. Criar um contador com botão de '+' e '-, com um if para parar no mínimo 0 e no máximo 100'

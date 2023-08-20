@@ -8,3 +8,26 @@
 //Wordpress.org vs Wordpress.com
 -Org: Gratito, 100% Livre, Precisa ser Hospedado
 -Com: Gratuito até certo ponto, código não é livre
+
+//Necessário
+-Servidor Web(Apache ou Nginx)
+-Banco de dados (MySQL ou MariaDB)
+-Linguagem de programação (PHP)
+-Instaladores: Local by Flywheel(Mais simples), MAMP/XAMPP/WAMPPS(Mais utilizado porém da possíveis problemas), Vagrant/Docker(Mais difícil, praticamentar instalar 'na mão')
+
+//Interface Wordpress
+-Para logar, após a URL usar '/wp-admin'
+-Sempre deixar o Wordpress atualizado (faça backup antes)
+
+//Ações
+-Postagem (Publicar, editar, salvar em rascunho)
+-Adicionar mídia
+-Páginas
+-Temas
+-Usuário
+
+//Plugins importantes
+-WooCommerce
+-Yoast SEO
+-Disable Gutenberg
+-Duplitor

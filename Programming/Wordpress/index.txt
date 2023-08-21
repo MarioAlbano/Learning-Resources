@@ -31,3 +31,20 @@
 -Yoast SEO
 -Disable Gutenberg
 -Duplitor
+
+//Extra: Quanto cobrar pelo trabalho
+-Cálculo: Quantos dias por mês? Qauntas horas? Nesse período, quantos sites? Pegar a soma e dividir por quanto é seu gasto de vida e adicionar uma margem de lucro
+-Colocar também na conta ferramentas pagas como exemplo elementor pro e plugins pagos
+-Simplificar a venda e passar o valor total, explicando o que está incluso
+-Exemplos de preços: Site institucional (A partir de R$: 800,00), Blog (A partir de R$: 1500,00), Loja virtual (A partir de R$: 3000,00), sites Portais como imobiliária, loja de carro, hotel etc... (A partir de 4000,00).
+-Adionar no valor funcionalidades que precisam ser adicionadas
+
+//PHP para Wordpress
+-Linguagem de programação, criada em 1994, gratuita e de código aberto
+-Permite: Salvar e ler conteúdo de um banco de dados, escrever loops e condicionamentos, pegar informações do wordpress
+
+//Editando arquivos PHP
+-variáveis
+-loop
+-condicionamento
+-Criando tema, criar miniatura de tema

@@ -1,0 +1,132 @@
+p, ul, ol, dl, blockquote, address, table{
+	line-height: 1.7;
+}
+embed,
+iframe,
+object{
+	border: none;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+dfn,
+cite,
+em,
+i{
+	font-style: italic;
+}
+abbr,
+acronym{
+	border-bottom: 1px dotted #999;
+}
+abbr[title],
+acronym[title]{
+	cursor: help;
+}
+acronym{
+	text-transform: uppercase;
+}
+del{
+	opacity: 0.6;
+	text-decoration: line-through;
+}
+a{
+	color: #0000ff;
+	text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus{
+	color: #ff1493;
+	text-decoration: underline;
+}
+a:focus{
+	outline: 1px dotted #ff1493;
+}
+img,
+figure{
+	max-width: 100%;
+	height: auto;
+}
+a img{
+	border: none;
+}
+[class*="wp-image"].inline{
+	display: inline;
+	margin: 0 4px;
+	padding: 2px;
+	background: #fff;
+	vertical-align: middle;
+}
+
+.wp-caption{
+	background-color: #fff;
+	max-width: 100%; /* Image does not overflow the content area */
+	text-align: center;
+	-webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.wp-caption	img{
+	display: block;
+}
+.wp-caption-text{
+	line-height: 1.5;
+	padding: 0.5em 0;
+}
+table,
+table.mce-item-table{
+	border: none;
+	border-collapse: collapse;
+}
+th, td,
+.mce-item-table td, .mce-item-table th{
+	text-align: left;
+	padding: 5px;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+.gallery{
+	margin: 1rem 0;
+}
+.gallery-item{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+.gallery-item a,
+.gallery-item a:hover,
+.gallery-item a:focus{
+	box-shadow: none;
+	background: none;
+	display: inline-block;
+}
+
+.gallery-columns-2 .gallery-item{
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item{
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item{
+	max-width: 25%;
+}
+.gallery-columns-5 .gallery-item{
+	max-width: 20%;
+}
+.gallery-columns-6 .gallery-item{
+	max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item{
+	max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item{
+	max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item{
+	max-width: 11.11%;
+}
+.gallery-caption{
+	display: block;
+}

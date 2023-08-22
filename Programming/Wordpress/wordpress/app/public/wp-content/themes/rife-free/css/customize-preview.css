@@ -1,0 +1,29 @@
+.theme-borders .customize-partial-edit-shortcut{
+	top: 50%;
+	left: 100%;
+	margin: 0;
+}
+.bottom-border .customize-partial-edit-shortcut,
+.top-border .customize-partial-edit-shortcut{
+	top: 0;
+	left: 50%;
+}
+
+#preloader.customize-partial-refreshing{
+	opacity: 1;
+}
+
+#top-closable-message .customize-partial-edit-shortcut{
+	left: 30px;
+}
+#footer > .customize-partial-edit-shortcut{
+	left: 50%;
+	top: 0;
+}
+.f-links{
+	position: relative;
+}
+.f-links .customize-partial-edit-shortcut{
+	 left: 0;
+	 top: 0;
+}

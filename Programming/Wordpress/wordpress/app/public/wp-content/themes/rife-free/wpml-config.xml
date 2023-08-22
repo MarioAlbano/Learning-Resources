@@ -1,0 +1,126 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">_alt_link</custom-field>
+        <custom-field action="translate">_subtitle</custom-field>
+        <custom-field action="translate">_www</custom-field>
+        <custom-field action="translate">_custom_1</custom-field>
+        <custom-field action="translate">_custom_2</custom-field>
+        <custom-field action="translate">_custom_3</custom-field>
+        <custom-field action="translate">_custom_4</custom-field>
+        <custom-field action="translate">_custom_5</custom-field>
+        <custom-field action="translate">_images_n_videos</custom-field>
+        <custom-field action="translate">_testimonial</custom-field>
+        <custom-field action="copy">_image_or_video</custom-field>
+        <custom-field action="copy">_image_parallax</custom-field>
+        <custom-field action="copy">_image_parallax_height</custom-field>
+        <custom-field action="translate">_post_video</custom-field>
+
+        <custom-field action="copy">_content_under_header</custom-field>
+        <custom-field action="copy">_brick_ratio_x</custom-field>
+        <custom-field action="copy">_cover_color</custom-field>
+        <custom-field action="copy">_exclude_in_albums_list</custom-field>
+        <custom-field action="copy">_exclude_in_works_list</custom-field>
+        <custom-field action="copy">_page_bg_settings</custom-field>
+        <custom-field action="copy">_page_image</custom-field>
+        <custom-field action="copy">_page_image_fit</custom-field>
+        <custom-field action="copy">_page_bg_color</custom-field>
+        <custom-field action="copy">_content_layout</custom-field>
+        <custom-field action="copy">_content_padding</custom-field>
+        <custom-field action="copy">_title_bar_settings</custom-field>
+        <custom-field action="copy">_title_bar_position</custom-field>
+        <custom-field action="copy">_title_bar_variant</custom-field>
+        <custom-field action="copy">_title_bar_width</custom-field>
+        <custom-field action="copy">_title_bar_image_fit</custom-field>
+        <custom-field action="copy">_title_bar_bg_color</custom-field>
+        <custom-field action="copy">_title_bar_title_color</custom-field>
+        <custom-field action="copy">_title_bar_color_1</custom-field>
+        <custom-field action="copy">_title_bar_parallax</custom-field>
+        <custom-field action="copy">_title_bar_parallax_type</custom-field>
+        <custom-field action="copy">_title_bar_parallax_speed</custom-field>
+        <custom-field action="copy">_title_bar_space_width</custom-field>
+        <custom-field action="copy">_breadcrumbs</custom-field>
+        <custom-field action="copy">_header_custom_sidebar</custom-field>
+        <custom-field action="copy">_widget_area</custom-field>
+        <custom-field action="copy">_sidebar_to_show</custom-field>
+        <custom-field action="copy">_order</custom-field>
+        <custom-field action="copy">_enable_desc</custom-field>
+        <custom-field action="copy">_slide_title_bg_color</custom-field>
+        <custom-field action="copy">_theme</custom-field>
+        <custom-field action="copy">_album_content</custom-field>
+        <custom-field action="copy">_brick_columns</custom-field>
+        <custom-field action="copy">_bricks_max_width</custom-field>
+        <custom-field action="copy">_brick_margin</custom-field>
+        <custom-field action="copy">_slide_cover_color</custom-field>
+        <custom-field action="copy">_bricks_hover</custom-field>
+        <custom-field action="copy">_bricks_title_position</custom-field>
+        <custom-field action="copy">_bricks_overlay_cover</custom-field>
+        <custom-field action="copy">_bricks_overlay_cover_hover</custom-field>
+        <custom-field action="copy">_bricks_overlay_gradient</custom-field>
+        <custom-field action="copy">_bricks_overlay_gradient_hover</custom-field>
+        <custom-field action="copy">_bricks_overlay_texts</custom-field>
+        <custom-field action="copy">_bricks_overlay_texts_hover</custom-field>
+        <custom-field action="copy">_fit_variant</custom-field>
+        <custom-field action="copy">_autoplay</custom-field>
+        <custom-field action="copy">_transition</custom-field>
+        <custom-field action="copy">_ken_scale</custom-field>
+        <custom-field action="copy">_gradient</custom-field>
+        <custom-field action="copy">_pattern</custom-field>
+        <custom-field action="copy">_thumbs</custom-field>
+        <custom-field action="copy">_overlay_bg_color</custom-field>
+        <custom-field action="copy">_overlay_font_color</custom-field>
+        <custom-field action="copy">_500px</custom-field>
+        <custom-field action="copy">_aim</custom-field>
+        <custom-field action="copy">_behance</custom-field>
+        <custom-field action="copy">_blogger</custom-field>
+        <custom-field action="copy">_delicious</custom-field>
+        <custom-field action="copy">_deviantart</custom-field>
+        <custom-field action="copy">_digg</custom-field>
+        <custom-field action="copy">_dribbble</custom-field>
+        <custom-field action="copy">_evernote</custom-field>
+        <custom-field action="copy">_facebook</custom-field>
+        <custom-field action="copy">_flickr</custom-field>
+        <custom-field action="copy">_forrst</custom-field>
+        <custom-field action="copy">_foursquare</custom-field>
+        <custom-field action="copy">_github</custom-field>
+        <custom-field action="copy">_googleplus</custom-field>
+        <custom-field action="copy">_instagram</custom-field>
+        <custom-field action="copy">_lastfm</custom-field>
+        <custom-field action="copy">_linkedin</custom-field>
+        <custom-field action="copy">_paypal</custom-field>
+        <custom-field action="copy">_pinterest</custom-field>
+        <custom-field action="copy">_quora</custom-field>
+        <custom-field action="copy">_rss</custom-field>
+        <custom-field action="copy">_sharethis</custom-field>
+        <custom-field action="copy">_skype</custom-field>
+        <custom-field action="copy">_stumbleupon</custom-field>
+        <custom-field action="copy">_tumblr</custom-field>
+        <custom-field action="copy">_twitter</custom-field>
+        <custom-field action="copy">_vimeo</custom-field>
+        <custom-field action="copy">_wordpress</custom-field>
+        <custom-field action="copy">_yahoo</custom-field>
+        <custom-field action="copy">_youtube</custom-field>
+        <custom-field action="copy">_work_slider_autoplay</custom-field>
+        <custom-field action="copy">_album_slider_autoplay</custom-field>
+
+
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">album</custom-type>
+        <custom-type translate="1">work</custom-type>
+        <custom-type translate="1">people</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">genre</taxonomy>
+        <taxonomy translate="1">work_genre</taxonomy>
+        <taxonomy translate="1">group</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="apollo13_option_rife">
+            <key name="logo_text" />
+            <key name="footer_text" />
+            <key name="top_message_text" />
+            <key name="top_bar_message" />
+            <key name="top_message_button" />
+        </key>
+    </admin-texts>
+</wpml-config>

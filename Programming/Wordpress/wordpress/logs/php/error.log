@@ -1,0 +1,2 @@
+[22-Aug-2023 00:17:03 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\m_alb\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[22-Aug-2023 13:13:38 UTC] Cron reschedule event error for hook: recovery_mode_clean_expired_keys, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}

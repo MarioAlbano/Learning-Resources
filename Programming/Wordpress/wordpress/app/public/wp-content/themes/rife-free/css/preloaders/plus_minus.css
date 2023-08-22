@@ -1,0 +1,62 @@
+.plus_minus .preloader-animation {
+	top: -50px;
+	left: 30px;
+}
+.plus_minus .square {
+	width: 8px;
+	height: 30px;
+	background: #fff/*$color*/;
+	border-radius: 10px;
+	display: block;
+	/*margin:10px;*/
+	-webkit-animation: turn 2.5s ease infinite;
+	animation: turn 2.5s ease infinite;
+}
+.pm-top {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.pm-bottom {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+.pm-left {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+}
+.pm-right {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+@-webkit-keyframes turn {
+	0% {
+		transform: translateX(0) translateY(0) rotate(0);
+	}
+	50% {
+		transform: translateX(400%) translateY(100%) rotate(90deg);
+	}
+	100% {
+		transform: translateX(0) translateY(0) rotate(0);
+	}
+}
+@keyframes turn {
+	0% {
+		transform: translateX(0) translateY(0) rotate(0);
+	}
+	70% {
+		transform: translateX(400%) translateY(100%) rotate(90deg);
+	}
+	100% {
+		transform: translateX(0) translateY(0) rotate(0);
+	}
+}

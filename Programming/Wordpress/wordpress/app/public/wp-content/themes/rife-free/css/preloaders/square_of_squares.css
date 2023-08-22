@@ -1,0 +1,107 @@
+.sos-load {
+	position:absolute;
+	top:calc(50% - 30px);
+	left:calc(50% - 30px);
+	width:70px;
+	height:70px;
+}
+
+
+.sos-block {
+	position:relative;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	background:gold;
+	transition:all 0.8s;
+	-webkit-animation: rot 5s linear infinite;
+	animation: rot 5s linear infinite;
+}
+.sos-block:nth-child(1) {
+	-webkit-animation-delay:3s;
+	animation-delay:3s;
+}
+.sos-block:nth-child(2) {
+	-webkit-animation-delay:1.5s;
+	animation-delay:1.5s;
+	-webkit-animation: rot 12s linear infinite;
+	animation: rot 15s linear infinite;
+}
+.sos-block:nth-child(3) {
+	-webkit-animation-delay:2s;
+	animation-delay:2s;
+}
+.sos-block:nth-child(4) {
+	-webkit-animation-delay:0.2s;
+	animation-delay:0.2s;
+}
+.sos-block:nth-child(5) {
+	-webkit-animation-delay:4s;
+	animation-delay:4s;
+}
+.sos-block:nth-child(6) {
+	-webkit-animation-delay:2s;
+	animation-delay:2s;
+	-webkit-animation: rot 7s linear infinite;
+	animation: rot 7s linear infinite;
+}
+.sos-block:nth-child(7) {
+	-webkit-animation-delay:0.4s;
+	animation-delay:0.4s;
+}
+.sos-block:nth-child(8) {
+	-webkit-animation-delay:1.5s;
+	animation-delay:1.5s;
+	-webkit-animation: rot 6s linear infinite;
+	animation: rot 6s linear infinite;
+}
+.sos-block:nth-child(9) {
+	-webkit-animation-delay:25s;
+	animation-delay:25s;
+	-webkit-animation: rot 8s linear infinite;
+	animation: rot 8s linear infinite;
+}
+@-webkit-keyframes rot {
+	0% {
+		transform:none;
+	}
+	20% {
+		transform:rotateZ(-90deg) rotateY(180deg);
+	}
+	40% {
+		background:chocolate;
+		transform:none;
+	}
+	60% {
+		background:white
+	}
+	80% {
+		background:cornflowerblue;
+	}
+	90% {
+		transform:none;
+		background:#222;
+	}
+}
+@keyframes rot {
+	0% {
+		transform:none;
+	}
+	20% {
+		transform:rotateZ(-90deg) rotateY(180deg);
+	}
+	40% {
+		background:chocolate;
+		transform:none;
+	}
+	60% {
+		background:white
+	}
+	80% {
+		background:cornflowerblue;
+	}
+	90% {
+		transform:none;
+		background:#222;
+	}
+}

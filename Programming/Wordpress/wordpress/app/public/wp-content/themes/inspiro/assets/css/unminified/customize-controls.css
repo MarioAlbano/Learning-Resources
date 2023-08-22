@@ -1,0 +1,185 @@
+/* Upgrade to Inspiro Premium */
+.customize-control-section-title .accordion-section-title,
+#customize-controls .control-section-upgrade-pro .accordion-section-title {
+    background-color: #eff4f7;
+    font-size: 16px;
+    border-left-color: #2497d4;
+}
+
+.customize-control-section-title .accordion-section-title:hover, .customize-control-section-title .accordion-section-title:focus,
+#customize-controls .control-section-upgrade-pro .accordion-section-title:hover,
+#customize-controls .control-section-upgrade-pro .accordion-section-title:focus {
+    background-color: #eff4f7;
+    border-left-color: #2497d4;
+}
+
+.customize-control-section-title .accordion-section-title .button,
+#customize-controls .control-section-upgrade-pro .accordion-section-title .button {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 8px;
+    border: none;
+    background: #2497d4;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    box-shadow: none;
+}
+
+.customize-control-section-title .accordion-section-title .button:hover,
+#customize-controls .control-section-upgrade-pro .accordion-section-title .button:hover {
+    background: #363940;
+}
+
+.customize-control-section-title .accordion-section-title .customize-action,
+#customize-controls .control-section-upgrade-pro .accordion-section-title .customize-action {
+    font-size: 13px;
+    display: block;
+    opacity: 0.8;
+    font-weight: 400;
+    color: #50575e;
+}
+
+/* Typography Control Style */
+.customize-pane-child > li[id*="-font-weight"],
+.customize-pane-child > li[id*="-text-transform"] {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    clear: none;
+}
+
+.customize-pane-child > li[id*="-font-weight"] {
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+.customize-pane-child > li[id*="-text-transform"] {
+    padding-left: 5px;
+}
+
+.customize-control-section-title {
+    font-size: 16px;
+    background-color: #eff4f7;
+    border-left-color: #2497d4;
+    color: #50575e;
+}
+
+.customize-control-section-title .inspiro-customize-section-title {
+    font-size: 15px;
+    margin: 0;
+}
+
+.customize-section-description-container + .customize-control-section-title {
+    margin-top: -14px;
+}
+
+.customize-control-title {
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.inspiro-customize-section-title + .customize-control-description,
+.customize-control-section-title .customize-control-description {
+    margin-top: 12px;
+    font-style: normal;
+}
+
+.customize-control.customize-control-inspiro-range .inspiro-control-range {
+    float: left;
+    width: calc(100% - 85px);
+    position: relative;
+    height: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+.customize-control.customize-control-inspiro-range .inspiro-control-range-value {
+    margin-left: 10px;
+    width: 75px;
+    font-size: 13px;
+}
+
+.inspiro-control-range::-webkit-slider-runnable-track {
+    height: 3px;
+    background: #d7dade;
+    border: none;
+}
+
+.inspiro-control-range::-moz-range-track {
+    height: 3px;
+    background: #d7dade;
+    border: none;
+}
+
+.inspiro-control-range::-ms-track {
+    height: 3px;
+    background: #d7dade;
+    border: none;
+    color: transparent;
+}
+
+.inspiro-control-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #7e8993;
+    margin-top: -6px;
+}
+
+.inspiro-control-range:focus::-webkit-slider-thumb {
+    border-color: #00669b;
+}
+
+.inspiro-control-range::-moz-range-thumb {
+    border: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #7e8993;
+    margin-top: -6px;
+}
+
+.inspiro-control-range::-ms-thumb {
+    border: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #7e8993;
+    margin-top: -6px;
+}
+
+.wp-customizer .select2-container {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.wp-customizer .select2-dropdown {
+    z-index: 700000;
+}
+
+.wp-customizer .select2-results__option {
+    margin-bottom: 0;
+}
+
+.wp-customizer .select2-results__option[role="list"] {
+    padding: 0;
+}
+
+.wp-customizer .select2-container .select2-selection--single {
+    height: 30px;
+    border-color: #7e8993;
+}

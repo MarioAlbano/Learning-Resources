@@ -1,0 +1,51 @@
+.indicator .pace-activity{
+    display: block;
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 50%;
+    margin-left: -40px;
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s;
+}
+
+.indicator .pace-activity:before,
+.indicator .pace-activity:after{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    border: 5px solid transparent;
+    border-radius: 50%;
+    content: '';
+}
+.indicator .pace-activity:before{
+    margin-left: -40px;
+    width: 80px;
+    height: 80px;
+    border-right-color: #fff/*$color*/;
+    border-left-color: #fff/*$color*/;
+    -webkit-animation: pace-rotation 3s linear infinite;
+    animation: pace-rotation 3s linear infinite;
+}
+
+.indicator .pace-activity:after{
+    top: 20px;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    border-top-color: #fff/*$color*/;
+    border-bottom-color: #fff/*$color*/;
+    -webkit-animation: pace-rotation 1s linear infinite;
+    animation: pace-rotation 1s linear infinite;
+}
+
+@-webkit-keyframes pace-rotation {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(359deg); }
+}
+@keyframes pace-rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(359deg); }
+}

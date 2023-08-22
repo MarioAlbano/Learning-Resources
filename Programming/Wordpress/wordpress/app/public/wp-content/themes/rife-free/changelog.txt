@@ -1,0 +1,1485 @@
+IMPORTANT!
+Change log is for all themes build on Apollo13 Framework.
+Not all bundled plugins may be included in every theme, however every theme will have build in support for those plugins.
+What plugins are included with your theme can be found in feature list of theme that you are using.
+Thanks!
+
+----------------
+= 2.4.16.1(06.03.2023) - Only Rife Free =
+
+Tested with WordPress 6.1
+Tested with WooCommerce 7.4
+
+Fixed:
+-leftoever debug in code(thanks Ov3rfly)
+
+----------------
+= 2.4.16(05.03.2023) =
+
+Tested with WordPress 6.1
+Tested with WooCommerce 7.4
+
+Improved:
+-checking priviliges on various AJAX actions
+
+Fixed:
+-minor warnings that happens with PHP 8.X on
+-JavaScript error when user doesn't use gutenberg editor
+
+----------------
+= 2.4.15(25.10.2022) =
+
+Tested with WordPress 6.0
+Tested with WooCommerce 7.0
+
+
+Fixed:
+-layout issue with album media when loaded in gutenberg editor
+-jetpack issue with lazy loading albums on albums list when jetpack lazy loading images is on
+
+
+----------------
+= 2.4.14.1(22.04.2022)(Rife Pro only) =
+
+Tested with WordPress 5.9
+Tested with WooCommerce 6.4
+
+
+Fixed:
+-auto update feature throwing PHP notices in some rare cases
+-not checking correctly for available updates in some cases
+-error throwed on bulk installation of required plugins
+
+
+
+----------------
+= 2.4.14(29.03.2022) =
+
+Tested with WordPress 5.9
+Tested with WooCommerce 6.2
+
+Improved:
+-WooCoomerce style for single thumbnail in the single product view
+
+
+Fixed:
+-small styling issue in WooCommerce LTR nad RTL mode
+-Auto update feature for Rife Pro that was added in WordPress 5.5
+-the header top bar styling in some situations
+-not respecting post limit per page in categories of Albums and Works
+
+
+----------------
+= 2.4.13(02.09.2021) =
+
+Tested with WordPress 5.8
+Tested with WooCommerce 5.6
+
+Added:
+-support for closing mobile menu when anchor in the submenu is clicked
+
+Improved:
+-support for classic widgets since WordPress 5.8
+
+Fixed:
+-password protected pages throwing notices in some rare cases
+-not always showing footer made in the Elementor Header & Footer Builder plugin
+-products grid from Elementor 3.2.x
+-PHP 8 Notice
+
+
+----------------
+
+= 2.4.12(31.03.2021) =
+
+Tested with WordPress 5.7
+Tested with WooCommerce 5.1.X
+
+Added:
+-(Rife Pro)option to set 2 columns for shop on mobile, instead of default 1 column(Customizing -> Shop(WooCommerce) settings -> Products list -> Bricks columns - on mobiles)
+-(Rife Pro)option to set display the "Add to cart" button under the image when using the "Text under photo" variant(Customizing -> Shop(WooCommerce) settings -> Products list -> Where to display the "Add to Cart" button)
+-Telegram social icon
+
+Improved:
+-support for lazy loading of images when using Wp-Smush plugin
+
+Fixed:
+-preview of Apollo13 Framework Widgets in Elementor preview(again)
+-situation when album is used as frontpage with using WPML
+
+----------------
+
+= 2.4.11(01.12.2020) =
+
+Tested with WordPress 5.6
+Tested with WooCommerce 4.7.X
+
+Added:
+
+Updated:
+-LightGallery to 1.9.0
+
+Improved:
+-JavaScript code changes to make plugin work with upcoming WodrPress versions.
+-All occurrence of intval() was changed to (int)
+
+Fixed:
+-when PHP is configured to display decimals in comma separated way
+-lazy loading images on the Blog in WordPree 5.5
+-lazy loading images on the ALbums, Works and People post types
+
+
+----------------
+= 2.4.10(07.09.2020) =
+
+Tested with WordPress 5.5
+Tested with WooCommerce 4.4.X
+
+Added:
+
+Improved:
+-(Rife Pro) hover states for photo proffing controls as they were misleading on mobile
+-JavaScript code changes to make plugin work with upcoming WodrPress versions.
+
+Fixed:
+-preview of Apollo13 Framework Widgets in Elementor preview
+
+----------------
+= 2.4.9(25.05.2020) =
+
+Tested with WordPress 5.4
+Tested with WooCommerce 4.1.X
+
+Added:
+-noopener for social links(thanks robi052)
+-(Rife Pro) 3 New animated effects for menu opening icons
+-option to disable "to top" button
+
+Improved:
+-Do not hide mini cart of the WooCommerce on the checkout and on the cart pages
+-(WooCommerce) List of products categories uses same layout as products list
+-(WooCommerce) Size of thumbnails in gallery in single product
+
+Fixed:
+-Issue with option "Header color variants" not working as it should while being set to "Turn on only for a sticky variant"(thanks beslowik & mitcharseneau)
+-(WooCommerce) Issue when there are too many thumbs in single product
+-Issue in bricks layout where scrollbar is count in wrong way
+
+----------------
+= 2.4.8(01.04.2020) =
+
+Tested with WordPress 5.4
+Tested with WooCommerce 4.0.X
+
+Added:
+-Support for custom fields in admin menu introduced with WordPress 5.4. (Requires Apollo13 Framework Extensions in version 1.8.4 or higher)
+
+Improved:
+-Better check for active plugins while checking for updates
+
+----------------
+= 2.4.7(26.02.2020) =
+
+Fixed:
+-Fatal error that can happen on password protected pages after 2.4.6 update
+
+----------------
+= 2.4.6(24.02.2020) =
+
+Added:
+-Social icon for Facebook Messenger(requires using Font Awesome 5 in Elementor)
+-filter "apollo13framework_post_navigation_image_size" to change size of images in post navigation
+-(Rife Pro) list of selected files in photoproffing(available while editing album and in confirmation e-mail)
+
+Fixed:
+-Possible source of errors when running some actions with WPCLI
+-Issue with some plugins that are using anchors for JS navigation
+-Issue with Yoast SEO on the theme custom template for password protected page
+
+----------------
+= 2.4.5(18.11.2019) =
+
+Added:
+-Displaying category description as subtitle in the title bar in Albums and Works categories
+
+Fixed:
+-issues with Slider Revolution version 6 and above
+-double printing ApolloParams definition(thanks Thomas K.)
+-issue with main class being null in sidebars.php(reason for this situation is still unclear, so the issue can now move to a different file)
+-menu walker giving notices in WordPress 5.3
+
+Tested with WordPress 5.3
+
+----------------
+= 2.4.4.1(12.07.2019) =
+
+Fixed:
+-Icon fix in Works list connected to update 2.4.4
+
+----------------
+= 2.4.4(12.07.2019) =
+
+Fixed:
+-Compatibility with Elementor 2.6.0 in regards to FontAwesome 5 icons on pages not using Elementor like Albums
+
+----------------
+= 2.4.3(10.07.2019) =
+
+Added:
+-(Rife Pro)Option to set featured image proportion on post list for bricks mode(Customizing -> Blog settings -> Posts list -> Choose the proportions of the bricks : Featured Image)
+
+Changed:
+-Adding theme language switcher for WPML in main menu only for versions of WPML < 4.0. Newer WPML gives more control over language switchers in the menu.
+
+Fixed:
+-Compatibility with Elementor 2.6.0 in regards to FontAwesome 5 icons
+-theme slider link open in new window
+-(Rife Pro)theme scroller link open in new window
+-firing waypoints Elements when they are at very bottom of the page(thanks ChristWolves)
+
+Updated:
+-Google Fonts list
+
+----------------
+= 2.4.2(06.06.2019) =
+
+Fixed:
+-Issues with WpBakery 6.x with writing effect
+
+----------------
+= 2.4.1(05.06.2019) =
+
+Fixed:
+-menu walker error on 404 page with WPBakery in some situations
+-Issues with WpBakery 6.x
+
+----------------
+= 2.4.0(14.05.2019) =
+
+Added:
+-(Rife Pro)Option to change default filter in Albums List, Works List and Blog
+-(Rife Pro)Option to disable "All" filter when different default category is chosen in Albums List, Works List and Blog
+-(Rife Pro)Counters in filters for photo proofing
+-(Rife Pro)Support for Polylang in theme places for language switchers
+
+Fixed:
+-Slider proportion in post lightbox used to opening Works(thanks robinwyatt)
+-Scroller with Parallax for RTL languages
+-Image quality 100 not working in Albums(instead it reverted back to 90)
+-Problem with lazy load in customizer in some cases
+-Polylang/WPML issue with translating theme strings as they were cached
+-Polylang look of language switcher when used in main menu as a dropdown
+-styles in admin panel for WordPress 5.2
+
+Translation for Rife Pro status:
+-Chinese - 100%
+-Czech - 100%
+-Danish - 100%
+-Dutch - 100%
+-Dutch (Formal) - 100%
+-Dutch (Belgium) - 100%
+-French (France) - 100%
+-Finnish - 100%
+-German - 100%
+-German (Formal) - 100%
+-Japanese - 100%
+-Polish - 100%
+-Portuguese (Brazil)- 100%
+-Russian - 100%
+-Spanish (Spain) - 100%
+-Swedish - 100%
+-Turkish - 83%
+-Ukrainian - 42%
+-Croatian - 32%
+
+----------------
+= 2.3.8.1(Rife Pro only)(10.04.2019) =
+
+Fixed:
+-Translations broken in Rife Pro
+
+----------------
+= 2.3.8(09.04.2019) =
+
+Added:
+-opening images to lightbox in single works that are opened in lightbox
+-option to disable lightbox in bricks album/work for mobiles
+-WordPress 5.2 support for wp_body_open()
+
+Fixed:
+-minor admin styling
+-support for Lazy Images module from Jetpack plugin
+-Translations broken in Rife Pro for some languages
+
+Changed:
+-in all SVGs used in theme changed https://www.w3.org/2000/svg back http://www.w3.org/2000/svg as it was making SVG invalid. See answer https://stackoverflow.com/a/39573874
+-not displaying "Apologies, but no results were found for the requested archive." for empty search result, as it doesn't make sense(thanks Akira T.)
+
+----------------
+= 2.3.7(Rife Free & Rife Pro only)(19.03.2019) =
+
+Fixed:
+-responsive bug in bricks gallery with margin
+-responsive issue in woocommerce shortcodes for products lists
+
+Removed:
+-Accessibility improvements for "SearchWP Live Ajax Search" plugin, as accessibility is now build into plugin
+
+----------------
+= 2.3.6.1(Rife Free only)(07.03.2019) =
+
+Fixed:
+-Not disappearing rating notice. Big sorry about this guys!
+
+----------------
+= 2.3.6(28.02.2019) =
+
+Fixed:
+-potential fatal error in PHP 5.3
+
+Improved:
+-method for inlining small CSS files
+
+----------------
+= 2.3.5(28.02.2019) =
+
+Added:
+-support for non-English chars anchors(thanks bahtiyar)
+-option "Hide content under the header" for Single Product and "Other shop pages"
+-(Rife Pro)option "Header color variant" for Single Product and "Other shop pages"
+-outside title bar option for Single Product
+
+Improved:
+-Grammar of 100% of the texts in the theme, so now they could be translated properly
+
+Fixed:
+-layering of links in some situation bricks albums(thanks Benjamin)
+
+----------------
+= 2.3.4.1(Rife Free only)(16.02.2019) =
+
+Improved:
+-minor translation errors
+-screenshot of the theme
+
+----------------
+= 2.3.4(05.02.2019) =
+
+Fixed:
+-Fallback when file with theme settings can not be created
+
+----------------
+= 2.3.3(01.02.2019) =
+
+Added:
+-(Rife Pro)Top Bar -> Message part : Text align option
+
+Improved:
+-Support for WordPress 5.0.3 on some servers
+-better support for PolyLang(thanks farell!)
+-Grammar of 80% of the texts in the theme, so now they could be translated properly
+-Support for Elementor editing on Works list and Albums list pages
+-proper Alt attribute for logo image instead of site title
+-protection against WordPress < 4.7
+
+Fixed:
+-(Rife Pro)SVG scaling in logo in some situation
+-(Rife Pro)Translation not working in Customizer
+
+----------------
+= 2.3.1(08.01.2019) =
+
+Fixed:
+-Undefined events variable in JavaScript on Front End in some situations since 2.3.0
+
+----------------
+= 2.3.0(08.01.2019) =
+
+Added:
+-support for schema.org
+-(Rife Pro)option to change position of cookie message to bottom of the screen
+-better icon selector in theme options
+-(Rife Pro)Albums navigation positions in single album: At the top of an album, At the end of an album(Customizing -> Albums settings -> Single album -> Albums navigation)
+
+Improved:
+-(Rife Pro)language switcher in header Tools changing colors according to header variant settings
+-(Rife Pro)vertical header sizing
+-better HTML & Shortcodes support in footer text option(thanks MyMetta)
+-Albums, Works, People, WooCommerce settings are not displayed in Customizer if required plugins are not active
+-hover states on iOS devices on some elements like bricks albums
+-pingback link is conditional(added to page when enabled)
+-renamed some functions in utilities/woocommerce.php to use framework prefix
+-admin scripts from theme are only loaded on pages on which they are used
+-switched from esc_html sanitization to sanitize_text_field function
+-(Rife Free)base translation file
+
+Fixed:
+-(Rife Pro)Scroller "scroll page below" button showing when not needed while using vertical header
+-(Rife Pro)Shield logo on mobile reserving space in header
+-(Rife Pro)Scroller margin style when using as widget or shortcode
+-When adding new option to menu, theme options were visible only after saving
+-Warning in Rife Free while saving options
+-displaying of HTML 5 video
+-CSS minification breaking CSS animations
+-double scrolling to anchor mechanism when using theme with Elementor
+-(Rife Free)icons displayed in admin area
+
+For Developers:
+-Deprecated functions apollo13framework_post_meta_under_content() & apollo13framework_post_meta_above_content() as they were always used together.
+Instead of these two, use new one apollo13framework_get_post_meta_data()
+-renamed admin-script handle to apollo13framework-admin
+-renamed admin-css handle to apollo13framework-admin-css
+-renamed apollo-jquery-ui handle to apollo13framework-jquery-ui
+-renamed a13-font-awesome handle to apollo13framework-font-awesome
+
+Moved to Apollo13 Framework Extensions(due to WordPress.org requirements):
+-meta options for background image
+-meta options for video as featured media
+-menu enhancement options
+-option to change slug for album & work post types
+
+
+----------------
+= 2.2.0(28.11.2018) =
+
+Added:
+-RTL support
+-(Rife Pro)options in customizer to switch side of sidebar for RTL languages for blog, posts, pages, shop and single product
+-check on theme activation to make sure there is at least php 5.3 and WordPress 4.7 installed
+-option for album/work images to be open in new tab when they have custom link set
+-(Rife Pro)language switcher in header Tools to be used with WPML(Customizing -> Header settings -> Tools icons - general -> iconsLanguage switcher)
+-(Rife Pro)Setting for reserved width for main menu in variant "One line, logo centered"(Customizing -> Header settings -> Main Menu -> Reserved space for main menu)
+-(Rife Pro)Setting for Horizontal header content side padding"(Customizing -> Header settings -> Type, variant, background -> Content side padding)
+
+Improved:
+-accessibility for main menu(focus styles and keyboard interactions to open submenus)
+-accessibility for tool icons(search, basket, hidden sidebar, menu, mobile menu) - now they can accessed by keyboard with visible outline
+-Hidden sidebar tooltip title changed to "More info" instead of "Hidden sidebar"
+-grid layout when some plugin overwrites theme Isotope version(thanks meirinha)
+
+Fixed:
+-album sidebar in bricks mode when margins is set to 0px(thanks Line P.)
+-shop main page margin between items
+-(Rife Pro)SVG logo in horizontal multi-line header
+
+----------------
+= 2.1.0(31.10.2018) =
+
+Added:
+-support for Elementor Pro custom header, footer, 404 page, single post, single page and archive pages
+-support for using Apollo13 Framework shortcodes as Elementor widgets.
+-support for WordPress 4.5 custom logo feature(works when theme logo is not set)
+-images for posts navigation in single post
+
+Improved:
+-(Rife Pro)Look of slider album on mobiles when using vertical header(thanks redwood)
+-Works lightbox support for scrolling content
+
+Fixed:
+-Missing options in Rife Free
+-(Rife Pro)SVG logo when using vertical header
+-(Rife Pro)Scroller scrolling to element below, when used in page builder
+
+----------------
+= 2.0.0(03.10.2018) =
+
+Added:
+-(Rife Pro)support for SVG logo. Read more in documentation: https://rifetheme.com/help/docs/customizing-the-theme/header/logo/
+-option to set max-width of logo on desktop and mobiles on sticky header
+-option to set logo padding on mobiles on sticky header
+-animation when logo is changing widths from normal to sticky and back
+-(Rife Pro)option to show protected titles on Albums list(Customizing -> Albums settings -> Albums list -> Hide titles of password protected albums)
+-(Rife Pro)option to show protected titles on Works list(Customizing -> Albums settings -> Albums list -> Hide titles of password protected works)
+-option to enable lightbox for images in posts(Customizing -> General settings -> Lightbox settings -> Use theme ligthbox for images in posts)
+
+Improved:
+-added width and height params to post grid images(better speed results)
+-including comments script only if needed
+-better font-awesome compatibility with plugins
+-inline checking for JavaScript(better support for compressing scripts together)
+-added minified versions of theme scripts
+-Reenabled "scroll to anchor" when Elementor is available and it handles anchors as theme script is better
+-minified user css for better speed
+-(Rife Pro)option to disable "Web Font Loader" script(Customizing -> Miscellaneous -> Optimization -> Use web-font loader script)
+-One page navigation now highlights only one section at time, instead of all visible sections like it was previously
+-Moved "Mobile menu background color" option to Menu settings instead of Header(thanks m0rg5!)
+-image size attributes in logo(less complaining from speed tests)
+
+Fixed:
+-regenerating user.css file when it was removed by other powers then theme :-)
+-broken some of theme setting in WPBakery post grids(thanks Ftamas!)
+-showing child theme styles in customizer
+
+Removed:
+-use of Modernizr library(we no longer need it for older browsers)
+-use of "-webkit-transition" across theme
+
+----------------
+= 1.11.2(07.09.2018) =
+
+Fixed:
+-Not visible background image on Password protected page
+-Not showing saved options in Menu settings
+
+----------------
+= 1.11.1(04.09.2018) =
+
+Fixed:
+-(Rife Pro)Logo fix for one line header with centered logo(broken in 1.11.0)
+
+----------------
+
+= 1.11.0(04.09.2018) =
+
+Moved to Apollo13 Framework Extensions:
+-Design importer
+-Exporter of theme options
+-Custom Sidebars
+-Custom CSS
+-Some meta options that were connected to content creation
+-Image resizing script
+-Saving user changes to user.css file
+-custom link & subtitle options in posts, albums and works
+-Maintenance mode
+
+Added:
+-Option to disable "Scroll to Anchor"(Customizing -> Miscellaneous -> Anchors -> Scroll to anchor handling)
+-Settings for filters font-size(Posts list - filter, Single album - bricks filter, Albums list - filter, Works list - filter)
+-(Rife Pro)option contain photos in scroller
+
+Improved:
+-Enabled creating Menus via Customizer(but without custom theme features like mega menu)
+-not saving default theme options on fresh installation, until user decides to
+-security fixes across theme
+-excerpt_length & excerpt_more not affecting admin area
+-Disabled "scroll to anchor" when Elementor is available and it handles anchors
+-theme options are cached and not recreated on each load - ~2MB memory saved
+
+Fixed:
+-Web fonts loading on legacy settings(thanks FLYART)
+-Not existing "waiting page" redirects
+-Default settings not kicking in, causing PHP Notices
+-sending e-mails on photo proofing finish
+-mobile menu overflow issue on open(thanks ado-media)
+-cropping on Albums list & Works list covers(thanks jhma!)
+
+Removed:
+-Default images sizes for WooCommerce, as they take away control from user
+
+----------------
+
+= 1.10.0(16.08.2018) =
+
+Added:
+-option to remove "Read more" on blog list/search results(Customizing -> Blog settings -> Posts list -> Display "Read more" link)
+-option to set opacity of image logo(Customizing ->  Header settings -> Logo -> Opacity)
+-support for comments in works(Requires Apollo13 Framework Extensions in version 1.3.0 or higher)
+-support for comments in albums(Requires Apollo13 Framework Extensions in version 1.3.0 or higher)
+-(Rife Pro)option to disable comments in works globally
+-(Rife Pro)option to disable comments in albums globally
+-(Rife Pro)option to add text content to slider/scroller albums. Text added in text editor will be displayed in slider/scroller album.
+ To enable this feature go to Customizing -> Albums settings -> Single album -> Display text content in slider/scroller album
+
+Improved:
+-Framework shortcodes refreshes proper in Elementor preview
+-Unified some text colors across albums and works, that were not customizable previously
+-Unified some spacings across albums and works
+-Background color and text color of bricks albums content column is now customizable(Customizing -> General settings -> Content styles -> Background color)
+-"Read more" link colors are affected by settings for links colors(Customizing -> General settings -> Content styles -> Links color & Links hover color)
+
+Fixed:
+-Albums/Works list pagination when used at homepage(thanks dex44!)
+-PHP warning for admin notices
+-removed code blocking menu background highlight on mobile menu(thanks dean0674)
+-missing logo on High DPI devices, when no logo is set for High DPI devices
+-Maintenance page breaking on some servers
+
+----------------
+= 1.9.1(10.07.2018) =
+
+Improved:
+-Less strict textarea inputs in customizer(you can use same HTML as in post editor)
+-switched image library of our resizing script to prefer Imagick before GD
+
+Fixed:
+-IMPORTANT: WP Bakery issues with theme post grid in version 5.5.2 of WP Bakery
+
+----------------
+= 1.9.0(09.07.2018) =
+
+Improved:
+-Design import process improved in many aspects
+-removed tooltipster from used libraries
+
+Fixed:
+-IMPORTANT! Elementor 2.1.2 fix for Design import(ehh Elementor guys)
+-PHP 7.2 notice for featured video in posts
+-Share texts(titles) in lightbox(thanks robi052)
+-sticky kit after window resizing in single bricks album
+-album slider touch scrolling of page(thanks politikora!)
+
+----------------
+= 1.8.3(04.07.2018) =
+
+Added:
+-option to keep submenu open for current page in vertical header(Customizing -> Header settings -> Main Menu -> Keep submenu open for current page)
+-menu item height in vertical header(Customizing -> Header settings -> Main Menu -> Menu item height)
+-Header Footer Elementor Plugin support
+-Setting to disable theme header(Customizing -> General settings -> Theme Header -> Use theme header?)
+-Custom font for text logo setting(Customizing -> General settings -> Fonts settings -> Font for text logo)
+-(Rife Pro)Global Title bar settings for single Album(Customizing -> Albums settings -> Single album - title bar)
+
+Improved:
+-https links for Vimeo api as previous lagged in Canada(thanks robi052)
+-Vimeo Api is loaded only when needed instead of every album
+
+Fixed:
+-slider control in Customizer for float values
+-unwanted header color variants being load in Rife Free(thanks Mark B.)
+-IMPORTANT! Elementor 2.1.x fix for Design import(thanks Karioka & DeltoidProductions)
+
+
+----------------
+= 1.8.2(22.06.2018) =
+
+Added:
+-option to export theme settings(Appearance-> {Theme name} Import &amp; Info -> Export -> Export theme settings)
+-option to import theme settings(Appearance-> {Theme name} Import &amp; Info -> Export -> Import theme settings)
+
+Improved:
+-Muted Autoplayed videos in theme slider, as browsers started to block playing videos with autoplay & sound enabled
+-hentry compatibility to eliminate Google Search Console errors
+
+Fixed:
+-hover on iOS for people post grid
+
+Removed:
+-author from pages in search results
+
+
+----------------
+= 1.8.1(24.05.2018) =
+
+Added:
+-support for Privacy Policy link introduced in WordPress 4.9.6
+-setting to enable Privacy Policy link in footer(Customizing -> General settings -> Footer -> Privacy Policy Link)
+-styling for "Commenter Cookie Opt-Ins" checkbox
+-Menu Overlay support for one-page sites(Customizing -> Header settings -> Menu overlay -> Close menu after click)
+-"Play icon" on cover of thumbs of video in bricks album(thanks rb91u)
+-WooCommerce 3.4.0 support
+
+Fixed:
+-Fatal error in some situation when entering Customizer
+-Issue with not showing uploaded images to albums/works instantly
+-font subsets error(Thanks Jhon!)
+
+Updated:
+-Slider Revolution plugin to version 5.4.7.4
+
+
+----------------
+= 1.8.0(14.05.2018) =
+
+Added:
+-Layout Google fonts for Rife Free
+
+Improved:
+-Across theme escaping of strings
+-Across theme sanitization of of user input
+-Rewritten how custom 404 page is generated
+-moved Apollo13 Framework widgets from theme to plugin. It gives more flexible option to move to different theme.
+-play/pause animations in our slider so we can use one script file less
+-lowered speed for Scroller on "mousewheel", as on touchpads it was way too fast
+
+Updated:
+-TweenMax to version 1.20.4
+-LightGallery to version 1.6.9
+-Isotope to 3.0.6
+-smaller scripts used across theme
+-Slider Revolution plugin to version 5.4.7.3
+
+Fixed:
+-Header color variant setting value glitched in "null" state
+
+Removed:
+-Wishlist templates as they had no meaningful changes
+
+----------------
+= 1.7.2(17.04.2018) =
+
+Added:
+-option to turn off related products (Customizing -> Shop(WooCommerce) settings -> Single product -> Related products)
+
+Improved:
+-Moved creation of user.css file from theme directory to wp-content/uploads/apollo13_framework_files/css - it is safer on some custom hostings
+-Unique text domain for theme instead of 'apollo13-framework'. Better translations are possible now.
+-Less links in "Appearance" menu
+-Removed duplicated importer code from theme
+-Cleaned some translations(more to come soon)
+
+Fixed:
+-not displaying featured image in post/page/work in some situations(thanks Chris_R!)
+-social links displaying PHP error(thanks rb91u & Jadan )
+
+----------------
+= 1.7.1(09.04.2018) =
+
+Info: Theme now uses Apollo13 Framework Extensions hosted on WordPress.org instead of self emeded version
+
+Improved:
+-All Theme admin notices are dismissable forever
+-Theme URI in style.css
+
+Fixed:
+-Slider with only 1 item that is video was not playing it
+-opening Apollo13 Post lightbox from link
+-playing HTML5 Video in Apollo13 Post lightbox(thanks merlino71)
+-password form input scaling on mobiles
+
+----------------
+= 1.7.0(03.04.2018) =
+
+Improved:
+-LONG AWAITED: Removed dependency on Redux Framework plugin. Customizer changes will be now much more reliable!
+Read more about it in our article https://apollo13themes.com/apollo13-framework-themes-free-redux-framework-plugin/
+-Custom CSS control look in Customizer if you use WordPress 4.9
+-Live custom CSS changes
+-Live Preloader screen editing
+-Live Cookie message editing
+-Live Hidden sidebar editing
+-Live Footer editing
+-Less memory used by theme
+
+Added:
+-option for blocking displaying license info in Rife Pro
+
+Fixed:
+-1px footer gap on pages using post grids in Chrome browser(thanks Daniel M.)
+-Fixed issue with not changing/stuck settings i Customizer
+-Fixed live preview losing changes if few options were changed
+-scrolling page when not needed caused by focus event from slider & scroller after load
+-conflicting icomoon font icons
+-default cursor behavior
+-Logo issue when height is defined(thanks clairechamberlindg)
+
+Updated:
+-Apollo13 Framework Extensions plugin 1.1.3
+-Slider Revolution plugin to version 5.4.7.2
+
+----------------
+= 1.6.6(13.03.2018) =
+
+Added:
+-option for speed of writing effect (Customizing -> Miscellaneous -> Writing effect -> Writing effect text write speed)
+
+Improved:
+-Highlighting of Homepage link when using single album or single work as homepage(thanks redwood)
+
+Fixed:
+-Highlighting main menu items in customizer and https sites on one-pagers
+-Default settings for Lightbox in Rife Free(thanks Daniel Farjoun)
+
+Updated:
+-Visual Composer plugin to version 5.4.7
+
+----------------
+= 1.6.5(22.02.2018) =
+
+Fixed:
+-socials variant in widget
+-wp gallery styles for columns(thanks robi052)
+-theme plugin not working when theme directory is renamed
+-positioning of thumbs in slider
+
+Updated:
+-Apollo13 Framework Extensions plugin 1.1.2
+-Slider Revolution plugin to version 5.4.7.1
+
+----------------
+= 1.6.4(15.02.2018) =
+
+Added:
+-WooCommerce 3.3.1 support
+-support for wp gallery & caption in html5(this simplifies styling rules)
+
+Improved:
+-faster loading of google web fonts if they are used
+
+Fixed:
+-undefined id in works opened in lightbox(again)
+-images size in post grid short code for posts
+-1px gaps in isotope script for bricks layout(test)
+
+Changed:
+-Some small styling of WooCommerce elements due to removing some WooCommerce templates overwrites
+
+Removed:
+-some WooCommerce templates overwrites to be less conflicting with current WooCommerce updates
+
+
+----------------
+= 1.6.3(7.02.2018) =
+
+Fixed:
+-importing of Revolution sliders that gone missing since 1.6.2
+
+Improved:
+-one page navigation when full screen revolution slider is used on page
+
+Updated:
+-Apollo13 Framework Extensions plugin 1.1.1
+
+----------------
+= 1.6.2(1.02.2018) =
+
+Added:
+-WooCommerce 3.3.0 support
+
+Improved:
+-Importer handles much better errors, and it recovers import up to 10 times before failing
+-no enlarging photo in scroller if it has custom link set(thanks Adorbeman)
+-new documentation links
+-replace menu item links while import in one page navigation, with URL of current site
+-rewrite guids on import to current site
+-importer should report more true value of memory limit on your server.
+-(Experimental)scroller mouse wheel scrolling works only if whole scroller is visible. It is easier to scroll to rest of page content.
+-(Experimental)in scroller when mouse wheel scrolling down there will appear button to scroll below scroller. User will be able to easier get to rest of page content.
+
+Updated:
+-Slider Revolution plugin to version 5.4.7
+
+----------------
+= 1.6.1(24.01.2018) =
+
+Improved:
+-https links for youtube & vimeo video
+
+Fixed:
+-showing titles on slider in works
+-undefined id in works opened in lightbox
+-header sizes in edge case without menu
+-scroller bug on mobiles(big thanks Adorbeman)
+-slider full height issue(big thanks Adorbeman)
+
+----------------
+= 1.6.0.1(18.01.2018) =
+
+Fixed:
+-Rife theme crash after update
+
+----------------
+= 1.6.0(16.01.2018) =
+
+Added:
+-New shortcodes listed below. Details about them in our article https://apollo13themes.com/new-shortcodes-documentation-rife/
+-Shortcode post grid [a13fe-post-list] that can be used for displaying posts, albums, works & people
+-Shortcode for our theme slider [a13fe-slider]
+-Shortcode for our theme scroller [a13fe-scroller]
+-Shortcode for our theme writing effect [a13fe-writing-effect]
+-default theme settings when theme is activated for first time - your site look good without design import
+-writing effect work independent of page builder plugin
+-option to disable header color variants (Customizing -> Header settings -> Type, variant, background -> Header color variants)
+
+Improved:
+-compatibility with PHP 7.2
+-Lowered number of items loaded at once in bricks album/work(thanks bigway!)
+-improved lazy loading in bricks album/work(thanks bigway!)
+-how we check for demo server
+-Elementor editing when using fixed horizontal header
+-author description in post is not displayed if author doesn't have any description
+-styling for default template for "password protected"
+-hentry compatibility
+
+Updated:
+-Slider Revolution plugin to version 5.4.6.4
+-Visual Composer plugin to version 5.4.5
+-Apollo13 Framework Extensions plugin 1.1.0
+
+Fixed:
+-PHP Notice with custom registered sidebars on ajax calls
+-Shop Related products columns number breaking in some situation(thanks aero)
+-Theme slider broken by some plugins with style for images(thanks paczk)
+
+----------------
+= 1.5.2(15.11.2017) =
+
+Added:
+-support for new features from WordPress 4.9
+-option for albums and works to enable thumbs on slider load
+-option to stretch slider in height in single work to fill available space(Edit Work -> Work Details? Work media? Stretch slider to be window high)
+-gallery widget styles
+
+Improved:
+-Saved License code is now protected from coping when someone has access to your admin panel
+-Mouse wheel support on album scroller
+
+Updated:
+-Slider Revolution plugin to version 5.4.6.3
+
+Fixed:
+-album PHP 7.1 Notice(thanks domking!)
+-show icons" Hover effect of menu in "with shield" header variant
+-PHP notice when entering customizer
+-Demo importer removing too many files
+
+----------------
+= 1.5.1(3.11.2017) =
+
+Added:
+-Compatibility with WooCommerce 3.2.3
+-action hooks for JavaScript in header.php, Great for Google Tag Manager for example
+-option to use last modified date in blog post - good for evergreen content (Customizing -> Blog settings -> Single post -> Post meta: Date of publish or last update )
+-option for min & max font size when using "Responsive text" option in "Custom Heading" VC element
+-option to enable writing effect on mobile (Customizing -> Miscellaneous -> Writing effect   -> Writing effect on mobile)
+-"Slide from right" effect for menu overlay(Customizing -> Header settings -> Menu overlay -> Opening effect)
+-option to change content background color - Finally!(Customizing -> General settings -> Content styles -> Background color)
+-new option for shield under Logo(Works only in horizontal header with variant "One line, logo centered")(Customizing -> Header settings -> Logo)
+
+Improved:
+-Default content font-size for better readability(Customizing -> General settings -> Content styles -> Font size)
+-Moved mobile menu button to the right, as it is better for usability(thanks TheWebStylist!)
+-widgets align on mobiles(thanks TheWebStylist!)
+-moved logo setting in header color variants to be at top of panel
+-mobile menu consistent look across header variants
+-better compression of mobile menu
+
+Updated:
+-Visual Composer plugin to version 5.4.2
+-Slider Revolution plugin to version 5.4.6.2
+-Apollo13 Framework Extensions plugin 1.0.7
+-LightGallery to version 1.6.4
+
+Removed:
+-Legacy IE 8 header that was never used
+
+Fixed:
+-HTML usage in album items description
+-Footer widgets collapsing when multi-row of widgets happen
+-Sidebar position on blog when using top content padding(Thanks Daniel!)
+
+----------------
+= 1.5.0(26.09.2017) =
+
+Breaking change:
+-renamed lot of files to use proper WordPress naming.
+If your child theme changes doesn't work, make sure your files file names match main theme file names
+
+Added:
+-Welcome page
+-Basic default editor styles
+-blockquote styles
+-system UI font option in fonts to choose
+
+Fixed:
+-edge case: call to google fonts, when theme only uses system fonts
+-missing various strings after fixes in version 1.4.1
+-text domain for some woocommerce strings
+-icons in AddToAny plugin
+-iOS fix for negative scroll position(thanks Stefan L.)
+-some places where titles wasn't breaking on narrow screens
+-Chrome bug when submenu was opened in horizontal header
+-WooCommerce category page title(thanks Lexxus)
+
+Changed:
+-Reenabling mobile users to scale page(was switched off since version 1.0 )
+-Disabled lot of blocking scrolling events on mobile
+-Better search results for password protected items(now image and title can be seen)
+-"Center fixed width" layout max-width increased to 1160px
+-"post lightbox" max-width increased to 1160px
+-divided plugins.js script to smaller scripts, so they can be deregistered by plugins
+-moved sending mails in photo proofing to plugin(Apollo13 Framework Extensions)
+-Access to importer only for privileged users(admins only)
+-refreshed importer page and renamed it to "Design Importer"
+-better support for quote post format(removed our custom template for it)
+-much better styles for content readability
+
+Updated:
+-LightGallery to version 1.6.1
+-Visual Composer plugin to version 5.3
+-Slider Revolution plugin to version 5.4.6
+-Apollo13 Framework Extensions plugin 1.0.6
+
+----------------
+= 1.4.2(22.08.2017) =
+
+Fixed:
+-broken in 1.4.1 demo importer
+
+----------------
+= 1.4.1(21.08.2017) =
+
+Added:
+-some basing styles that were missing
+-child theme now can overwrite all files(except plugins and user/user.css)
+
+Fixed:
+-lightbox on Media grid on touch screens
+-password form styling
+
+Changed:
+-theme now requires WordPress 4.7 at minimum
+-lightbox in Media Grid now opens images in full size instead of just "large"
+-some functions used in bad context in last update
+-few default options to be more compliant with WordPress rules
+-__() and _e() calls to safer options
+
+Updated:
+-LightGallery to version 1.6.0
+
+----------------
+= 1.4.0(04.08.2017) =
+
+Added:
+-Scroller option for displaying albums
+-Scroller Parallax option for displaying albums
+-option to disable lightbox in bricks album/work
+-top/bottom space option for blog(Customizing -> Blog settings -> Posts list -> Content top/bottom padding)
+-animated icons for mobile menu, hidden sidebar and menu overlay(Customizing -> Header settings -> Tools icons - individual icons)
+-filter for lightbox when using bricks album(only filtered items will be displayed in ligthbox)
+-4 new effect for menu overlay(Customizing -> Header settings -> Menu overlay -> Opening effect)
+-text align option for menu overlay(Customizing -> Header settings -> Menu overlay -> Text align)
+-new setting for ligthbox: to hide controls after X mili-seconds(default to 2000ms)(Customizing -> General settings -> Lightbox settings -> lightGallery delay for hiding gallery controls)
+-new setting for lightbox: time(in ms) between each auto transition(Customizing -> General settings -> Lightbox settings -> lightGallery time(in ms) between each auto transition)
+-new setting for lightbox: show progress bar on autoplay(Customizing -> General settings -> Lightbox settings -> lightGallery show progress bar on autoplay)
+-new setting for lightbox: preload items(Customizing -> General settings -> Lightbox settings -> lightGallery preload items)
+-setting for round corners in submit buttons(Customizing -> General settings -> Buttons -> Border radius(px))
+-"I recommend this" support for Albums list items
+-"I recommend this" support for Works list items
+-"I recommend this" support for single album/work(bricks)(items that are in Media Library, or external videos that have setup thumb from Media Library)
+-AddToAny support for Albums list items
+-AddToAny support for Works list items
+-AddToAny support for single work(bricks)
+-Bulk tagging for items in album
+
+Fixed:
+-mobile menu behaviour on hiding sticky header
+-proper filter for WooCommerce mini cart
+-styles for overlay menu when using border layout
+-"dancing" horizontal header on opening hidden sidebar
+-scrolling vertically on album slider on touch devices
+-styles for password form(protected post)
+-undefined alt attribute for videos
+-few things when use "One line, logo centered" header
+-lightbox on Media Grid elements from Visual Composer(thanks Greevsie123)
+
+Changed:
+-animation how items in mobile menu show up(it is now more like current apple.com)
+-disabled need for scroll in case of album slider
+-style of closing X in menu overlay
+-native scroll bar for hidden sidebar as JavaScript one was giving performance issues
+
+Updated:
+-LightGallery to version 1.5.0
+-Visual Composer to version 5.2.1
+-Slider Revolution plugin to version 5.4.5.1
+
+----------------
+= 1.3.2(10.07.2017) =
+
+Added:
+-Compatibility with WooCommerce 3.1.0
+-Better support vimeo videos in theme lightbox
+
+Fixed:
+-font family for overlay menu(thanks RinoTheBouncer)
+
+Updated:
+-Visual Composer to version 5.2
+
+----------------
+= 1.3.1(30.06.2017) =
+
+Added:
+
+Changed:
+-new demo data server
+-new payment handling company for Rife theme
+
+Fixed:
+-opening lightbox on click in save comment icon while photo proofing(in Chrome)
+-autoimport script for post grids, if file was already deleted
+-not centered widget title in footer
+
+Updated:
+-Slider Revolution plugin to version 5.4.5
+
+----------------
+= 1.3.0(25.05.2017) =
+
+Added:
+-Photo proofing feature for Albums(available after providing valid license code for theme)
+-Comments for single photo/video in Photo proofing process
+-filter in album for Photo proofing
+-option to turn off sending e-mail after client accepts album in Photo proofing process
+-"Edit attachment details" link in Albums/Works media manager
+
+Changed:
+-selecting product for photo in bricks/slider album is only available after providing valid license code for theme
+-minor default styles after plain theme install
+-media manager lightbox responsive tweaks
+
+Fixed:
+-importer 403 forbidden errors cause of fancy requests(thanks GediminasGrazys)
+-input prefix in admin script
+-export textarea script
+-style for X in single album tags
+-buggy code for WooCommerce cross-sells in cart
+
+Updated:
+-Slider Revolution plugin to version  5.4.5
+
+----------------
+= 1.2.2(28.04.2017) =
+
+Added:
+-Notice in customizer when theme is using "header color variants" option
+-Compatibility with WooCommerce 3.0.4
+-support for menu icons in "Apollo13 - Custom Menu" widget
+-option to change max image logo width on mobile and desktop devices(only in horizontal header)
+-option to display each row of items in blog from new row(Customizing -> Blog settings -> Posts list -> How to place items in rows -> Each row from new line)
+-option to display each row of items in shop from new row(Customizing -> Shop(WooCommerce) settings -> Products list -> How to place items in rows -> Each row from new line)
+-option to display each row of items in albums list from new row(Customizing -> Albums settings -> Albums list -> How to place items in rows -> Each row from new line)
+-option to display each row of items in works list from new row(Customizing -> Works settings -> Works list -> How to place items in rows -> Each row from new line)
+
+Changed:
+-tweaked line height of outside title
+-removed title bar from youtube videos in album slider
+-removed confusing "Page details" section on pages: Blog, Shop, Albums List, Works List. It is replaced with message where options for this page can be changed
+
+Fixed:
+-Settings style in Customizer
+-Albums list using some settings from "Page details" when it should use settings from Customizer
+-some legacy code regarding top bar short menu
+-icon space in top bar short menu
+-search position in importer
+-"jumping" scroll to anchor when "Display anchors in address bar" is enabled
+-nava anchors on sub-pages to use absolute paths
+
+Updated:
+-Slider Revolution plugin to version  5.4.3.1
+-LightGallery to version 1.3.9
+
+Removed:
+-Freemius SDK
+
+----------------
+
+= 1.2.1(07.04.2017) =
+
+Added:
+-Option to set background color in multi-line header for menu part in header color variants (Customizing ->  Header settings -> Variant (light/dark/sticky) - overwrites  -> Menu header part background color)
+-Compatibility with WooCommerce 3.0.1
+-option to show anchors in browser address bar(Customizing -> Miscellaneous -> Address bar -> Display anchors in address bar)
+-Flyout box that we used on our demos, as few of you asked for it(Customizing -> General settings -> Flyout box)
+
+Changed:
+-way how header hides when "Hiding when scrolling down" of Sticky version is set
+
+Fixed:
+-Align of title for WooCommerce widgets
+-Visual composer Carousel - showing of navigation
+-One page navigation links in overlay menu
+-badly displayed descriptions after Redux update
+
+Updated:
+-Visual Composer to version 5.1.1
+-owlCarousel script to version 2.2.1
+-LivIcons Evolution to version 2.4.375 in Starter theme
+
+----------------
+
+= 1.2.0.1 & 1.1.9.1(03.04.2017) =
+Added:
+-Auto-updates for <a href="https://apollo13themes.com/rife/">Rife theme</a>
+
+----------------
+
+= 1.2.0(20.03.2017)
+
+Changed:
+-better refreshing of user.css file after changes in customizer(no more ctrl+f5 ;-) )
+-style for select form input
+-added shadow to submenu of main menu in horizontal header
+
+Fixed:
+-Responsive styles fo cookie message
+
+Updated:
+-Visual Composer to version 5.1
+
+----------------
+= 1.1.9(10.03.2017) =
+
+Fixed:
+-Vertical header was leaking its styles to horizontal header what caused some color errors
+-related products look when no description and no comments are displayed
+-post lightbox playing video after close
+-YouTube API giving errors in slider
+-some notices on HTML5 video in admin area
+-problems with Yoast SEO plugin and custom pages(password protected and 404)
+
+Updated:
+-Slider Revolution plugin to version 5.4.1
+
+----------------
+= 1.1.8(21.02.2017) =
+
+Added:
+-styles for submit buttons(previously only submit inputs were styled)
+-extended importer - now you can import only theme settings if you wish
+-better error reporting on issues while import
+-better saving on problematic hosting server when leaving customizer
+
+Fixed:
+-issue with post slider not working in single post view
+-html5 video not working in lightbox
+-html5 videos playing together in lightbox
+-small notice in album/work category template
+-problems with fixed sidebar in works when dynamic content is added
+-not set shadow setting for sticky header
+
+Removed:
+-font awesome class generator as it was making issues on some servers and it was not used
+
+----------------
+
+= 1.1.7(24.01.2017) =
+
+Added:
+-Theme lightbox now works with standard WordPress gallery
+-hellip(...) to posts excerpt
+
+Fixed:
+-issue with drag on slider where there is only 2 items
+-focus outline on slider in chrome
+-better fit of embeded videos on blog
+-fixed line height for some titles(thanks milesdeelite)
+-Notice in single-work-ajax.php(thanks Rawniebrownie)
+-too fast time out on importer
+-Problem on some servers with strange permissions on theme directory. It gives now proper error message
+
+----------------
+
+= 1.1.6.1(09.01.2017) =
+
+Fixed:
+-Importer issue with entering purchase code
+-some https issues when linking vimeo and youtube players
+
+----------------
+= 1.1.6(06.01.2017) =
+
+Added:
+-Shadows for album/work slider controls for better visibility
+-Nicer drag and swipe interaction to our album/work slider - now it feels right!
+-Options to change icons in header tools(Customizing ->  Header settings -> Main Menu  -> Tools icons - individual icons  )
+-Option to set background color in multi-line header for menu part (Customizing ->  Header settings -> Type, variant, background -> Menu header part background color)
+
+Fixed:
+-Possibly dangerous PHP code
+-Problem with image carousel element in Visual Composer Frontend Editor
+-Problems with setting up translation files for theme(thanks paulinavargasin)
+-Some issues while importing demo data
+
+Updated:
+-LightGallery to version 1.3.7
+-Slider Revolution plugin to version 5.3.1.5
+
+----------------
+
+= 1.1.5(09.12.2016) =
+
+Added:
+-Animated GIFs now works in Blog
+-support for WordPress 4.7.x
+
+Changed:
+-lot of improvements to our album/work slider, so it feels much better to navigate
+
+Fixed:
+-option to enable theme lightbox in Visual Composer Masonry Media grid element
+-album bricks problems with loading photos on long content sidebar(thanks tonngodoc)
+
+Updated:
+-Visual Composer to version 5.0.1
+-Slider Revolution plugin to version 5.3.1
+
+----------------
+
+= 1.1.4(16.11.2016) =
+
+Added:
+-option to close mobile menu when link is clicked(good for one pagers)(Customizing ->  Header settings -> Main Menu  -> Close mobile menu after click )
+-option to disable mobile menu(only for horizontal header)(Customizing ->  Header settings -> Main Menu  -> Allow mobile menu )
+-dark overlay when mobile menu is opened(for better visibility of menu)
+-works/albums list - alt and title attributes for images
+-single work/album in bricks mode - alt and title attributes for images
+-single work/album in slider mode - alt attribute for images
+-option to enable theme lightbox in Visual Composer Media grid element(Customizing -> General settings -> Lightbox settings -> Use theme ligthbox for Media Grid)
+
+Changed:
+-responsive comments in post
+-better featured image in post when uploaded image is smaller then layout requirements
+-Fixes to mobile menu styles in case of submenus
+-hidden controls when using slider if only one photo is added to it
+-mobile menu tweaks
+-changed scroll bar for hidden sidebar as it was not working for touch devices
+-In lightbox we removed background on bottom bar and only we show background for times when there is text
+-disabled counter counting for mobile view to save processor
+-disabled writing effect for mobile view to save processor
+
+Fixed:
+-Menu opener on mobiles back to right side on mobiles
+-when horizontal header had centered logo and disabled menu
+-Removed use of array_replace, so on PHP lower then 5.3 it won't crash with fatal error
+
+Updated:
+-LightGallery to version 1.3.5
+-Visual Composer to version 5.0
+
+----------------
+
+= 1.1.3(28.10.2016) =
+
+Added:
+-option to open Works in lightbox from Work list or Post grid element(From Visual Composer)
+-similar works option
+-option to show header from Nth row(Visual Composer row). Available only for pages
+
+Fixed:
+-when wrong content appeared on works/albums category page(thanks paulastopka)
+-while working with One Page pages user occasionally get error notice when there's no real error
+-confusion with overlay color in title bar(thanks briankcrain)
+-scrolling to anchor interfered with some Viusal Composer elements
+-possibility to add Visual Composer content to Works/Albums list
+
+Updated:
+-Slider Revolution plugin to version 5.3.0.2
+-Font awesome icons to version 4.7.0
+
+----------------
+
+= 1.1.2(05.10.2016) =
+
+Added:
+-Animated GIFs now works in Bricks/Slider Albums/Works
+-Animated GIFs now works in Albums list/Works list when used as covers
+-Possibility to use text logo in sticky header and color variants of horizontal header
+-option to change colors of text logo in sticky header and color variants of horizontal header
+
+Changed:
+-By default changing logo in header color variants is disabled(Customizing ->  Header settings -> Logo -> Use logos from header variants )
+
+Fixed:
+-fix for badly evaluated URLs in extension_advanced_customizer.php
+-lot of escaped dynamic strings for security purpose
+
+
+----------------
+
+= 1.1.1(28.09.2016) =
+
+Added:
+-Footer unravel effect for sites with horizontal header(Customizing -> General settings -> Footer -> Footer unravel effect)
+-Submit buttons settings(Customizing -> General settings -> Buttons)
+-Buttons settings for shop(Customizing ->  Shop(woocommerce) settings -> Buttons)
+-Option to change header color variants per each Visual Composer row(vc_row element)
+-possibility to add text to Works/Albums list
+-Rating notice in admin area
+
+Fixed:
+-warning that occurred while doing ajax
+
+
+----------------
+
+= 1.1.0(20.09.2016) =
+
+Changed:
+-Moved theme to Apollo13Framework
+
+Added:
+-'Loop' parameter to writing effect in 'Custom Heading' shortcode
+
+Fixed:
+-various main menu small bugs after adding hover effects in last update
+
+Updated:
+-Visual Composer to version 4.12.1
+
+----------------
+
+= 1.0.4(07.09.2016) =
+
+Added:
+-6 new hover menu effects(Customizing -> Header settings -> Main Menu -> Hover effect)
+-option for header tools button to be open in new tab
+-"to top button" settings(Customizing -> General settings -> "To top" button )
+
+Changed:
+-Removed changed version of Redux plugins(modifications moved to theme)
+-various tweaks to main menu in horizontal and vertical headers
+
+Fixed:
+-We have added temporary Google API key to imported demos(no more blank screen in some demos)
+-Selecting active section on one pagers
+-Sorting social icons
+-Safari issue with blank screen when going back
+-Wrong menu openers for 3rd level menu in vertical header
+
+----------------
+
+= 1.0.3(19.08.2016) =
+
+Added:
+-Filter for single album(works in bricks mode)
+
+Fixed:
+-Issue with small social icons in our slider
+-Slider issue caused by "Rhodes fix"
+-Not working social icons in single Album from AddToAny since version 1.7
+
+Updated:
+-Redux Framework plugin to version 3.6.3.1
+
+----------------
+
+= 1.0.2(01.08.2016) =
+
+Added:
+-4 hover menu effects(Customizing -> Header settings -> Main Menu -> Hover effect)
+
+Changed:
+-post grid elements works/albums now respects settings for image proportion set in works/albums list settings
+
+Fixed:
+-post grid elements images resized with our script
+-title bar clash with Wishlist plugin
+-horizontal scroll issue with certain revolution slider
+
+----------------
+
+
+= 1.0.1(23.07.2016) =
+
+Added:
+-option to switch demo importer to mode that will not erase your current content
+-new effect "scale down" for albums/works list
+-effects for albums/works list in variant "text under photo"
+
+Changed:
+-Disabled page comments by default(you can change it in Customizing -> Page settings -> Single page)
+-better work of albums/works in post grid elements
+-better calculating of bricks sizes when using bricks layout
+-post grid elements style
+
+Fixed:
+-issue while saving new posts(thanks trifatlete)
+-demo data import problems with importing settings
+
+----------------
+
+
+= 1.0.0(20.07.2016) =
+
+-Initial release

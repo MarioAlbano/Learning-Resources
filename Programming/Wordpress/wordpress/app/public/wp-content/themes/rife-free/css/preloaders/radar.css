@@ -1,0 +1,50 @@
+.radar .pace-activity {
+    z-index: 2000;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -21px;
+    height: 80px;
+    width: 80px;
+    margin-left: -61px;
+    border:           21px double transparent;
+    border-top-color: #fff/*$color*/;
+    border-radius: 50%;
+
+  -webkit-animation: spin 1s linear infinite;
+     -moz-animation: spin 1s linear infinite;
+       -o-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+.radar .pace-activity:before {
+    content: ' ';
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    height: 50px;
+    width: 50px;
+    display: block;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #fff/*$color*/;
+    border-radius: 50%;
+}
+
+
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(359deg); }
+}
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(359deg); }
+}
+
+@-o-keyframes spin {
+  100% { -moz-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+  100% {  transform: rotate(359deg); }
+}

@@ -1,7 +1,0 @@
-//Passos:
--Passo 1: Pagar hospedagem e Domínio (ter SSL, tomar cuidado com .com e .com.br)
--Passo 2:
--Passo 3:
--Passo 4:
--Passo 5:
--Passo 6:

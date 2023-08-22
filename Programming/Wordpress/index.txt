@@ -47,4 +47,10 @@
 -variáveis
 -loop
 -condicionamento
--Criando tema, criar miniatura de tema
+
+//Criando tema
+-Entrar na pasta wp-content > themes e jogar a pasta com temas que contém style.css e um arquivo php
+-Copiar informações do 'https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/' e edita-las
+-Salvar 'screenshot.png' com 880 x 660
+-Corrigir caminhos do style com: <?php echo get_stylesheet_directory_uri()?>/nome_paste_depois_arquivo
+-Separar o header e o footer do site

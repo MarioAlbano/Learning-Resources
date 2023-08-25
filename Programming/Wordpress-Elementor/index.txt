@@ -1,9 +1,14 @@
 //Passos1:
 -Pagar hospedagem e Domínio (ter SSL, tomar cuidado com .com e .com.br)
 -Instalar Wordpress
--Configuração básica (Descrição)
+-Configuração básica (Idioma, Descrição, Excluir temas padrões, Instalar e ativar 'Hello Elementor', exluir páginas)
+-Criar páginas, criar menu
 
 //Passo 2:
+-Criar produtos
+-Dividir em varições
+-Usar fotos em buscadores grátis
+-Definir promoções
 
 //Passo 3:
 

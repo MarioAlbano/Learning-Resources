@@ -1,24 +1,6 @@
-//Instalação
--JDK e IDE (IntelliJ)
+***Introduction to Java***
 
-//Como funciona
--IDE passa o código para o JDK, Joga para o JRE(compilador) que usa uma máquina virtual(JVM) e passa para o computador
+//What's Java?
+-High-level, objected oriented programming language. Developed by Sun Microsystems, now owned by Oracle
+-Platform independence, can run on different operationg systems without modification
 
-//Edições
--Java SE = Java normal
--Java EE = Java para empresas
--Java ME = Java para celulares
--Java FX = Java para desktops
-
-//Organização
--Package
--Class
--Method
--Statements
-
-//Variáveis
--Primitive types: (byte(128), short(32k), int(2b), long, float, double, char, boolean). Não podemos usar os métodos delas
--Reference Data Types: Armanezam referência de objetos. Podemos usar métodos
-
-//Input
--Scanner

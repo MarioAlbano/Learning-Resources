@@ -1,6 +1,57 @@
+--------------------------
 ***Introduction to Java***
 
 //What's Java?
 -High-level, objected oriented programming language. Developed by Sun Microsystems, now owned by Oracle
 -Platform independence, can run on different operationg systems without modification
 
+//Java Feaatures
+-Write Once, Run Anywhere (WORA) if that has Java Virtual Machine 
+-Object-Oriented, emphasizing the use of objects and classes
+-Platform independence
+-Strongly Typed
+-Automatic Memory Management
+-Rich Standard Library
+
+//Java History
+-Created by James Gosling and his team at Sun Microsystem in the early 1990s
+-Originally designed for embedded systems but later gained popularity in web  development
+-Java has gone through severeal versions, with each bringing new features and improvements
+
+//Usage
+-Web development (Java Servlets, JSP)
+-Android app development 
+-Enterprise software development
+-Scientific and financial applications
+-Gam development (LibGDX)
+-internet of things (loT) projects
+-And More
+
+//How to start
+-Install the JDK (necessary for writing, compiling, and running Java programs)
+-Setting up the IDE (to make the development easier)
+-Write simple projects that use basic syntax of Java
+
+-----------------------------------
+***Java Variables and Data Types***
+
+//Variables in Java
+-Storing data. Must declare before the use
+-Have a data type that defines what kind of data can hold it
+
+//Data Types
+
+Java has two categories of data types: Primitive Data Types: These are basic data types that store single values.
+-int: Integer data type (e.g., int age = 25;).
+-double: Double-precision floating-point data type (e.g., double price = 19.99;).
+-boolean: Boolean data type (e.g., boolean isJavaFun = true;).
+-char: Character data type (e.g., char grade = 'A';).
+-Reference Data Types: These are more complex data types that reference objects.
+-String: Represents a sequence of characters (e.g., String name = "John";).
+-Arrays: Collections of data elements (e.g., int[] numbers = {1, 2, 3};).
+
+//Variable Naming Rules:
+-Variable names are case-sensitive (e.g., myVar and myvar are different).
+-Variable names must start with a letter, underscore _, or dollar sign $.
+-Variable names can contain letters, digits, underscores, and dollar signs.
+-Variable names should be meaningful and follow a camelCase naming convention (e.g., myVariableName).

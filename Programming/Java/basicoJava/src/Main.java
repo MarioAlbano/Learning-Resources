@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        String randomName = "Batshuayi";
-
-        System.out.println(randomName);
+        int intExample = 50;
+        double doubleExample = 9.99;
+        boolean booleanExample = true;
+        char charExample = 'B';
+        String StringExample = "This is a string Example";
     }
 }

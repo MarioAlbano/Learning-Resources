@@ -32,26 +32,30 @@
 -Setting up the IDE (to make the development easier)
 -Write simple projects that use basic syntax of Java
 
------------------------------------
-***Java Variables and Data Types***
+//Starting
+-public class name_file{}
+-public static void main(String[] args){}
+-'psvm' shortcut
+-System.out.print("Something here")
+-'sout' shortcut
+-Shift + F10 to start program
 
-//Variables in Java
--Storing data. Must declare before the use
--Have a data type that defines what kind of data can hold it
+//Data Types and Variable
+-placeholder for the value
+-list:
+------------------------------------------------------------------------------------
+  * boolean | 1 bit | primitive | true or false 
+  byte | 1 byte | primitive | -128 to 127
+  short | 2 bytes | primitive | -32,768 to 32,767
+  * int | 4 bytes | primitive | -2 billion to 2 billion
+  long | 8 bytes | primitive | -9 quintllion to 9 quintillion
 
-//Data Types
+  float | 4 bytes | primitive | fractional number up to 6-7 digits ex. 3.1415592f
+  * double | 8 bytes | primitive | fractional number up to 15 ex. 3.141559248579651
 
-Java has two categories of data types: Primitive Data Types: These are basic data types that store single values.
--int: Integer data type (e.g., int age = 25;).
--double: Double-precision floating-point data type (e.g., double price = 19.99;).
--boolean: Boolean data type (e.g., boolean isJavaFun = true;).
--char: Character data type (e.g., char grade = 'A';).
--Reference Data Types: These are more complex data types that reference objects.
--String: Represents a sequence of characters (e.g., String name = "John";).
--Arrays: Collections of data elements (e.g., int[] numbers = {1, 2, 3};).
-
-//Variable Naming Rules:
--Variable names are case-sensitive (e.g., myVar and myvar are different).
--Variable names must start with a letter, underscore _, or dollar sign $.
--Variable names can contain letters, digits, underscores, and dollar signs.
--Variable names should be meaningful and follow a camelCase naming convention (e.g., myVariableName).
+  * char | 2 bytes | primitive | single character/letter/ASCII value ex. 'f'
+  * String | varies | primitive | a sequence of characters ex. "Hello world"
+------------------------------------------------------------------------------------
+-Primitive: 8 types (boolean, byte, etc.), stores data, can only hold 1 value, less memory, fast
+-reference: unlimited (user defined), store an address, could hold more than 1 value, more memory, slower
+-using variable: int x = 123;

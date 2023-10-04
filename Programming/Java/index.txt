@@ -59,3 +59,7 @@
 -Primitive: 8 types (boolean, byte, etc.), stores data, can only hold 1 value, less memory, fast
 -reference: unlimited (user defined), store an address, could hold more than 1 value, more memory, slower
 -using variable: int x = 123;
+-change values between variables? create a third variable and aloque them
+
+//User input
+-import java.util.Scanner;

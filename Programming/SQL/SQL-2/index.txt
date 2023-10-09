@@ -2,4 +2,32 @@
 -S= Structured, Q= Query, L= Language
 -Relational = Data organized into tables with predefined schemas. Non-Relational = Not rely on a fixed schema, can store in various formats such key, documents, graphs, or wide-column
 -We need DBMS (Database MAnagement System)
--To download: download 
+-To download: download on mysql website, later add mysql server and mysql workbench
+
+//Database
+-Creating: "CREATE DATABASE myDB;"
+-Set as default: "use myDB;"
+-Drop: "DROP DATABASE myDB;"
+-Read only: "ALTER DATABASE myDB READ ONLY = 1;"
+-Disable read only: "ALTER DATABASE myDB READ ONLY = 0;"
+
+//Tables
+-Create: "CREATE TABLE nameTable(column1 INT, column2 VARCHAR(), column3, column4 );"
+-Showing all table: "SELECT * FROM employees;"
+-Rename: "RENAME TABLE employees TO workers"
+-Drop table: "DROP TABLE employees;"
+-Changing: "ALTER TABLE employees ADD phone_number VARCHAR(15);", "ALTER TABLE employees RENAME COLUMN phone_number TO email;", "ALTER TABLE employees MODIFY email VARCHAR(100) AFTER last_name;"
+-Drop column: "ALTER TABLE employees DROP COLUMN email;"
+
+//Insert Rows (content in columns)
+-"INSERT INTO employees VALUES (1 , "Eugene", "Krabs", 25.50, "2023-01-02");"
+-"INSERT INTO employees VALUES (1 , "Eugene", "Krabs", 25.50, "2023-01-02"), (2 , "Edgar", "Krabs", 25.50, "2023-01-02"), (3 , "Josue", "Krabs", 25.50, "2023-12-30");"
+-"INSERT INTO employees (employee_id, first_name, last_name) VALUES (1 , "Eugene", "Krabs", 25.50, "2023-01-02");"
+
+//Select
+ -"SELECT first_name, last_name FROM employees;"
+  -"SELECT last_name, first_name FROM employees;"
+ -"SELECT * FROM employees WHERE hire_date <= "2023-01-03";"
+ -We can use where as criteria: "SELECT * FROM employees WHERE employee_id = 1;"
+ -"... WHERE hire_date IS NULL;"
+ -"... WHERE hire_date IS NOT NULL;"

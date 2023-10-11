@@ -1,0 +1,15 @@
+//Começo
+-Inicio com Turbo Pascal
+-Delphi em 1995. 
+-RAD (Rapid application Development)
+
+//Ferramentas
+-Delphi Starter Edition
+-SQL Server Express
+
+//Componentes
+-Zeos Libery
+-Fortes Report
+
+//Desenvolver sistema de vendas
+-Tela modelo completa aproveita em todo o sistema

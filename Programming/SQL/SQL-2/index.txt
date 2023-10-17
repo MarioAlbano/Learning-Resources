@@ -1,8 +1,8 @@
 //SQL intro
 -S= Structured, Q= Query, L= Language
 -Relational = Data organized into tables with predefined schemas. Non-Relational = Not rely on a fixed schema, can store in various formats such key, documents, graphs, or wide-column
--We need DBMS (Database MAnagement System)
--To download: download on mysql website, later add mysql server and mysql workbench
+-We need DBMS (Database Management System)
+-Download: download on mysql website, later add mysql server and mysql workbench
 
 //Database
 -Creating: "CREATE DATABASE myDB;"

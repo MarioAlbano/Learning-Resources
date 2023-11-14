@@ -1,0 +1,19 @@
+//Aula 1
+-Entender as partes da IDE
+-Adicionar Grid, Label
+-Alterar texto e tamanho da fonte na label
+-Entender onde fica os items do form no código
+
+//Aula 2
+-Alterar caption do form
+-Adicionar botões
+-Entender classes e objetos
+-Alterar o name
+-Padrões para nomes de botões, label, grid, formulário padrão
+
+Sobre a Superintendencia-Geral e o departamento de estados econômicos do CADE, assinale a alternativa incorreta:
+a) Compete ao DEE elaborar estudos e pareceres econômicos de ofício ou por solicitação, na observância do rigor e da atualização técnica e científica das decisões do conselho
+b) Atribuição da Superintendencia-Geral, a instrução e emissão de parecer em atos de concentração
+c) Proposição de acordos e medidas preventivas são atribuições da Superintendencia-Geral
+do Departamento e Estudos Econômicos poderá solicitar, a Superintendencia-Geral, a requisição de informações quando julgar necessário
+e) o departamento de estudos econômicos possui uma única atribuição, qual seja assessoria aos demais órgãos do CADE

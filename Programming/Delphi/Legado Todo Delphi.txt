@@ -1,8 +1,11 @@
 //Aula 1
+-Criando projeto (VCL x Multi-Device)
+-Quais tipos de programas ele faz
 -Entender as partes da IDE
 -Adicionar Grid, Label
 -Alterar texto e tamanho da fonte na label
 -Entender onde fica os items do form no código
+*Todo: Adicionar tabela, label, alterar fonte label, compilar
 
 //Aula 2
 -Alterar caption do form

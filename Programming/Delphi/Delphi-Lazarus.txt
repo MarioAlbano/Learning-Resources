@@ -1,0 +1,4 @@
+//Começo
+-Turbo Pascal, onde surgiu o Delphi
+-Presente em diversos lugares do mercado
+-Focado no desenvolvimento rápido

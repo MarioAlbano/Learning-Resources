@@ -14,7 +14,7 @@ object Form1: TForm1
   object Label1: TLabel
     Left = 152
     Top = 80
-    Width = 417
+    Width = 295
     Height = 45
     Caption = 'Aprendendo Delphi'
     Font.Charset = DEFAULT_CHARSET
@@ -46,5 +46,14 @@ object Form1: TForm1
         Value = 50.000000000000000000
       end>
     TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 280
+    Top = 376
+    Width = 75
+    Height = 25
+    Caption = 'Clique'
+    TabOrder = 1
+    OnClick = Button1Click
   end
 end

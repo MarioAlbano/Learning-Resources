@@ -1,0 +1,8 @@
+//1
+-Run
+-Conhecer as partes da IDE
+-Hieararquia, Propriedades, Pasta e arquivos, Componentes
+-todo: Criar grid, label, editar label
+
+//2
+-

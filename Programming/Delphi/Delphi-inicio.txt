@@ -7,3 +7,20 @@
 //2
 -Button
 -todo: adicionar button, alterar para code, fazer ação no botão com a label
+
+//3
+-Interfaces, bibliotecas que usamos, public e private, procedure
+-todo: dois campos com botão que faz soma
+
+//4
+-Alterar legendas, ponteiros, montar estrutura, iniciar maximizado
+-todo: montar uma tela alterando propriedades do objeto
+
+//5
+-Aninhamento de elementos com o TPanel, alterar cor TPanel, usar o Align
+
+//6
+-componente mainmenu (dropdown), fazer uma procedure com alguma elemento do dropdown, Alt + f11 no uses para enxergar outro formulário
+
+//7
+-Dividir as pastas em "controllers, services, view", shift + f12, CnPack -> Alterar prefixo, organizar nomes das classes

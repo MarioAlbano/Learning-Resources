@@ -26,7 +26,7 @@ object Form1: TForm1
   end
   object GridPanel1: TGridPanel
     Left = 152
-    Top = 176
+    Top = 184
     Width = 329
     Height = 169
     Caption = 'GridPanel1'

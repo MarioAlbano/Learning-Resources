@@ -24,3 +24,6 @@
 
 //7
 -Dividir as pastas em "controllers, services, view", shift + f12, CnPack -> Alterar prefixo, organizar nomes das classes
+
+//8
+-Instalar Firebird, modos de exibição no delphi
